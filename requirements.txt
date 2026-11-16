@@ -1,0 +1,6 @@
+# Python 3.11–3.14; validated on CPython 3.14.10, macOS arm64.
+# Pin binary implementation explicitly; urllib handles Ollama, SQL handles pgvector.
+psycopg[binary]==3.3.8
+psycopg-binary==3.3.8
+python-dotenv==1.2.4
+typing_extensions==4.15.0
