@@ -1,0 +1,27 @@
+{
+  "kind": "offline packing only; not context sent to model, not Context Evidence Rate",
+  "source": "artifacts/retrieval/hybrid/verified-dev/trace.jsonl",
+  "measurements": [
+    {
+      "tool_chars": 3000,
+      "queries": 22,
+      "chunks_selected": 55,
+      "chunks_omitted": 11,
+      "serialized_chars": 50125
+    },
+    {
+      "tool_chars": 6000,
+      "queries": 22,
+      "chunks_selected": 66,
+      "chunks_omitted": 0,
+      "serialized_chars": 61746
+    },
+    {
+      "tool_chars": 12000,
+      "queries": 22,
+      "chunks_selected": 66,
+      "chunks_omitted": 0,
+      "serialized_chars": 61746
+    }
+  ]
+}

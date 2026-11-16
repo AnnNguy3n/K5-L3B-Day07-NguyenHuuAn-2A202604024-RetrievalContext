@@ -77,6 +77,7 @@ def parser():
         p.add_argument('--' + flag, type=int)
     p.add_argument('--timeout-seconds', type=float)
     p.add_argument('--reasoning-effort', choices=('omit', 'none', 'low', 'medium', 'high', 'xhigh', 'max'))
+    p.add_argument('--context-policy', choices=('append', 'refresh_on_full'))
     return p
 
 
@@ -108,7 +109,7 @@ def main(argv=None):
                 value = cli
             elif raw is not None and raw != '':
                 value = (float(raw) if name == 'timeout_seconds' else
-                         raw if name == 'reasoning_effort' else int(raw))
+                         raw if name in ('reasoning_effort', 'context_policy') else int(raw))
             else:
                 value = defaults[name].default
             overrides[name] = None if name == 'reasoning_effort' and value == 'omit' else value

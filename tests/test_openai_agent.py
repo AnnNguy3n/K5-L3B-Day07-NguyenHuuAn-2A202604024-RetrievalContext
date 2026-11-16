@@ -186,6 +186,22 @@ class ResponsesTests(unittest.TestCase):
         self.assertEqual(result['stop_reason'], 'history_limit')
         self.assertEqual(c.responses.create.call_count, 1)
 
+    def test_refresh_removes_old_text_from_actual_history(self):
+        second = dict(CHUNK, id='c2', text='New evidence replaces old evidence.')
+        r = retriever()
+        r.search.side_effect = [[CHUNK], [second]]
+        c = client_with(response([function('a')]), response([function('b')]),
+                        response([message(answer='New [c2]', citations=['c2'])]))
+        result = self.run_agent(c, r, context_chars=300, context_policy='refresh_on_full')
+        self.assertEqual(result['status'], 'answered')
+        self.assertEqual(result['context_ids'], ['c2'])
+        self.assertEqual(result['events'][1]['evicted_ids'], ['c1'])
+        sent = c.responses.create.call_args_list[-1].kwargs['input']
+        self.assertNotIn(CHUNK['text'], dumps(sent))
+        self.assertIn(second['text'], dumps(sent))
+        self.assertEqual(result['model_calls'][-1]['context_chunks'], [
+            {k: second[k] for k in ('id','text','source_id','source','page')}])
+
     def test_secret_redaction_outbound_and_trace(self):
         key = 'SECRET_API_KEY'
         c = client_with(response([function(arguments=dumps({'query': 'find ' + key}))]),

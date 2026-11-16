@@ -81,6 +81,7 @@ class AgentConfig:
     timeout_seconds: float = 45
     max_retries: int = 0
     reasoning_effort: str | None = 'low'
+    context_policy: str = 'append'
 
     def __post_init__(self):
         if not isinstance(self.model, str) or not self.model.strip():
@@ -98,6 +99,8 @@ class AgentConfig:
             raise AgentFailure('invalid_timeout')
         if self.reasoning_effort not in (None, 'none', 'low', 'medium', 'high', 'xhigh', 'max'):
             raise AgentFailure('invalid_reasoning_effort')
+        if self.context_policy not in ('append', 'refresh_on_full'):
+            raise AgentFailure('invalid_context_policy')
 
 
 def endpoint_url(value=None):
@@ -244,6 +247,9 @@ def run_responses_agent(question, client, retriever, config, *, filters=None, se
                 kwargs['reasoning'] = {'effort': config.reasoning_effort}
             call = {'number': len(calls) + 1, 'history_chars': history_size,
                     'context_ids': list(seen), 'context_chars_unique': context_used,
+                    'context_chunks': deepcopy(list(seen.values())),
+                    'request_chars': history_size + len(INSTRUCTIONS) + len(dumps([SEARCH_TOOL, FINAL_FORMAT])),
+                    'delivery_confirmed': False,
                     'model_actual': None, 'request_id': None, 'usage': usage_record(None)}
             calls.append(call)
             call_start = perf_counter()
@@ -255,6 +261,7 @@ def run_responses_agent(question, client, retriever, config, *, filters=None, se
                 return finish('error', call['reason'])
             call['elapsed_ms'] = (perf_counter() - call_start) * 1000
             delivered_ids, delivered_chars = list(seen), context_used
+            call['delivery_confirmed'] = True
             data = response.model_dump(mode='json', exclude_none=True)
             call.update(model_actual=data.get('model'), request_id=getattr(response, '_request_id', None),
                         response_id=data.get('id'), response_status=data.get('status'),
@@ -311,8 +318,26 @@ def run_responses_agent(question, client, retriever, config, *, filters=None, se
                             rows = retriever.search(args['query'], filters=filters, top_k=config.top_k)
                         except Exception:
                             raise AgentFailure('tool_error') from None
-                        payload = pack_results(rows, seen, top_k=config.top_k,
-                            budget=min(config.tool_chars, config.context_chars - context_used), secrets=secrets)
+                        remaining = min(config.tool_chars, config.context_chars - context_used)
+                        try:
+                            payload = pack_results(rows, seen, top_k=config.top_k,
+                                                   budget=remaining, secrets=secrets)
+                        except AgentFailure as exc:
+                            if str(exc) != 'context_limit' or config.context_policy != 'refresh_on_full' or not seen:
+                                raise
+                            payload = {'omitted_ids': [r['id'] for r in rows]}
+                        if config.context_policy == 'refresh_on_full' and seen and payload['omitted_ids']:
+                            # Remove old source text from actual replay history, not just
+                            # from a bookkeeping list. Preserve function call protocol.
+                            event['evicted_ids'] = list(seen)
+                            context_used = 0
+                            for old in history:
+                                if old.get('type') == 'function_call_output':
+                                    old['output'] = dumps({'chunks': [], 'notice': 'Earlier evidence evicted; use current source text only.'})
+                                    context_used += len(old['output'])
+                            seen.clear()
+                            payload = pack_results(rows, seen, top_k=config.top_k,
+                                budget=min(config.tool_chars, config.context_chars - context_used), secrets=secrets)
                         serialized = dumps(payload)
                         context_used += len(serialized)
                         seen.update({c['id']: c for c in payload['chunks']})

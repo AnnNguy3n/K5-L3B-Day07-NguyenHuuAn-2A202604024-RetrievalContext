@@ -78,3 +78,10 @@ Chi phí USD chưa đối soát nên để null. Tôi bổ sung 23 test; tổng 
 
 Tôi sẽ tối ưu context ở công việc 06. Hai smoke chưa thay thế đánh giá agent
 trên toàn dev hoặc audit citation đầy đủ; 7 câu test vẫn chưa được đánh giá.
+
+## Công việc 06 — chọn context
+
+Tôi đã giữ baseline append, thêm refresh khi context cũ chiếm budget, snapshot
+context thật theo call và cấu hình tái chạy. Đo packing 22 dev cho thấy 6000 và
+12000 ký tự cùng giữ đủ 66 chunk top-3; chưa phải đo chất lượng agent.
+[Thiết kế và số đo](../../docs/EVALUATION.md). Test agent: 23 đạt, 1 live bỏ qua.
