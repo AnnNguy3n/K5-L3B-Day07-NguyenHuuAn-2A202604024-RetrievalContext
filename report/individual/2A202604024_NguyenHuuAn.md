@@ -29,8 +29,24 @@ checksum và chạy đạt 33/33 test; `pip check` không phát hiện lỗi dep
 [Schema và cách chạy](../../docs/DAY07_DATA_CONTRACT.md) ·
 [Minh chứng SQL](../../docs/day07-sql-normalization-check.json)
 
+## Công việc 03 — benchmark và bảo vệ test
+
+Tôi đã tạo benchmark v1 gồm 29 câu: dev 20 có đáp án + 2 thiếu evidence, test mới
+5 có đáp án + 2 thiếu evidence. Tôi chuyển 20 câu Day06 sang dev và lưu lịch sử
+split vì test cũ đã có kết quả công khai. Queries runtime chỉ giữ ID/câu hỏi/filter.
+
+Tôi kiểm chứng 26 evidence với chunk và PDF gốc; q11 giữ hai evidence thay thế.
+Gold q20 được rút ngắn trong benchmark mới để nằm trọn một chunk, giữ bản gốc
+trong lịch sử. Bốn câu thiếu evidence có ghi chú đọc toàn corpus và quét đủ
+131 chunk/32 trang. Nhãn được kiểm chứng có AI hỗ trợ, chưa có người chấm độc lập.
+
+Tôi bổ sung validator và 17 test, tổng 50/50 test đạt; kiểm tra nguồn/hash đạt.
+Snapshot Day06/A/B giữ nguyên. Tôi chưa chạy retrieval/agent trên benchmark mới;
+test chỉ dùng để xây nhãn, đánh giá hệ thống sau khi khóa cấu hình bằng dev.
+[Schema và cách chạy](../../benchmark/day07/README.md) ·
+[Minh chứng](../../benchmark/day07/audit.json)
+
 ## Phần tiếp theo
 
-Tôi sẽ hoàn thiện benchmark Day07 ở công việc 03, dùng bộ B và bổ sung câu thiếu
-evidence cùng test mới. Test Day06 đã có kết quả phân tích nên cần ghi rõ lịch sử
-sử dụng. Hiện tôi chưa chạy retrieval/agent hoặc đánh giá ranking Day07.
+Tôi sẽ triển khai dense, lexical và hybrid retrieval trên cùng corpus B và dev.
+Các câu thiếu evidence vẫn được truy xuất nhưng không nằm trong mẫu số Hit@k.

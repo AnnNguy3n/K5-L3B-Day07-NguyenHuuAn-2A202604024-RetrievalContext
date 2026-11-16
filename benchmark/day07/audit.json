@@ -1,0 +1,1316 @@
+{
+  "counts": {
+    "dev": {
+      "answerable": 20,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "evidence": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 35,
+      "chunk_ids": [
+        "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8"
+      ]
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 36,
+      "chunk_ids": [
+        "148c17f5cc2d0097c4a8f6972131bc534454d313fd448f69860668ab1e91eb01"
+      ]
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 37,
+      "chunk_ids": [
+        "eadfb46ef912317cd809deb1485a8c1bee731283d0581d4fcd233a29cde5f29b"
+      ]
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 41,
+      "chunk_ids": [
+        "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24"
+      ]
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 42,
+      "chunk_ids": [
+        "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654"
+      ]
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 44,
+      "chunk_ids": [
+        "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8"
+      ]
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 45,
+      "chunk_ids": [
+        "8d338560ff95a2819a9e936147fdd002f9e0123c07d7d259e0fd26de91f7b1e3"
+      ]
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 47,
+      "chunk_ids": [
+        "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061"
+      ]
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 48,
+      "chunk_ids": [
+        "1f4a69538d4f3b38a211d8bd1ea65714a5897f13bc184452001f617ea6df076d"
+      ]
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 51,
+      "chunk_ids": [
+        "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b"
+      ]
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 54,
+      "chunk_ids": [
+        "902c2449c4226350f9689c904f8728df8fd195cab7ed9035371733791f7a2501"
+      ]
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "evidence_index": 1,
+      "source_id": "project-management-2019-v1.03",
+      "page": 53,
+      "chunk_ids": [
+        "daf32b7b92a2c42c49c799c1508c658b9307b4af73bf44944a10803e3b629c44"
+      ]
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 56,
+      "chunk_ids": [
+        "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22"
+      ]
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 58,
+      "chunk_ids": [
+        "0851d1a9596c48cf7d751ffd97c94f01d7d2c0aefa0d66166d411256086915c9"
+      ]
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 65,
+      "chunk_ids": [
+        "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557"
+      ]
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 67,
+      "chunk_ids": [
+        "0a8f584bf9a094af0d471107514259e2646c4d88b4db755543bb80ffd70a5256"
+      ]
+    },
+    {
+      "id": "q16",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 35,
+      "chunk_ids": [
+        "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1"
+      ]
+    },
+    {
+      "id": "q17",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 50,
+      "chunk_ids": [
+        "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e"
+      ]
+    },
+    {
+      "id": "q18",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 59,
+      "chunk_ids": [
+        "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92"
+      ]
+    },
+    {
+      "id": "q19",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 62,
+      "chunk_ids": [
+        "629f043e0699a6d1cd3c05591be5425bc0975d5eee2369d8543b3c83774971c7"
+      ]
+    },
+    {
+      "id": "q20",
+      "split": "dev",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 66,
+      "chunk_ids": [
+        "66959875b16b76136a146dc820dba6a3bd60faf076eaf80ec828af6a2ef671e4"
+      ]
+    },
+    {
+      "id": "d07-t01",
+      "split": "test",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 38,
+      "chunk_ids": [
+        "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895"
+      ]
+    },
+    {
+      "id": "d07-t02",
+      "split": "test",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 43,
+      "chunk_ids": [
+        "693fd60a928972487ad1641605ca4de61e5b8669e6b05c62c3bd2d83be466292"
+      ]
+    },
+    {
+      "id": "d07-t03",
+      "split": "test",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 46,
+      "chunk_ids": [
+        "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363"
+      ]
+    },
+    {
+      "id": "d07-t04",
+      "split": "test",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 47,
+      "chunk_ids": [
+        "5732a8089c6feee36ec61f90b5ff5b2f3c5b53a323e2541866a0c83f8915f613"
+      ]
+    },
+    {
+      "id": "d07-t05",
+      "split": "test",
+      "evidence_index": 0,
+      "source_id": "project-management-2019-v1.03",
+      "page": 61,
+      "chunk_ids": [
+        "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4"
+      ]
+    }
+  ],
+  "duplicate_review": {
+    "reviewed_dev_test_pairs": 154,
+    "reviewer": "Codex assistant; no independent human review",
+    "automatic_checks": "exact question/answer/evidence, intent, Jaccard .65, sequence .82",
+    "limitation": "Heuristics do not prove semantic independence; assistant comparison is recorded, no external blind review."
+  },
+  "source_audit": {
+    "pdf_sha256": "8cef479b81c9b0837c3c09ce095d621be28b1ec874110c76f0b311484a7c667d",
+    "physical_page_count": 219,
+    "selected_pdf_pages": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      65,
+      66,
+      67
+    ],
+    "pypdf_version": "6.21.4",
+    "quote_alignment_rule": "NFC/casefold then alphanumeric-only; source alignment only, runtime hits remain exact",
+    "extracted_page_text_sha256": {
+      "35": "1bb75320ef8b0b234ebdc162973420e9b1328fe10c46b8eda60600a2bbb65e1e",
+      "36": "1bfe7401735f5043bca5901eb53fd36e8a4374d68b1f29cd61c2e06915d36b1a",
+      "37": "19dec8aa00e64ed37018f6bd92a84ebe171e614c80fbdd408dcca70127117a6e",
+      "38": "16fb888a1ff88f4c80bfb45e5f771d286622f213b92c8ef0b6d1dc84e4118538",
+      "39": "135311ed4f37618f305c2502415ea25566d8dd2a1ad97193cac68839bb486f71",
+      "40": "99078a604b22c276065be0296fd4add9c3732e9fbd50303ad3e360d8f33f8e54",
+      "41": "22e9c6fd5e77c47e0bbbf9b1bb7a58a55f9bd1fef9bdcd5bf703ab79198d974a",
+      "42": "4e543eec8410c7b1adde4eda324ce063d8424ac0b2996a59b62d0500cb27566c",
+      "43": "b264bac3ce212ade67548b539bcad69e4707eabd5eff30a9dcc2c3b6b5a2f0f0",
+      "44": "5904e172b42661b18d350b03944b0265ae6264715666458fbf6e1dd2adaff0d0",
+      "45": "30107fa870e257463e0d0905b9a2a825c9215486807fab82cbcc46c5621c5321",
+      "46": "895194e2b7ab6cfbdedda33d117ca0a675a6732884756829052570adb3532237",
+      "47": "184dfde6dd8a04d138fe779b6e2d537e23b0a02c384fc094818a4e75917507b0",
+      "48": "9b8df44a9acabc830cf0c867277c3376a170823c87cb3ea7b68d6876eb50267e",
+      "49": "937332699ed3a236ed9bd51e6e175a44f18609f6e7e558f5c946a857482032bc",
+      "50": "374f4a0f2128aed24d46dca8946e04d5f22996792b57a0d45760e478c839bf27",
+      "51": "393320d92ead260cbc37a336d2ed5d0933fa5a1384cb25489bd69c2ed41243fe",
+      "52": "fc7dadd40a32fdb9df559468308fe366ae6e9d2e2950e9675203294b5f7507f1",
+      "53": "e8a91d06ea21d8d0003d63ee8652f0dc2c8296194f1a999c7bbfc0377623831b",
+      "54": "96e30db369a49d8b7b3d960cef8fa0766bf8bfe99089668bb1df64fa62fbfd33",
+      "55": "0a1f78cd2395b7a8981330b102523936ba658b28d8b4a390172355f4dfdca1be",
+      "56": "a1caf62d47cc561adbe8965f670c4f5cb889adf69233cce218f09056d9ebaf84",
+      "57": "993aa83f4d68fcc8b965fe26eb5dae0fb178bbed091f7f9d48593daf24473457",
+      "58": "ec41a69c7771133080e02247a89a691aad3ae04c2fb551fddc1afc318a3364aa",
+      "59": "4abb56a17ca6b472f883513f941145dd82696918a29cdfe482b4061e00bbd59c",
+      "60": "9bd0593c1a49462675c62e48e97eba139ab35c0601ca9db5dc120a2c475339fb",
+      "61": "13a0f49195a4c2a05a209085942fc3eb64718050fdc10d8aa26825c25f2a982d",
+      "62": "524b3be87df63c44c08a8b2836fa3f1f5a80fc3b908890897009f1ef190e02e6",
+      "63": "2b7216b0d3b46cdfc64f8d2c5364c54bc6176e433b9677b799af2db63f5e0ae5",
+      "65": "e97c2116bc2ea44e4f6722e561d226ec26458385b13603f114c19cee98385603",
+      "66": "63a72c1851dffb08e3a365569a1ba9092fd9f6ca6ddffdb1806441fc54a72550",
+      "67": "1c969fc4d58e7f4ad2964cb5cf1209ccc4912484b03fe58f5421ac1ab91acfd1"
+    },
+    "answerable_reviews": [
+      {
+        "id": "q01",
+        "evidence_index": 0,
+        "page": 35,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Giữ thứ tự initiation → planning → implementation → closure; không thay bằng lifecycle khác."
+      },
+      {
+        "id": "q02",
+        "evidence_index": 0,
+        "page": 36,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Giữ ngữ cảnh mỏ đồng miền bắc Argentina; lý do đặt văn phòng Chile là hạ tầng dự án xây dựng mỏ lớn đã có."
+      },
+      {
+        "id": "q03",
+        "evidence_index": 0,
+        "page": 37,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Người nhận nhà máy ở closeout là operations team của client, không phải đội xây dựng."
+      },
+      {
+        "id": "q04",
+        "evidence_index": 0,
+        "page": 41,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Chấp nhận kickoff meetings hoặc alignment sessions; mục đích tập hợp các bên và bắt đầu xây đội."
+      },
+      {
+        "id": "q05",
+        "evidence_index": 0,
+        "page": 42,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Các tăng nhỏ cộng lại đòi nguồn lực ngoài kế hoạch; trang còn nói scope creep khi thay đổi không được nhận biết/quản lý."
+      },
+      {
+        "id": "q06",
+        "evidence_index": 0,
+        "page": 44,
+        "pdf_quote_aligned": true,
+        "conditions_note": "846 là thực tế, 800 là ước tính; đơn vị labour hours, không đổi thành chi phí tiền."
+      },
+      {
+        "id": "q07",
+        "evidence_index": 0,
+        "page": 45,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Điều kiện công việc lặp lại/nhiều nhà giống nhau; kiểm tra những nhà đầu để cải tiến quy trình những nhà sau."
+      },
+      {
+        "id": "q08",
+        "evidence_index": 0,
+        "page": 47,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Chỉ áp dụng khi khó gắn risk với hoạt động cụ thể; không tổng quát mọi contingency đều là dòng riêng."
+      },
+      {
+        "id": "q09",
+        "evidence_index": 0,
+        "page": 48,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Bao gồm cả stakeholder mới và thay đổi nhu cầu/mức quan tâm của stakeholder hiện tại."
+      },
+      {
+        "id": "q10",
+        "evidence_index": 0,
+        "page": 51,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Back burner: next sprint; fridge: later sprints (còn có process changes); không đảo với front burner."
+      },
+      {
+        "id": "q11",
+        "evidence_index": 0,
+        "page": 54,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Đã đọc caption Figure 5.1 trên PDF 54 và văn bản PDF 53. Hai evidence OR đều liệt kê government và suppliers; giữ nguyên cả hai, kể cả hyphen trích xuất."
+      },
+      {
+        "id": "q11",
+        "evidence_index": 1,
+        "page": 53,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Đã đọc caption Figure 5.1 trên PDF 54 và văn bản PDF 53. Hai evidence OR đều liệt kê government và suppliers; giữ nguyên cả hai, kể cả hyphen trích xuất."
+      },
+      {
+        "id": "q12",
+        "evidence_index": 0,
+        "page": 56,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Cùng cấp tổ chức; có thể thuộc/không thuộc team nhưng không có trách nhiệm lãnh đạo và accountability thành bại như PM."
+      },
+      {
+        "id": "q13",
+        "evidence_index": 0,
+        "page": 58,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Giữ tùy dự án (depending on the project), more than half; không khẳng định mọi dự án."
+      },
+      {
+        "id": "q14",
+        "evidence_index": 0,
+        "page": 65,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Beliefs, attitudes, values được chia sẻ VÀ behaviours phù hợp/phát sinh từ đó."
+      },
+      {
+        "id": "q15",
+        "evidence_index": 0,
+        "page": 67,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Lợi ích giải quyết vấn đề phức tạp; nếu điều hướng kém, căng quan hệ và khó giao tiếp/phối hợp gây trật mục tiêu."
+      },
+      {
+        "id": "q16",
+        "evidence_index": 0,
+        "page": 35,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Acceptance plan liệt kê tiêu chí để đạt customer acceptance; phân biệt quality plan ngay trước trong cùng câu."
+      },
+      {
+        "id": "q17",
+        "evidence_index": 0,
+        "page": 50,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Ideal size trong Scrum development team là 7 +/- 2; không dùng như quy luật mọi đội dự án."
+      },
+      {
+        "id": "q18",
+        "evidence_index": 0,
+        "page": 59,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Điều kiện without a mitigating strategy; mất weather window giữa monsoon seasons, không suy diễn ngày cụ thể."
+      },
+      {
+        "id": "q19",
+        "evidence_index": 0,
+        "page": 62,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Nhóm có financial concerns cần potential return; không dùng mục tiêu operations/market share ở câu kế tiếp."
+      },
+      {
+        "id": "q20",
+        "evidence_index": 0,
+        "page": 66,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Giữ cả verbal và non-verbal, đặc biệt high-context cultures; chỉ nói khó quan sát online/telephone, không nói bất khả thi. Kiểm tra mới phát hiện gold Day06 qua ranh giới chunk. Đã rút phần mở đầu Especially when working with, giữ đoạn từ team members from high-context cultures đến hết câu; evidence nằm trọn chunk 66959875… và có điều kiện/đáp án đầy đủ."
+      },
+      {
+        "id": "d07-t01",
+        "evidence_index": 0,
+        "page": 38,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Hỏi năm bắt đầu kỳ thi PMP theo snapshot, không hỏi năm thành lập PMI (1969), năm PMBOK (1987), hay thông tin PMI hiện nay."
+      },
+      {
+        "id": "d07-t02",
+        "evidence_index": 0,
+        "page": 43,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Giữ hướng so sánh: hạn của client sớm hơn ngày kết thúc critical path tính toán; không đảo với positive float/slack."
+      },
+      {
+        "id": "d07-t03",
+        "evidence_index": 0,
+        "page": 46,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Cần đồng thời và ví dụ telephone conference call; không nhầm virtual teams hoặc asynchronous."
+      },
+      {
+        "id": "d07-t04",
+        "evidence_index": 0,
+        "page": 47,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Chỉ commodities/common products; không tổng quát lowest bid cho project-specific vendors hoặc partners."
+      },
+      {
+        "id": "d07-t05",
+        "evidence_index": 0,
+        "page": 61,
+        "pdf_quote_aligned": true,
+        "conditions_note": "Usually about right, không phải bắt buộc cho mọi dự án; không lẫn cập nhật stakeholder register hoặc kickoff meeting."
+      }
+    ],
+    "absence_reviews": [
+      {
+        "id": "d07-d21",
+        "chunks_scanned": 131,
+        "pdf_pages_scanned": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          67
+        ],
+        "term_inventory": [
+          {
+            "term": "copper",
+            "chunk_ids": [
+              "148c17f5cc2d0097c4a8f6972131bc534454d313fd448f69860668ab1e91eb01"
+            ],
+            "pdf_pages": [
+              36
+            ]
+          },
+          {
+            "term": "Argentina",
+            "chunk_ids": [
+              "148c17f5cc2d0097c4a8f6972131bc534454d313fd448f69860668ab1e91eb01"
+            ],
+            "pdf_pages": [
+              36
+            ]
+          },
+          {
+            "term": "mine",
+            "chunk_ids": [
+              "663196e7dcad6c82e12b63ad19131033dda460cfdffd44f9f35e28636785fbdd",
+              "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+              "148c17f5cc2d0097c4a8f6972131bc534454d313fd448f69860668ab1e91eb01",
+              "074f713cd929aa2befe0e7faf4564820d3858df217cebafd1d64e5d2e8a0b721",
+              "5aaa8aef0aafb07031d21d8a9a4bd708e0b95615771958b42cc13f7d95cd3bfd",
+              "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+              "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a",
+              "0b9037b4b70e36ca086817f0ae764cfceda5b90989a0938c85a9fd902a1e335c",
+              "27054c93ba4fc4f9cbad21767b83fe1f6934884e3a05be2b9cb65b7acd2b949d",
+              "74fce8effd707a59c81655353d3be0c8bb9e3a66d3eb4aed67d80d93dcdcb752"
+            ],
+            "pdf_pages": [
+              35,
+              36,
+              41,
+              45,
+              50,
+              51,
+              58,
+              61,
+              62
+            ]
+          },
+          {
+            "term": "budget",
+            "chunk_ids": [
+              "65355e9a2461cfec01c18f930da9223346a167dbb07fe46bd4eab69e13cf0eb5",
+              "8953ac5e9561dd59c6a35820b323dc17b21d0e43bf9ed4300b5f6221a500dec1",
+              "bf99a77e639a66ebcc198fbd79efbbc6bbcccb702da3469ad6ad0c73e9ad1ed6",
+              "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f",
+              "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+              "1fd85adc48bed33d4b73d366bb3c927925eff48ffaced94d3b44f78949d2d4c4",
+              "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+              "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+              "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+              "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+              "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+              "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+              "ee16f941ee42163b51ae73e93022a3b253f3bbaaf7cf71d4f660d1976f469e47",
+              "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+              "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+              "2226ea82934093c34af498d8bbfcf471ca43b7e16c607134215b4215381402e1",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92"
+            ],
+            "pdf_pages": [
+              35,
+              36,
+              39,
+              41,
+              42,
+              43,
+              44,
+              47,
+              50,
+              57,
+              59
+            ]
+          },
+          {
+            "term": "dollar",
+            "chunk_ids": [],
+            "pdf_pages": []
+          },
+          {
+            "term": "USD",
+            "chunk_ids": [],
+            "pdf_pages": []
+          },
+          {
+            "term": "$",
+            "chunk_ids": [
+              "8d338560ff95a2819a9e936147fdd002f9e0123c07d7d259e0fd26de91f7b1e3"
+            ],
+            "pdf_pages": [
+              45
+            ]
+          },
+          {
+            "term": "cost",
+            "chunk_ids": [
+              "65355e9a2461cfec01c18f930da9223346a167dbb07fe46bd4eab69e13cf0eb5",
+              "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+              "bf99a77e639a66ebcc198fbd79efbbc6bbcccb702da3469ad6ad0c73e9ad1ed6",
+              "535ba146a73db3e310324b0388795407c159d9482bc087523acffe44553a64fc",
+              "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+              "1fd85adc48bed33d4b73d366bb3c927925eff48ffaced94d3b44f78949d2d4c4",
+              "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+              "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+              "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+              "693fd60a928972487ad1641605ca4de61e5b8669e6b05c62c3bd2d83be466292",
+              "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+              "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+              "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+              "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+              "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+              "ee16f941ee42163b51ae73e93022a3b253f3bbaaf7cf71d4f660d1976f469e47",
+              "63517c5df22dc612d25c0759b0c5f60fa7c46d7a95dcdfeb548d5914d144359b",
+              "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+              "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+              "91e1eb039eadfcd560704fecd859c8b14ec811db437cb83fad30a218d72d76c0",
+              "0571d47de8b5586660890932f9516977bbf4423a353293784bb7d982d95c0df3",
+              "1965f32b21481d252800e571607f0962271de3ad195af5adcaf2389f75bd12c7",
+              "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+              "59c5b823d207d7bacddd0e720f0c972221657322306350761ebd51c9edb75c7f"
+            ],
+            "pdf_pages": [
+              35,
+              36,
+              39,
+              41,
+              42,
+              43,
+              44,
+              45,
+              50,
+              52,
+              54,
+              57,
+              65,
+              66
+            ]
+          },
+          {
+            "term": "expenditure",
+            "chunk_ids": [
+              "65355e9a2461cfec01c18f930da9223346a167dbb07fe46bd4eab69e13cf0eb5",
+              "8953ac5e9561dd59c6a35820b323dc17b21d0e43bf9ed4300b5f6221a500dec1"
+            ],
+            "pdf_pages": [
+              35,
+              36
+            ]
+          }
+        ],
+        "semantic_review": "Các trang 36–37 mô tả mỏ và việc lập/theo dõi detailed budget nhưng không nêu tổng ngân sách đã phê duyệt bằng USD. Toàn 32 trang không cung cấp số này. Các số tiền $1,000/$200 ở trang 45 là ví dụ cải tiến xây nhà, không phải ngân sách mỏ.",
+        "visual_original_pdf_pages": [
+          40,
+          54,
+          63
+        ],
+        "limitation": "Term inventory is reproducible; semantic absence and visual reading are authored review notes, not automatically proved."
+      },
+      {
+        "id": "d07-d22",
+        "chunks_scanned": 131,
+        "pdf_pages_scanned": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          67
+        ],
+        "term_inventory": [
+          {
+            "term": "Mumbai",
+            "chunk_ids": [
+              "c360af6f50a739a3af6512ef3cc63711f8c051103c21d8946ac4741285869cd7",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92"
+            ],
+            "pdf_pages": [
+              38,
+              59
+            ]
+          },
+          {
+            "term": "consultant",
+            "chunk_ids": [
+              "1965f32b21481d252800e571607f0962271de3ad195af5adcaf2389f75bd12c7",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92"
+            ],
+            "pdf_pages": [
+              57,
+              59
+            ]
+          },
+          {
+            "term": "review",
+            "chunk_ids": [
+              "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+              "1fd85adc48bed33d4b73d366bb3c927925eff48ffaced94d3b44f78949d2d4c4",
+              "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+              "c7ebf16ed2f803ffc6f4415a0f43727bfb184a5f07dd2c2320a376f87b9658a4",
+              "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92",
+              "25269da703bee19f3b867b4f8291038c93bed054eb65260eee168f56afb98969",
+              "d900eb973df36a514e587d1efc230f8cc14b42195069c5d5cfd851a8561fae80"
+            ],
+            "pdf_pages": [
+              36,
+              41,
+              47,
+              55,
+              56,
+              59,
+              60,
+              62
+            ]
+          },
+          {
+            "term": "name",
+            "chunk_ids": [
+              "4edf4f7c7718d51132b1b0a75639eefda5941a85becb3b0da1acbe4aaade5b4a"
+            ],
+            "pdf_pages": [
+              63
+            ]
+          },
+          {
+            "term": "United States",
+            "chunk_ids": [
+              "5200a1e5e0e234b055be24007fdb23e233bdebfcf93715b88dd11e1d1623df58",
+              "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92",
+              "078c4a371581c15e9340226c5d4aa00861d16ec054ee9deb7748b2c9ad4413ab"
+            ],
+            "pdf_pages": [
+              38,
+              59
+            ]
+          },
+          {
+            "term": "U.S.",
+            "chunk_ids": [
+              "148c17f5cc2d0097c4a8f6972131bc534454d313fd448f69860668ab1e91eb01",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92",
+              "4aadd1adb72011c504b9de1479798f690d37dcbc5ddbfca1e183faa041f1477f"
+            ],
+            "pdf_pages": [
+              36,
+              59,
+              60
+            ]
+          }
+        ],
+        "semantic_review": "Trang 59 chỉ gọi nhân vật là a project management consultant from the United States và the consultant; không có họ tên. Toàn corpus không có tên được gắn với vai trò này; tên tác giả, địa danh, tổ chức và văn phòng Mumbai ở trang 38 không định danh người tư vấn.",
+        "visual_original_pdf_pages": [
+          40,
+          54,
+          63
+        ],
+        "limitation": "Term inventory is reproducible; semantic absence and visual reading are authored review notes, not automatically proved."
+      },
+      {
+        "id": "d07-t06",
+        "chunks_scanned": 131,
+        "pdf_pages_scanned": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          67
+        ],
+        "term_inventory": [
+          {
+            "term": "cost performance index",
+            "chunk_ids": [],
+            "pdf_pages": []
+          },
+          {
+            "term": "CPI",
+            "chunk_ids": [],
+            "pdf_pages": []
+          },
+          {
+            "term": "earned value",
+            "chunk_ids": [],
+            "pdf_pages": []
+          },
+          {
+            "term": "earned-value",
+            "chunk_ids": [],
+            "pdf_pages": []
+          },
+          {
+            "term": "formula",
+            "chunk_ids": [
+              "f77841420545d77fe60a42762215820ed9b27fe79826cda09fc4e307b188ee57"
+            ],
+            "pdf_pages": [
+              61
+            ]
+          },
+          {
+            "term": "budget",
+            "chunk_ids": [
+              "65355e9a2461cfec01c18f930da9223346a167dbb07fe46bd4eab69e13cf0eb5",
+              "8953ac5e9561dd59c6a35820b323dc17b21d0e43bf9ed4300b5f6221a500dec1",
+              "bf99a77e639a66ebcc198fbd79efbbc6bbcccb702da3469ad6ad0c73e9ad1ed6",
+              "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f",
+              "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+              "1fd85adc48bed33d4b73d366bb3c927925eff48ffaced94d3b44f78949d2d4c4",
+              "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+              "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+              "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+              "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+              "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+              "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+              "ee16f941ee42163b51ae73e93022a3b253f3bbaaf7cf71d4f660d1976f469e47",
+              "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+              "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+              "2226ea82934093c34af498d8bbfcf471ca43b7e16c607134215b4215381402e1",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92"
+            ],
+            "pdf_pages": [
+              35,
+              36,
+              39,
+              41,
+              42,
+              43,
+              44,
+              47,
+              50,
+              57,
+              59
+            ]
+          },
+          {
+            "term": "cost",
+            "chunk_ids": [
+              "65355e9a2461cfec01c18f930da9223346a167dbb07fe46bd4eab69e13cf0eb5",
+              "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+              "bf99a77e639a66ebcc198fbd79efbbc6bbcccb702da3469ad6ad0c73e9ad1ed6",
+              "535ba146a73db3e310324b0388795407c159d9482bc087523acffe44553a64fc",
+              "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+              "1fd85adc48bed33d4b73d366bb3c927925eff48ffaced94d3b44f78949d2d4c4",
+              "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+              "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+              "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+              "693fd60a928972487ad1641605ca4de61e5b8669e6b05c62c3bd2d83be466292",
+              "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+              "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+              "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+              "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+              "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+              "ee16f941ee42163b51ae73e93022a3b253f3bbaaf7cf71d4f660d1976f469e47",
+              "63517c5df22dc612d25c0759b0c5f60fa7c46d7a95dcdfeb548d5914d144359b",
+              "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+              "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+              "91e1eb039eadfcd560704fecd859c8b14ec811db437cb83fad30a218d72d76c0",
+              "0571d47de8b5586660890932f9516977bbf4423a353293784bb7d982d95c0df3",
+              "1965f32b21481d252800e571607f0962271de3ad195af5adcaf2389f75bd12c7",
+              "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+              "59c5b823d207d7bacddd0e720f0c972221657322306350761ebd51c9edb75c7f"
+            ],
+            "pdf_pages": [
+              35,
+              36,
+              39,
+              41,
+              42,
+              43,
+              44,
+              45,
+              50,
+              52,
+              54,
+              57,
+              65,
+              66
+            ]
+          },
+          {
+            "term": "ratio",
+            "chunk_ids": [
+              "65355e9a2461cfec01c18f930da9223346a167dbb07fe46bd4eab69e13cf0eb5",
+              "eadfb46ef912317cd809deb1485a8c1bee731283d0581d4fcd233a29cde5f29b",
+              "429631160e2542b2d5180f0dcd6739c594e806c151d40e7aee437113f7390afb",
+              "bf99a77e639a66ebcc198fbd79efbbc6bbcccb702da3469ad6ad0c73e9ad1ed6",
+              "1c5a365851087853fd465e60a1713cf70ff208d4a3beefbe7839d944669cf6e1",
+              "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+              "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9",
+              "ee16f941ee42163b51ae73e93022a3b253f3bbaaf7cf71d4f660d1976f469e47",
+              "63517c5df22dc612d25c0759b0c5f60fa7c46d7a95dcdfeb548d5914d144359b",
+              "3d745cf6671bc070a9c2c76e45f654f1ad00bb7cffcf7205edf7e706b22589ff",
+              "8cbd1b3adc9deb4acdfc308c20d7667341dd8ebe66f76cb21fd96fd8f380aca6",
+              "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af",
+              "83e44c5f416c6b231a3cfb93abe2cc0f7c5213e0c2f0b4ca22b0cf1a906bdac5",
+              "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+              "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92",
+              "06db167bef743334d820d1a8366a2f99df04370f1eec028096517007e035f892",
+              "629f043e0699a6d1cd3c05591be5425bc0975d5eee2369d8543b3c83774971c7",
+              "74fce8effd707a59c81655353d3be0c8bb9e3a66d3eb4aed67d80d93dcdcb752",
+              "4edf4f7c7718d51132b1b0a75639eefda5941a85becb3b0da1acbe4aaade5b4a",
+              "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f"
+            ],
+            "pdf_pages": [
+              35,
+              37,
+              39,
+              40,
+              41,
+              43,
+              44,
+              47,
+              49,
+              50,
+              55,
+              56,
+              59,
+              60,
+              62,
+              63,
+              65
+            ]
+          }
+        ],
+        "semantic_review": "Corpus chỉ có mô tả quản lý/so sánh cost, budget và bảng knowledge areas; không nêu CPI hoặc công thức earned-value. Không điền công thức từ kiến thức ngoài corpus hay suy ra từ ví dụ 800/846 labour hours. Không kết luận phần ngoài 32 trang của sách cũng thiếu công thức.",
+        "visual_original_pdf_pages": [
+          40,
+          54,
+          63
+        ],
+        "limitation": "Term inventory is reproducible; semantic absence and visual reading are authored review notes, not automatically proved."
+      },
+      {
+        "id": "d07-t07",
+        "chunks_scanned": 131,
+        "pdf_pages_scanned": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66,
+          67
+        ],
+        "term_inventory": [
+          {
+            "term": "Communication Date",
+            "chunk_ids": [
+              "b1ddf99d6fdd6d803931ace1b160807891c05b5458e70231dfa004061a7b56ab"
+            ],
+            "pdf_pages": []
+          },
+          {
+            "term": "Figure 5.2",
+            "chunk_ids": [
+              "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09"
+            ],
+            "pdf_pages": [
+              63
+            ]
+          },
+          {
+            "term": "date",
+            "chunk_ids": [
+              "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+              "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+              "bf99a77e639a66ebcc198fbd79efbbc6bbcccb702da3469ad6ad0c73e9ad1ed6",
+              "c8324d77ddbd461aa2b5fc3fd88a385ebcc84982afb491bbf035aec321b66f3a",
+              "693fd60a928972487ad1641605ca4de61e5b8669e6b05c62c3bd2d83be466292",
+              "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+              "ee16f941ee42163b51ae73e93022a3b253f3bbaaf7cf71d4f660d1976f469e47",
+              "5aaa8aef0aafb07031d21d8a9a4bd708e0b95615771958b42cc13f7d95cd3bfd",
+              "1f4a69538d4f3b38a211d8bd1ea65714a5897f13bc184452001f617ea6df076d",
+              "8cbd1b3adc9deb4acdfc308c20d7667341dd8ebe66f76cb21fd96fd8f380aca6",
+              "64229d2ec0ec088c06f7f1123d4caa8c3e749388d21c325d42af5e9eef75552e",
+              "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+              "b1ddf99d6fdd6d803931ace1b160807891c05b5458e70231dfa004061a7b56ab"
+            ],
+            "pdf_pages": [
+              36,
+              38,
+              39,
+              42,
+              43,
+              44,
+              45,
+              48,
+              49,
+              51,
+              61
+            ]
+          },
+          {
+            "term": "calendar",
+            "chunk_ids": [],
+            "pdf_pages": []
+          },
+          {
+            "term": "communication",
+            "chunk_ids": [
+              "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+              "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+              "b3ef50dec856db292e20f7304031b20a828557bf3ab78a589675822433d97ab4",
+              "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356",
+              "876fb029206ee9b959f200f8cab4964aa9d0a69c89bd5130d578789a7863e607",
+              "1fd85adc48bed33d4b73d366bb3c927925eff48ffaced94d3b44f78949d2d4c4",
+              "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+              "c18af35f41d905c2eb408bb83ac0b7e90f825d0032a0bded2e7bce0c60ec1ce0",
+              "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+              "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+              "2226ea82934093c34af498d8bbfcf471ca43b7e16c607134215b4215381402e1",
+              "9009150b9464dbaaa0ae820c99223fb0a0c02e6b7bfe40af85d6ad7e8219f36a",
+              "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92",
+              "078c4a371581c15e9340226c5d4aa00861d16ec054ee9deb7748b2c9ad4413ab",
+              "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+              "629f043e0699a6d1cd3c05591be5425bc0975d5eee2369d8543b3c83774971c7",
+              "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+              "b1ddf99d6fdd6d803931ace1b160807891c05b5458e70231dfa004061a7b56ab",
+              "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+              "7ae828288373038f316a0f817368a12a91183931c5dc5e1abc595882cbd61014",
+              "0a8f584bf9a094af0d471107514259e2646c4d88b4db755543bb80ffd70a5256"
+            ],
+            "pdf_pages": [
+              35,
+              36,
+              39,
+              40,
+              41,
+              45,
+              46,
+              57,
+              59,
+              61,
+              62,
+              63,
+              65,
+              66,
+              67
+            ]
+          },
+          {
+            "term": "plan",
+            "chunk_ids": [
+              "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+              "663196e7dcad6c82e12b63ad19131033dda460cfdffd44f9f35e28636785fbdd",
+              "65355e9a2461cfec01c18f930da9223346a167dbb07fe46bd4eab69e13cf0eb5",
+              "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+              "4e54e8455d12697b05829f79803225712bc278fff063779b4c8d3c96debedb3f",
+              "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+              "8953ac5e9561dd59c6a35820b323dc17b21d0e43bf9ed4300b5f6221a500dec1",
+              "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+              "eadfb46ef912317cd809deb1485a8c1bee731283d0581d4fcd233a29cde5f29b",
+              "429631160e2542b2d5180f0dcd6739c594e806c151d40e7aee437113f7390afb",
+              "bf99a77e639a66ebcc198fbd79efbbc6bbcccb702da3469ad6ad0c73e9ad1ed6",
+              "b3ef50dec856db292e20f7304031b20a828557bf3ab78a589675822433d97ab4",
+              "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356",
+              "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f",
+              "1c5a365851087853fd465e60a1713cf70ff208d4a3beefbe7839d944669cf6e1",
+              "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+              "1fd85adc48bed33d4b73d366bb3c927925eff48ffaced94d3b44f78949d2d4c4",
+              "6d39e70d5446c32aa1cef3771fa81b9df2f655d20a16f55ae09b603700a44332",
+              "074f713cd929aa2befe0e7faf4564820d3858df217cebafd1d64e5d2e8a0b721",
+              "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+              "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+              "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+              "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+              "c8324d77ddbd461aa2b5fc3fd88a385ebcc84982afb491bbf035aec321b66f3a",
+              "92591df8ea8c99b11c991a6da3cb2850ab3df4b5f90ab833b62cd63c693dd6eb",
+              "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9",
+              "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+              "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+              "de395b89ae7de943c10aff35e23eee7d7a0b2ddfbd9b9293f6815a3aaad5e7d6",
+              "ee16f941ee42163b51ae73e93022a3b253f3bbaaf7cf71d4f660d1976f469e47",
+              "63517c5df22dc612d25c0759b0c5f60fa7c46d7a95dcdfeb548d5914d144359b",
+              "8d338560ff95a2819a9e936147fdd002f9e0123c07d7d259e0fd26de91f7b1e3",
+              "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+              "5aaa8aef0aafb07031d21d8a9a4bd708e0b95615771958b42cc13f7d95cd3bfd",
+              "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+              "170f7b0621029aacdd3d0ff04e36eefea55809fdd1f526bdfb56a33c564f598e",
+              "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+              "6d5ef6137093a1b63bda92b6665247c4f037e3f95892f91ed6eb4a3187d80d4b",
+              "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+              "3d745cf6671bc070a9c2c76e45f654f1ad00bb7cffcf7205edf7e706b22589ff",
+              "8331794bf1810cd1ba04a4abce9949028c9785b9c63dda0a3d140476a2c660c0",
+              "1f4a69538d4f3b38a211d8bd1ea65714a5897f13bc184452001f617ea6df076d",
+              "8cbd1b3adc9deb4acdfc308c20d7667341dd8ebe66f76cb21fd96fd8f380aca6",
+              "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+              "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+              "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af",
+              "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+              "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+              "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a",
+              "0571d47de8b5586660890932f9516977bbf4423a353293784bb7d982d95c0df3",
+              "92bafd46e4e0c01e8081788f5a6c0b46ff5792c6f539683579a3f1eda49ab6cf",
+              "c7ebf16ed2f803ffc6f4415a0f43727bfb184a5f07dd2c2320a376f87b9658a4",
+              "d235a823d7281b2e5e20ebda59d71b3ffec27986fd86096e4008ecfb4b71ba42",
+              "4aadd1adb72011c504b9de1479798f690d37dcbc5ddbfca1e183faa041f1477f",
+              "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+              "b1ddf99d6fdd6d803931ace1b160807891c05b5458e70231dfa004061a7b56ab"
+            ],
+            "pdf_pages": [
+              35,
+              36,
+              37,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              54,
+              55,
+              60,
+              63
+            ]
+          },
+          {
+            "term": "template",
+            "chunk_ids": [
+              "074f713cd929aa2befe0e7faf4564820d3858df217cebafd1d64e5d2e8a0b721",
+              "eb3ebe5d20a13ac2e154e93432f0a6907c0b4c6ddcaaaf2378eaa8ebdbe51243",
+              "4edf4f7c7718d51132b1b0a75639eefda5941a85becb3b0da1acbe4aaade5b4a",
+              "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+              "b1ddf99d6fdd6d803931ace1b160807891c05b5458e70231dfa004061a7b56ab"
+            ],
+            "pdf_pages": [
+              41,
+              51,
+              63
+            ]
+          }
+        ],
+        "semantic_review": "Figure 5.2 trang 63 là mẫu chưa điền: đã nhìn ảnh PDF gốc, cột Communication Date có hai dòng trống, không có ngày thực tế. Đọc toàn corpus không có ngày đã điền cho hình này; không dùng ngày xuất bản hay lịch chung. Có thể giải thích mẫu trống, nhưng phải từ chối đưa ra ngày cụ thể.",
+        "visual_original_pdf_pages": [
+          40,
+          54,
+          63
+        ],
+        "limitation": "Term inventory is reproducible; semantic absence and visual reading are authored review notes, not automatically proved."
+      }
+    ]
+  },
+  "schema_version": 1,
+  "benchmark_version": "1.0.0",
+  "label_validation_only": true,
+  "retrieval_executed": false,
+  "agent_executed": false,
+  "test_evaluation_executed": false,
+  "pending_user_confirmation": []
+}

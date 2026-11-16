@@ -1,0 +1,169 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-16",
+  "base_commit": "c3a5d70",
+  "events": [
+    {
+      "event": "day06_test_public",
+      "detail": "Day06 selected C on dev before its test; old test q16–q20 subsequently evaluated and errors published. Conservatively retire all old test from held-out use in Day07.",
+      "references": [
+        "starter/results/checkpoint6/selection_lock.json",
+        "starter/results/checkpoint6/test_summary.json",
+        "report/individual/2A202604024_NguyenHuuAn.md"
+      ],
+      "paths_relative_to": "DAY06_PATH"
+    },
+    {
+      "event": "day07_label_construction",
+      "detail": "Read all 29 cases including new test solely for benchmark authoring and source/absence validation. No Day07 retrieval, ranking, model or agent runs; no configuration chosen from new test.",
+      "used_test_for_tuning": false,
+      "independence_claim": "Unused for system tuning at v1 creation; assistant-authored, not blind external test. Shared corpus, not independent domain."
+    },
+    {
+      "event": "q20_gold_revision",
+      "detail": "Original q20 quote spans B chunks. Day07 uses a verbatim shorter fragment in one chunk, retaining high-context condition and both verbal/non-verbal cues; expected answer/question unchanged. Snapshot untouched.",
+      "source_page": 66,
+      "original_gold_preserved_in": "cases.json q20.provenance.label_revision.original_gold",
+      "retrieval_executed": false
+    }
+  ],
+  "id_split_mapping": [
+    {
+      "original_id": "q01",
+      "original_split": "dev",
+      "day07_id": "q01",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q02",
+      "original_split": "dev",
+      "day07_id": "q02",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q03",
+      "original_split": "dev",
+      "day07_id": "q03",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q04",
+      "original_split": "dev",
+      "day07_id": "q04",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q05",
+      "original_split": "dev",
+      "day07_id": "q05",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q06",
+      "original_split": "dev",
+      "day07_id": "q06",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q07",
+      "original_split": "dev",
+      "day07_id": "q07",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q08",
+      "original_split": "dev",
+      "day07_id": "q08",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q09",
+      "original_split": "dev",
+      "day07_id": "q09",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q10",
+      "original_split": "dev",
+      "day07_id": "q10",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q11",
+      "original_split": "dev",
+      "day07_id": "q11",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q12",
+      "original_split": "dev",
+      "day07_id": "q12",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q13",
+      "original_split": "dev",
+      "day07_id": "q13",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q14",
+      "original_split": "dev",
+      "day07_id": "q14",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q15",
+      "original_split": "dev",
+      "day07_id": "q15",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q16",
+      "original_split": "test",
+      "day07_id": "q16",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q17",
+      "original_split": "test",
+      "day07_id": "q17",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q18",
+      "original_split": "test",
+      "day07_id": "q18",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q19",
+      "original_split": "test",
+      "day07_id": "q19",
+      "day07_split": "dev"
+    },
+    {
+      "original_id": "q20",
+      "original_split": "test",
+      "day07_id": "q20",
+      "day07_split": "dev"
+    }
+  ],
+  "new_ids": [
+    "d07-d21",
+    "d07-d22",
+    "d07-t01",
+    "d07-t02",
+    "d07-t03",
+    "d07-t04",
+    "d07-t05",
+    "d07-t06",
+    "d07-t07"
+  ],
+  "test_policy": {
+    "state": "sealed_for_task11_evaluation",
+    "configuration_locked": false,
+    "evaluation_runs": [],
+    "rule": "Use dev only until task11 configuration lock. Record every test run and config/code/corpus/benchmark hashes. Any test-informed tuning retires that test to dev and requires new distinct-target, source-verified test in a new version."
+  }
+}

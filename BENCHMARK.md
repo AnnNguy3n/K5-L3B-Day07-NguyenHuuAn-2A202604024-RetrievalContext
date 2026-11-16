@@ -2,6 +2,11 @@
 
 Đây là benchmark phần cơ bản. Thử thách tài liệu từ 100 trang có [benchmark và ngưỡng đạt riêng](ADVANCED.md#2-benchmark). Đánh giá riêng retrieval, context và câu trả lời của agent. Retrieval tốt chưa đảm bảo câu trả lời đúng.
 
+Bộ đã xây ở công việc 03: [Day07 v1](benchmark/day07/README.md), 29 câu
+(dev 20 + 2, test mới 5 + 2), schema và hit/evidence đã công bố trước khi đo.
+Test Day06 q16–q20 đã chuyển sang dev do có kết quả/phân tích công khai.
+Chưa chạy retrieval/agent hoặc chọn cấu hình bằng test mới.
+
 ## 1. Bộ câu hỏi
 
 | Loại câu | Dev | Test |

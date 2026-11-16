@@ -4,9 +4,11 @@
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
-**Tiến độ 16/11/2026:** Tôi đã hoàn thành công việc 01–02: kết nối Day06 và chuẩn
-hóa 131 chunk B, 206 chunk A cùng 20 câu hỏi. Tổng 33/33 test đạt; tôi chưa đánh
-giá chất lượng retrieval Day07. Bước tiếp theo là hoàn thiện benchmark.
+**Tiến độ 16/11/2026:** Tôi đã hoàn thành công việc 01–03. Benchmark v1 có 29 câu:
+dev 20 có đáp án + 2 thiếu evidence; test mới 5 + 2. Tôi đã kiểm chứng nguồn và
+absence trên corpus B (131 chunk/32 trang), chuyển test Day06 cũ sang dev.
+Tổng 50/50 test code đạt; chưa chạy retrieval/agent trên benchmark Day07.
+[Benchmark, bảo vệ test và lệnh tái tạo](benchmark/day07/README.md) ·
 [Báo cáo cá nhân](report/individual/2A202604024_NguyenHuuAn.md) ·
 [Dữ liệu và minh chứng](docs/DAY07_DATA_CONTRACT.md).
 

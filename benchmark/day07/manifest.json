@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "benchmark_version": "1.0.0",
+  "date": "2026-11-16",
+  "base_commit": "c3a5d70",
+  "state": "labels_verified_test_not_evaluated",
+  "split_counts": {
+    "dev": {
+      "answerable": 20,
+      "unanswerable": 2
+    },
+    "test": {
+      "answerable": 5,
+      "unanswerable": 2
+    }
+  },
+  "gold_semantics": "OR; exact single-chunk source/page/evidence; answerable only denominator",
+  "artifacts_sha256": {
+    "cases.json": "9bedbdeb8d365d391540817ff457f5375beef68b8165ea181e2feeeab2f6af3c",
+    "review.json": "cbc95c0f2ccd59660b0b3a990f8c5576616f445eedc171db53bf26e9147246f1",
+    "history.json": "2ff90cc82a57a07112cd89fabc6bef117cc28f57b48cc02f1d076a38b35b4608",
+    "README.md": "987764a93112fe5aa5c67712826f5f7926adc85a29da33cbf82d7d97b5f013a2",
+    "queries.dev.json": "a5f7709a253962aba1cdb316616d1e62f431b43a85922a16d29a3306d3e859eb",
+    "queries.test.json": "139f559286c96cb0415a767055f5cb4752a64eeb1299899ab24f5fa42f1d1708",
+    "audit.json": "461485032a0731ecf64195a4bec3844b46cb9c79ad2c92359041527ad7303a10"
+  },
+  "snapshot_sha256": {
+    "data/day06/A/chunks.json": "ba0cf3f0e462ed44b3be6f7c2ad116cb91a3f92de959bef975a9c3efc06829e5",
+    "data/day06/A/queries.dev.json": "30d9570203a82f5ca84b81c77b6a4a29e713d95fff9693705ef850a6010e026a",
+    "data/day06/A/queries.test.json": "c25a793516a6105164d258178e0abb8c115d455705f1899f28f1572ef8c4a302",
+    "data/day06/A/questions.json": "9a645931a0058564055c0e7523100136e9e66af49d008a49ba71f48a322946ed",
+    "data/day06/A/sources.json": "59d460add5e723b6964fbaa6731e2bce822c5cdeeb89860548ec2d0eb02e906c",
+    "data/day06/A/validation.json": "c3ecae5f7092a4ec34eb953ca659a1d975508d4a056d9fe07ecc199b6b025e0d",
+    "data/day06/B/chunks.json": "8d7c19984861079c6a11c5de242a4b2c4a03cf95db232eb570545d1fa42c1cc5",
+    "data/day06/B/queries.dev.json": "30d9570203a82f5ca84b81c77b6a4a29e713d95fff9693705ef850a6010e026a",
+    "data/day06/B/queries.test.json": "c25a793516a6105164d258178e0abb8c115d455705f1899f28f1572ef8c4a302",
+    "data/day06/B/questions.json": "9a645931a0058564055c0e7523100136e9e66af49d008a49ba71f48a322946ed",
+    "data/day06/B/sources.json": "59d460add5e723b6964fbaa6731e2bce822c5cdeeb89860548ec2d0eb02e906c",
+    "data/day06/B/validation.json": "deee4126c2e9577d1daff927b217ca8814bc1c12bd9173fc3beac79be95ddae4"
+  },
+  "implementation_sha256": {
+    "scripts/day07_benchmark.py": "07e1ffdcb286afcf51df2c0771b4f9ad0a342a341a13e041103023ce352375c9"
+  },
+  "policy_sha256": {
+    "BENCHMARK.md": "b9c253c4b6c4a81e12e76006ad480f239e6c181e2e7b29b0e484676d92e44d4f",
+    "RULES.md": "06b206ddcf1ffe4da2cce14a06ec935c44ea868c0ed6ed569bcddc0e6d701d35",
+    "data/README.md": "95822e0a2d2cba3edc4f692c8aa91b64144bb23f2d7a86e6b34709694e7e7cd5",
+    "docs/DAY07_DATA_CONTRACT.md": "b6bd9190ddd36f85effe02e2d249d7f07782cc740d23532f6251d11316ad0588"
+  },
+  "day06_history_sha256": {
+    "starter/results/checkpoint6/selection_lock.json": "aa2cf379761b6933dba4b48f4226997367039ec54c65747439a6123799b2aab0",
+    "starter/results/checkpoint6/test_summary.json": "2c6dc4cf213c9808be1f3db09cf4a101c71631357bb1d7bd514f00717e7ca270",
+    "report/individual/2A202604024_NguyenHuuAn.md": "b8c84f25b26f7300b7981cb000a223b3d634927f832370b2086b96e63df7e086"
+  },
+  "source_pdf_sha256": "8cef479b81c9b0837c3c09ce095d621be28b1ec874110c76f0b311484a7c667d",
+  "test_policy": {
+    "state": "sealed_for_task11_evaluation",
+    "configuration_locked": false,
+    "evaluation_runs": [],
+    "rule": "Use dev only until task11 configuration lock. Record every test run and config/code/corpus/benchmark hashes. Any test-informed tuning retires that test to dev and requires new distinct-target, source-verified test in a new version."
+  },
+  "hash_note": "Manifest cannot hash itself; record its SHA-256 in any later configuration/evaluation lock."
+}

@@ -12,3 +12,9 @@ Dữ liệu thật công việc 02: `day06/B/` (131 chunk) và `day06/A/` (206 c
 Xem [schema, nguồn và lệnh tái tạo](../docs/DAY07_DATA_CONTRACT.md).
 `questions.json` giữ nhãn offline; `queries.dev.json` và `queries.test.json` chỉ
 có ID/câu hỏi/filter để đưa vào agent khi triển khai bước sau. Chưa chạy benchmark test.
+
+Benchmark công việc 03 nằm riêng tại [benchmark/day07](../benchmark/day07/README.md):
+29 câu gồm cả absence, nhãn `cases.json` tách khỏi queries runtime. Tôi giữ nguyên
+snapshot A/B; schema mixed cases và validator mới không thay converter Day06.
+Gold `q20` được rút ngắn có ghi lịch sử trong benchmark mới để nằm trọn một chunk;
+không sửa nhãn snapshot. Test mới chỉ được kiểm chứng nhãn, chưa chạy hệ thống.

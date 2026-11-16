@@ -1,0 +1,1309 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "In the Project Life Cycle chapter, which four phases does a standard project typically pass through, in order?",
+    "expected_answer": "Initiation, planning, implementation, and closure.",
+    "filter": {
+      "section": "3. The Project Life Cycle (Phases)"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 35,
+        "evidence": "A standard project typically has the following four major phases (each with its own agenda of tasks and issues): initiation, planning, implementation, and closure."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "lifecycle-phase-order",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q01",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        35
+      ],
+      "conditions_checked": "Giữ thứ tự initiation → planning → implementation → closure; không thay bằng lifecycle khác."
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "In the northern Argentina copper mine example, why did the team set up an office in Chile?",
+    "expected_answer": "Chile already had infrastructure for large mining construction projects.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 36,
+        "evidence": "The project team set up three offices. One was in Chile, where large mining construction project infrastructure existed."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "mine-chile-office-reason",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q02",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        36
+      ],
+      "conditions_checked": "Giữ ngữ cảnh mỏ đồng miền bắc Argentina; lý do đặt văn phòng Chile là hạ tầng dự án xây dựng mỏ lớn đã có."
+    }
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "At closeout, who took over the newly constructed plant?",
+    "expected_answer": "The client’s operations team.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 37,
+        "evidence": "The closeout phase included turning over the newly constructed plant to the operations team of the client."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "mine-plant-handover-recipient",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q03",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        37
+      ],
+      "conditions_checked": "Người nhận nhà máy ở closeout là operations team của client, không phải đội xây dựng."
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "In the Framework for Project Management chapter, how does the manager bring the parties together to start building the team?",
+    "expected_answer": "By holding one or more kickoff meetings or alignment sessions.",
+    "filter": {
+      "section": "4. Framework for Project Management"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 41,
+        "evidence": "The project manager will conduct one or more kickoff meetings or alignment sessions to bring the various parties of the project together and begin the project team building required to operate efficiently during the project."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "kickoff-team-building",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q04",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        41
+      ],
+      "conditions_checked": "Chấp nhận kickoff meetings hoặc alignment sessions; mục đích tập hợp các bên và bắt đầu xây đội."
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Why can small, incremental additions to project scope threaten success?",
+    "expected_answer": "Together they require resources that the original plan did not provide.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 42,
+        "evidence": "One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "scope-creep-resource-risk",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q05",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        42
+      ],
+      "conditions_checked": "Các tăng nhỏ cộng lại đòi nguồn lực ngoài kế hoạch; trang còn nói scope creep khi thay đổi không được nhận biết/quản lý."
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "In the bridge design example, how many labour hours did the team actually spend compared with its estimate?",
+    "expected_answer": "It spent 846 hours against an estimate of 800.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 44,
+        "evidence": "For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "bridge-labour-estimate-actual",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q06",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        44
+      ],
+      "conditions_checked": "846 là thực tế, 800 là ước tính; đơn vị labour hours, không đổi thành chi phí tiền."
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Why examine how the first few houses are built when a contractor is building several identical houses?",
+    "expected_answer": "The repeated work gives the contractor a chance to identify process improvements for later houses.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 45,
+        "evidence": "Another opportunity for applying process improvement tools is on projects that have repetitive processes. A housing contractor that is building several identical houses may benefit from evaluating work processes in the first few houses to explore the opportunities available to improve the work processes."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "repetitive-house-process-improvement",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q07",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        45
+      ],
+      "conditions_checked": "Điều kiện công việc lặp lại/nhiều nhà giống nhau; kiểm tra những nhà đầu để cải tiến quy trình những nhà sau."
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "How should contingency appear in the budget when risks cannot readily be tied to individual activities?",
+    "expected_answer": "Show it as a separate line item.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 47,
+        "evidence": "When risks are less identifiable to specific activities, contingency is identified in a separate line item."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "unassigned-risk-contingency-budget",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q08",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        47
+      ],
+      "conditions_checked": "Chỉ áp dụng khi khó gắn risk với hoạt động cụ thể; không tổng quát mọi contingency đều là dòng riêng."
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Why does a stakeholder register need regular updates?",
+    "expected_answer": "New stakeholders may appear, and existing stakeholders’ needs and levels of interest may change.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 48,
+        "evidence": "A stakeholder register is used to identify and track the interactions between the project and each stakeholder. This register must be updated on a regular basis, as new stakeholders can arise at any time, and the needs and interest levels of a particular stakeholder may change through the course of the project."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "stakeholder-register-update-reason",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q09",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        48
+      ],
+      "conditions_checked": "Bao gồm cả stakeholder mới và thay đổi nhu cầu/mức quan tâm của stakeholder hiện tại."
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "In the Scrum kitchen analogy, where do stories for the next sprint go, and where do stories for later sprints go?",
+    "expected_answer": "The back burner holds next-sprint stories. The fridge holds stories for later sprints.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 51,
+        "evidence": "Typically, the way a product is developed is that there is a “front burner” (which has stories/tasks for the current sprint), a “back burner” (which has stories for the next sprint), and a “fridge” (which has stories for later, as well as process changes)."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "scrum-backburner-fridge",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q10",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        51
+      ],
+      "conditions_checked": "Back burner: next sprint; fridge: later sprints (còn có process changes); không đảo với front burner."
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In the Stakeholder Management chapter, do suppliers and government bodies count as stakeholders?",
+    "expected_answer": "Yes. Both are examples of project stakeholders.",
+    "filter": {
+      "section": "5. Stakeholder Management"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 54,
+        "evidence": "External stakeholders may include external customers, government, contractors and subcontractors, and suppliers."
+      },
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 53,
+        "evidence": "The customer, subcontrac- tors, suppliers, and sometimes even the government are stakeholders."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "government-suppliers-stakeholder-status",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q11",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        53,
+        54
+      ],
+      "conditions_checked": "Đã đọc caption Figure 5.1 trên PDF 54 và văn bản PDF 53. Hai evidence OR đều liệt kê government và suppliers; giữ nguyên cả hai, kể cả hyphen trích xuất."
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What distinguishes a peer from the project manager in terms of rank and accountability?",
+    "expected_answer": "A peer is at the same organizational level but does not share the manager’s leadership responsibilities or accountability for the project’s success or failure.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 56,
+        "evidence": "Peers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "peer-rank-accountability",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q12",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        56
+      ],
+      "conditions_checked": "Cùng cấp tổ chức; có thể thuộc/không thuộc team nhưng không có trách nhiệm lãnh đạo và accountability thành bại như PM."
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How much of a project manager’s time can contractor and supplier relationships consume on some projects?",
+    "expected_answer": "More than half.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 58,
+        "evidence": "Depending on the project, managing contractor and supplier relationships can consume more than half of the project manager’s time."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "supplier-relationship-time-share",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q13",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        58
+      ],
+      "conditions_checked": "Giữ tùy dự án (depending on the project), more than half; không khẳng định mọi dự án."
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the Culture and Project Management chapter, what does corporate culture encompass?",
+    "expected_answer": "Members’ shared beliefs, attitudes, and values, together with the behaviours that arise from them.",
+    "filter": {
+      "section": "6. Culture and Project Management"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 65,
+        "evidence": "Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to)."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "corporate-culture-definition",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q14",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        65
+      ],
+      "conditions_checked": "Beliefs, attitudes, values được chia sẻ VÀ behaviours phù hợp/phát sinh từ đó."
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What benefit can conflict arising from diversity bring, and what happens if the team handles it poorly?",
+    "expected_answer": "It can help solve complex problems. Poor handling can strain relationships and hinder achievement by making communication and coordination harder.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 67,
+        "evidence": "Conflict that springs from diversity can actually assist the team in completing complex problem solving. However, if not nav- igated successfully, it can create relationship strain and derail achievement due to increased difficulties in communication and coordination."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "diversity-conflict-benefit-risk",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q15",
+      "original_split": "dev",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        67
+      ],
+      "conditions_checked": "Lợi ích giải quyết vấn đề phức tạp; nếu điều hướng kém, căng quan hệ và khó giao tiếp/phối hợp gây trật mục tiêu."
+    }
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "In the Project Life Cycle chapter, which plan records the criteria the team must meet for customer sign-off?",
+    "expected_answer": "The acceptance plan.",
+    "filter": {
+      "section": "3. The Project Life Cycle (Phases)"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 35,
+        "evidence": "Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "customer-acceptance-plan",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q16",
+      "original_split": "test",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        35
+      ],
+      "conditions_checked": "Acceptance plan liệt kê tiêu chí để đạt customer acceptance; phân biệt quality plan ngay trước trong cùng câu."
+    }
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "What team size does the Scrum overview describe as ideal for development?",
+    "expected_answer": "Seven people, plus or minus two.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 50,
+        "evidence": "It has been shown that the ideal size for a development team is 7 +/- 2."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "scrum-development-team-size",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q17",
+      "original_split": "test",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        50
+      ],
+      "conditions_checked": "Ideal size trong Scrum development team là 7 +/- 2; không dùng như quy luật mọi đội dự án."
+    }
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question": "In the Mumbai case, what specific weather-related opportunity would the project lose without mitigation?",
+    "expected_answer": "It would miss the window between monsoon seasons.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 59,
+        "evidence": "Without a mitigating strategy, the project would miss a critical window in the weather between monsoon seasons."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "mumbai-monsoon-window",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q18",
+      "original_split": "test",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        59
+      ],
+      "conditions_checked": "Điều kiện without a mitigating strategy; mất weather window giữa monsoon seasons, không suy diễn ngày cụ thể."
+    }
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "question": "What information do stakeholders with financial concerns need about the project’s outcomes?",
+    "expected_answer": "They need to know the potential return.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 62,
+        "evidence": "Stakeholders with financial concerns will need to know the potential return of the project’s outcomes."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "financial-stakeholder-information",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q19",
+      "original_split": "test",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        62
+      ],
+      "conditions_checked": "Nhóm có financial concerns cần potential return; không dùng mục tiêu operations/market share ở câu kế tiếp."
+    }
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "question": "When working with people from high-context cultures, which cues does the chapter say are easier to observe in person?",
+    "expected_answer": "Critical verbal and nonverbal cues that may be hard to pick up online or by phone.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 66,
+        "evidence": "team members from high-context cultures, it is essential to meet face-to-face, discover member’s individual identities and cultural preferences, share professional knowledge and personal stories, and observe critical verbal and non-verbal cues (that may not easily be observed online, or on the telephone)."
+      }
+    ],
+    "answerable": true,
+    "intent_id": "high-context-in-person-cues",
+    "provenance": {
+      "origin": "day06_migrated",
+      "path": "data/day06/B/questions.json",
+      "original_id": "q20",
+      "original_split": "test",
+      "history": "Day06 dev used for development; old test results and error analysis public. All 20 are development data in Day07.",
+      "label_revision": {
+        "reason": "Original q20 quote spans B chunks. Day07 uses a verbatim shorter fragment in one chunk, retaining high-context condition and both verbal/non-verbal cues; expected answer/question unchanged. Snapshot untouched.",
+        "original_gold": [
+          {
+            "source_id": "project-management-2019-v1.03",
+            "page": 66,
+            "evidence": "Especially when working with team members from high-context cultures, it is essential to meet face-to-face, discover member’s individual identities and cultural preferences, share professional knowledge and personal stories, and observe critical verbal and non-verbal cues (that may not easily be observed online, or on the telephone)."
+          }
+        ]
+      }
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF pages via pypdf; compare each verbatim chunk quote and answer conditions. Figure 5.1 also visually inspected where applicable.",
+      "pages_read": [
+        66
+      ],
+      "conditions_checked": "Giữ cả verbal và non-verbal, đặc biệt high-context cultures; chỉ nói khó quan sát online/telephone, không nói bất khả thi. Kiểm tra mới phát hiện gold Day06 qua ranh giới chunk. Đã rút phần mở đầu Especially when working with, giữ đoạn từ team members from high-context cultures đến hết câu; evidence nằm trọn chunk 66959875… và có điều kiện/đáp án đầy đủ."
+    }
+  },
+  {
+    "id": "d07-d21",
+    "split": "dev",
+    "question": "What exact total approved budget in US dollars is given for the northern Argentina copper mine project?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Các trang 36–37 mô tả mỏ và việc lập/theo dõi detailed budget nhưng không nêu tổng ngân sách đã phê duyệt bằng USD. Toàn 32 trang không cung cấp số này. Các số tiền $1,000/$200 ở trang 45 là ví dụ cải tiến xây nhà, không phải ngân sách mỏ.",
+    "absence_check": {
+      "scope": "all 131 B chunks including figure text; only selected 32 PDF pages, not full book",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "related_pages_inspected": [
+        36,
+        37,
+        43,
+        44,
+        45
+      ],
+      "terms": [
+        "copper",
+        "Argentina",
+        "mine",
+        "budget",
+        "dollar",
+        "USD",
+        "$",
+        "cost",
+        "expenditure"
+      ],
+      "method": "Read all selected original PDF pages and all figure additions; exhaustively scan every B chunk and every selected PDF page for listed terms, inspect all matches in context and unrelated numbers/names/formulas; no retrieval/top-k. Visually inspect original figures on PDF 40, 54, 63.",
+      "semantic_review": "Các trang 36–37 mô tả mỏ và việc lập/theo dõi detailed budget nhưng không nêu tổng ngân sách đã phê duyệt bằng USD. Toàn 32 trang không cung cấp số này. Các số tiền $1,000/$200 ở trang 45 là ví dụ cải tiến xây nhà, không phải ngân sách mỏ."
+    },
+    "intent_id": "mine-total-approved-usd-budget",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        36,
+        37,
+        43,
+        44,
+        45
+      ],
+      "method": "Missing-detail question authored during source audit, not sampled from retrieval failures; target compared across dev/test."
+    },
+    "verification": {
+      "status": "absence_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Full corpus source reading plus exhaustive term inventory; visual source check for figures, not self-confirmation of generated descriptions.",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "conditions_checked": "Các trang 36–37 mô tả mỏ và việc lập/theo dõi detailed budget nhưng không nêu tổng ngân sách đã phê duyệt bằng USD. Toàn 32 trang không cung cấp số này. Các số tiền $1,000/$200 ở trang 45 là ví dụ cải tiến xây nhà, không phải ngân sách mỏ."
+    }
+  },
+  {
+    "id": "d07-d22",
+    "split": "dev",
+    "question": "What is the full personal name of the U.S. consultant who reviewed the project in Mumbai?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 59 chỉ gọi nhân vật là a project management consultant from the United States và the consultant; không có họ tên. Toàn corpus không có tên được gắn với vai trò này; tên tác giả, địa danh, tổ chức và văn phòng Mumbai ở trang 38 không định danh người tư vấn.",
+    "absence_check": {
+      "scope": "all 131 B chunks including figure text; only selected 32 PDF pages, not full book",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "related_pages_inspected": [
+        38,
+        59
+      ],
+      "terms": [
+        "Mumbai",
+        "consultant",
+        "review",
+        "name",
+        "United States",
+        "U.S."
+      ],
+      "method": "Read all selected original PDF pages and all figure additions; exhaustively scan every B chunk and every selected PDF page for listed terms, inspect all matches in context and unrelated numbers/names/formulas; no retrieval/top-k. Visually inspect original figures on PDF 40, 54, 63.",
+      "semantic_review": "Trang 59 chỉ gọi nhân vật là a project management consultant from the United States và the consultant; không có họ tên. Toàn corpus không có tên được gắn với vai trò này; tên tác giả, địa danh, tổ chức và văn phòng Mumbai ở trang 38 không định danh người tư vấn."
+    },
+    "intent_id": "mumbai-consultant-personal-name",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        38,
+        59
+      ],
+      "method": "Missing-detail question authored during source audit, not sampled from retrieval failures; target compared across dev/test."
+    },
+    "verification": {
+      "status": "absence_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Full corpus source reading plus exhaustive term inventory; visual source check for figures, not self-confirmation of generated descriptions.",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "conditions_checked": "Trang 59 chỉ gọi nhân vật là a project management consultant from the United States và the consultant; không có họ tên. Toàn corpus không có tên được gắn với vai trò này; tên tác giả, địa danh, tổ chức và văn phòng Mumbai ở trang 38 không định danh người tư vấn."
+    }
+  },
+  {
+    "id": "d07-t01",
+    "split": "test",
+    "question": "According to the textbook, in what year did PMI first offer the Project Management Professional (PMP) certification exam?",
+    "answerable": true,
+    "expected_answer": "1984.",
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 38,
+        "evidence": "PMI first began offering the Project Management Professional (PMP) certi- fication exam in 1984."
+      }
+    ],
+    "intent_id": "pmi-first-pmp-exam-year",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        38
+      ],
+      "method": "Authored after reading original PDF; new answer target compared with all 20 Day06 questions; no system runs or selection by performance."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF page via pypdf; exact quote in B chunk; inspect surrounding conditions.",
+      "pages_read": [
+        38
+      ],
+      "conditions_checked": "Hỏi năm bắt đầu kỳ thi PMP theo snapshot, không hỏi năm thành lập PMI (1969), năm PMBOK (1987), hay thông tin PMI hiện nay."
+    }
+  },
+  {
+    "id": "d07-t02",
+    "split": "test",
+    "question": "Under what date relationship does the project schedule have negative float?",
+    "answerable": true,
+    "expected_answer": "The client’s project completion date precedes the calculated critical path end date.",
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 43,
+        "evidence": "If the client’s project completion date precedes the calculated critical path end date, the project has a negative float."
+      }
+    ],
+    "intent_id": "negative-float-date-condition",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        43
+      ],
+      "method": "Authored after reading original PDF; new answer target compared with all 20 Day06 questions; no system runs or selection by performance."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF page via pypdf; exact quote in B chunk; inspect surrounding conditions.",
+      "pages_read": [
+        43
+      ],
+      "conditions_checked": "Giữ hướng so sánh: hạn của client sớm hơn ngày kết thúc critical path tính toán; không đảo với positive float/slack."
+    }
+  },
+  {
+    "id": "d07-t03",
+    "split": "test",
+    "question": "What makes communication synchronous, and what example does the communications section give?",
+    "answerable": true,
+    "expected_answer": "All parties take part in the exchange at the same time; a telephone conference call is the example.",
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 46,
+        "evidence": "If all the parties to the communication are taking part in the exchange at the same time, the communication is synchro- nous. A telephone conference call is an example of synchronous communication."
+      }
+    ],
+    "intent_id": "synchronous-communication-definition-example",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        46
+      ],
+      "method": "Authored after reading original PDF; new answer target compared with all 20 Day06 questions; no system runs or selection by performance."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF page via pypdf; exact quote in B chunk; inspect surrounding conditions.",
+      "pages_read": [
+        46
+      ],
+      "conditions_checked": "Cần đồng thời và ví dụ telephone conference call; không nhầm virtual teams hoặc asynchronous."
+    }
+  },
+  {
+    "id": "d07-t04",
+    "split": "test",
+    "question": "For common products classified as commodities, what criterion is used to make the purchase?",
+    "answerable": true,
+    "expected_answer": "The lowest bid.",
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 47,
+        "evidence": "Commodities are common products that are purchased based on the lowest bid."
+      }
+    ],
+    "intent_id": "commodity-purchase-selection",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        47
+      ],
+      "method": "Authored after reading original PDF; new answer target compared with all 20 Day06 questions; no system runs or selection by performance."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF page via pypdf; exact quote in B chunk; inspect surrounding conditions.",
+      "pages_read": [
+        47
+      ],
+      "conditions_checked": "Chỉ commodities/common products; không tổng quát lowest bid cho project-specific vendors hoặc partners."
+    }
+  },
+  {
+    "id": "d07-t05",
+    "split": "test",
+    "question": "In the relationship-building tips, how often is a stakeholder status update usually about right?",
+    "answerable": true,
+    "expected_answer": "One update per week.",
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 61,
+        "evidence": "Keep stakeholders informed: Send regular status updates. Daily may be too much; monthly is not enough. One update per week is usually about right."
+      }
+    ],
+    "intent_id": "usual-stakeholder-status-update-frequency",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        61
+      ],
+      "method": "Authored after reading original PDF; new answer target compared with all 20 Day06 questions; no system runs or selection by performance."
+    },
+    "verification": {
+      "status": "source_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Read complete original PDF page via pypdf; exact quote in B chunk; inspect surrounding conditions.",
+      "pages_read": [
+        61
+      ],
+      "conditions_checked": "Usually about right, không phải bắt buộc cho mọi dự án; không lẫn cập nhật stakeholder register hoặc kickoff meeting."
+    }
+  },
+  {
+    "id": "d07-t06",
+    "split": "test",
+    "question": "What exact earned-value formula does the selected corpus give for the Cost Performance Index (CPI)?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus chỉ có mô tả quản lý/so sánh cost, budget và bảng knowledge areas; không nêu CPI hoặc công thức earned-value. Không điền công thức từ kiến thức ngoài corpus hay suy ra từ ví dụ 800/846 labour hours. Không kết luận phần ngoài 32 trang của sách cũng thiếu công thức.",
+    "absence_check": {
+      "scope": "all 131 B chunks including figure text; only selected 32 PDF pages, not full book",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "related_pages_inspected": [
+        39,
+        43,
+        44,
+        49,
+        50
+      ],
+      "terms": [
+        "cost performance index",
+        "CPI",
+        "earned value",
+        "earned-value",
+        "formula",
+        "budget",
+        "cost",
+        "ratio"
+      ],
+      "method": "Read all selected original PDF pages and all figure additions; exhaustively scan every B chunk and every selected PDF page for listed terms, inspect all matches in context and unrelated numbers/names/formulas; no retrieval/top-k. Visually inspect original figures on PDF 40, 54, 63.",
+      "semantic_review": "Corpus chỉ có mô tả quản lý/so sánh cost, budget và bảng knowledge areas; không nêu CPI hoặc công thức earned-value. Không điền công thức từ kiến thức ngoài corpus hay suy ra từ ví dụ 800/846 labour hours. Không kết luận phần ngoài 32 trang của sách cũng thiếu công thức."
+    },
+    "intent_id": "earned-value-cpi-formula",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        39,
+        43,
+        44,
+        49,
+        50
+      ],
+      "method": "Missing-detail question authored during source audit, not sampled from retrieval failures; target compared across dev/test."
+    },
+    "verification": {
+      "status": "absence_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Full corpus source reading plus exhaustive term inventory; visual source check for figures, not self-confirmation of generated descriptions.",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "conditions_checked": "Corpus chỉ có mô tả quản lý/so sánh cost, budget và bảng knowledge areas; không nêu CPI hoặc công thức earned-value. Không điền công thức từ kiến thức ngoài corpus hay suy ra từ ví dụ 800/846 labour hours. Không kết luận phần ngoài 32 trang của sách cũng thiếu công thức."
+    }
+  },
+  {
+    "id": "d07-t07",
+    "split": "test",
+    "question": "What exact calendar date has been filled into the Communication Date column of Figure 5.2?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Figure 5.2 trang 63 là mẫu chưa điền: đã nhìn ảnh PDF gốc, cột Communication Date có hai dòng trống, không có ngày thực tế. Đọc toàn corpus không có ngày đã điền cho hình này; không dùng ngày xuất bản hay lịch chung. Có thể giải thích mẫu trống, nhưng phải từ chối đưa ra ngày cụ thể.",
+    "absence_check": {
+      "scope": "all 131 B chunks including figure text; only selected 32 PDF pages, not full book",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "related_pages_inspected": [
+        63
+      ],
+      "terms": [
+        "Communication Date",
+        "Figure 5.2",
+        "date",
+        "calendar",
+        "communication",
+        "plan",
+        "template"
+      ],
+      "method": "Read all selected original PDF pages and all figure additions; exhaustively scan every B chunk and every selected PDF page for listed terms, inspect all matches in context and unrelated numbers/names/formulas; no retrieval/top-k. Visually inspect original figures on PDF 40, 54, 63.",
+      "semantic_review": "Figure 5.2 trang 63 là mẫu chưa điền: đã nhìn ảnh PDF gốc, cột Communication Date có hai dòng trống, không có ngày thực tế. Đọc toàn corpus không có ngày đã điền cho hình này; không dùng ngày xuất bản hay lịch chung. Có thể giải thích mẫu trống, nhưng phải từ chối đưa ra ngày cụ thể."
+    },
+    "intent_id": "figure-5-2-filled-communication-date",
+    "provenance": {
+      "origin": "day07_authored",
+      "source_id": "project-management-2019-v1.03",
+      "source_pages": [
+        63
+      ],
+      "method": "Missing-detail question authored during source audit, not sampled from retrieval failures; target compared across dev/test."
+    },
+    "verification": {
+      "status": "absence_checked",
+      "reviewer": "Codex assistant; no independent human review",
+      "date": "2026-11-16",
+      "method": "Full corpus source reading plus exhaustive term inventory; visual source check for figures, not self-confirmation of generated descriptions.",
+      "pages_read": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "conditions_checked": "Figure 5.2 trang 63 là mẫu chưa điền: đã nhìn ảnh PDF gốc, cột Communication Date có hai dòng trống, không có ngày thực tế. Đọc toàn corpus không có ngày đã điền cho hình này; không dùng ngày xuất bản hay lịch chung. Có thể giải thích mẫu trống, nhưng phải từ chối đưa ra ngày cụ thể."
+    }
+  }
+]
