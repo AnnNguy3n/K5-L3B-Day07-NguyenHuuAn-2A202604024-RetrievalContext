@@ -64,3 +64,37 @@ ngắt. Không chạy lại âm thầm hoặc bỏ lỗi khỏi mẫu số. Tr�
 calls, 3 searches, 2048 output token/call, 45 giây/request. Chạy đủ split một
 lần; không tự chạy lại live trong unittest. Guard tests xác minh khóa được kiểm
 tra trước khi mở test/services, nhãn bị chặn và file không bị ghi đè.
+
+## 09 — Bộ chấm và nhãn
+
+```bash
+.venv/bin/python scripts/evaluate_agent.py artifacts/evaluation/dev-baseline-v1 \
+  --output artifacts/evaluation/dev-baseline-v1/metrics.json
+```
+
+Mỗi run có `reviews.json`: query_id, trace_sha256, context_grade 0/1/2,
+grounded_grade 0/1/2 (null cho câu thiếu evidence), citation_reviews từng ID với
+supports_answer/reason/source_quote nguyên văn trong context, abstention_correct
+và reason/source_check. Review do đọc nội dung có AI hỗ trợ, không phải người
+chấm độc lập. Smoke q01 được chấm context2/grounded2; d07-d21 abstention đúng;
+full-dev/test sẽ có review riêng cho từng run, không ngoại suy từ smoke.
+
+Gold OR: một evidence nguyên văn trọn chunk, đúng source_id/page. Hit@1 và
+Evidence Hit@3 dùng query gốc/cutoff chung, không tính câu thiếu evidence.
+Dev tái dùng trace bước04 khi hash code retrieval, corpus/benchmark và query
+không đổi. CER tính từ snapshot cuối có delivery_confirmed, không từ candidate
+hoặc context mới chuẩn bị; có thể khác Hit@3 vì query viết lại/nhiều lượt/top-5.
+Context grade2 cần đọc đủ điều kiện và nguồn; có gold exact chưa tự quyết định
+answer/citation đúng. Grade1 là một phần, 0 thiếu evidence; câu có đáp án bị từ
+chối hoặc lỗi có grounded0. Citation cần hỗ trợ các claim gắn với nó, không chỉ
+trùng ID. Câu thiếu evidence chỉ đúng khi thực sự model abstain, không kèm số
+liệu/khẳng định trả lời thiếu căn cứ.
+
+Tất cả query có trong kết quả. Lỗi giữ grounded0, abstention sai cho câu thiếu
+evidence; CER vẫn xét context request cuối đã xác nhận (nếu có), retrieval lỗi
+hit0. Tool-use chia số query thành công; lỗi và phân bố search báo trên toàn
+split. Citation 0/0 có rate=null, tức không áp dụng. Có n/N và tỷ lệ cho metric;
+điểm grounded báo phân bố/mean trên mẫu có đáp án. Thời gian từng query và tổng,
+usage theo provider; tổng usage null nếu bất kỳ call chưa đo, cost null có lý do.
+Unit tests xác minh OR/source/page, context chưa gửi, mẫu số và lỗi; nhãn chất
+lượng phải đọc thực tế, không được thay bằng unit test.

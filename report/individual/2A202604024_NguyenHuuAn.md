@@ -99,3 +99,10 @@ Tôi đã thêm runner theo config/split, trace ranking và context thực gửi
 request, fingerprint/hash và guard khóa test trước khi mở query. File mới bắt
 buộc, retry/resume không tự động; lỗi được giữ. 29 test liên quan đạt, 1 live bỏ
 qua. [Lệnh và schema](../../docs/EVALUATION.md).
+
+## Công việc 09 — metrics và nhãn
+
+Tôi đã hoàn thiện bộ chấm offline, schema review từng câu/citation và quy tắc
+mẫu số/lỗi. Gold OR/source/page được kiểm tra độc lập với nhãn ngữ nghĩa; CER
+lấy context đã gửi cuối. 32 test liên quan đạt, 1 live bỏ qua. Nhãn toàn dev/test
+được lưu theo run ở bước10–11, không suy từ hai smoke. [Quy tắc](../../docs/EVALUATION.md).
