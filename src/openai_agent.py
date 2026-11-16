@@ -318,6 +318,8 @@ def run_responses_agent(question, client, retriever, config, *, filters=None, se
                             rows = retriever.search(args['query'], filters=filters, top_k=config.top_k)
                         except Exception:
                             raise AgentFailure('tool_error') from None
+                        event['ranking'] = deepcopy(rows)
+                        event['filter_source'] = 'runtime_query_filter' if filters else 'none'
                         remaining = min(config.tool_chars, config.context_chars - context_used)
                         try:
                             payload = pack_results(rows, seen, top_k=config.top_k,

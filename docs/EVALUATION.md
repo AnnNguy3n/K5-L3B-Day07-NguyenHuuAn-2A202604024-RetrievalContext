@@ -39,3 +39,28 @@ cấp. [Review từng citation](../artifacts/evaluation/smoke-citation-review.js
 Review này không thay full-dev/test; mọi citation các lượt đó phải có nhãn ngữ
 nghĩa riêng. Không dùng ID hợp lệ hoặc LLM judge để kết luận được nguồn hỗ trợ.
 Test agent sau bước này: 25 đạt, 1 live bỏ qua, không gọi lại API trả phí.
+
+## 08 — Runner và trace
+
+```bash
+.venv/bin/python scripts/run_agent_benchmark.py --config configs/agent/baseline-dense.json \
+  --split dev --output artifacts/evaluation/dev-baseline-v1
+# Test bắt buộc --lock artifacts/evaluation/selection-lock.json (tạo ở bước11).
+```
+
+Runner chỉ mở projections runtime; không đọc cases/gold. Mỗi run có fingerprint
+cấu hình đã resolve OPENAI_MODEL, embedding/digest/prefix, prompt/schema, code,
+SDK/Python, corpus/benchmark và hash query projection. Mỗi query lưu query gốc,
+query tool, filter/nguồn filter, ranking đầy đủ top-k, output được chọn, context
+snapshot từng request, delivery flag, answer/citation, stop/error, thời gian,
+usage và cost null có lý do. Không log opaque reasoning hoặc raw provider error.
+Các snapshot context theo call giúp xác minh CER cuối, không đồng nhất candidate
+hoặc tool output vừa chuẩn bị với context đã gửi. Query nhiều lượt không có
+một ranking pipeline giả; ranking từng call được giữ riêng.
+
+Mỗi run/file phải mới; không resume hay tự retry lỗi. SDK retry=0 trong cả ba
+config. Mỗi attempt hoàn thành có số1; start marker còn lại nếu tiến trình bị
+ngắt. Không chạy lại âm thầm hoặc bỏ lỗi khỏi mẫu số. Trần mỗi query: 4 model
+calls, 3 searches, 2048 output token/call, 45 giây/request. Chạy đủ split một
+lần; không tự chạy lại live trong unittest. Guard tests xác minh khóa được kiểm
+tra trước khi mở test/services, nhãn bị chặn và file không bị ghi đè.

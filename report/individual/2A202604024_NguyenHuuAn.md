@@ -92,3 +92,10 @@ Tôi đã kiểm tra citation bị eviction phải thành error, giữ tài li�
 và đọc đối chiếu hai smoke với PDF gốc. Nhãn hỗ trợ citation và lý do ở
 [review smoke](../../artifacts/evaluation/smoke-citation-review.json); đây chưa
 phải đánh giá toàn dev/test. Test agent: 25 đạt, 1 live bỏ qua.
+
+## Công việc 08 — runner và trace
+
+Tôi đã thêm runner theo config/split, trace ranking và context thực gửi theo
+request, fingerprint/hash và guard khóa test trước khi mở query. File mới bắt
+buộc, retry/resume không tự động; lỗi được giữ. 29 test liên quan đạt, 1 live bỏ
+qua. [Lệnh và schema](../../docs/EVALUATION.md).
