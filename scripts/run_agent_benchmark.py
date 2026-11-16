@@ -69,6 +69,7 @@ def identity(config_path, env):
     fp = {'config':config, 'code_sha256':{p:sha(ROOT/p) for p in RUNTIME_FILES},
           'prompt_sha256':objsha([INSTRUCTIONS,SEARCH_TOOL,FINAL_FORMAT]),
           'config_file_sha256':sha(config_path),
+          'experiment_protocol_sha256':sha(ROOT/'artifacts/evaluation/dev-protocol.json'),
           'corpus_sha256':CORPUS_HASH,
           'benchmark_manifest_sha256':sha(ROOT/'benchmark/day07/manifest.json')}
     if sha(ROOT/'data/day06/B/chunks.json') != CORPUS_HASH:
