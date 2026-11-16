@@ -4,7 +4,7 @@
 |---|---|
 | `agentic.py` | Khung agent ví dụ với số lượt search, top-k và context budget có thể cấu hình |
 | `baseline.py` | TF-IDF lexical baseline, chạy offline |
-| `convert_day6.py` | Chuyển một số trường JSON từ Day 6 |
+| `convert_day6.py` | Chuẩn hóa export JSON/JSONL và hàng SQL từ Day06 |
 | `agent_metrics.py` | Tổng hợp nhãn đánh giá do bạn tự chấm |
 
 Starter **chưa phải solution hoàn chỉnh**. Bạn phải nối model và vector store thật, triển khai ít nhất 3 phương pháp retrieval do bạn chọn, gồm dense trên vector store Day 6. Mock chỉ dùng để test code.
@@ -31,16 +31,19 @@ Kết quả có `summary.json` và `traces.json`. Dữ liệu mẫu chỉ có m�
 
 ## 3. Dùng dữ liệu Day 6
 
-Xuất chunk và câu hỏi thành hai JSON array. Starter Day 6 không quy định tên bảng hay cách xuất; bạn cần tự thực hiện. Nếu chunk có `chunk_id`, `document_id`, `source`, `page`, `text`, `metadata` và câu hỏi có `gold_source_id`, `gold_page`, `evidence_quote`, chạy:
+Adapter nhận JSONL hoặc JSON array, giữ nguyên ID/text/metadata, lấy nguồn/trang
+SQL từ metadata và chuyển cả `accepted_alternatives` thành `gold` thay thế.
+Schema, lệnh tái tạo A/B, kết quả kiểm tra và cách mở nguồn từ root Day06 nằm tại
+[Hợp đồng dữ liệu công việc 02](../docs/DAY07_DATA_CONTRACT.md).
 
-```bash
-python3 starter/convert_day6.py --chunks <day6_chunks.json> --questions <day6_questions.json> --output starter/data/converted
-python3 starter/baseline.py --chunks starter/data/converted/chunks.json --questions starter/data/converted/questions.json --split dev --output starter/results/dev-tfidf
-```
+Dữ liệu đã chuyển nằm trong `data/day06/B/` (131 chunk) và `data/day06/A/`
+(206 chunk). Bộ B đối chiếu được 16/16 evidence dev; A có 6 quote qua ranh giới
+chunk, đã ghi diagnostics. Chưa chạy benchmark thật hoặc đánh giá ranking.
 
-Thay phần trong `< >` bằng đường dẫn thật. Script chỉ đổi tên trường, không tự truy cập database hay đoán evidence. Nếu cấu trúc khác, tự viết adapter. Đối chiếu lại nguồn, trang và evidence.
-
-`--split dev` chỉ chấm dev. Sau khi chốt cấu hình, dùng `--split test` và chọn thư mục kết quả khác. Nếu test Day 6 từng dùng để chỉnh hệ thống, tạo test mới theo [GUIDE.md](../GUIDE.md). Baseline mẫu dùng evidence nằm trong một chunk và context từ top-3; cần mở rộng hoặc tự đánh giá nếu dùng multi-hop, context từ nhiều lượt hay schema khác. Khớp nguyên văn bằng code không thay thế đánh giá thủ công.
+`questions.json` chỉ dành cho nhãn offline. Khi nối agent, dùng
+`queries.dev.json` với chỉ ID/câu hỏi/filter có sẵn; không đưa gold hay đáp án vào
+model/retrieval tool. Đường dẫn nguồn phải mở bằng `resolve_source_path()` cùng
+root Day06, không mở trực tiếp tương đối theo CWD Day07.
 
 ## 4. Tổng hợp đánh giá agent
 

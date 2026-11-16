@@ -4,10 +4,11 @@
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
-**Tiến độ 16/11/2026:** Tôi đã hoàn thành công việc 01: tạo môi trường, kết nối
-embedding/pgvector Day06 và chạy đạt 21/21 test. Tôi chưa đánh giá chất lượng
-retrieval ở bước này. [Báo cáo cá nhân](report/individual/2A202604024_NguyenHuuAn.md) ·
-[Minh chứng kết nối](docs/DAY07_CONNECTION_STATUS.md).
+**Tiến độ 16/11/2026:** Tôi đã hoàn thành công việc 01–02: kết nối Day06 và chuẩn
+hóa 131 chunk B, 206 chunk A cùng 20 câu hỏi. Tổng 33/33 test đạt; tôi chưa đánh
+giá chất lượng retrieval Day07. Bước tiếp theo là hoàn thiện benchmark.
+[Báo cáo cá nhân](report/individual/2A202604024_NguyenHuuAn.md) ·
+[Dữ liệu và minh chứng](docs/DAY07_DATA_CONTRACT.md).
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
 

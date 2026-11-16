@@ -1,0 +1,85 @@
+[
+  {
+    "id": "q01",
+    "question": "In the Project Life Cycle chapter, which four phases does a standard project typically pass through, in order?",
+    "filter": {
+      "section": "3. The Project Life Cycle (Phases)"
+    }
+  },
+  {
+    "id": "q02",
+    "question": "In the northern Argentina copper mine example, why did the team set up an office in Chile?",
+    "filter": {}
+  },
+  {
+    "id": "q03",
+    "question": "At closeout, who took over the newly constructed plant?",
+    "filter": {}
+  },
+  {
+    "id": "q04",
+    "question": "In the Framework for Project Management chapter, how does the manager bring the parties together to start building the team?",
+    "filter": {
+      "section": "4. Framework for Project Management"
+    }
+  },
+  {
+    "id": "q05",
+    "question": "Why can small, incremental additions to project scope threaten success?",
+    "filter": {}
+  },
+  {
+    "id": "q06",
+    "question": "In the bridge design example, how many labour hours did the team actually spend compared with its estimate?",
+    "filter": {}
+  },
+  {
+    "id": "q07",
+    "question": "Why examine how the first few houses are built when a contractor is building several identical houses?",
+    "filter": {}
+  },
+  {
+    "id": "q08",
+    "question": "How should contingency appear in the budget when risks cannot readily be tied to individual activities?",
+    "filter": {}
+  },
+  {
+    "id": "q09",
+    "question": "Why does a stakeholder register need regular updates?",
+    "filter": {}
+  },
+  {
+    "id": "q10",
+    "question": "In the Scrum kitchen analogy, where do stories for the next sprint go, and where do stories for later sprints go?",
+    "filter": {}
+  },
+  {
+    "id": "q11",
+    "question": "In the Stakeholder Management chapter, do suppliers and government bodies count as stakeholders?",
+    "filter": {
+      "section": "5. Stakeholder Management"
+    }
+  },
+  {
+    "id": "q12",
+    "question": "What distinguishes a peer from the project manager in terms of rank and accountability?",
+    "filter": {}
+  },
+  {
+    "id": "q13",
+    "question": "How much of a project manager’s time can contractor and supplier relationships consume on some projects?",
+    "filter": {}
+  },
+  {
+    "id": "q14",
+    "question": "In the Culture and Project Management chapter, what does corporate culture encompass?",
+    "filter": {
+      "section": "6. Culture and Project Management"
+    }
+  },
+  {
+    "id": "q15",
+    "question": "What benefit can conflict arising from diversity bring, and what happens if the team handles it poorly?",
+    "filter": {}
+  }
+]

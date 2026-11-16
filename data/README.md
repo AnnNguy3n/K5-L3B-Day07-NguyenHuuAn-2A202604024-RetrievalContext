@@ -7,3 +7,8 @@ Các file `example_*.json` chỉ minh họa định dạng, không đủ để n
 - **Câu thiếu evidence:** `id`, `split`, `question`, `answerable: false`, `expected_behavior: "search_and_abstain"`, `absence_reason`. Xem `agent_cases_example.json`.
 
 Không đưa `gold` hoặc nhãn đáp án vào model và retrieval tool. Ghi nguồn dữ liệu và quyền sử dụng. Cách chuyển một số định dạng Day 6: [starter/README.md](../starter/README.md).
+
+Dữ liệu thật công việc 02: `day06/B/` (131 chunk) và `day06/A/` (206 chunk).
+Xem [schema, nguồn và lệnh tái tạo](../docs/DAY07_DATA_CONTRACT.md).
+`questions.json` giữ nhãn offline; `queries.dev.json` và `queries.test.json` chỉ
+có ID/câu hỏi/filter để đưa vào agent khi triển khai bước sau. Chưa chạy benchmark test.

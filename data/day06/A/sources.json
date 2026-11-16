@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "root_variable": "DAY06_PATH",
+  "sources": [
+    {
+      "source_id": "project-management-2019-v1.03",
+      "title": "Project Management",
+      "author": "Adrienne Watt",
+      "publisher": "BCcampus",
+      "language": "en",
+      "document_type": "textbook",
+      "source_path_or_url": "data/raw/project-management.pdf",
+      "original_url": "https://opentextbc.ca/projectmanagement/",
+      "accessed_at": "2026-11-14",
+      "snapshot": {
+        "version": "1.03",
+        "version_date": "2019-09-18",
+        "version_evidence_pdf_pages": [
+          216,
+          217
+        ],
+        "edition_label": "2nd Edition (running footer)",
+        "pdf_creation_date_from_metadata": "2019-09-18 23:58:38+00:00",
+        "sha256": "8cef479b81c9b0837c3c09ce095d621be28b1ec874110c76f0b311484a7c667d",
+        "size_bytes": 18123543,
+        "note": "Hash xác định snapshot local; bản tải hiện tại có thể khác. Không suy diễn ngày hiệu lực."
+      },
+      "license_or_permission": {
+        "default_license": "CC-BY-4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "scope": "Except where otherwise noted; giấy phép riêng trong từng chương vẫn áp dụng.",
+        "evidence_pdf_pages": [
+          3,
+          37,
+          52,
+          64,
+          67,
+          217
+        ],
+        "attribution": "Project Management by Adrienne Watt, © 2014, BCcampus, https://opentextbc.ca/projectmanagement/. CC BY 4.0 except where otherwise noted.",
+        "selected_corpus_notes": [
+          "Chương 3, 5, 6 ghi nguồn CC BY; chương 4 có hình PM star model của GeekDesplaced ghi CC BY-SA (PDF 52). Giữ ghi công và giấy phép riêng nếu dùng hình hoặc bản chuyển thể của hình.",
+          "Trích xuất text, chuẩn hóa Unicode và bỏ footer, references/attributions khỏi nội dung truy xuất; thông tin quyền vẫn giữ trong PDF và manifest."
+        ],
+        "full_pdf_exceptions": [
+          {
+            "evidence_pdf_page": 34,
+            "item": "Petrobras sinking — Richard Collinson",
+            "license": "CC BY-NC-ND"
+          },
+          {
+            "evidence_pdf_page": 83,
+            "item": "Project Management — Andreas Cappell",
+            "license": "CC BY-NC-SA"
+          },
+          {
+            "evidence_pdf_page": 101,
+            "item": "Requirements Traceability Matrix — DHWiki",
+            "license": "CC BY-NC-ND"
+          },
+          {
+            "evidence_pdf_pages": [
+              115,
+              156,
+              157,
+              167,
+              179,
+              185,
+              195,
+              196,
+              203
+            ],
+            "item": "Các nội dung/hình có ghi nguồn riêng",
+            "license": "CC BY-NC-SA"
+          }
+        ],
+        "redistribution_conditions": [
+          "Chia sẻ nguyên bản PDF cho mục đích phi thương mại, giữ đầy đủ ghi công, thông báo và giấy phép.",
+          "Không coi toàn bộ PDF là CC BY thuần túy. Sử dụng thương mại hoặc phát hành bản sửa đổi cần rà soát ngoại lệ NC/ND/SA và xin phép khi cần.",
+          "Không áp đặt hạn chế bổ sung trái giấy phép. Khi phát hành bản trích xuất, giữ nguồn và ghi rõ các thay đổi."
+        ]
+      },
+      "acquisition": {
+        "local_file_provided_by_user": true,
+        "instructions": "Mở original_url, chọn Download this book > Print PDF, lưu vào source_path_or_url. So sánh SHA-256; nếu khác phải kiểm tra lại trang và tạo lại manifest/benchmark.",
+        "rebuild_command": "python3 scripts/build_manifest.py",
+        "dependency": "pypdf==6.21.4"
+      },
+      "physical_page_count": 219,
+      "useful_page_count": 32,
+      "selected_pdf_pages": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67
+      ],
+      "excluded_pdf_page_ranges": [
+        {
+          "start": 1,
+          "end": 11,
+          "reason": "Bìa, mục lục, bản quyền và phần đầu sách; ngoài corpus đã chọn."
+        },
+        {
+          "start": 12,
+          "end": 34,
+          "reason": "Chương 1–2 ngoài chủ đề corpus đã chọn; không khẳng định tất cả là trang không hữu ích."
+        },
+        {
+          "start": 64,
+          "end": 64,
+          "reason": "Trang hỗn hợp references, mô tả hình 5.2 và attributions; chủ động loại khỏi corpus, không phải trang chỉ có references."
+        },
+        {
+          "start": 68,
+          "end": 219,
+          "reason": "Chương 7 trở đi và phần cuối sách ngoài phạm vi corpus đã chọn."
+        }
+      ],
+      "total_normalized_char_count": 85519,
+      "pages": [
+        {
+          "page_id": "project-management-2019-v1.03:p035",
+          "page": 35,
+          "printed_page": 24,
+          "section": "3. The Project Life Cycle (Phases)",
+          "raw_char_count": 3369,
+          "char_count": 3366,
+          "normalized_text_sha256": "fca3aacd0dddad5a9c541f1bda4d9bac749268871ea3c2f42620cd08cdc7c0cb",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p036",
+          "page": 36,
+          "printed_page": 25,
+          "section": "3. The Project Life Cycle (Phases)",
+          "raw_char_count": 3603,
+          "char_count": 3588,
+          "normalized_text_sha256": "be8a55b8f91ddd05c0bfc3f41a4f0aaf8174e7eb2d4991e18ac4a0073d5cfed8",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p037",
+          "page": 37,
+          "printed_page": 26,
+          "section": "3. The Project Life Cycle (Phases)",
+          "raw_char_count": 1972,
+          "char_count": 1614,
+          "normalized_text_sha256": "27959b4c91146f88a21e7e0ab20b172ceda62c052788a0c3f8b53b19b9adfbfc",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p038",
+          "page": 38,
+          "printed_page": 27,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 3707,
+          "char_count": 3704,
+          "normalized_text_sha256": "1103e1a5b00cbe8e8f989b8d5b6fdbf543a6563428a16c24e06f218b91a63a36",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p039",
+          "page": 39,
+          "printed_page": 28,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 3200,
+          "char_count": 3161,
+          "normalized_text_sha256": "0855af8777614db28670d03b23dbebe6196821456025ac5fd9b5d983461c9e98",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p040",
+          "page": 40,
+          "printed_page": 29,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 1698,
+          "char_count": 1683,
+          "normalized_text_sha256": "e96cead57cf64fe20d785448d20f9dfb70a6980f83363c22abb2658933c30aba",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p041",
+          "page": 41,
+          "printed_page": 30,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 3530,
+          "char_count": 3491,
+          "normalized_text_sha256": "9144d40cf026c56e91746baef3277b40c3e478c0ca2e9f77fe00737edcfab7f5",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p042",
+          "page": 42,
+          "printed_page": 31,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 4028,
+          "char_count": 4013,
+          "normalized_text_sha256": "1bc2d847eb526fc67cac53050fac3f0202f6126ea907409a9250075775cbe80d",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p043",
+          "page": 43,
+          "printed_page": 32,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 4066,
+          "char_count": 4027,
+          "normalized_text_sha256": "1d9fed54c39b2163fad2ee358be12b0602ea87a81e93b5bcdce358b3c336a401",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p044",
+          "page": 44,
+          "printed_page": 33,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 4173,
+          "char_count": 4158,
+          "normalized_text_sha256": "ad68f629063490c09462b82964c3d9b5fce3a3747105a27684c60a697770f637",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p045",
+          "page": 45,
+          "printed_page": 34,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 4277,
+          "char_count": 4238,
+          "normalized_text_sha256": "60404eecbdb2f74756f437c53501a84ac9799329310e6274b73d29a8680c2135",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p046",
+          "page": 46,
+          "printed_page": 35,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 3854,
+          "char_count": 3839,
+          "normalized_text_sha256": "c319919d187ed9df807b5a578cc9d2753b075f562b36538894e487bbc683b0d0",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p047",
+          "page": 47,
+          "printed_page": 36,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 4032,
+          "char_count": 3993,
+          "normalized_text_sha256": "ca264075a8eebb2f9a5d0ada46e9ed476a2a1f59e23849afe5385cbed634e369",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p048",
+          "page": 48,
+          "printed_page": 37,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 604,
+          "char_count": 589,
+          "normalized_text_sha256": "63ece07d794dcdc3dcc7caf292de00e3d13978a569a7e212c5fbdb6b55c09ea3",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p049",
+          "page": 49,
+          "printed_page": 38,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 651,
+          "char_count": 612,
+          "normalized_text_sha256": "8aad597b1aa498f904c0592ceb8065638d50fee72f5594046fbdc2c0b30c7ddf",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p050",
+          "page": 50,
+          "printed_page": 39,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 2525,
+          "char_count": 2510,
+          "normalized_text_sha256": "572d21a72942af5c873a150b470b1548e2531b81c19147547304cead87593951",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p051",
+          "page": 51,
+          "printed_page": 40,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 3175,
+          "char_count": 3136,
+          "normalized_text_sha256": "6d17e98a4c5b0732e5c30cc1225e50cf3692cc78d1bd30b2d222fc90be39dabe",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p052",
+          "page": 52,
+          "printed_page": 41,
+          "section": "4. Framework for Project Management",
+          "raw_char_count": 925,
+          "char_count": 467,
+          "normalized_text_sha256": "c3825b50fb5e854d52f5453c21cc8eb176aeae4ed2fe4bb9f92ddc330daf4a4d",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p053",
+          "page": 53,
+          "printed_page": 42,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 2396,
+          "char_count": 2393,
+          "normalized_text_sha256": "71448a03148f45c7a28d6f7397a3135ee947cd250e20bcec598c3d91d17e1dfa",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p054",
+          "page": 54,
+          "printed_page": 43,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 1575,
+          "char_count": 1560,
+          "normalized_text_sha256": "167081f5b887b28b76ee419ee34d266540cadf8894f150db034ca1ff58856e80",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p055",
+          "page": 55,
+          "printed_page": 44,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 2245,
+          "char_count": 2216,
+          "normalized_text_sha256": "f31c223a6eb4d47656926304c15093c28db35edbbd7ea196819a3a9c00de11ee",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p056",
+          "page": 56,
+          "printed_page": 45,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 2431,
+          "char_count": 2416,
+          "normalized_text_sha256": "d8cdf302586f8cf7027f219be468e34d82ec89cae17a8ed9fa384a9e6163a936",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p057",
+          "page": 57,
+          "printed_page": 46,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 2120,
+          "char_count": 2091,
+          "normalized_text_sha256": "1d9caf65a30860944ed4623c3b7cf893d7597f9945e9564bc145ef2c93e42b85",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p058",
+          "page": 58,
+          "printed_page": 47,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 2293,
+          "char_count": 2278,
+          "normalized_text_sha256": "07b370b030435921fa971d26326d1dcb69b2fe4a59380400da44777a316edef3",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p059",
+          "page": 59,
+          "printed_page": 48,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 2714,
+          "char_count": 2685,
+          "normalized_text_sha256": "147f994182996c540192e5e4f9d02fcedce2db1ffa7cc673dea2982da908e6f6",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p060",
+          "page": 60,
+          "printed_page": 49,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 3371,
+          "char_count": 3356,
+          "normalized_text_sha256": "3538cf104c8149d37ac3d0ffda0558dfc504aa60ba2ab11cd4b27e05f224904a",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p061",
+          "page": 61,
+          "printed_page": 50,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 3154,
+          "char_count": 3125,
+          "normalized_text_sha256": "924067b63cce1939d5e322311722992f046c77e011d54464ee4b9552389710ad",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p062",
+          "page": 62,
+          "printed_page": 51,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 3060,
+          "char_count": 3045,
+          "normalized_text_sha256": "edcece23bbb837768d543c061151a046ecf95e7e1c6e5bbf1c2fded5f7fd7306",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p063",
+          "page": 63,
+          "printed_page": 52,
+          "section": "5. Stakeholder Management",
+          "raw_char_count": 1164,
+          "char_count": 1135,
+          "normalized_text_sha256": "0e64d91157012e31e49710db9a10240502651f002b67976be176eff6f76b4690",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p065",
+          "page": 65,
+          "printed_page": 54,
+          "section": "6. Culture and Project Management",
+          "raw_char_count": 2618,
+          "char_count": 2615,
+          "normalized_text_sha256": "8a8be552309afa59998c77b755673e33137dc5e913d3e20f468b96eaee86bb85",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p066",
+          "page": 66,
+          "printed_page": 55,
+          "section": "6. Culture and Project Management",
+          "raw_char_count": 3285,
+          "char_count": 3270,
+          "normalized_text_sha256": "e294315b52b59ae22d7b91a4f367760d15db0a82bedca27eab1272077678e4ee",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        },
+        {
+          "page_id": "project-management-2019-v1.03:p067",
+          "page": 67,
+          "printed_page": 56,
+          "section": "6. Culture and Project Management",
+          "raw_char_count": 1550,
+          "char_count": 1145,
+          "normalized_text_sha256": "5e12e4154df5312ec43085fc7302e914f0f47cac99588ac737726a6a45da4818",
+          "counted_as_useful": true,
+          "extraction_status": "ok"
+        }
+      ],
+      "extraction": {
+        "tool": "pypdf.PdfReader.pages[i].extract_text()",
+        "tool_version": "6.21.4",
+        "ocr_used": false,
+        "normalization": "Bỏ dòng footer cuối đã kiểm chứng theo số trang in; cắt phần từ heading References/Text Attributions/Media Attributions (nếu có); Unicode NFC; gộp mọi whitespace thành một dấu cách; strip. Giữ nguyên từ gạch nối khi xuống dòng, không tự sửa nội dung.",
+        "char_count_definition": "len(normalized_text): số Unicode code point, gồm dấu cách; không phải số byte/token hay chỉ ký tự chữ.",
+        "raw_char_count_definition": "len(extract_text() or '') trước chuẩn hóa.",
+        "errors": [],
+        "limitations": "Text-only: không OCR hình; thứ tự đọc bảng/phân cột có thể chưa tối ưu. Không coi extract_text thành công là đã kiểm chứng mọi evidence; kiểm tra từng đoạn benchmark trực tiếp với PDF."
+      },
+      "source": "data/raw/project-management.pdf",
+      "relative_path": "data/raw/project-management.pdf"
+    }
+  ]
+}

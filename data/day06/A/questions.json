@@ -1,0 +1,297 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "In the Project Life Cycle chapter, which four phases does a standard project typically pass through, in order?",
+    "expected_answer": "Initiation, planning, implementation, and closure.",
+    "filter": {
+      "section": "3. The Project Life Cycle (Phases)"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 35,
+        "evidence": "A standard project typically has the following four major phases (each with its own agenda of tasks and issues): initiation, planning, implementation, and closure."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "In the northern Argentina copper mine example, why did the team set up an office in Chile?",
+    "expected_answer": "Chile already had infrastructure for large mining construction projects.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 36,
+        "evidence": "The project team set up three offices. One was in Chile, where large mining construction project infrastructure existed."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "At closeout, who took over the newly constructed plant?",
+    "expected_answer": "The client’s operations team.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 37,
+        "evidence": "The closeout phase included turning over the newly constructed plant to the operations team of the client."
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "In the Framework for Project Management chapter, how does the manager bring the parties together to start building the team?",
+    "expected_answer": "By holding one or more kickoff meetings or alignment sessions.",
+    "filter": {
+      "section": "4. Framework for Project Management"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 41,
+        "evidence": "The project manager will conduct one or more kickoff meetings or alignment sessions to bring the various parties of the project together and begin the project team building required to operate efficiently during the project."
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Why can small, incremental additions to project scope threaten success?",
+    "expected_answer": "Together they require resources that the original plan did not provide.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 42,
+        "evidence": "One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "In the bridge design example, how many labour hours did the team actually spend compared with its estimate?",
+    "expected_answer": "It spent 846 hours against an estimate of 800.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 44,
+        "evidence": "For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Why examine how the first few houses are built when a contractor is building several identical houses?",
+    "expected_answer": "The repeated work gives the contractor a chance to identify process improvements for later houses.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 45,
+        "evidence": "Another opportunity for applying process improvement tools is on projects that have repetitive processes. A housing contractor that is building several identical houses may benefit from evaluating work processes in the first few houses to explore the opportunities available to improve the work processes."
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "How should contingency appear in the budget when risks cannot readily be tied to individual activities?",
+    "expected_answer": "Show it as a separate line item.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 47,
+        "evidence": "When risks are less identifiable to specific activities, contingency is identified in a separate line item."
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Why does a stakeholder register need regular updates?",
+    "expected_answer": "New stakeholders may appear, and existing stakeholders’ needs and levels of interest may change.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 48,
+        "evidence": "A stakeholder register is used to identify and track the interactions between the project and each stakeholder. This register must be updated on a regular basis, as new stakeholders can arise at any time, and the needs and interest levels of a particular stakeholder may change through the course of the project."
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "In the Scrum kitchen analogy, where do stories for the next sprint go, and where do stories for later sprints go?",
+    "expected_answer": "The back burner holds next-sprint stories. The fridge holds stories for later sprints.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 51,
+        "evidence": "Typically, the way a product is developed is that there is a “front burner” (which has stories/tasks for the current sprint), a “back burner” (which has stories for the next sprint), and a “fridge” (which has stories for later, as well as process changes)."
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In the Stakeholder Management chapter, do suppliers and government bodies count as stakeholders?",
+    "expected_answer": "Yes. Both are examples of project stakeholders.",
+    "filter": {
+      "section": "5. Stakeholder Management"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 54,
+        "evidence": "External stakeholders may include external customers, government, contractors and subcontractors, and suppliers."
+      },
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 53,
+        "evidence": "The customer, subcontrac- tors, suppliers, and sometimes even the government are stakeholders."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What distinguishes a peer from the project manager in terms of rank and accountability?",
+    "expected_answer": "A peer is at the same organizational level but does not share the manager’s leadership responsibilities or accountability for the project’s success or failure.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 56,
+        "evidence": "Peers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have."
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How much of a project manager’s time can contractor and supplier relationships consume on some projects?",
+    "expected_answer": "More than half.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 58,
+        "evidence": "Depending on the project, managing contractor and supplier relationships can consume more than half of the project manager’s time."
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In the Culture and Project Management chapter, what does corporate culture encompass?",
+    "expected_answer": "Members’ shared beliefs, attitudes, and values, together with the behaviours that arise from them.",
+    "filter": {
+      "section": "6. Culture and Project Management"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 65,
+        "evidence": "Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to)."
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What benefit can conflict arising from diversity bring, and what happens if the team handles it poorly?",
+    "expected_answer": "It can help solve complex problems. Poor handling can strain relationships and hinder achievement by making communication and coordination harder.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 67,
+        "evidence": "Conflict that springs from diversity can actually assist the team in completing complex problem solving. However, if not nav- igated successfully, it can create relationship strain and derail achievement due to increased difficulties in communication and coordination."
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "In the Project Life Cycle chapter, which plan records the criteria the team must meet for customer sign-off?",
+    "expected_answer": "The acceptance plan.",
+    "filter": {
+      "section": "3. The Project Life Cycle (Phases)"
+    },
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 35,
+        "evidence": "Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance."
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "What team size does the Scrum overview describe as ideal for development?",
+    "expected_answer": "Seven people, plus or minus two.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 50,
+        "evidence": "It has been shown that the ideal size for a development team is 7 +/- 2."
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "In the Mumbai case, what specific weather-related opportunity would the project lose without mitigation?",
+    "expected_answer": "It would miss the window between monsoon seasons.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 59,
+        "evidence": "Without a mitigating strategy, the project would miss a critical window in the weather between monsoon seasons."
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "What information do stakeholders with financial concerns need about the project’s outcomes?",
+    "expected_answer": "They need to know the potential return.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 62,
+        "evidence": "Stakeholders with financial concerns will need to know the potential return of the project’s outcomes."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "When working with people from high-context cultures, which cues does the chapter say are easier to observe in person?",
+    "expected_answer": "Critical verbal and nonverbal cues that may be hard to pick up online or by phone.",
+    "filter": {},
+    "gold": [
+      {
+        "source_id": "project-management-2019-v1.03",
+        "page": 66,
+        "evidence": "Especially when working with team members from high-context cultures, it is essential to meet face-to-face, discover member’s individual identities and cultural preferences, share professional knowledge and personal stories, and observe critical verbal and non-verbal cues (that may not easily be observed online, or on the telephone)."
+      }
+    ]
+  }
+]

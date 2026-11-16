@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-16T10:09:48.918846+00:00",
+  "ranking_executed": false,
+  "benchmark_opened": false,
+  "strategies": {
+    "A": {
+      "count": 206,
+      "unique_ids": 206,
+      "id_text_source_page_metadata_match": true
+    },
+    "B": {
+      "count": 131,
+      "unique_ids": 131,
+      "id_text_source_page_metadata_match": true
+    }
+  },
+  "transaction_read_only": "on"
+}

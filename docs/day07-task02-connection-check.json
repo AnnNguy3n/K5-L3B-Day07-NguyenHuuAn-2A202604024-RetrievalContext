@@ -1,0 +1,96 @@
+{
+  "checked_at_utc": "2026-11-16T10:05:52.007242+00:00",
+  "python": "3.14.10",
+  "mode": "live",
+  "checks": {
+    "artifacts": {
+      "status": "ok",
+      "details": {
+        "source": "Day06 files, not evidence of a running service",
+        "checkpoint": "starter/results/checkpoint5_initial.json",
+        "checkpoint_sha256": "82a04d0c35ed3e088a2c49fb8d71ce0027b01853f716fb4e3dc3d32ddb618572",
+        "recorded_postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "recorded_pgvector": "0.8.7",
+        "recorded_stored": [
+          [
+            "A",
+            206,
+            206,
+            768,
+            768
+          ],
+          [
+            "B",
+            131,
+            131,
+            768,
+            768
+          ]
+        ],
+        "model": "embeddinggemma-2:740m-mxfp8",
+        "digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+        "dimensions": 768,
+        "query_prefix": "task: search result | query: ",
+        "document_prefix": "title: none | text: ",
+        "exports": {
+          "A": {
+            "count": 206,
+            "sha256": "2df93f4df9f07d30128bb4b34dfce12ffc3e1a3af05a037734668d5d976af412"
+          },
+          "B": {
+            "count": 131,
+            "sha256": "6e391fc4126a4da0101366e3e408ae9c3245c39c5748bb8b200145168ca8f3fb"
+          }
+        },
+        "embedding_code_sha256": "8f561850da8a2d2e75fba859e63062521cfe4cbc585fc44ea5035d778b9bc63c"
+      }
+    },
+    "embedding": {
+      "status": "ok",
+      "details": {
+        "source": "live API",
+        "model": "embeddinggemma-2:740m-mxfp8",
+        "digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+        "probe_dimensions": [
+          768,
+          768
+        ],
+        "query_prefix": "task: search result | query: ",
+        "document_prefix": "title: none | text: ",
+        "truncate": false,
+        "dimensions_parameter": null
+      }
+    },
+    "database": {
+      "status": "ok",
+      "details": {
+        "source": "live SQL snapshot",
+        "transaction_read_only": "on",
+        "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "pgvector": "0.8.7",
+        "stored": [
+          {
+            "strategy": "A",
+            "digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+            "count": 206,
+            "distinct_ids": 206,
+            "min_dimensions": 768,
+            "max_dimensions": 768,
+            "null_vectors": 0
+          },
+          {
+            "strategy": "B",
+            "digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+            "count": 131,
+            "distinct_ids": 131,
+            "min_dimensions": 768,
+            "max_dimensions": 768,
+            "null_vectors": 0
+          }
+        ],
+        "cosine_probe": "passed on A and B using real query vector; no benchmark questions"
+      }
+    }
+  },
+  "services_verified": true
+}

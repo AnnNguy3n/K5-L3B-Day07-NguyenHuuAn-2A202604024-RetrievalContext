@@ -1,0 +1,29 @@
+[
+  {
+    "id": "q16",
+    "question": "In the Project Life Cycle chapter, which plan records the criteria the team must meet for customer sign-off?",
+    "filter": {
+      "section": "3. The Project Life Cycle (Phases)"
+    }
+  },
+  {
+    "id": "q17",
+    "question": "What team size does the Scrum overview describe as ideal for development?",
+    "filter": {}
+  },
+  {
+    "id": "q18",
+    "question": "In the Mumbai case, what specific weather-related opportunity would the project lose without mitigation?",
+    "filter": {}
+  },
+  {
+    "id": "q19",
+    "question": "What information do stakeholders with financial concerns need about the project’s outcomes?",
+    "filter": {}
+  },
+  {
+    "id": "q20",
+    "question": "When working with people from high-context cultures, which cues does the chapter say are easier to observe in person?",
+    "filter": {}
+  }
+]
