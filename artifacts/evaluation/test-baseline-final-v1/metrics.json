@@ -1,0 +1,133 @@
+{
+  "queries": 7,
+  "errors": 0,
+  "status_counts": {
+    "answered": 5,
+    "abstain": 2
+  },
+  "context_evidence_rate": {
+    "n": 5,
+    "N": 5,
+    "rate": 1.0
+  },
+  "context_grades": {
+    "0": 0,
+    "1": 0,
+    "2": 5
+  },
+  "grounded_grades": {
+    "0": 0,
+    "1": 0,
+    "2": 5
+  },
+  "grounded_mean_out_of_2": 2.0,
+  "citation_validity": {
+    "n": 5,
+    "N": 5,
+    "rate": 1.0
+  },
+  "answered_with_citation": {
+    "n": 5,
+    "N": 5,
+    "rate": 1.0
+  },
+  "correct_abstention": {
+    "n": 2,
+    "N": 2,
+    "rate": 1.0
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 5,
+    "rate": 0.0
+  },
+  "tool_use_successful": {
+    "n": 7,
+    "N": 7,
+    "rate": 1.0
+  },
+  "search_distribution_all_queries": {
+    "1": 5,
+    "2": 2
+  },
+  "model_calls": 16,
+  "timing_ms": {
+    "total": 37543.61787699963,
+    "mean": 5363.373982428519,
+    "median": 4910.497291999945,
+    "max": 6586.939291999897
+  },
+  "usage": {
+    "input_tokens": 11875,
+    "output_tokens": 958,
+    "cached_tokens": 0,
+    "reasoning_tokens": 42
+  },
+  "estimated_cost_usd": null,
+  "cost_note": "No billing reconciliation/price estimate; local compute and review costs unmeasured.",
+  "error_policy": "All assigned queries retained. Error/answerable abstention grounded=0; CER uses last confirmed request even on error; retrieval errors hit=0. Tool-use denominator successful only. Citation 0/0 has null rate (N/A).",
+  "original_query_retrieval": {
+    "hit_at_1": {
+      "n": 4,
+      "N": 5,
+      "rate": 0.8
+    },
+    "evidence_hit_at_3": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "source": "artifacts/evaluation/test-baseline-final-v1/original-retrieval.json",
+    "sha256": "8a6be82c43b7a1bd71357b566a64774b9723fffebd46f3722b5c789acfbd224a",
+    "note": "Original query top-3 measured separately after pretest lock, without query rewrite."
+  },
+  "run_id": "test-baseline-final-v1",
+  "split": "test",
+  "fingerprint_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "reviews_sha256": "715036f1f532b690e30b0dce279ae480358e266e1d1653b1cb942c15f843c8c5",
+  "review_method": "Đọc đủ 5 answer/5 citation và 2 abstention cùng context thật; đối chiếu text PDF gốc, đọc absence audit toàn corpus và xem render PDF63 cho Figure5.2. Gold chỉ dùng offline sau run, không chỉnh hệ thống theo test.",
+  "per_query": [
+    {
+      "query_id": "d07-t01",
+      "context_hit": true,
+      "context_grade": 2,
+      "grounded_grade": 2
+    },
+    {
+      "query_id": "d07-t02",
+      "context_hit": true,
+      "context_grade": 2,
+      "grounded_grade": 2
+    },
+    {
+      "query_id": "d07-t03",
+      "context_hit": true,
+      "context_grade": 2,
+      "grounded_grade": 2
+    },
+    {
+      "query_id": "d07-t04",
+      "context_hit": true,
+      "context_grade": 2,
+      "grounded_grade": 2
+    },
+    {
+      "query_id": "d07-t05",
+      "context_hit": true,
+      "context_grade": 2,
+      "grounded_grade": 2
+    },
+    {
+      "query_id": "d07-t06",
+      "context_hit": null,
+      "context_grade": null,
+      "grounded_grade": null
+    },
+    {
+      "query_id": "d07-t07",
+      "context_hit": null,
+      "context_grade": null,
+      "grounded_grade": null
+    }
+  ]
+}

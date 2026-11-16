@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "PMI first offered the PMP certification exam in 1984. [d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895]",
+  "citations": [
+    "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895"
+  ],
+  "citation_sources": [
+    {
+      "id": "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 38
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_SS2oTOVKM9A3xWrIGI6c76F3",
+      "arguments": {
+        "query": "PMI first offered Project Management Professional PMP certification examination year"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+            "text": "Project Management Institute Overview\n\nFive volunteers founded the Project Management Institute (PMI) in 1969. Their initial goal was to estab- lish an organization where members could share their experiences in project management and discuss issues. Today, PMI is a non-profit project management professional association and the most widely rec- ognized organization in terms of promoting project management best practices. PMI was formed to serve the interests of the project management industry. The premise of PMI is that the tools and techniques of project management are common even among the widespread application of projects from the software to the construction industry. PMI first began offering the Project Management Professional (PMP) certi- fication exam in 1984. Although it took a while for people to take notice, now more than 590,000 indi- viduals around the world hold the PMP designation. To help keep project management terms and concepts clear and consistent, PMI introduced th",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 38
+          },
+          {
+            "id": "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+            "text": "ignation. To help keep project management terms and concepts clear and consistent, PMI introduced the book A Guide to the Project Management Body of Knowledge (PMBOK Guide) in 1987. It was updated it in 1996, 2000, 2004, 2009, and most recently in 2013 as the fifth edition. At present, there are more than one million copies of the PMBOK Guide in circulation. The highly regarded Institute of Electrical and Electronics Engineers (IEEE) has adopted it as their project management standard. In 1999 PMI was accredited as an American National Standards Institute (ANSI) standards developer and also has the dis- tinction of being the first organization to have its certification program attain International Organization for Standardization (ISO) 9001 recognition. In 2008, the organization reported more than 260,000 mem- bers in over 171 countries. PMI has its headquarters in Pennsylvania, United States, and also has offices in Washington, DC, and in Canada, Mexico, and China, as well as having r",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 38
+          },
+          {
+            "id": "c360af6f50a739a3af6512ef3cc63711f8c051103c21d8946ac4741285869cd7",
+            "text": "tates, and also has offices in Washington, DC, and in Canada, Mexico, and China, as well as having regional service centres in Sin- gapore, Brussels (Belgium), and New Delhi (India). Recently, an office was opened in Mumbai (India). Because of the importance of projects, the discipline of project management has evolved into a work- ing body of knowledge known as PMBOK – Project Management Body of Knowledge. The PMI is responsible for developing and promoting PMBOK. PMI also administers a professional certification",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 38
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+          "text": "Project Management Institute Overview\n\nFive volunteers founded the Project Management Institute (PMI) in 1969. Their initial goal was to estab- lish an organization where members could share their experiences in project management and discuss issues. Today, PMI is a non-profit project management professional association and the most widely rec- ognized organization in terms of promoting project management best practices. PMI was formed to serve the interests of the project management industry. The premise of PMI is that the tools and techniques of project management are common even among the widespread application of projects from the software to the construction industry. PMI first began offering the Project Management Professional (PMP) certi- fication exam in 1984. Although it took a while for people to take notice, now more than 590,000 indi- viduals around the world hold the PMP designation. To help keep project management terms and concepts clear and consistent, PMI introduced th",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38,
+          "rank": 1,
+          "score": 0.8198454380035458,
+          "strategy": "dense"
+        },
+        {
+          "id": "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+          "text": "ignation. To help keep project management terms and concepts clear and consistent, PMI introduced the book A Guide to the Project Management Body of Knowledge (PMBOK Guide) in 1987. It was updated it in 1996, 2000, 2004, 2009, and most recently in 2013 as the fifth edition. At present, there are more than one million copies of the PMBOK Guide in circulation. The highly regarded Institute of Electrical and Electronics Engineers (IEEE) has adopted it as their project management standard. In 1999 PMI was accredited as an American National Standards Institute (ANSI) standards developer and also has the dis- tinction of being the first organization to have its certification program attain International Organization for Standardization (ISO) 9001 recognition. In 2008, the organization reported more than 260,000 mem- bers in over 171 countries. PMI has its headquarters in Pennsylvania, United States, and also has offices in Washington, DC, and in Canada, Mexico, and China, as well as having r",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38,
+          "rank": 2,
+          "score": 0.7649116480561197,
+          "strategy": "dense"
+        },
+        {
+          "id": "c360af6f50a739a3af6512ef3cc63711f8c051103c21d8946ac4741285869cd7",
+          "text": "tates, and also has offices in Washington, DC, and in Canada, Mexico, and China, as well as having regional service centres in Sin- gapore, Brussels (Belgium), and New Delhi (India). Recently, an office was opened in Mumbai (India). Because of the importance of projects, the discipline of project management has evolved into a work- ing body of knowledge known as PMBOK – Project Management Body of Knowledge. The PMI is responsible for developing and promoting PMBOK. PMI also administers a professional certification",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38,
+          "rank": 3,
+          "score": 0.7470614910125786,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+        "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+        "c360af6f50a739a3af6512ef3cc63711f8c051103c21d8946ac4741285869cd7"
+      ],
+      "filters": null,
+      "output_chars": 3115,
+      "elapsed_ms": 79.30875000010928
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 151,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1640,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_0849c80a1c0e42aba553ab16ce90c022",
+      "usage": {
+        "input_tokens": 386,
+        "output_tokens": 29,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2990.434958000151,
+      "response_id": "resp_08c9a64da32ef012016afb0fb3979887d29975274d081baa0c",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3701,
+      "context_ids": [
+        "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+        "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+        "c360af6f50a739a3af6512ef3cc63711f8c051103c21d8946ac4741285869cd7"
+      ],
+      "context_chars_unique": 3115,
+      "context_chunks": [
+        {
+          "id": "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+          "text": "Project Management Institute Overview\n\nFive volunteers founded the Project Management Institute (PMI) in 1969. Their initial goal was to estab- lish an organization where members could share their experiences in project management and discuss issues. Today, PMI is a non-profit project management professional association and the most widely rec- ognized organization in terms of promoting project management best practices. PMI was formed to serve the interests of the project management industry. The premise of PMI is that the tools and techniques of project management are common even among the widespread application of projects from the software to the construction industry. PMI first began offering the Project Management Professional (PMP) certi- fication exam in 1984. Although it took a while for people to take notice, now more than 590,000 indi- viduals around the world hold the PMP designation. To help keep project management terms and concepts clear and consistent, PMI introduced th",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38
+        },
+        {
+          "id": "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+          "text": "ignation. To help keep project management terms and concepts clear and consistent, PMI introduced the book A Guide to the Project Management Body of Knowledge (PMBOK Guide) in 1987. It was updated it in 1996, 2000, 2004, 2009, and most recently in 2013 as the fifth edition. At present, there are more than one million copies of the PMBOK Guide in circulation. The highly regarded Institute of Electrical and Electronics Engineers (IEEE) has adopted it as their project management standard. In 1999 PMI was accredited as an American National Standards Institute (ANSI) standards developer and also has the dis- tinction of being the first organization to have its certification program attain International Organization for Standardization (ISO) 9001 recognition. In 2008, the organization reported more than 260,000 mem- bers in over 171 countries. PMI has its headquarters in Pennsylvania, United States, and also has offices in Washington, DC, and in Canada, Mexico, and China, as well as having r",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38
+        },
+        {
+          "id": "c360af6f50a739a3af6512ef3cc63711f8c051103c21d8946ac4741285869cd7",
+          "text": "tates, and also has offices in Washington, DC, and in Canada, Mexico, and China, as well as having regional service centres in Sin- gapore, Brussels (Belgium), and New Delhi (India). Recently, an office was opened in Mumbai (India). Because of the importance of projects, the discipline of project management has evolved into a work- ing body of knowledge known as PMBOK – Project Management Body of Knowledge. The PMI is responsible for developing and promoting PMBOK. PMI also administers a professional certification",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38
+        }
+      ],
+      "request_chars": 5190,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_f4563287bc8e493293fe3b5b21452e7a",
+      "usage": {
+        "input_tokens": 1161,
+        "output_tokens": 113,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 3516.0812080000596,
+      "response_id": "resp_08c9a64da32ef012016afb0fb61ff487d2a5b06c8689c1e449",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+    "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+    "c360af6f50a739a3af6512ef3cc63711f8c051103c21d8946ac4741285869cd7"
+  ],
+  "context_ids_prepared": [
+    "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+    "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+    "c360af6f50a739a3af6512ef3cc63711f8c051103c21d8946ac4741285869cd7"
+  ],
+  "context_chars_sent_unique": 3115,
+  "context_chars_prepared": 3115,
+  "usage": {
+    "input_tokens": 1547,
+    "output_tokens": 142,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 6586.939291999897,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "d07-t01",
+  "question": "According to the textbook, in what year did PMI first offer the Project Management Professional (PMP) certification exam?",
+  "filters": null,
+  "filter_source": "none",
+  "split": "test",
+  "run_id": "test-baseline-final-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:14:17.417332+00:00",
+  "attempt": 1
+}

@@ -1,0 +1,306 @@
+{
+  "status": "abstain",
+  "stop_reason": "model_abstain",
+  "answer": "The retrieved corpus text does not give a formula for the Cost Performance Index (CPI).",
+  "citations": [],
+  "citation_sources": [],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_LNnBPcWIEgTGAor0rc2lUBZx",
+      "arguments": {
+        "query": "earned value Cost Performance Index CPI formula"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+            "text": "Knowledge\n\nArea Initiating Planning Executing Monitoring andControlling Closing\n\nProject Cost\n\nManagement\n\n• Plan cost management • Estimate costs • Determine budget Control costs\n\nProject\n\nQuality\n\nManagement\n\nPlan quality management\n\nPerform\n\nquality assurance Control quality",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 50
+          },
+          {
+            "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+            "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          },
+          {
+            "id": "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+            "text": "ng that the project team develops cost estimates based on the best information available and revises those estimates as new or better information becomes avail- able. The project manager is also responsible for tracking costs against the budget and conducting an analysis when project costs deviate significantly from the project estimate. The project manager then takes appropriate corrective action to ensure that project performance matches the revised project plan.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 44
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+          "text": "Knowledge\n\nArea Initiating Planning Executing Monitoring andControlling Closing\n\nProject Cost\n\nManagement\n\n• Plan cost management • Estimate costs • Determine budget Control costs\n\nProject\n\nQuality\n\nManagement\n\nPlan quality management\n\nPerform\n\nquality assurance Control quality",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50,
+          "rank": 1,
+          "score": 0.6387612058208981,
+          "strategy": "dense"
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 2,
+          "score": 0.6096302736246303,
+          "strategy": "dense"
+        },
+        {
+          "id": "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+          "text": "ng that the project team develops cost estimates based on the best information available and revises those estimates as new or better information becomes avail- able. The project manager is also responsible for tracking costs against the budget and conducting an analysis when project costs deviate significantly from the project estimate. The project manager then takes appropriate corrective action to ensure that project performance matches the revised project plan.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44,
+          "rank": 3,
+          "score": 0.6070842689649132,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2"
+      ],
+      "filters": null,
+      "output_chars": 1792,
+      "elapsed_ms": 107.09879199998795
+    },
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_nxLx54tyOjGVhzPyTTCDa5oD",
+      "arguments": {
+        "query": "\"CPI\" \"earned value\" actual cost performance index equation"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [],
+        "omitted_ids": [],
+        "already_sent_ids": [
+          "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+          "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+          "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420"
+        ]
+      },
+      "ranking": [
+        {
+          "id": "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+          "text": "Knowledge\n\nArea Initiating Planning Executing Monitoring andControlling Closing\n\nProject Cost\n\nManagement\n\n• Plan cost management • Estimate costs • Determine budget Control costs\n\nProject\n\nQuality\n\nManagement\n\nPlan quality management\n\nPerform\n\nquality assurance Control quality",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50,
+          "rank": 1,
+          "score": 0.6639681060304912,
+          "strategy": "dense"
+        },
+        {
+          "id": "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+          "text": "ng that the project team develops cost estimates based on the best information available and revises those estimates as new or better information becomes avail- able. The project manager is also responsible for tracking costs against the budget and conducting an analysis when project costs deviate significantly from the project estimate. The project manager then takes appropriate corrective action to ensure that project performance matches the revised project plan.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44,
+          "rank": 2,
+          "score": 0.6352856481756336,
+          "strategy": "dense"
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 3,
+          "score": 0.6312998125344687,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [],
+      "filters": null,
+      "output_chars": 252,
+      "elapsed_ms": 94.20316599994294
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 129,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1618,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_d09e6cdb93454c0397e83e8624248582",
+      "usage": {
+        "input_tokens": 382,
+        "output_tokens": 25,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1635.0524160000077,
+      "response_id": "resp_00fe9b4bba762fdf016afb0fcc300087d2960a80fafe4ab7ae",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 2337,
+      "context_ids": [
+        "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2"
+      ],
+      "context_chars_unique": 1792,
+      "context_chunks": [
+        {
+          "id": "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+          "text": "Knowledge\n\nArea Initiating Planning Executing Monitoring andControlling Closing\n\nProject Cost\n\nManagement\n\n• Plan cost management • Estimate costs • Determine budget Control costs\n\nProject\n\nQuality\n\nManagement\n\nPlan quality management\n\nPerform\n\nquality assurance Control quality",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        },
+        {
+          "id": "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+          "text": "ng that the project team develops cost estimates based on the best information available and revises those estimates as new or better information becomes avail- able. The project manager is also responsible for tracking costs against the budget and conducting an analysis when project costs deviate significantly from the project estimate. The project manager then takes appropriate corrective action to ensure that project performance matches the revised project plan.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44
+        }
+      ],
+      "request_chars": 3826,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_87e3bc0fb3c041c59fcdb242755b0e17",
+      "usage": {
+        "input_tokens": 856,
+        "output_tokens": 31,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1889.3651250000403,
+      "response_id": "resp_00fe9b4bba762fdf016afb0fcdeb6c87d2b1eee759d2c52c48",
+      "response_status": "completed"
+    },
+    {
+      "number": 3,
+      "history_chars": 2961,
+      "context_ids": [
+        "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2"
+      ],
+      "context_chars_unique": 2044,
+      "context_chunks": [
+        {
+          "id": "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+          "text": "Knowledge\n\nArea Initiating Planning Executing Monitoring andControlling Closing\n\nProject Cost\n\nManagement\n\n• Plan cost management • Estimate costs • Determine budget Control costs\n\nProject\n\nQuality\n\nManagement\n\nPlan quality management\n\nPerform\n\nquality assurance Control quality",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        },
+        {
+          "id": "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+          "text": "ng that the project team develops cost estimates based on the best information available and revises those estimates as new or better information becomes avail- able. The project manager is also responsible for tracking costs against the budget and conducting an analysis when project costs deviate significantly from the project estimate. The project manager then takes appropriate corrective action to ensure that project performance matches the revised project plan.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44
+        }
+      ],
+      "request_chars": 4450,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_483d58d5390d462a9fd839a65905261e",
+      "usage": {
+        "input_tokens": 1024,
+        "output_tokens": 41,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2418.541457999936,
+      "response_id": "resp_00fe9b4bba762fdf016afb0fcfefe487d2b11f575fd80de1e4",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 3,
+  "search_count": 2,
+  "context_ids": [
+    "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+    "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+    "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2"
+  ],
+  "context_ids_prepared": [
+    "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+    "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+    "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2"
+  ],
+  "context_chars_sent_unique": 2044,
+  "context_chars_prepared": 2044,
+  "usage": {
+    "input_tokens": 2262,
+    "output_tokens": 97,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 6146.094708999954,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "d07-t06",
+  "question": "What exact earned-value formula does the selected corpus give for the Cost Performance Index (CPI)?",
+  "filters": null,
+  "filter_source": "none",
+  "split": "test",
+  "run_id": "test-baseline-final-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:14:42.103528+00:00",
+  "attempt": 1
+}

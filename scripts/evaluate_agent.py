@@ -92,6 +92,7 @@ def aggregate(items):
 
 
 def evaluate(folder):
+    folder=Path(folder).resolve()
     manifest=read(folder/'run.json'); completion=read(folder/'completion.json')
     reviews=read(folder/'reviews.json')
     if not reviews.get('method') or not reviews.get('reviewer'):

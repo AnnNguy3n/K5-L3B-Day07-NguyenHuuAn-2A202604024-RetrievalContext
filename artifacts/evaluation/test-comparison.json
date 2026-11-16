@@ -1,0 +1,10 @@
+{
+  "baseline": "baseline-dense",
+  "final": "baseline-dense",
+  "same_configuration_shared_run": true,
+  "baseline_run": "test-baseline-final-v1",
+  "final_run": "test-baseline-final-v1",
+  "note": "One equivalent seven-query run, not two independent replications; no runtime code/config tuning after test.",
+  "lock_sha256": "c96c7832a381b6a1400fdead8ca0757d96f07450a71c4ed8c8215d3234856f63",
+  "metrics_sha256": "a8b2cbf70950263addf0f844cf5618a402585a92e74dfb6598767f1834b067af"
+}

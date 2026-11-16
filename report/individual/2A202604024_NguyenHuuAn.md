@@ -115,3 +115,11 @@ grounded2,00/2, citation20/20, abstain2/2, lỗi0/22. Tôi chọn baseline-dense
 hòa chất lượng nhưng tổng token thấp nhất36225; lexical36582, hybrid45341.
 Hai lỗi retrieval dev q16/q19 và kết quả trước/sau được phân tích tại
 [bảng dev](../../docs/EVALUATION.md#10--dev-và-lựa-chọn). Test chưa chạy.
+
+## Công việc 11 — test sau khóa
+
+Tôi đã push khóa trước lượt test đầu. Baseline và final trùng dense nên dùng
+chung một run đủ7 câu: Hit@1 4/5, Hit@3 và CER5/5; grounded2,00/2, citation5/5,
+abstain2/2; không từ chối nhầm hoặc lỗi. Usage11875/958 input/output, tổng37,544s;
+USD null. Tôi đã đọc nguồn/ảnh Figure5.2 và chấm đủ từng câu/citation.
+[Lượt test và review](../../artifacts/evaluation/test-baseline-final-v1/).

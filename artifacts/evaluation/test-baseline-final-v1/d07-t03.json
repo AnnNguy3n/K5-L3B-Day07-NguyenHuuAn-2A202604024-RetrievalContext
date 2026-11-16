@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Communication is synchronous when all participants take part in the exchange at the same time. The section gives a telephone conference call as an example. [12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363]",
+  "citations": [
+    "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363"
+  ],
+  "citation_sources": [
+    {
+      "id": "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 46
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_44GDEEEdbKBfBosGyhNQsaYn",
+      "arguments": {
+        "query": "communications section synchronous communication definition example"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+            "text": "nous communication. When the participants are not interacting at the same time, the communication is asynchronous. (The letter a at the beginning of the word means not.) Communications technologies require a variety of compatible devices, software, and service providers, and communication with a global virtual team can involve many different time zones. Establishing effective communications requires a communications plan.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 46
+          },
+          {
+            "id": "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+            "text": "Communications\n\nCompleting a complex project successfully requires teamwork, and teamwork requires good communi- cation among team members. If those team members work in the same building, they can arrange reg- ular meetings, simply stop by each other’s office space to get a quick answer, or even discuss a project informally at other office functions. Many complex projects in today’s global economy involve team members from widely separated locations, and the types of meetings that work within the same building are not possible. Teams that use electronic methods of communicating without face-to-face meetings are called virtual teams. Communicating can be divided into two categories: synchronous and asynchronous. If all the parties to the communication are taking part in the exchange at the same time, the communication is synchro- nous. A telephone conference call is an example of synchronous communication. When the participants are not interacting at the same time, the communication is",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 46
+          },
+          {
+            "id": "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356",
+            "text": "roject. Managing communication is about communications planning, information distribution, performance reporting, and stakeholder management.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 39
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+          "text": "nous communication. When the participants are not interacting at the same time, the communication is asynchronous. (The letter a at the beginning of the word means not.) Communications technologies require a variety of compatible devices, software, and service providers, and communication with a global virtual team can involve many different time zones. Establishing effective communications requires a communications plan.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "rank": 1,
+          "score": 0.769792529319963,
+          "strategy": "dense"
+        },
+        {
+          "id": "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+          "text": "Communications\n\nCompleting a complex project successfully requires teamwork, and teamwork requires good communi- cation among team members. If those team members work in the same building, they can arrange reg- ular meetings, simply stop by each other’s office space to get a quick answer, or even discuss a project informally at other office functions. Many complex projects in today’s global economy involve team members from widely separated locations, and the types of meetings that work within the same building are not possible. Teams that use electronic methods of communicating without face-to-face meetings are called virtual teams. Communicating can be divided into two categories: synchronous and asynchronous. If all the parties to the communication are taking part in the exchange at the same time, the communication is synchro- nous. A telephone conference call is an example of synchronous communication. When the participants are not interacting at the same time, the communication is",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "rank": 2,
+          "score": 0.7435522988474907,
+          "strategy": "dense"
+        },
+        {
+          "id": "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356",
+          "text": "roject. Managing communication is about communications planning, information distribution, performance reporting, and stakeholder management.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 39,
+          "rank": 3,
+          "score": 0.6994307099755894,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+        "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+        "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356"
+      ],
+      "filters": null,
+      "output_chars": 2162,
+      "elapsed_ms": 105.65999999994347
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 122,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1611,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_0abac3c774c1485589e06a24f4e4d5b2",
+      "usage": {
+        "input_tokens": 377,
+        "output_tokens": 24,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1606.9466660001126,
+      "response_id": "resp_00ac4a713256f258016afb0fbe11a487d2993bc115ad7b937a",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 2702,
+      "context_ids": [
+        "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+        "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+        "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356"
+      ],
+      "context_chars_unique": 2162,
+      "context_chunks": [
+        {
+          "id": "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+          "text": "nous communication. When the participants are not interacting at the same time, the communication is asynchronous. (The letter a at the beginning of the word means not.) Communications technologies require a variety of compatible devices, software, and service providers, and communication with a global virtual team can involve many different time zones. Establishing effective communications requires a communications plan.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46
+        },
+        {
+          "id": "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+          "text": "Communications\n\nCompleting a complex project successfully requires teamwork, and teamwork requires good communi- cation among team members. If those team members work in the same building, they can arrange reg- ular meetings, simply stop by each other’s office space to get a quick answer, or even discuss a project informally at other office functions. Many complex projects in today’s global economy involve team members from widely separated locations, and the types of meetings that work within the same building are not possible. Teams that use electronic methods of communicating without face-to-face meetings are called virtual teams. Communicating can be divided into two categories: synchronous and asynchronous. If all the parties to the communication are taking part in the exchange at the same time, the communication is synchro- nous. A telephone conference call is an example of synchronous communication. When the participants are not interacting at the same time, the communication is",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46
+        },
+        {
+          "id": "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356",
+          "text": "roject. Managing communication is about communications planning, information distribution, performance reporting, and stakeholder management.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 39
+        }
+      ],
+      "request_chars": 4191,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_6fc7a2d85c26462da91ac54d9fe31471",
+      "usage": {
+        "input_tokens": 898,
+        "output_tokens": 121,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2814.496416999873,
+      "response_id": "resp_00ac4a713256f258016afb0fbfc6dc87d29c679fc9508c31c2",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+    "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+    "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356"
+  ],
+  "context_ids_prepared": [
+    "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+    "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+    "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356"
+  ],
+  "context_chars_sent_unique": 2162,
+  "context_chars_prepared": 2162,
+  "usage": {
+    "input_tokens": 1275,
+    "output_tokens": 145,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4527.991874999998,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "d07-t03",
+  "question": "What makes communication synchronous, and what example does the communications section give?",
+  "filters": null,
+  "filter_source": "none",
+  "split": "test",
+  "run_id": "test-baseline-final-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:14:26.379264+00:00",
+  "attempt": 1
+}

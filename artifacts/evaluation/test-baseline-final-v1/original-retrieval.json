@@ -1,0 +1,999 @@
+{
+  "created_at_utc": "2026-11-16T14:14:28.997304+00:00",
+  "lock_sha256": "c96c7832a381b6a1400fdead8ca0757d96f07450a71c4ed8c8215d3234856f63",
+  "top_k": 3,
+  "query_rewrite": false,
+  "queries": {
+    "d07-t01": {
+      "status": "ok",
+      "results": [
+        {
+          "text": "Project Management Institute Overview\n\nFive volunteers founded the Project Management Institute (PMI) in 1969. Their initial goal was to estab- lish an organization where members could share their experiences in project management and discuss issues. Today, PMI is a non-profit project management professional association and the most widely rec- ognized organization in terms of promoting project management best practices. PMI was formed to serve the interests of the project management industry. The premise of PMI is that the tools and techniques of project management are common even among the widespread application of projects from the software to the construction industry. PMI first began offering the Project Management Professional (PMP) certi- fication exam in 1984. Although it took a while for people to take notice, now more than 590,000 indi- viduals around the world hold the PMP designation. To help keep project management terms and concepts clear and consistent, PMI introduced th",
+          "metadata": {
+            "page": 38,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Project Management Institute Overview",
+            "page_id": "project-management-2019-v1.03:p038",
+            "section": "4. Framework for Project Management",
+            "char_end": 2388,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Project Management Institute Overview"
+            ],
+            "language": "en",
+            "char_count": 1000,
+            "char_start": 1388,
+            "chunk_index": 2,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 27,
+            "document_type": "textbook",
+            "split_scope_end": 3707,
+            "split_scope_start": 1388,
+            "overlap_char_count": 0,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.8143397969570615,
+          "id": "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "text": "ignation. To help keep project management terms and concepts clear and consistent, PMI introduced the book A Guide to the Project Management Body of Knowledge (PMBOK Guide) in 1987. It was updated it in 1996, 2000, 2004, 2009, and most recently in 2013 as the fifth edition. At present, there are more than one million copies of the PMBOK Guide in circulation. The highly regarded Institute of Electrical and Electronics Engineers (IEEE) has adopted it as their project management standard. In 1999 PMI was accredited as an American National Standards Institute (ANSI) standards developer and also has the dis- tinction of being the first organization to have its certification program attain International Organization for Standardization (ISO) 9001 recognition. In 2008, the organization reported more than 260,000 mem- bers in over 171 countries. PMI has its headquarters in Pennsylvania, United States, and also has offices in Washington, DC, and in Canada, Mexico, and China, as well as having r",
+          "metadata": {
+            "page": 38,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Project Management Institute Overview",
+            "page_id": "project-management-2019-v1.03:p038",
+            "section": "4. Framework for Project Management",
+            "char_end": 3288,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Project Management Institute Overview"
+            ],
+            "language": "en",
+            "char_count": 1000,
+            "char_start": 2288,
+            "chunk_index": 3,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 27,
+            "document_type": "textbook",
+            "split_scope_end": 3707,
+            "split_scope_start": 1388,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.8018496975871982,
+          "id": "5e55ff650257bb73c955d86c5fa4c1e1ad975bf1b50eb00d4f49c628988f3e31",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "text": " another industry such as hospitality? There are two major organizations with worldwide impact on the practice of project management: the Project Management Institute (PMI), with world headquarters in the United States, and the International Project Management Association (IPMA), with world headquarters in Switzerland. This textbook takes an approach that is closer to the PMI approach. More details are included in this chapter, along with a section on the project management office.",
+          "metadata": {
+            "page": 38,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "4. Framework for Project Management",
+            "page_id": "project-management-2019-v1.03:p038",
+            "section": "4. Framework for Project Management",
+            "char_end": 1386,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "4. Framework for Project Management"
+            ],
+            "language": "en",
+            "char_count": 486,
+            "char_start": 900,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 27,
+            "document_type": "textbook",
+            "split_scope_end": 1386,
+            "split_scope_start": 0,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7497374118940899,
+          "id": "5200a1e5e0e234b055be24007fdb23e233bdebfcf93715b88dd11e1d1623df58",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "query": {
+        "id": "d07-t01",
+        "question": "According to the textbook, in what year did PMI first offer the Project Management Professional (PMP) certification exam?"
+      },
+      "elapsed_ms": 54.07054099987363,
+      "filter_source": "none"
+    },
+    "d07-t02": {
+      "status": "ok",
+      "results": [
+        {
+          "text": "mpletion of the project is the critical path. If the crit- ical path takes less time than is allowed by the client to complete the project, the project has a positive total float or project slack. If the client’s project completion date precedes the calculated critical path end date, the project has a negative float. Understanding and managing activities on the critical path is an important project management skill. To successfully manage a project, the project manager must also know how to accelerate a schedule to compensate for unanticipated events that delay critical activities. Compressing—crashing—the schedule is a term used to describe the techniques used to shorten the project schedule. During the life of the pro- ject, scheduling conflicts often occur, and the project manager is responsible for reducing these conflicts while maintaining project quality and meeting cost goals.",
+          "metadata": {
+            "page": 43,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "page_id": "project-management-2019-v1.03:p043",
+            "section": "4. Framework for Project Management",
+            "char_end": 1796,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "language": "en",
+            "char_count": 896,
+            "char_start": 900,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 32,
+            "document_type": "textbook",
+            "split_scope_end": 1796,
+            "split_scope_start": 0,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7278046336407112,
+          "id": "693fd60a928972487ad1641605ca4de61e5b8669e6b05c62c3bd2d83be466292",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "text": "rification, and control. 3. Managing time/schedule: Projects have a definite beginning and a definite ending date. Therefore, there is a need to manage the budgeted time according to a project schedule. Managing time/schedule is about definition, sequencing, resource and duration estimating, schedule development, and schedule control. 4. Managing costs: Projects consume resources, and therefore, there is a need to manage the investment with the realization of creating value (i.e., the benefits derived exceed the amount spent). Managing costs is about resource planning, cost estimating, budgeting, and control.",
+          "metadata": {
+            "page": 39,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "page_id": "project-management-2019-v1.03:p039",
+            "section": "4. Framework for Project Management",
+            "char_end": 1516,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "language": "en",
+            "char_count": 616,
+            "char_start": 900,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 28,
+            "document_type": "textbook",
+            "split_scope_end": 1516,
+            "split_scope_start": 0,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7056255761161803,
+          "id": "bf99a77e639a66ebcc198fbd79efbbc6bbcccb702da3469ad6ad0c73e9ad1ed6",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 39,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "text": "Project Schedule and Time Management\n\nThe definition of project success often includes completing the project on time. The development and management of a project schedule that will complete the project on time is a primary responsibility of the project manager, and completing the project on time requires the development of a realistic plan and the effective management of the plan. On smaller projects, project managers may lead the development of the project plan and build a schedule to meet that plan. On larger and more complex projects, a project controls team that focuses on both costs and schedule planning and controlling functions will assist the project management team in developing the plan and tracking progress against the plan. To develop the project schedule, the project team does an analysis of the project scope, contract, and other information that helps the team define the project deliverables. Based on this information, the pro- ject team develops a milestone schedule. Th",
+          "metadata": {
+            "page": 42,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Project Schedule and Time Management",
+            "page_id": "project-management-2019-v1.03:p042",
+            "section": "4. Framework for Project Management",
+            "char_end": 2965,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Project Schedule and Time Management"
+            ],
+            "language": "en",
+            "char_count": 1000,
+            "char_start": 1965,
+            "chunk_index": 3,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 31,
+            "document_type": "textbook",
+            "split_scope_end": 4015,
+            "split_scope_start": 1965,
+            "overlap_char_count": 0,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.6993544876960337,
+          "id": "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "query": {
+        "id": "d07-t02",
+        "question": "Under what date relationship does the project schedule have negative float?"
+      },
+      "elapsed_ms": 53.1860000000961,
+      "filter_source": "none"
+    },
+    "d07-t03": {
+      "status": "ok",
+      "results": [
+        {
+          "text": "nous communication. When the participants are not interacting at the same time, the communication is asynchronous. (The letter a at the beginning of the word means not.) Communications technologies require a variety of compatible devices, software, and service providers, and communication with a global virtual team can involve many different time zones. Establishing effective communications requires a communications plan.",
+          "metadata": {
+            "page": 46,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Communications",
+            "page_id": "project-management-2019-v1.03:p046",
+            "section": "4. Framework for Project Management",
+            "char_end": 1620,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Communications"
+            ],
+            "language": "en",
+            "char_count": 425,
+            "char_start": 1195,
+            "chunk_index": 2,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 35,
+            "document_type": "textbook",
+            "split_scope_end": 1620,
+            "split_scope_start": 295,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7976941593787157,
+          "id": "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "text": "Communications\n\nCompleting a complex project successfully requires teamwork, and teamwork requires good communi- cation among team members. If those team members work in the same building, they can arrange reg- ular meetings, simply stop by each other’s office space to get a quick answer, or even discuss a project informally at other office functions. Many complex projects in today’s global economy involve team members from widely separated locations, and the types of meetings that work within the same building are not possible. Teams that use electronic methods of communicating without face-to-face meetings are called virtual teams. Communicating can be divided into two categories: synchronous and asynchronous. If all the parties to the communication are taking part in the exchange at the same time, the communication is synchro- nous. A telephone conference call is an example of synchronous communication. When the participants are not interacting at the same time, the communication is",
+          "metadata": {
+            "page": 46,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Communications",
+            "page_id": "project-management-2019-v1.03:p046",
+            "section": "4. Framework for Project Management",
+            "char_end": 1295,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Communications"
+            ],
+            "language": "en",
+            "char_count": 1000,
+            "char_start": 295,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 35,
+            "document_type": "textbook",
+            "split_scope_end": 1620,
+            "split_scope_start": 295,
+            "overlap_char_count": 0,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7779291769547398,
+          "id": "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "text": "roject. Managing communication is about communications planning, information distribution, performance reporting, and stakeholder management.",
+          "metadata": {
+            "page": 39,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "5. Managing quality: Projects involve specific deliverables or work products. These deliver-",
+            "page_id": "project-management-2019-v1.03:p039",
+            "section": "4. Framework for Project Management",
+            "char_end": 2559,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "5. Managing quality: Projects involve specific deliverables or work products. These deliver-"
+            ],
+            "language": "en",
+            "char_count": 141,
+            "char_start": 2418,
+            "chunk_index": 3,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 28,
+            "document_type": "textbook",
+            "split_scope_end": 2559,
+            "split_scope_start": 1518,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.739945787207549,
+          "id": "587f7eb34e6488e90e414e0922285db3ecc09c6a78840d5ca07e19f3c9424356",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 39,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "query": {
+        "id": "d07-t03",
+        "question": "What makes communication synchronous, and what example does the communications section give?"
+      },
+      "elapsed_ms": 49.27862499994262,
+      "filter_source": "none"
+    },
+    "d07-t04": {
+      "status": "ok",
+      "results": [
+        {
+          "text": "duct of the project or for the execution of the pro- ject. For example, the bricks procured for a construction project would be procured for the product of the project, and the mortar mixer would be equipment procured for the execution of the project work. At the end of the project, equipment bought or rented for the execution of the work of the project are sold, returned to rental organizations, or disposed of some other way. More complex projects will typically procure through different procurement and management meth- ods. Commodities are common products that are purchased based on the lowest bid. Commodities include items like concrete for building projects, office supplies, or even lab equipment for a research project. The second type of procurement includes products that are specified for the project. Vendors who can produce these products bid for a contract. The awarding of a contract can include price, ability to meet the project schedule, the fit for purpose of the product, an",
+          "metadata": {
+            "page": 47,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Project Procurement",
+            "page_id": "project-management-2019-v1.03:p047",
+            "section": "4. Framework for Project Management",
+            "char_end": 2622,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Project Procurement"
+            ],
+            "language": "en",
+            "char_count": 1000,
+            "char_start": 1622,
+            "chunk_index": 2,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 36,
+            "document_type": "textbook",
+            "split_scope_end": 3647,
+            "split_scope_start": 722,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7435388954922939,
+          "id": "5732a8089c6feee36ec61f90b5ff5b2f3c5b53a323e2541866a0c83f8915f613",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 47,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "text": "provided by outside suppliers. This is true for example of construction projects where lumber, nails, bricks, and mortar come from outside suppliers. If the supplied goods are",
+          "metadata": {
+            "page": 57,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Government",
+            "page_id": "project-management-2019-v1.03:p057",
+            "section": "5. Stakeholder Management",
+            "char_end": 2093,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Government"
+            ],
+            "language": "en",
+            "char_count": 175,
+            "char_start": 1918,
+            "chunk_index": 3,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 46,
+            "document_type": "textbook",
+            "split_scope_end": 2093,
+            "split_scope_start": 1018,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.6959741685413645,
+          "id": "c86fd20ae2658d533fe48226425c4bc62b98778fc111bf966119627e0ea75aeb",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 57,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "text": "r requirements definition, some analysis, architecture definition, and definition of roles and terms up front or early; 3) You need commitment from the company and the product owner; and 4) It is best for products that require frequent new releases or updates, and less effective for large, totally new products that will not allow for frequent upgrades once they are released.",
+          "metadata": {
+            "page": 51,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "page_id": "project-management-2019-v1.03:p051",
+            "section": "4. Framework for Project Management",
+            "char_end": 2177,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "language": "en",
+            "char_count": 377,
+            "char_start": 1800,
+            "chunk_index": 2,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 40,
+            "document_type": "textbook",
+            "split_scope_end": 2177,
+            "split_scope_start": 0,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.6544820493050351,
+          "id": "64229d2ec0ec088c06f7f1123d4caa8c3e749388d21c325d42af5e9eef75552e",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 51,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "query": {
+        "id": "d07-t04",
+        "question": "For common products classified as commodities, what criterion is used to make the purchase?"
+      },
+      "elapsed_ms": 46.66491599982692,
+      "filter_source": "none"
+    },
+    "d07-t05": {
+      "status": "ok",
+      "results": [
+        {
+          "text": "d: Don’t just report to stakeholders. Ask for their input. Get to know them better by scheduling time for coffee, lunch, or quick meetings. Measure each stakeholder’s capacity to participate and honour time constraints. • Keep stakeholders informed: Send regular status updates. Daily may be too much; monthly is not enough. One update per week is usually about right. Hold project meetings as required, but don’t let too much time pass between meetings. Be sure to answer stakeholders’ ques- tions and emails promptly. Regular communication is always appreciated – and may even soften the blow when you have bad news to share. These are the basics of building strong stakeholder relationships. But as in any relationship, there are subtleties that every successful project manager understands – such as learning the differences between and relating well to different types stakeholders.",
+          "metadata": {
+            "page": 61,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Relationship Building Tips",
+            "page_id": "project-management-2019-v1.03:p061",
+            "section": "5. Stakeholder Management",
+            "char_end": 2872,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Relationship Building Tips"
+            ],
+            "language": "en",
+            "char_count": 887,
+            "char_start": 1985,
+            "chunk_index": 3,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 50,
+            "document_type": "textbook",
+            "split_scope_end": 2872,
+            "split_scope_start": 185,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7959565879119632,
+          "id": "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 61,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "text": "What do you want from stakeholders? What is important to stakeholders? How could stakeholders block your efforts? What is your strategy for enhancing stakeholder support? Finally, a key piece of your stakeholder management efforts is constant communication to your stake- holders. Using the information developed above, you should develop a communications plan that secures your stakeholders’ support. The template in Figure 5.2 can be used.\n\nFigure 5.2 Stakeholder Communication Template [Image description]\n\n[Figure image: Figure 5.2] [Reading position unresolved; appended at page end] Labels: Project Scope: Key Messages: Communication Goals: Communication Team: Project Team: Other stakeholders:",
+          "metadata": {
+            "page": 63,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "page_id": "project-management-2019-v1.03:p063",
+            "section": "5. Stakeholder Management",
+            "char_end": 1350,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "language": "en",
+            "char_count": 700,
+            "char_start": 650,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 1,
+            "printed_page": 52,
+            "document_type": "textbook",
+            "overlap_char_count": 0,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7587466527525655,
+          "id": "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 63,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "text": "Relationship Building Tips\n\nTake the time to identify all stakeholders before starting a new project. Include those who are impacted by the project, as well as groups with the ability to impact the project. Then, begin the process of building strong relationships with each one using the following method. • Analyze stakeholders: Conduct a stakeholder analysis, or an assessment of a project’s key participants, and how the project will affect their problems and needs. Identify their individ- ual characteristics and interests. Find out what motivates them, as well as what provokes them. Define roles and level of participation, and determine if there are conflicts of interest among groups of stakeholders. • Assess influence: Measure the degree to which stakeholders can influence the project. The more influential a stakeholder is, the more a project manager will need their support. Think about the question, “What’s in it for them?” when considering stakeholders. Knowing what each stakeholder",
+          "metadata": {
+            "page": 61,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Relationship Building Tips",
+            "page_id": "project-management-2019-v1.03:p061",
+            "section": "5. Stakeholder Management",
+            "char_end": 1185,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Relationship Building Tips"
+            ],
+            "language": "en",
+            "char_count": 1000,
+            "char_start": 185,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 50,
+            "document_type": "textbook",
+            "split_scope_end": 2872,
+            "split_scope_start": 185,
+            "overlap_char_count": 0,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7437944939320325,
+          "id": "27054c93ba4fc4f9cbad21767b83fe1f6934884e3a05be2b9cb65b7acd2b949d",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 61,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "query": {
+        "id": "d07-t05",
+        "question": "In the relationship-building tips, how often is a stakeholder status update usually about right?"
+      },
+      "elapsed_ms": 47.96270800011371,
+      "filter_source": "none"
+    },
+    "d07-t06": {
+      "status": "ok",
+      "results": [
+        {
+          "text": "Knowledge\n\nArea Initiating Planning Executing Monitoring andControlling Closing\n\nProject Cost\n\nManagement\n\n• Plan cost management • Estimate costs • Determine budget Control costs\n\nProject\n\nQuality\n\nManagement\n\nPlan quality management\n\nPerform\n\nquality assurance Control quality",
+          "metadata": {
+            "page": 50,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Perform",
+            "page_id": "project-management-2019-v1.03:p050",
+            "section": "4. Framework for Project Management",
+            "char_end": 278,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Knowledge",
+              "Project Cost",
+              "Management",
+              "Project",
+              "Quality",
+              "Management",
+              "Perform"
+            ],
+            "language": "en",
+            "char_count": 278,
+            "char_start": 0,
+            "chunk_index": 0,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 39,
+            "document_type": "textbook",
+            "overlap_char_count": 0,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.6625382922384657,
+          "id": "0fe3c7dd2db01a5e8ff147b6bb9095ba02c95d67a58c8bf5684d64c823dfc545",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "text": "ng that the project team develops cost estimates based on the best information available and revises those estimates as new or better information becomes avail- able. The project manager is also responsible for tracking costs against the budget and conducting an analysis when project costs deviate significantly from the project estimate. The project manager then takes appropriate corrective action to ensure that project performance matches the revised project plan.",
+          "metadata": {
+            "page": 44,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "page_id": "project-management-2019-v1.03:p044",
+            "section": "4. Framework for Project Management",
+            "char_end": 1369,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "language": "en",
+            "char_count": 469,
+            "char_start": 900,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 33,
+            "document_type": "textbook",
+            "split_scope_end": 1369,
+            "split_scope_start": 0,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.6475181841046441,
+          "id": "ce7706a07616683b56f94e9f0db146779c102dd18dc202a8a71a646892d81cc2",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "text": "les. Also if you are managing a project at your company for Ford Motor Company, they will be your external customer.",
+          "metadata": {
+            "page": 57,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "page_id": "project-management-2019-v1.03:p057",
+            "section": "5. Stakeholder Management",
+            "char_end": 1016,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "language": "en",
+            "char_count": 116,
+            "char_start": 900,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 46,
+            "document_type": "textbook",
+            "split_scope_end": 1016,
+            "split_scope_start": 0,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.645659496469779,
+          "id": "5d3ba195d9573c8e173368358f83cc5e71a091c78724c672e454a9d63068583f",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 57,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "query": {
+        "id": "d07-t06",
+        "question": "What exact earned-value formula does the selected corpus give for the Cost Performance Index (CPI)?"
+      },
+      "elapsed_ms": 53.49066600001606,
+      "filter_source": "none"
+    },
+    "d07-t07": {
+      "status": "ok",
+      "results": [
+        {
+          "text": "Communication Date | Deliverable | Audience | Message | Action Item or FYI (Info?) | Plans | Status Visible structure: A blank stakeholder communication template arranged as a two-part layout. The upper portion contains six left-aligned text labels: Project Scope, Key Messages, Communication Goals, Communication Team, Project Team, and Other stakeholders, each followed by an empty space. The lower portion is a seven-column table with a single header row and two empty body rows. Column headers read Communication Date, Deliverable, Audience, Message, Action Item or FYI (Info?), Plans, and Status. No filled cells, arrows, or connecting lines are visible. Uncertainties: None [End figure image]",
+          "metadata": {
+            "page": 63,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "page_id": "project-management-2019-v1.03:p063",
+            "section": "5. Stakeholder Management",
+            "char_end": 2050,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "language": "en",
+            "char_count": 698,
+            "char_start": 1352,
+            "chunk_index": 2,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 1,
+            "printed_page": 52,
+            "document_type": "textbook",
+            "overlap_char_count": 0,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.7073448758341215,
+          "id": "b1ddf99d6fdd6d803931ace1b160807891c05b5458e70231dfa004061a7b56ab",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 63,
+          "strategy": "dense",
+          "rank": 1
+        },
+        {
+          "text": "nous communication. When the participants are not interacting at the same time, the communication is asynchronous. (The letter a at the beginning of the word means not.) Communications technologies require a variety of compatible devices, software, and service providers, and communication with a global virtual team can involve many different time zones. Establishing effective communications requires a communications plan.",
+          "metadata": {
+            "page": 46,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "heading": "Communications",
+            "page_id": "project-management-2019-v1.03:p046",
+            "section": "4. Framework for Project Management",
+            "char_end": 1620,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "headings": [
+              "Communications"
+            ],
+            "language": "en",
+            "char_count": 425,
+            "char_start": 1195,
+            "chunk_index": 2,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 0,
+            "printed_page": 35,
+            "document_type": "textbook",
+            "split_scope_end": 1620,
+            "split_scope_start": 295,
+            "overlap_char_count": 100,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.6685989298106944,
+          "id": "241e0fd9a1be79dbfbb27ed2096cecb931a8358f501bc2dfe038a3c887803475",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "strategy": "dense",
+          "rank": 2
+        },
+        {
+          "text": "What do you want from stakeholders? What is important to stakeholders? How could stakeholders block your efforts? What is your strategy for enhancing stakeholder support? Finally, a key piece of your stakeholder management efforts is constant communication to your stake- holders. Using the information developed above, you should develop a communications plan that secures your stakeholders’ support. The template in Figure 5.2 can be used.\n\nFigure 5.2 Stakeholder Communication Template [Image description]\n\n[Figure image: Figure 5.2] [Reading position unresolved; appended at page end] Labels: Project Scope: Key Messages: Communication Goals: Communication Team: Project Team: Other stakeholders:",
+          "metadata": {
+            "page": 63,
+            "title": "Project Management",
+            "source": "data/raw/project-management.pdf",
+            "page_id": "project-management-2019-v1.03:p063",
+            "section": "5. Stakeholder Management",
+            "char_end": 1350,
+            "chunking": {
+              "split": "fixed_size_long_paragraph",
+              "method": "by_paragraph",
+              "version": 4,
+              "max_size": 1000,
+              "long_overlap": 100,
+              "target_min_size": 333,
+              "heading_detection": "contextual_headings_v2"
+            },
+            "language": "en",
+            "char_count": 700,
+            "char_start": 650,
+            "chunk_index": 1,
+            "document_id": "project-management-2019-v1.03",
+            "image_count": 1,
+            "printed_page": 52,
+            "document_type": "textbook",
+            "overlap_char_count": 0,
+            "text_extraction_status": "complete",
+            "image_extraction_status": "complete"
+          },
+          "model_digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+          "score": 0.6668151815909411,
+          "id": "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 63,
+          "strategy": "dense",
+          "rank": 3
+        }
+      ],
+      "query": {
+        "id": "d07-t07",
+        "question": "What exact calendar date has been filled into the Communication Date column of Figure 5.2?"
+      },
+      "elapsed_ms": 55.713375000095766,
+      "filter_source": "none"
+    }
+  },
+  "model_calls": 0,
+  "cost_usd": null,
+  "cost_note": "Local query embedding/vector search; compute cost not measured."
+}

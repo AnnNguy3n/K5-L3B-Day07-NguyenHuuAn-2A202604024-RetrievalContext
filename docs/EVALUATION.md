@@ -148,3 +148,45 @@ người chấm độc lập. Test mới chưa chạy và chưa được đọc 
 Thời gian là tổng elapsed từng query (gồm API và retrieval), không gồm setup, I/O
 và chấm nhãn. Ba run có thời gian thực thi chồng nhau; so sánh latency mang tính
 mô tả một lượt, chưa phải thí nghiệm latency được kiểm soát hoặc kiểm định thống kê.
+
+## 11 — Khóa và test
+
+[selection-lock.json](../artifacts/evaluation/selection-lock.json) được tạo lúc
+2026-11-16T14:13:46Z (21:13:46 Việt Nam) và push ở commit `18d1c3e` trước lượt
+test đầu. Khóa giữ fingerprint baseline/final, model/prompt, code, corpus,
+benchmark và80 hash minh chứng dev. Benchmark manifest/labels cũ giữ nguyên.
+Test mới trước đó chỉ được kiểm tra lúc xây nhãn, không dùng chạy/chọn hệ thống.
+
+Baseline và final **cùng baseline-dense**, nên dùng chung một run tương đương
+`test-baseline-final-v1` cho đủ5+2 câu, không coi là hai lần lặp độc lập.
+
+| Baseline = final (một run) | Kết quả |
+|---|---:|
+| Hit@1 / Evidence Hit@3 query gốc | 4/5 (80%) / 5/5 (100%) |
+| Context Evidence Rate | 5/5 (100%) |
+| Context grade0/1/2 | 0/0/5 |
+| Grounded grade0/1/2; mean /2 | 0/0/5; 2,00 |
+| Citation hỗ trợ / trả lời có citation | 5/5 (100%) / 5/5 (100%) |
+| Abstention đúng / từ chối nhầm | 2/2 (100%) / 0/5 (0%) |
+| Tool-use / lỗi | 7/7 (100%) / 0/7 (0%) |
+| Search distribution / model calls | 1×5, 2×2 / 16 |
+| Tổng / mean / median / max giây mỗi query | 37,544 / 5,363 / 4,910 / 6,587 |
+| Input / output / cached / reasoning token | 11875 / 958 / 0 / 42 |
+| USD | null — chưa đối soát billing/ước tính giá |
+
+Tôi đọc đủ5 answer/citation và2 abstention cùng context thật; đối chiếu text PDF
+trang38,43,46,47,61. d07-t06 không điền CPI từ ngoài corpus; literal inventory
+CPI/earned value/cost performance index đều không có trong131 chunk, kèm absence
+review toàn corpus đã đóng băng. d07-t07 giữ abstain, giải thích không có ngày:
+đã xem render PDF63, Figure5.2 có hai ô Communication Date trống; mô tả hình trong
+snapshot B khớp. Review có AI hỗ trợ, không có chấm độc lập của con người.
+
+[Trace/review/metrics](../artifacts/evaluation/test-baseline-final-v1/) ·
+[Ánh xạ baseline/final](../artifacts/evaluation/test-comparison.json).
+Ranking query gốc được đo riêng sau khóa, không dùng query viết lại để giả
+Hit@1/Hit@3 gốc. Tôi không chỉnh hệ thống theo kết quả test.
+
+Một lỗi scorer về `relative_to(ROOT)` với input tương đối được sửa bằng chuẩn
+hóa đường dẫn trước khi xuất metrics. [Bản ghi hash trước/sau](../artifacts/evaluation/scorer-path-correction.json)
+giữ lịch sử khóa; thuật toán chấm không đổi, cả ba metrics dev tính lại giống
+hệt từng trường. Không sửa runtime/trace/labels/khóa cũ, không chạy lại API.

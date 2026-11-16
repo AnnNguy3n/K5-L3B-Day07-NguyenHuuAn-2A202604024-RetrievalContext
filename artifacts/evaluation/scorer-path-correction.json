@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-11-16T14:16:30.899243+00:00",
+  "file": "scripts/evaluate_agent.py",
+  "locked_sha256": "dfb01aa6f3c4c6a0e938bd2d255cfc4bc8907bc59dce0f58b69d20be07cb0f11",
+  "corrected_sha256": "a9af79a512ba0c7b349c6f1f90f18a238730cd56c94fdc27cc6f45172d820046",
+  "change": "Normalize input run directory to absolute path before provenance relative_to(ROOT). The relative CLI path failed after content reviews were saved, before metrics output.",
+  "algorithm_changed": false,
+  "runtime_fingerprint_changed": false,
+  "dev_selection_changed": false,
+  "paid_api_rerun": false,
+  "trace_modified": false,
+  "validation": "Recompute all three frozen dev metrics with corrected scorer and compare entire JSON exactly; test metrics from original seven traces."
+}

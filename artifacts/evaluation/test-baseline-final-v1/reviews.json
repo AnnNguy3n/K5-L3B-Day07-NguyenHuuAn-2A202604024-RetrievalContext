@@ -1,0 +1,123 @@
+{
+  "created_at_utc": "2026-11-16T14:15:45.035755+00:00",
+  "reviewer": "AI hỗ trợ học viên; chưa có người chấm độc lập",
+  "method": "Đọc đủ 5 answer/5 citation và 2 abstention cùng context thật; đối chiếu text PDF gốc, đọc absence audit toàn corpus và xem render PDF63 cho Figure5.2. Gold chỉ dùng offline sau run, không chỉnh hệ thống theo test.",
+  "source_pdf_sha256": "8cef479b81c9b0837c3c09ce095d621be28b1ec874110c76f0b311484a7c667d",
+  "reviews": [
+    {
+      "query_id": "d07-t01",
+      "trace_sha256": "742fdb8fcb097f322d5a144dfbc8b383d87c47bd1e5a83c05ec257b9f4d8c598",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "d9a1f9335fbcfa26b0cfc47060ff3e274455eebcaa81ca01a70e650e746a7895",
+          "supports_answer": true,
+          "source_quote": "PMI first began offering the Project Management Professional (PMP) certi- fication exam in 1984.",
+          "reason": "Đúng năm 1984, không nhầm năm thành lập PMI 1969 trong cùng chunk.",
+          "pdf_page": 38,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng năm 1984, không nhầm năm thành lập PMI 1969 trong cùng chunk.",
+      "source_check": "Đọc full citation chunk và text PDF gốc trang 38; đối chiếu đủ điều kiện/claim."
+    },
+    {
+      "query_id": "d07-t02",
+      "trace_sha256": "be262bb188251ea60e217348fbe36c60205861aae630bd57b5b430c42c566d6f",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "693fd60a928972487ad1641605ca4de61e5b8669e6b05c62c3bd2d83be466292",
+          "supports_answer": true,
+          "source_quote": "If the client’s project completion date precedes the calculated critical path end date, the project has a negative float.",
+          "reason": "Giữ đúng chiều so sánh: completion date của client sớm hơn critical path end date; không đảo positive/negative float.",
+          "pdf_page": 43,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Giữ đúng chiều so sánh: completion date của client sớm hơn critical path end date; không đảo positive/negative float.",
+      "source_check": "Đọc full citation chunk và text PDF gốc trang 43; đối chiếu đủ điều kiện/claim."
+    },
+    {
+      "query_id": "d07-t03",
+      "trace_sha256": "9ee82838172c3fe0700529e4c8801cf78fcc06244c359db1dd2888dcbcfde708",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "12706be2fdf7576a26434c0609458c773de17340bb97e170b47c94f4b22c7363",
+          "supports_answer": true,
+          "source_quote": "If all the parties to the communication are taking part in the exchange at the same time, the communication is synchro- nous. A telephone conference call is an example of synchronous communication.",
+          "reason": "Đủ hai phần: mọi bên trao đổi cùng thời điểm và ví dụ telephone conference call.",
+          "pdf_page": 46,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ hai phần: mọi bên trao đổi cùng thời điểm và ví dụ telephone conference call.",
+      "source_check": "Đọc full citation chunk và text PDF gốc trang 46; đối chiếu đủ điều kiện/claim."
+    },
+    {
+      "query_id": "d07-t04",
+      "trace_sha256": "f7ee320a011ea0af4eec3f9444a41b67ab9cd8dfd0180f6c711a8f99e92ac46b",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "5732a8089c6feee36ec61f90b5ff5b2f3c5b53a323e2541866a0c83f8915f613",
+          "supports_answer": true,
+          "source_quote": "Commodities are common products that are purchased based on the lowest bid.",
+          "reason": "Đúng lowest bid cho commodities; không áp các tiêu chí vendor sản phẩm riêng ở câu sau.",
+          "pdf_page": 47,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng lowest bid cho commodities; không áp các tiêu chí vendor sản phẩm riêng ở câu sau.",
+      "source_check": "Đọc full citation chunk và text PDF gốc trang 47; đối chiếu đủ điều kiện/claim."
+    },
+    {
+      "query_id": "d07-t05",
+      "trace_sha256": "780475b393f671b3e2ecdf2094293b0899e6619bdae4697834d363c95fd7e439",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+          "supports_answer": true,
+          "source_quote": "Keep stakeholders informed: Send regular status updates. Daily may be too much; monthly is not enough. One update per week is usually about right.",
+          "reason": "Đúng usually một lần mỗi tuần; không tuyệt đối hóa thành quy định bắt buộc.",
+          "pdf_page": 61,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng usually một lần mỗi tuần; không tuyệt đối hóa thành quy định bắt buộc.",
+      "source_check": "Đọc full citation chunk và text PDF gốc trang 61; đối chiếu đủ điều kiện/claim."
+    },
+    {
+      "query_id": "d07-t06",
+      "trace_sha256": "119ace995df23a0a5037a1d308d17576a610e3897f7af6f717a48f51111cc4ee",
+      "context_grade": null,
+      "grounded_grade": null,
+      "citation_reviews": [],
+      "abstention_correct": true,
+      "reason": "Model thực sự abstain sau hai search, không đưa CPI=EV/AC từ kiến thức ngoài. Corpus chỉ mô tả budget/cost control; absence audit toàn 131 chunk/32 trang xác nhận thiếu công thức.",
+      "source_check": "Model thực sự abstain sau hai search, không đưa CPI=EV/AC từ kiến thức ngoài. Corpus chỉ mô tả budget/cost control; absence audit toàn 131 chunk/32 trang xác nhận thiếu công thức."
+    },
+    {
+      "query_id": "d07-t07",
+      "trace_sha256": "034016adcc34bdd506d8e0846d62bde4de320fd556e34c4a35edca7e87847fbe",
+      "context_grade": null,
+      "grounded_grade": null,
+      "citation_reviews": [],
+      "abstention_correct": true,
+      "reason": "Model abstain sau hai search, không bịa ngày. Đã xem ảnh render PDF63: Figure5.2 có header Communication Date và hai ô body trống; mô tả trong context khớp hình gốc.",
+      "source_check": "Model abstain sau hai search, không bịa ngày. Đã xem ảnh render PDF63: Figure5.2 có header Communication Date và hai ô body trống; mô tả trong context khớp hình gốc."
+    }
+  ]
+}

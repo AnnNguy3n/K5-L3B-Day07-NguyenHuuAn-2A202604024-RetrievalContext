@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "One stakeholder status update per week is usually about right. [7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4]",
+  "citations": [
+    "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4"
+  ],
+  "citation_sources": [
+    {
+      "id": "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 61
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_ndAtqY1kt5l9Nm3FsxiblNru",
+      "arguments": {
+        "query": "relationship-building tips stakeholder status update usually about right how often"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+            "text": "d: Don’t just report to stakeholders. Ask for their input. Get to know them better by scheduling time for coffee, lunch, or quick meetings. Measure each stakeholder’s capacity to participate and honour time constraints. • Keep stakeholders informed: Send regular status updates. Daily may be too much; monthly is not enough. One update per week is usually about right. Hold project meetings as required, but don’t let too much time pass between meetings. Be sure to answer stakeholders’ ques- tions and emails promptly. Regular communication is always appreciated – and may even soften the blow when you have bad news to share. These are the basics of building strong stakeholder relationships. But as in any relationship, there are subtleties that every successful project manager understands – such as learning the differences between and relating well to different types stakeholders.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 61
+          },
+          {
+            "id": "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+            "text": "What do you want from stakeholders? What is important to stakeholders? How could stakeholders block your efforts? What is your strategy for enhancing stakeholder support? Finally, a key piece of your stakeholder management efforts is constant communication to your stake- holders. Using the information developed above, you should develop a communications plan that secures your stakeholders’ support. The template in Figure 5.2 can be used.\n\nFigure 5.2 Stakeholder Communication Template [Image description]\n\n[Figure image: Figure 5.2] [Reading position unresolved; appended at page end] Labels: Project Scope: Key Messages: Communication Goals: Communication Team: Project Team: Other stakeholders:",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 63
+          },
+          {
+            "id": "11a1f4dea7cb5effa6e7af0fb639ebb91439ee1d129ac3021a260241d0953633",
+            "text": "How to Relate to Different Types of Stakeholders\n\nBy conducting a stakeholder analysis, project managers can gather enough information on which to build strong relationships – regardless of the differences between them. For example, the needs and wants of",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 61
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+          "text": "d: Don’t just report to stakeholders. Ask for their input. Get to know them better by scheduling time for coffee, lunch, or quick meetings. Measure each stakeholder’s capacity to participate and honour time constraints. • Keep stakeholders informed: Send regular status updates. Daily may be too much; monthly is not enough. One update per week is usually about right. Hold project meetings as required, but don’t let too much time pass between meetings. Be sure to answer stakeholders’ ques- tions and emails promptly. Regular communication is always appreciated – and may even soften the blow when you have bad news to share. These are the basics of building strong stakeholder relationships. But as in any relationship, there are subtleties that every successful project manager understands – such as learning the differences between and relating well to different types stakeholders.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 61,
+          "rank": 1,
+          "score": 0.8235192053461491,
+          "strategy": "dense"
+        },
+        {
+          "id": "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+          "text": "What do you want from stakeholders? What is important to stakeholders? How could stakeholders block your efforts? What is your strategy for enhancing stakeholder support? Finally, a key piece of your stakeholder management efforts is constant communication to your stake- holders. Using the information developed above, you should develop a communications plan that secures your stakeholders’ support. The template in Figure 5.2 can be used.\n\nFigure 5.2 Stakeholder Communication Template [Image description]\n\n[Figure image: Figure 5.2] [Reading position unresolved; appended at page end] Labels: Project Scope: Key Messages: Communication Goals: Communication Team: Project Team: Other stakeholders:",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 63,
+          "rank": 2,
+          "score": 0.7748851448434474,
+          "strategy": "dense"
+        },
+        {
+          "id": "11a1f4dea7cb5effa6e7af0fb639ebb91439ee1d129ac3021a260241d0953633",
+          "text": "How to Relate to Different Types of Stakeholders\n\nBy conducting a stakeholder analysis, project managers can gather enough information on which to build strong relationships – regardless of the differences between them. For example, the needs and wants of",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 61,
+          "rank": 3,
+          "score": 0.7613954205291014,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+        "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+        "11a1f4dea7cb5effa6e7af0fb639ebb91439ee1d129ac3021a260241d0953633"
+      ],
+      "filters": null,
+      "output_chars": 2442,
+      "elapsed_ms": 99.66262500006451
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 126,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1615,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_082e18b2c0d44dbaab2403c5f4ccbc62",
+      "usage": {
+        "input_tokens": 380,
+        "output_tokens": 29,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2026.0769169999548,
+      "response_id": "resp_00e01e34639e7b48016afb0fc742e487d2820bf6fe27d81fb2",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3005,
+      "context_ids": [
+        "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+        "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+        "11a1f4dea7cb5effa6e7af0fb639ebb91439ee1d129ac3021a260241d0953633"
+      ],
+      "context_chars_unique": 2442,
+      "context_chunks": [
+        {
+          "id": "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+          "text": "d: Don’t just report to stakeholders. Ask for their input. Get to know them better by scheduling time for coffee, lunch, or quick meetings. Measure each stakeholder’s capacity to participate and honour time constraints. • Keep stakeholders informed: Send regular status updates. Daily may be too much; monthly is not enough. One update per week is usually about right. Hold project meetings as required, but don’t let too much time pass between meetings. Be sure to answer stakeholders’ ques- tions and emails promptly. Regular communication is always appreciated – and may even soften the blow when you have bad news to share. These are the basics of building strong stakeholder relationships. But as in any relationship, there are subtleties that every successful project manager understands – such as learning the differences between and relating well to different types stakeholders.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 61
+        },
+        {
+          "id": "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+          "text": "What do you want from stakeholders? What is important to stakeholders? How could stakeholders block your efforts? What is your strategy for enhancing stakeholder support? Finally, a key piece of your stakeholder management efforts is constant communication to your stake- holders. Using the information developed above, you should develop a communications plan that secures your stakeholders’ support. The template in Figure 5.2 can be used.\n\nFigure 5.2 Stakeholder Communication Template [Image description]\n\n[Figure image: Figure 5.2] [Reading position unresolved; appended at page end] Labels: Project Scope: Key Messages: Communication Goals: Communication Team: Project Team: Other stakeholders:",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 63
+        },
+        {
+          "id": "11a1f4dea7cb5effa6e7af0fb639ebb91439ee1d129ac3021a260241d0953633",
+          "text": "How to Relate to Different Types of Stakeholders\n\nBy conducting a stakeholder analysis, project managers can gather enough information on which to build strong relationships – regardless of the differences between them. For example, the needs and wants of",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 61
+        }
+      ],
+      "request_chars": 4494,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_c5183bfb4c45490b8e3e8ecdda62d4e1",
+      "usage": {
+        "input_tokens": 987,
+        "output_tokens": 109,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2783.640000000105,
+      "response_id": "resp_00e01e34639e7b48016afb0fc965d887d2903a111d8dfb29b0",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+    "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+    "11a1f4dea7cb5effa6e7af0fb639ebb91439ee1d129ac3021a260241d0953633"
+  ],
+  "context_ids_prepared": [
+    "7385bc217d9e31da631f1ccb7691be4b56a1d797bb9d0dc05aa797260175e8a4",
+    "87c939cb962718a2de867b5918d8db9436526eac8c5897254b5b9fef5e1d5c09",
+    "11a1f4dea7cb5effa6e7af0fb639ebb91439ee1d129ac3021a260241d0953633"
+  ],
+  "context_chars_sent_unique": 2442,
+  "context_chars_prepared": 2442,
+  "usage": {
+    "input_tokens": 1367,
+    "output_tokens": 138,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4910.497291999945,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "d07-t05",
+  "question": "In the relationship-building tips, how often is a stakeholder status update usually about right?",
+  "filters": null,
+  "filter_source": "none",
+  "split": "test",
+  "run_id": "test-baseline-final-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:14:35.953268+00:00",
+  "attempt": 1
+}
