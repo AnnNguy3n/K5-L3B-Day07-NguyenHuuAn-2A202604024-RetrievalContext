@@ -318,7 +318,10 @@ def run_responses_agent(question, client, retriever, config, *, filters=None, se
                             rows = retriever.search(args['query'], filters=filters, top_k=config.top_k)
                         except Exception:
                             raise AgentFailure('tool_error') from None
-                        event['ranking'] = deepcopy(rows)
+                        event['ranking'] = [{k: deepcopy(row[k]) for k in (
+                            'id', 'text', 'source_id', 'source', 'page', 'rank', 'score',
+                            'strategy', 'component_ranks', 'component_scores') if k in row}
+                            for row in rows]
                         event['filter_source'] = 'runtime_query_filter' if filters else 'none'
                         remaining = min(config.tool_chars, config.context_chars - context_used)
                         try:
