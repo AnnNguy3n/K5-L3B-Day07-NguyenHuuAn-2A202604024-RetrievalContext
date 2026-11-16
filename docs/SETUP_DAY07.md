@@ -59,3 +59,9 @@ hết thời gian, tôi kiểm tra dịch vụ, endpoint và quyền truy cập 
 không rebuild Day06 để xử lý lỗi kết nối. Sai digest/chiều cần đối chiếu lại cấu hình.
 
 [Kết quả công việc 01](DAY07_CONNECTION_STATUS.md) · [Minh chứng live](day07-connection-check.json)
+
+## Model agent — công việc 05
+
+Tôi bổ sung `openai==3.51.0`, đã kiểm tra trên Python 3.14.10. Key/model được
+điền riêng trong `.env` hoặc shell; embedding/index Day06 giữ local. Lệnh chạy,
+giới hạn và hai trace smoke OpenAI thật nằm tại [hướng dẫn agent](OPENAI_AGENT.md).

@@ -61,7 +61,20 @@ evidence top-3. Tôi chưa đo context/đáp án agent, chưa đánh giá 7 câu
 có hai cấu hình cải thiện. [Kết quả và cách chạy](../../docs/RETRIEVAL_HYBRID.md) ·
 [So sánh có trace/hash](../../artifacts/retrieval/hybrid/verified-dev/comparison.json)
 
+## Công việc 05 — agent OpenAI API
+
+Tôi đã kết nối SDK `openai==3.51.0` với Responses/function calling và ba retriever
+thật, giữ embedding/index Day06. Model `gpt-6.1-terra` tự chọn query và lượt tìm;
+agent kiểm tra tool/citation, giới hạn call/search/context và ghi lỗi riêng.
+
+Tôi chạy hai smoke dev qua OpenAI thật: q01 trả lời có citation PDF trang 35
+(2 call/1 search); d07-d21 từ chối sau 2 search/3 call vì thiếu tổng ngân sách. Context,
+request ID và usage được giữ trong trace; không gửi nhãn hoặc lưu key/reasoning.
+Chi phí USD chưa đối soát nên để null. Tôi bổ sung 23 test; tổng 134 test có
+133 đạt, 1 live OpenAI unittest bỏ qua. Hồi quy retrieval giữ điểm bước 04.
+[Thiết lập, minh chứng và giới hạn](../../docs/OPENAI_AGENT.md).
+
 ## Phần tiếp theo
 
-Tôi sẽ kết nối model agent qua OpenAI API ở công việc 05, giữ embedding và index
-Day06 hiện có. Bước này mới chuẩn bị cấu hình mẫu, chưa gọi OpenAI API.
+Tôi sẽ tối ưu context ở công việc 06. Hai smoke chưa thay thế đánh giá agent
+trên toàn dev hoặc audit citation đầy đủ; 7 câu test vẫn chưa được đánh giá.

@@ -4,15 +4,12 @@
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
-**Tiến độ 16/11/2026:** Tôi đã hoàn thành công việc 01–04 (retrieval-only).
-Dense, lexical và hybrid RRF chạy cùng 131 chunk B, 22 query dev v1, top-3, không lỗi.
-Hit@1 / Evidence Hit@3: dense **17/20 · 18/20**, lexical **18/20 · 19/20**,
-hybrid **19/20 · 19/20**. Tổng **111/111 test code đạt**, gồm smoke dịch vụ thật.
-RRF (20,60) là cấu hình ban đầu; chưa đo context/agent và chưa đánh giá 7 câu test.
-[Cách chạy, so sánh và giới hạn công việc 04](docs/RETRIEVAL_HYBRID.md) ·
-[Benchmark, bảo vệ test và lệnh tái tạo](benchmark/day07/README.md) ·
-[Báo cáo cá nhân](report/individual/2A202604024_NguyenHuuAn.md) ·
-[Dữ liệu và minh chứng](docs/DAY07_DATA_CONTRACT.md).
+**Tiến độ 16/11/2026:** Tôi đã hoàn thành công việc 01–05: kết nối Day06,
+so sánh ba phương pháp retrieval và chạy hai smoke OpenAI thật bằng `gpt-6.1-terra`.
+Tổng 134 test: 133 đạt, 1 live OpenAI unittest bỏ qua; chưa đánh giá agent toàn
+bộ dev/test hoặc tối ưu context. [Agent và minh chứng](docs/OPENAI_AGENT.md) ·
+[Retrieval](docs/RETRIEVAL_HYBRID.md) · [Benchmark](benchmark/day07/README.md) ·
+[Báo cáo cá nhân](report/individual/2A202604024_NguyenHuuAn.md).
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
 

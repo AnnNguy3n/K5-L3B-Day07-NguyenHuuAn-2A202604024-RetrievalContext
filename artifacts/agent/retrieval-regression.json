@@ -1,0 +1,65 @@
+{
+  "created_at_utc": "2026-11-16T11:54:41.530708+00:00",
+  "status": "ok",
+  "split": "dev",
+  "top_k": 3,
+  "candidate_k": 20,
+  "rrf_k": 60,
+  "attempted": 22,
+  "succeeded": 22,
+  "errors": 0,
+  "python": "3.14.10",
+  "test_executed": false,
+  "agent_executed": false,
+  "mode": "retrieval-only regression; scoring offline after real local retrieval",
+  "methods": {
+    "dense": {
+      "hit_at_1": {
+        "hits": 17,
+        "denominator": 20,
+        "rate": 0.85
+      },
+      "evidence_hit_at_3": {
+        "hits": 18,
+        "denominator": 20,
+        "rate": 0.9
+      },
+      "excluded_unanswerable": 2,
+      "errors": []
+    },
+    "lexical": {
+      "hit_at_1": {
+        "hits": 18,
+        "denominator": 20,
+        "rate": 0.9
+      },
+      "evidence_hit_at_3": {
+        "hits": 19,
+        "denominator": 20,
+        "rate": 0.95
+      },
+      "excluded_unanswerable": 2,
+      "errors": []
+    },
+    "hybrid": {
+      "hit_at_1": {
+        "hits": 19,
+        "denominator": 20,
+        "rate": 0.95
+      },
+      "evidence_hit_at_3": {
+        "hits": 19,
+        "denominator": 20,
+        "rate": 0.95
+      },
+      "excluded_unanswerable": 2,
+      "errors": []
+    }
+  },
+  "corpus_sha256": "8d7c19984861079c6a11c5de242a4b2c4a03cf95db232eb570545d1fa42c1cc5",
+  "commands": [
+    ".venv/bin/python scripts/run_hybrid_dev.py run --output /tmp/day07-task05-retrieval-regression",
+    ".venv/bin/python scripts/run_hybrid_dev.py score --output /tmp/day07-task05-retrieval-regression"
+  ],
+  "note": "Full replayable retrieval trace is local temporary output; retained summary has no per-query labels. Task04 evidence untouched."
+}
