@@ -14,3 +14,10 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Lượt chạy cũ/log từng phần giữ cục bộ; chia sẻ verified-dev và log cuối.
+artifacts/retrieval/dense/initial-live/
+artifacts/retrieval/dense/live-dev/
+artifacts/retrieval/dense/validation.txt
+artifacts/retrieval/lexical/validation.txt
+artifacts/retrieval/hybrid/validation-initial.txt

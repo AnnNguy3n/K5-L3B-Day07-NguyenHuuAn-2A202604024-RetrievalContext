@@ -1,0 +1,211 @@
+{
+  "mode": "offline-dev-score",
+  "hit_at_1": {
+    "hits": 17,
+    "denominator": 20,
+    "rate": 0.85
+  },
+  "evidence_hit_at_3": {
+    "hits": 18,
+    "denominator": 20,
+    "rate": 0.9
+  },
+  "errors": [],
+  "excluded_unanswerable": 2,
+  "abstention": "not evaluated: no agent",
+  "per_query": [
+    {
+      "id": "q01",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q02",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q03",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q04",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q05",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q06",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q07",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q08",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q09",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q10",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q11",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q12",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q13",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q14",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q15",
+      "answerable": true,
+      "matched_ranks": [
+        2
+      ],
+      "hit_at_1": false,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q16",
+      "answerable": true,
+      "matched_ranks": [],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false
+    },
+    {
+      "id": "q17",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q18",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q19",
+      "answerable": true,
+      "matched_ranks": [],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false
+    },
+    {
+      "id": "q20",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "d07-d21",
+      "answerable": false,
+      "matched_ranks": [],
+      "hit_at_1": null,
+      "evidence_hit_at_3": null
+    },
+    {
+      "id": "d07-d22",
+      "answerable": false,
+      "matched_ranks": [],
+      "hit_at_1": null,
+      "evidence_hit_at_3": null
+    }
+  ],
+  "trace_sha256": "76a7d6910fd11adb3fcc83978483379547489a19827ab9e10d072df2e53c05be",
+  "summary_sha256": "8bab863b8a152fca67657d46223d1cca57818d5aa78bf045ef4e8f2b8c773c28",
+  "cases_sha256": "9bedbdeb8d365d391540817ff457f5375beef68b8165ea181e2feeeab2f6af3c"
+}

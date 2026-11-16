@@ -1,0 +1,53 @@
+{
+  "created_at_utc": "2026-11-16T11:12:07.766586+00:00",
+  "mode": "offline-lexical-dev",
+  "status": "ok",
+  "split": "dev",
+  "top_k": 3,
+  "attempted": 22,
+  "succeeded": 22,
+  "errors": 0,
+  "python": "3.14.10",
+  "config": {
+    "strategy": "lexical",
+    "physical_strategy": "B",
+    "top_k": 3,
+    "normalization": "NFC then casefold",
+    "tokenization": "Unicode re.findall(r\"\\w+\")",
+    "tf": "raw term count",
+    "idf": "ln((1 + N) / (1 + df)) + 1",
+    "fit_scope": "all 131 corpus B chunks; once at build",
+    "similarity": "cosine; document and in-vocabulary query L2 normalized",
+    "oov": "drop before query normalization; empty vector returns []",
+    "filters": "exact metadata section/language/document_type; before cutoff",
+    "tie_break": "id ascending",
+    "minimum_score": "strictly > 0",
+    "query_rewrite": false,
+    "stopwords": false,
+    "stemming": false,
+    "services": []
+  },
+  "config_sha256": "2a9c72cdbf160695b189a7a158200a6e2fc9c968f3c80aaafc150e9e5003fa38",
+  "test_executed": false,
+  "agent_executed": false,
+  "benchmark_version": "1.0.0",
+  "hashes": {
+    "data/day06/B/chunks.json": "8d7c19984861079c6a11c5de242a4b2c4a03cf95db232eb570545d1fa42c1cc5",
+    "benchmark/day07/manifest.json": "8e22d770eb639f2588bb9bea6c0fc810567e5ce24dd313765dc9a754b20ca12e",
+    "benchmark/day07/queries.dev.json": "a5f7709a253962aba1cdb316616d1e62f431b43a85922a16d29a3306d3e859eb",
+    "src/lexical_retrieval.py": "66c958242c2edd651aabed098885e6e477d1fd0dec6a11055f8ceb195aaf7800",
+    "scripts/run_lexical_dev.py": "5b090f889052e2ab95ff2003a52e0bd332ca45d62f25955f1932d61a17d9b5e0",
+    "starter/baseline.py": "03b8b16c42be7d19c820e506f4cea2a7496c462a00c77d1cfc9e7fc972301fdf"
+  },
+  "build_ms": 6.342624999888358,
+  "chunks": 131,
+  "pages": 32,
+  "vocabulary_size": 2428,
+  "timings_ms": {
+    "search_total": 3.9235840013134293,
+    "search_mean": 0.1783447273324286,
+    "search_median": 0.19639600031950977,
+    "search_max": 0.2606250000098953
+  },
+  "trace_sha256": "ca5861d00020d39de8707a1c0c9f2da786651a35fdfdf870d57eea85403dc92d"
+}

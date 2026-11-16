@@ -1,0 +1,214 @@
+{
+  "mode": "offline-dev-score",
+  "top_k": 3,
+  "hit_at_1": {
+    "hits": 19,
+    "denominator": 20,
+    "rate": 0.95
+  },
+  "evidence_hit_at_3": {
+    "hits": 19,
+    "denominator": 20,
+    "rate": 0.95
+  },
+  "excluded_unanswerable": 2,
+  "errors": [],
+  "per_query": [
+    {
+      "id": "q01",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q02",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q03",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q04",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q05",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q06",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q07",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q08",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q09",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q10",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q11",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q12",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q13",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q14",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q15",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q16",
+      "answerable": true,
+      "matched_ranks": [],
+      "hit_at_1": false,
+      "evidence_hit_at_3": false
+    },
+    {
+      "id": "q17",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q18",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q19",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "q20",
+      "answerable": true,
+      "matched_ranks": [
+        1
+      ],
+      "hit_at_1": true,
+      "evidence_hit_at_3": true
+    },
+    {
+      "id": "d07-d21",
+      "answerable": false,
+      "matched_ranks": [],
+      "hit_at_1": null,
+      "evidence_hit_at_3": null
+    },
+    {
+      "id": "d07-d22",
+      "answerable": false,
+      "matched_ranks": [],
+      "hit_at_1": null,
+      "evidence_hit_at_3": null
+    }
+  ],
+  "trace_sha256": "31071aca6d39ad1e4b4a60d90018a06884565bb4a5771805ac87fae075c7e91e",
+  "summary_sha256": "4d92ced7c85b3a52a03f1c01af1ce4c16f9ed460cca007dcfc90842c414db71c",
+  "cases_sha256": "9bedbdeb8d365d391540817ff457f5375beef68b8165ea181e2feeeab2f6af3c",
+  "config_sha256": "c67a01b37986402352d83a50fad42a8cee9b238b081185aceb493b44ac85927f"
+}

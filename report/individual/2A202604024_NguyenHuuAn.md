@@ -46,7 +46,22 @@ test chỉ dùng để xây nhãn, đánh giá hệ thống sau khi khóa cấu 
 [Schema và cách chạy](../../benchmark/day07/README.md) ·
 [Minh chứng](../../benchmark/day07/audit.json)
 
+## Công việc 04 — dense, lexical và hybrid retrieval
+
+Tôi đã tích hợp ba phương pháp trên cùng 131 chunk B, benchmark v1, đủ 22 câu dev
+và top-3; mỗi phương pháp không có lỗi. Hit@1 / Evidence Hit@3 lần lượt là dense
+**17/20 · 18/20**, lexical **18/20 · 19/20**, hybrid RRF **19/20 · 19/20**.
+Hai câu thiếu evidence vẫn chạy và được loại khỏi mẫu số Hit. Tổng search tương
+ứng khoảng **1,171 s · 0,022 s · 1,214 s**; cả lượt dùng 44 query embedding local,
+không gọi LLM, chưa đo chi phí tiền/điện.
+
+Tôi giữ trace, hash và bước chấm offline; **111/111 test code đạt**, gồm adapter thật.
+RRF dùng candidate_k=20, rrf_k=60 ban đầu, chưa chứng minh tối ưu; q16 vẫn thiếu
+evidence top-3. Tôi chưa đo context/đáp án agent, chưa đánh giá 7 câu test và chưa
+có hai cấu hình cải thiện. [Kết quả và cách chạy](../../docs/RETRIEVAL_HYBRID.md) ·
+[So sánh có trace/hash](../../artifacts/retrieval/hybrid/verified-dev/comparison.json)
+
 ## Phần tiếp theo
 
-Tôi sẽ triển khai dense, lexical và hybrid retrieval trên cùng corpus B và dev.
-Các câu thiếu evidence vẫn được truy xuất nhưng không nằm trong mẫu số Hit@k.
+Tôi sẽ kết nối model agent qua OpenAI API ở công việc 05, giữ embedding và index
+Day06 hiện có. Bước này mới chuẩn bị cấu hình mẫu, chưa gọi OpenAI API.

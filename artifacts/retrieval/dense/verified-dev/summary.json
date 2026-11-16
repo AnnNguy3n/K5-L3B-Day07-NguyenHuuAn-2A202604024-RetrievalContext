@@ -1,0 +1,131 @@
+{
+  "created_at_utc": "2026-11-16T10:59:36.586227+00:00",
+  "mode": "live-dev",
+  "status": "ok",
+  "top_k": 3,
+  "query_rewrite": false,
+  "attempted": 22,
+  "succeeded": 22,
+  "errors": 0,
+  "python": "3.14.10",
+  "test_executed": false,
+  "agent_executed": false,
+  "config": {
+    "EMBEDDING_ENDPOINT": "http://127.0.0.1:11434",
+    "EMBEDDING_MODEL": "embeddinggemma-2:740m-mxfp8",
+    "EMBEDDING_DIGEST": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+    "EMBEDDING_DIMENSIONS": 768,
+    "EMBEDDING_QUERY_PREFIX": "task: search result | query: ",
+    "EMBEDDING_DOCUMENT_PREFIX": "title: none | text: ",
+    "DATABASE_SCHEMA": "public",
+    "DATABASE_TABLE": "day6_chunks",
+    "CONNECTION_TIMEOUT": 10,
+    "day06": "/Users/annnguy3n/Desktop/K5-L3B-DAY06-NguyenHuuAn-2A202604024-DataIngestion",
+    "physical_strategy": "B",
+    "top_k": 3,
+    "database_url": "withheld",
+    "transaction": "read only / repeatable read"
+  },
+  "config_sha256": "6d4e1c904e2c781f6a10bcd821133b79a39cba0e62b60685d735ec36559bf7e0",
+  "hashes": {
+    "data/day06/B/chunks.json": "8d7c19984861079c6a11c5de242a4b2c4a03cf95db232eb570545d1fa42c1cc5",
+    "benchmark/day07/manifest.json": "8e22d770eb639f2588bb9bea6c0fc810567e5ce24dd313765dc9a754b20ca12e",
+    "benchmark/day07/queries.dev.json": "a5f7709a253962aba1cdb316616d1e62f431b43a85922a16d29a3306d3e859eb",
+    "src/dense_retrieval.py": "482dc5702bd5b4b3a117c321ee20f02e14c108c47ec9a3b88eaea07c799529a7",
+    "scripts/run_dense_dev.py": "f681c57b4aa782a306aa3d87e11a82072b95542dcc27cb2f86698d2980582fcb",
+    "starter/convert_day6.py": "b7f3bfb6059d80d8a2f498b1d025302445a699ca8b87ad1eb3f827cc4c94fa01",
+    "scripts/check_connections.py": "04aebf6c8149f997319132bcde028fc5f1e4f94955d6bb6be74f2ebb3abd181e"
+  },
+  "benchmark_version": "1.0.0",
+  "preflight_ms": 134.73345800048264,
+  "readiness": {
+    "day06": {
+      "source": "Day06 files, not evidence of a running service",
+      "checkpoint": "starter/results/checkpoint5_initial.json",
+      "checkpoint_sha256": "82a04d0c35ed3e088a2c49fb8d71ce0027b01853f716fb4e3dc3d32ddb618572",
+      "recorded_postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+      "recorded_pgvector": "0.8.7",
+      "recorded_stored": [
+        [
+          "A",
+          206,
+          206,
+          768,
+          768
+        ],
+        [
+          "B",
+          131,
+          131,
+          768,
+          768
+        ]
+      ],
+      "model": "embeddinggemma-2:740m-mxfp8",
+      "digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+      "dimensions": 768,
+      "query_prefix": "task: search result | query: ",
+      "document_prefix": "title: none | text: ",
+      "exports": {
+        "A": {
+          "count": 206,
+          "sha256": "2df93f4df9f07d30128bb4b34dfce12ffc3e1a3af05a037734668d5d976af412"
+        },
+        "B": {
+          "count": 131,
+          "sha256": "6e391fc4126a4da0101366e3e408ae9c3245c39c5748bb8b200145168ca8f3fb"
+        }
+      },
+      "embedding_code_sha256": "8f561850da8a2d2e75fba859e63062521cfe4cbc585fc44ea5035d778b9bc63c"
+    },
+    "corpus_sha256": "8d7c19984861079c6a11c5de242a4b2c4a03cf95db232eb570545d1fa42c1cc5",
+    "embedding": {
+      "tag": {
+        "name": "embeddinggemma-2:740m-mxfp8",
+        "model": "embeddinggemma-2:740m-mxfp8",
+        "modified_at": "2026-11-13T16:37:09.876902445+07:00",
+        "size": 1389077120,
+        "digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+        "details": {
+          "parent_model": "",
+          "format": "safetensors",
+          "family": "",
+          "families": null,
+          "parameter_size": "",
+          "quantization_level": "mxfp8",
+          "context_length": 262144,
+          "embedding_length": 768,
+          "runner": "mlx"
+        },
+        "capabilities": [
+          "embedding",
+          "vision",
+          "audio"
+        ]
+      },
+      "ollama": "0.40.16",
+      "query_prefix": "task: search result | query: ",
+      "document_prefix": "title: none | text: ",
+      "probe_dimensions": [
+        768,
+        768
+      ],
+      "batch_size": 16,
+      "truncate": false,
+      "dimensions_parameter": null
+    },
+    "database": {
+      "physical_strategy": "B",
+      "rows": 131,
+      "digest": "a4efd357164f4bb30a45b0f0e7bc45e8dfa5be181de738c3227426624b3f8189",
+      "transaction_read_only": "on",
+      "isolation": "repeatable read",
+      "exact_cosine": true
+    }
+  },
+  "timings_ms": {
+    "embedding_ms": 1054.531498999495,
+    "search_ms": 169.80866599624278
+  },
+  "trace_sha256": "76a7d6910fd11adb3fcc83978483379547489a19827ab9e10d072df2e53c05be"
+}
