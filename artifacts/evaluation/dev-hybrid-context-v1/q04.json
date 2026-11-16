@@ -1,0 +1,314 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "The project manager conducts one or more kickoff meetings or alignment sessions to bring the parties together and begin building the team. [8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24]",
+  "citations": [
+    "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24"
+  ],
+  "citation_sources": [
+    {
+      "id": "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 41
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 5,
+    "tool_chars": 12000,
+    "context_chars": 24000,
+    "history_chars": 80000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "refresh_on_full"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_1g9tc1N2GN0D5xCK70DeXG36",
+      "arguments": {
+        "query": "\"Framework for Project Management\" \"building the team\" parties manager bring together"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+            "text": "Project Start-Up and Integration\n\nThe start-up of a project is similar to the start-up of a new organization. The project leader develops the project infrastructure used to design and execute the project. The project management team must develop alignment among the major stakeholders—those who have a share or interest—on the project during the early phases or definition phases of the project. The project manager will conduct one or more kickoff meetings or alignment sessions to bring the various parties of the project together and begin the project team building required to operate efficiently during the project. During project start-up, the project management team refines the scope of work and develops a pre- liminary schedule and conceptual budget. The project team builds a plan for executing the project based on the project profile. The plan for developing and tracking the detailed schedule, the procurement plan, and the plan for building the budget and estimating and tracking costs",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 41
+          },
+          {
+            "id": "6d39e70d5446c32aa1cef3771fa81b9df2f655d20a16f55ae09b603700a44332",
+            "text": "elationships with the client. The project manager sets the tone of the project and sets expectations for each of the project team members. The project start-up phase on complex projects can be chaotic, and until plans are developed, the project manager becomes the source of information and direction. The project manager creates an environment that encourages team members to fully engage in the project and encourages innovative approaches to developing the project plan.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 41
+          },
+          {
+            "id": "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+            "text": "Project Team: Human Resources and Communications\n\nStaffing the project with the right skills, at the right place, and at the right time is an important respon- sibility of the project management team. The project usually has two types of team members: functional managers and process managers. The functional managers and team focus on the technology of the pro- ject. On a construction project, the functional managers would include the engineering manager and con- struction superintendents. On a training project, the functional manager would include the professional trainers; on an information technology project, the software development managers would be functional managers. The project management team also includes project process managers. The project controls team would include process managers who have expertise in estimating, cost tracking, planning, and scheduling. The project manager needs functional and process expertise to plan and execute a successful project. Because projects",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 45
+          },
+          {
+            "id": "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+            "text": "Project Schedule and Time Management\n\nThe definition of project success often includes completing the project on time. The development and management of a project schedule that will complete the project on time is a primary responsibility of the project manager, and completing the project on time requires the development of a realistic plan and the effective management of the plan. On smaller projects, project managers may lead the development of the project plan and build a schedule to meet that plan. On larger and more complex projects, a project controls team that focuses on both costs and schedule planning and controlling functions will assist the project management team in developing the plan and tracking progress against the plan. To develop the project schedule, the project team does an analysis of the project scope, contract, and other information that helps the team define the project deliverables. Based on this information, the pro- ject team develops a milestone schedule. Th",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 42
+          },
+          {
+            "id": "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede",
+            "text": "4. Framework for Project Management\n\nMany different professions contribute to the theory and practice of project management. Engineers and architects have been managing major projects since pre-history. Since approximately the 1960s, there have been efforts to professionalize the practice of project management as a specialization of its own. There are many active debates around this: Should project management be a profession in the same way as engineering, accounting, and medicine? These have professional associations that certify who is legally allowed to use the job title, and who can legally practice the profession. They also provide a level of assurance of quality and discipline members who behave inappropriately. Another ongoing debate is: How much industry knowledge is required of a seasoned project manager? How easily can a project manager from one industry, say, IT, transition to another industry such as hospitality? There are two major organizations with worldwide impact on th",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 38
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+          "text": "Project Start-Up and Integration\n\nThe start-up of a project is similar to the start-up of a new organization. The project leader develops the project infrastructure used to design and execute the project. The project management team must develop alignment among the major stakeholders—those who have a share or interest—on the project during the early phases or definition phases of the project. The project manager will conduct one or more kickoff meetings or alignment sessions to bring the various parties of the project together and begin the project team building required to operate efficiently during the project. During project start-up, the project management team refines the scope of work and develops a pre- liminary schedule and conceptual budget. The project team builds a plan for executing the project based on the project profile. The plan for developing and tracking the detailed schedule, the procurement plan, and the plan for building the budget and estimating and tracking costs",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 41,
+          "rank": 1,
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "lexical": 1
+          },
+          "component_scores": {
+            "dense": 0.7484221604625606,
+            "lexical": 0.2745142064659559
+          }
+        },
+        {
+          "id": "6d39e70d5446c32aa1cef3771fa81b9df2f655d20a16f55ae09b603700a44332",
+          "text": "elationships with the client. The project manager sets the tone of the project and sets expectations for each of the project team members. The project start-up phase on complex projects can be chaotic, and until plans are developed, the project manager becomes the source of information and direction. The project manager creates an environment that encourages team members to fully engage in the project and encourages innovative approaches to developing the project plan.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 41,
+          "rank": 2,
+          "score": 0.031009615384615385,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "lexical": 5
+          },
+          "component_scores": {
+            "dense": 0.7354659315110581,
+            "lexical": 0.13395071146489143
+          }
+        },
+        {
+          "id": "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+          "text": "Project Team: Human Resources and Communications\n\nStaffing the project with the right skills, at the right place, and at the right time is an important respon- sibility of the project management team. The project usually has two types of team members: functional managers and process managers. The functional managers and team focus on the technology of the pro- ject. On a construction project, the functional managers would include the engineering manager and con- struction superintendents. On a training project, the functional manager would include the professional trainers; on an information technology project, the software development managers would be functional managers. The project management team also includes project process managers. The project controls team would include process managers who have expertise in estimating, cost tracking, planning, and scheduling. The project manager needs functional and process expertise to plan and execute a successful project. Because projects",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 45,
+          "rank": 3,
+          "score": 0.030090497737556562,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "lexical": 8
+          },
+          "component_scores": {
+            "dense": 0.7338045436726498,
+            "lexical": 0.11781115494157061
+          }
+        },
+        {
+          "id": "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+          "text": "Project Schedule and Time Management\n\nThe definition of project success often includes completing the project on time. The development and management of a project schedule that will complete the project on time is a primary responsibility of the project manager, and completing the project on time requires the development of a realistic plan and the effective management of the plan. On smaller projects, project managers may lead the development of the project plan and build a schedule to meet that plan. On larger and more complex projects, a project controls team that focuses on both costs and schedule planning and controlling functions will assist the project management team in developing the plan and tracking progress against the plan. To develop the project schedule, the project team does an analysis of the project scope, contract, and other information that helps the team define the project deliverables. Based on this information, the pro- ject team develops a milestone schedule. Th",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42,
+          "rank": 4,
+          "score": 0.029709507042253523,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 11,
+            "lexical": 4
+          },
+          "component_scores": {
+            "dense": 0.7188066150891886,
+            "lexical": 0.1434360598741924
+          }
+        },
+        {
+          "id": "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede",
+          "text": "4. Framework for Project Management\n\nMany different professions contribute to the theory and practice of project management. Engineers and architects have been managing major projects since pre-history. Since approximately the 1960s, there have been efforts to professionalize the practice of project management as a specialization of its own. There are many active debates around this: Should project management be a profession in the same way as engineering, accounting, and medicine? These have professional associations that certify who is legally allowed to use the job title, and who can legally practice the profession. They also provide a level of assurance of quality and discipline members who behave inappropriately. Another ongoing debate is: How much industry knowledge is required of a seasoned project manager? How easily can a project manager from one industry, say, IT, transition to another industry such as hospitality? There are two major organizations with worldwide impact on th",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38,
+          "rank": 5,
+          "score": 0.029631255487269532,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 8,
+            "lexical": 7
+          },
+          "component_scores": {
+            "dense": 0.7244492389097663,
+            "lexical": 0.1212636165318249
+          }
+        }
+      ],
+      "filter_source": "runtime_query_filter",
+      "context_ids": [
+        "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+        "6d39e70d5446c32aa1cef3771fa81b9df2f655d20a16f55ae09b603700a44332",
+        "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+        "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+        "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede"
+      ],
+      "filters": {
+        "section": "4. Framework for Project Management"
+      },
+      "output_chars": 5437,
+      "elapsed_ms": 103.95566700003656
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 154,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1643,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_ffc380e2c7d8464e9cf8fcd2412f93b0",
+      "usage": {
+        "input_tokens": 385,
+        "output_tokens": 33,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1874.8574170000438,
+      "response_id": "resp_026ef83118baca6d016afb0e6384d487d2a6cc66c4fc2f52f8",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 6081,
+      "context_ids": [
+        "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+        "6d39e70d5446c32aa1cef3771fa81b9df2f655d20a16f55ae09b603700a44332",
+        "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+        "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+        "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede"
+      ],
+      "context_chars_unique": 5437,
+      "context_chunks": [
+        {
+          "id": "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+          "text": "Project Start-Up and Integration\n\nThe start-up of a project is similar to the start-up of a new organization. The project leader develops the project infrastructure used to design and execute the project. The project management team must develop alignment among the major stakeholders—those who have a share or interest—on the project during the early phases or definition phases of the project. The project manager will conduct one or more kickoff meetings or alignment sessions to bring the various parties of the project together and begin the project team building required to operate efficiently during the project. During project start-up, the project management team refines the scope of work and develops a pre- liminary schedule and conceptual budget. The project team builds a plan for executing the project based on the project profile. The plan for developing and tracking the detailed schedule, the procurement plan, and the plan for building the budget and estimating and tracking costs",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 41
+        },
+        {
+          "id": "6d39e70d5446c32aa1cef3771fa81b9df2f655d20a16f55ae09b603700a44332",
+          "text": "elationships with the client. The project manager sets the tone of the project and sets expectations for each of the project team members. The project start-up phase on complex projects can be chaotic, and until plans are developed, the project manager becomes the source of information and direction. The project manager creates an environment that encourages team members to fully engage in the project and encourages innovative approaches to developing the project plan.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 41
+        },
+        {
+          "id": "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+          "text": "Project Team: Human Resources and Communications\n\nStaffing the project with the right skills, at the right place, and at the right time is an important respon- sibility of the project management team. The project usually has two types of team members: functional managers and process managers. The functional managers and team focus on the technology of the pro- ject. On a construction project, the functional managers would include the engineering manager and con- struction superintendents. On a training project, the functional manager would include the professional trainers; on an information technology project, the software development managers would be functional managers. The project management team also includes project process managers. The project controls team would include process managers who have expertise in estimating, cost tracking, planning, and scheduling. The project manager needs functional and process expertise to plan and execute a successful project. Because projects",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 45
+        },
+        {
+          "id": "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+          "text": "Project Schedule and Time Management\n\nThe definition of project success often includes completing the project on time. The development and management of a project schedule that will complete the project on time is a primary responsibility of the project manager, and completing the project on time requires the development of a realistic plan and the effective management of the plan. On smaller projects, project managers may lead the development of the project plan and build a schedule to meet that plan. On larger and more complex projects, a project controls team that focuses on both costs and schedule planning and controlling functions will assist the project management team in developing the plan and tracking progress against the plan. To develop the project schedule, the project team does an analysis of the project scope, contract, and other information that helps the team define the project deliverables. Based on this information, the pro- ject team develops a milestone schedule. Th",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42
+        },
+        {
+          "id": "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede",
+          "text": "4. Framework for Project Management\n\nMany different professions contribute to the theory and practice of project management. Engineers and architects have been managing major projects since pre-history. Since approximately the 1960s, there have been efforts to professionalize the practice of project management as a specialization of its own. There are many active debates around this: Should project management be a profession in the same way as engineering, accounting, and medicine? These have professional associations that certify who is legally allowed to use the job title, and who can legally practice the profession. They also provide a level of assurance of quality and discipline members who behave inappropriately. Another ongoing debate is: How much industry knowledge is required of a seasoned project manager? How easily can a project manager from one industry, say, IT, transition to another industry such as hospitality? There are two major organizations with worldwide impact on th",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38
+        }
+      ],
+      "request_chars": 7570,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_e7c1b53ba03c453c8a941dac0c6d478d",
+      "usage": {
+        "input_tokens": 1567,
+        "output_tokens": 127,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 3092.3424169999407,
+      "response_id": "resp_026ef83118baca6d016afb0e658ea887d2967a422119fc4581",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+    "6d39e70d5446c32aa1cef3771fa81b9df2f655d20a16f55ae09b603700a44332",
+    "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+    "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+    "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede"
+  ],
+  "context_ids_prepared": [
+    "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+    "6d39e70d5446c32aa1cef3771fa81b9df2f655d20a16f55ae09b603700a44332",
+    "dd42821a9ad40ca862da14ed57006f7df311559c2b8a977bb6fcb838766037ab",
+    "182acb7d120aaa90e828b432bb3fa26761da690fb1f05506f2b2a12e3f4b3b29",
+    "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede"
+  ],
+  "context_chars_sent_unique": 5437,
+  "context_chars_prepared": 5437,
+  "usage": {
+    "input_tokens": 1952,
+    "output_tokens": 160,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 5071.953792000045,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q04",
+  "question": "In the Framework for Project Management chapter, how does the manager bring the parties together to start building the team?",
+  "filters": {
+    "section": "4. Framework for Project Management"
+  },
+  "filter_source": "inherited_user_query_filter",
+  "split": "dev",
+  "run_id": "dev-hybrid-context-v1",
+  "config_sha256": "e87ab438b2436b86952d182b202c309cdeb256f5c37c63dbfb5dbd5a4c1266d7",
+  "created_at_utc": "2026-11-16T14:08:40.368161+00:00",
+  "attempt": 1
+}

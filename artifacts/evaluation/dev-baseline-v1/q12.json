@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "A peer is at the same organizational level as the project manager and may or may not be on the project team. Unlike the project manager, a peer does not have leadership responsibilities or accountability for the project’s success or failure. [725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22]",
+  "citations": [
+    "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22"
+  ],
+  "citation_sources": [
+    {
+      "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 56
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_PRbPF4EJF3Ns7nWPJRu0pJqa",
+      "arguments": {
+        "query": "peer project manager rank accountability peer equal level accountable project manager"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+            "text": "Peers\n\nPeers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have. Your relationship with peers can be impeded by: • Inadequate control over peers • Political maneuvering or sabotage • Personality conflicts or technical conflicts • Envy because your peer may have wanted to lead the project • Conflicting instructions from your manager and your peer’s manager Peer support is essential. Because most of us serve our self-interest first, use some investigating, selling, influencing, and politicking skills here. To ensure you have cooperation and support from your peers: • Get the support of your project sponsor or top management to empower you as the project manager with as much authority as possible. It’s important that the sponsor m",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 56
+          },
+          {
+            "id": "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+            "text": "wer you as the project manager with as much authority as possible. It’s important that the sponsor makes it clear to the other team members that their cooperation on project activities is expected. • Confront your peer if you notice a behaviour that seems dysfunctional, such as bad-mouthing the project. • Be explicit in asking for full support from your peers. Arrange for frequent review meetings. • Establish goals and standards of performance for all team members.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 56
+          },
+          {
+            "id": "6fbd48bad9b11f5a8627d20252b292c4b6c0f6b9b0a1f2b95b37c48979d8c6b7",
+            "text": "t, even when telling them something they don’t want to hear • Takes ownership of the project • Is predictable and reliable • Stands by his or her decisions • Takes accountability for mistakes Supportive Stakeholders are Essential to Project Success Achieving a project’s objectives takes a focused, well-organized project manager who can engage with a committed team and gain the support of all stakeholders. Building strong, trusting relationships with interested parties from the start can make the difference between project success and failure.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 62
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+          "text": "Peers\n\nPeers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have. Your relationship with peers can be impeded by: • Inadequate control over peers • Political maneuvering or sabotage • Personality conflicts or technical conflicts • Envy because your peer may have wanted to lead the project • Conflicting instructions from your manager and your peer’s manager Peer support is essential. Because most of us serve our self-interest first, use some investigating, selling, influencing, and politicking skills here. To ensure you have cooperation and support from your peers: • Get the support of your project sponsor or top management to empower you as the project manager with as much authority as possible. It’s important that the sponsor m",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 56,
+          "rank": 1,
+          "score": 0.7771650157576798,
+          "strategy": "dense"
+        },
+        {
+          "id": "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+          "text": "wer you as the project manager with as much authority as possible. It’s important that the sponsor makes it clear to the other team members that their cooperation on project activities is expected. • Confront your peer if you notice a behaviour that seems dysfunctional, such as bad-mouthing the project. • Be explicit in asking for full support from your peers. Arrange for frequent review meetings. • Establish goals and standards of performance for all team members.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 56,
+          "rank": 2,
+          "score": 0.7759800758433126,
+          "strategy": "dense"
+        },
+        {
+          "id": "6fbd48bad9b11f5a8627d20252b292c4b6c0f6b9b0a1f2b95b37c48979d8c6b7",
+          "text": "t, even when telling them something they don’t want to hear • Takes ownership of the project • Is predictable and reliable • Stands by his or her decisions • Takes accountability for mistakes Supportive Stakeholders are Essential to Project Success Achieving a project’s objectives takes a focused, well-organized project manager who can engage with a committed team and gain the support of all stakeholders. Building strong, trusting relationships with interested parties from the start can make the difference between project success and failure.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 62,
+          "rank": 3,
+          "score": 0.7337995407464597,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+        "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+        "6fbd48bad9b11f5a8627d20252b292c4b6c0f6b9b0a1f2b95b37c48979d8c6b7"
+      ],
+      "filters": {},
+      "output_chars": 2613,
+      "elapsed_ms": 82.92037499995786
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 117,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1606,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_746cd10d4ece44998fabd9199f6542e6",
+      "usage": {
+        "input_tokens": 378,
+        "output_tokens": 29,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2124.640208999949,
+      "response_id": "resp_015161bf9ea3fe9e016afb0e70b36c87d2bf5ae76495bea2a9",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3166,
+      "context_ids": [
+        "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+        "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+        "6fbd48bad9b11f5a8627d20252b292c4b6c0f6b9b0a1f2b95b37c48979d8c6b7"
+      ],
+      "context_chars_unique": 2613,
+      "context_chunks": [
+        {
+          "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+          "text": "Peers\n\nPeers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have. Your relationship with peers can be impeded by: • Inadequate control over peers • Political maneuvering or sabotage • Personality conflicts or technical conflicts • Envy because your peer may have wanted to lead the project • Conflicting instructions from your manager and your peer’s manager Peer support is essential. Because most of us serve our self-interest first, use some investigating, selling, influencing, and politicking skills here. To ensure you have cooperation and support from your peers: • Get the support of your project sponsor or top management to empower you as the project manager with as much authority as possible. It’s important that the sponsor m",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 56
+        },
+        {
+          "id": "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+          "text": "wer you as the project manager with as much authority as possible. It’s important that the sponsor makes it clear to the other team members that their cooperation on project activities is expected. • Confront your peer if you notice a behaviour that seems dysfunctional, such as bad-mouthing the project. • Be explicit in asking for full support from your peers. Arrange for frequent review meetings. • Establish goals and standards of performance for all team members.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 56
+        },
+        {
+          "id": "6fbd48bad9b11f5a8627d20252b292c4b6c0f6b9b0a1f2b95b37c48979d8c6b7",
+          "text": "t, even when telling them something they don’t want to hear • Takes ownership of the project • Is predictable and reliable • Stands by his or her decisions • Takes accountability for mistakes Supportive Stakeholders are Essential to Project Success Achieving a project’s objectives takes a focused, well-organized project manager who can engage with a committed team and gain the support of all stakeholders. Building strong, trusting relationships with interested parties from the start can make the difference between project success and failure.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 62
+        }
+      ],
+      "request_chars": 4655,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_f26201f3edca426e8c66dc3ff30402b2",
+      "usage": {
+        "input_tokens": 1013,
+        "output_tokens": 129,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2753.8432919999423,
+      "response_id": "resp_015161bf9ea3fe9e016afb0e72d85c87d2bc66a5920a3cf419",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+    "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+    "6fbd48bad9b11f5a8627d20252b292c4b6c0f6b9b0a1f2b95b37c48979d8c6b7"
+  ],
+  "context_ids_prepared": [
+    "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+    "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+    "6fbd48bad9b11f5a8627d20252b292c4b6c0f6b9b0a1f2b95b37c48979d8c6b7"
+  ],
+  "context_chars_sent_unique": 2613,
+  "context_chars_prepared": 2613,
+  "usage": {
+    "input_tokens": 1391,
+    "output_tokens": 158,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4962.941290999993,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q12",
+  "question": "What distinguishes a peer from the project manager in terms of rank and accountability?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-baseline-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:08:53.379609+00:00",
+  "attempt": 1
+}

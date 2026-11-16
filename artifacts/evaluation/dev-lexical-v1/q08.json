@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Show contingency as a separate budget line item when risks cannot readily be tied to specific activities. [ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061]",
+  "citations": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061"
+  ],
+  "citation_sources": [
+    {
+      "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 47
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_mWcVrObBvmdpalUZndtpQ6sk",
+      "arguments": {
+        "query": "contingency budget risks cannot be assigned tied to individual activities separate line item"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+            "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 47
+          },
+          {
+            "id": "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+            "text": "y industries or companies have risk checklists developed from past experience. The Construction Industry Institute published a 100-item risk checklist that provides examples and areas of project risks. No risk checklist will include all potential risks. The value of a checklist is the stimulation of discussion and thought about the potential risks on a project. The project team analyzes the identified risks and estimates the likelihood of the risks occurring. The team then estimates the potential impact on project goals if the event does occur. The outcome from this process is a prioritized list of estimated project risks with a value that represents the likelihood of occur- rence and the potential impact on the project. The project team then develops a risk mitigation plan that reduces the likelihood of an event occurring or reduces the impact on the project if the event does occur. The risk management plan is integrated into the project execution plan, and mitigation activities are a",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 46
+          },
+          {
+            "id": "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9",
+            "text": "After the project team identifies the activities, the team sequences the activities according to the order in which the activities are to be accomplished. An outcome from the work process is the pro- ject logic diagram. The logic diagram represents the logical sequence of the activities needed to com- plete the project. The next step in the planning process is to develop an estimation of the time it will take to accomplish each activity or the activity duration. Some activities must be done sequentially, and some activities can be done concurrently. The planning process creates a project schedule by scheduling activities in a way that effectively and efficiently uses project resources and completes the project in the shortest time. On larger projects, several paths are created that represent a sequence of activities from the beginning to the end of the project. The longest path to the completion of the project is the critical path. If the crit- ical path takes less time than is allowed",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+          "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 47,
+          "rank": 1,
+          "score": 0.37272530555511174,
+          "strategy": "lexical"
+        },
+        {
+          "id": "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+          "text": "y industries or companies have risk checklists developed from past experience. The Construction Industry Institute published a 100-item risk checklist that provides examples and areas of project risks. No risk checklist will include all potential risks. The value of a checklist is the stimulation of discussion and thought about the potential risks on a project. The project team analyzes the identified risks and estimates the likelihood of the risks occurring. The team then estimates the potential impact on project goals if the event does occur. The outcome from this process is a prioritized list of estimated project risks with a value that represents the likelihood of occur- rence and the potential impact on the project. The project team then develops a risk mitigation plan that reduces the likelihood of an event occurring or reduces the impact on the project if the event does occur. The risk management plan is integrated into the project execution plan, and mitigation activities are a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "rank": 2,
+          "score": 0.13477545770648586,
+          "strategy": "lexical"
+        },
+        {
+          "id": "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9",
+          "text": "After the project team identifies the activities, the team sequences the activities according to the order in which the activities are to be accomplished. An outcome from the work process is the pro- ject logic diagram. The logic diagram represents the logical sequence of the activities needed to com- plete the project. The next step in the planning process is to develop an estimation of the time it will take to accomplish each activity or the activity duration. Some activities must be done sequentially, and some activities can be done concurrently. The planning process creates a project schedule by scheduling activities in a way that effectively and efficiently uses project resources and completes the project in the shortest time. On larger projects, several paths are created that represent a sequence of activities from the beginning to the end of the project. The longest path to the completion of the project is the critical path. If the crit- ical path takes less time than is allowed",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 3,
+          "score": 0.1119637148124691,
+          "strategy": "lexical"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+        "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+        "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9"
+      ],
+      "filters": {},
+      "output_chars": 3314,
+      "elapsed_ms": 0.8906250000109139
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 133,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1622,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_b97b9fac213749f0bbda5e4a28cf2f20",
+      "usage": {
+        "input_tokens": 380,
+        "output_tokens": 33,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 3828.8651670000036,
+      "response_id": "resp_0475f69375eaa3c6016afb0e71ca4487d2a216e4256399a401",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3888,
+      "context_ids": [
+        "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+        "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+        "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9"
+      ],
+      "context_chars_unique": 3314,
+      "context_chunks": [
+        {
+          "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+          "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 47
+        },
+        {
+          "id": "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+          "text": "y industries or companies have risk checklists developed from past experience. The Construction Industry Institute published a 100-item risk checklist that provides examples and areas of project risks. No risk checklist will include all potential risks. The value of a checklist is the stimulation of discussion and thought about the potential risks on a project. The project team analyzes the identified risks and estimates the likelihood of the risks occurring. The team then estimates the potential impact on project goals if the event does occur. The outcome from this process is a prioritized list of estimated project risks with a value that represents the likelihood of occur- rence and the potential impact on the project. The project team then develops a risk mitigation plan that reduces the likelihood of an event occurring or reduces the impact on the project if the event does occur. The risk management plan is integrated into the project execution plan, and mitigation activities are a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46
+        },
+        {
+          "id": "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9",
+          "text": "After the project team identifies the activities, the team sequences the activities according to the order in which the activities are to be accomplished. An outcome from the work process is the pro- ject logic diagram. The logic diagram represents the logical sequence of the activities needed to com- plete the project. The next step in the planning process is to develop an estimation of the time it will take to accomplish each activity or the activity duration. Some activities must be done sequentially, and some activities can be done concurrently. The planning process creates a project schedule by scheduling activities in a way that effectively and efficiently uses project resources and completes the project in the shortest time. On larger projects, several paths are created that represent a sequence of activities from the beginning to the end of the project. The longest path to the completion of the project is the critical path. If the crit- ical path takes less time than is allowed",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        }
+      ],
+      "request_chars": 5377,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_3cdf48d9ca364b09868f84fa10643879",
+      "usage": {
+        "input_tokens": 1125,
+        "output_tokens": 118,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2726.0450840000203,
+      "response_id": "resp_0475f69375eaa3c6016afb0e759b0c87d2b17dff4d55d40ee2",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+    "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+    "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9"
+  ],
+  "context_ids_prepared": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+    "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+    "67bb46ad6cbbf0ff93bb6342dc7ad8f39c75eecd2f0135611436efa5fa014ea9"
+  ],
+  "context_chars_sent_unique": 3314,
+  "context_chars_prepared": 3314,
+  "usage": {
+    "input_tokens": 1505,
+    "output_tokens": 151,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 6556.549791999942,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q08",
+  "question": "How should contingency appear in the budget when risks cannot readily be tied to individual activities?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-lexical-v1",
+  "config_sha256": "1caebec0a8ac9b5cfa377d198b5aea839257b4967224194e5b0785d4ad2525a3",
+  "created_at_utc": "2026-11-16T14:08:56.081253+00:00",
+  "attempt": 1
+}

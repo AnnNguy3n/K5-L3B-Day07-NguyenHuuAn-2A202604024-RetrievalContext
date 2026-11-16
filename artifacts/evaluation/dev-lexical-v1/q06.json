@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "The team spent 846 labour hours, compared with an estimate of 800 hours—46 hours over estimate. [635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8]",
+  "citations": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8"
+  ],
+  "citation_sources": [
+    {
+      "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 44
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_TBJDIfmiQiFCCYrGNVCzTLEf",
+      "arguments": {
+        "query": "bridge design example actual labour hours spent compared estimate"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+            "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 44
+          },
+          {
+            "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+            "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          },
+          {
+            "id": "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+            "text": "e amount of information needed to develop a detailed budget is often missing. To address the lack of information, the project team develops different levels of project budget estimates. The conceptual estimate (or “ballpark estimate”) is developed with the least amount of knowl- edge. The major input into the conceptual estimate is expert knowledge or past experience. A project manager who has executed a similar project in the past can use those costs to estimate the costs of the current project. When more information is known, the project team can develop a rough order of magnitude (ROM) estimate. Additional information such as the approximate square feet of a building, the production capac- ity of a plant, and the approximate number of hours needed to develop a software program can provide a basis for providing a ROM estimate. After a project design is more complete, a project detailed estimate can be developed. For example, when the project team knows the number of rooms, the type o",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+          "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44,
+          "rank": 1,
+          "score": 0.23445183553340138,
+          "strategy": "lexical"
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 2,
+          "score": 0.23288779352550115,
+          "strategy": "lexical"
+        },
+        {
+          "id": "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+          "text": "e amount of information needed to develop a detailed budget is often missing. To address the lack of information, the project team develops different levels of project budget estimates. The conceptual estimate (or “ballpark estimate”) is developed with the least amount of knowl- edge. The major input into the conceptual estimate is expert knowledge or past experience. A project manager who has executed a similar project in the past can use those costs to estimate the costs of the current project. When more information is known, the project team can develop a rough order of magnitude (ROM) estimate. Additional information such as the approximate square feet of a building, the production capac- ity of a plant, and the approximate number of hours needed to develop a software program can provide a basis for providing a ROM estimate. After a project design is more complete, a project detailed estimate can be developed. For example, when the project team knows the number of rooms, the type o",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 3,
+          "score": 0.1863509636747476,
+          "strategy": "lexical"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015"
+      ],
+      "filters": {},
+      "output_chars": 3025,
+      "elapsed_ms": 1.8739170000117156
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 137,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1626,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_b87898674d2c410d950dc4063c710520",
+      "usage": {
+        "input_tokens": 383,
+        "output_tokens": 27,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1708.545416999982,
+      "response_id": "resp_0db611dcb6fd7baf016afb0e68a0a887d28aa155504d9846e8",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3576,
+      "context_ids": [
+        "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015"
+      ],
+      "context_chars_unique": 3025,
+      "context_chunks": [
+        {
+          "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+          "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        },
+        {
+          "id": "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+          "text": "e amount of information needed to develop a detailed budget is often missing. To address the lack of information, the project team develops different levels of project budget estimates. The conceptual estimate (or “ballpark estimate”) is developed with the least amount of knowl- edge. The major input into the conceptual estimate is expert knowledge or past experience. A project manager who has executed a similar project in the past can use those costs to estimate the costs of the current project. When more information is known, the project team can develop a rough order of magnitude (ROM) estimate. Additional information such as the approximate square feet of a building, the production capac- ity of a plant, and the approximate number of hours needed to develop a software program can provide a basis for providing a ROM estimate. After a project design is more complete, a project detailed estimate can be developed. For example, when the project team knows the number of rooms, the type o",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        }
+      ],
+      "request_chars": 5065,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_8d85c8dda151477db87ebc6276a30c31",
+      "usage": {
+        "input_tokens": 1100,
+        "output_tokens": 120,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2554.2397919999758,
+      "response_id": "resp_0db611dcb6fd7baf016afb0e6a3bc887d280630a0c91a60450",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+    "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+    "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015"
+  ],
+  "context_ids_prepared": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+    "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+    "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015"
+  ],
+  "context_chars_sent_unique": 3025,
+  "context_chars_prepared": 3025,
+  "usage": {
+    "input_tokens": 1483,
+    "output_tokens": 147,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4265.609874999996,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q06",
+  "question": "In the bridge design example, how many labour hours did the team actually spend compared with its estimate?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-lexical-v1",
+  "config_sha256": "1caebec0a8ac9b5cfa377d198b5aea839257b4967224194e5b0785d4ad2525a3",
+  "created_at_utc": "2026-11-16T14:08:44.563909+00:00",
+  "attempt": 1
+}

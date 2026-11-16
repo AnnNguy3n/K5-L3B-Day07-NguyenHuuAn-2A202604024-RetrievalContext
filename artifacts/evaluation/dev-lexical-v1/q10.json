@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Stories for the next sprint go on the **back burner**; stories for later sprints go in the **fridge**. [a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b]",
+  "citations": [
+    "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b"
+  ],
+  "citation_sources": [
+    {
+      "id": "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 51
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_u54ST5Wts2e87dsnVTKmZ1Vf",
+      "arguments": {
+        "query": "Scrum kitchen analogy stories next sprint later sprints where go"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+            "text": "which are created in the sprint planning session. Typically, the way a product is developed is that there is a “front burner” (which has stories/tasks for the current sprint), a “back burner” (which has stories for the next sprint), and a “fridge” (which has stories for later, as well as process changes). One can look at a product as having been broken down like this: product -> features -> stories -> tasks. Often effort estimations are done using “story points” (tiny = 1 SP, small = 2 SP, medium = 4 SP, large = 8 SP, big = 16+ SP, unknown = ? SP) Stories can be of various types. User stories are very common and are descriptions of what the user can do and what happens as a result of different actions from a given starting point. Other types of stories are from these areas: analysis, development, QA, documenta- tion, installation, localization, and training. Planning meetings for each sprint require participation by the product owner, the Scrum Master, and the development team. In the ",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 51
+          },
+          {
+            "id": "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+            "text": "Scrum Development Overview\n\n“Scrum” is another formal project management/product development methodology and part of agile pro- ject management. Scrum is a term from rugby (scrimmage) that means a way of restarting a game. It’s like restarting the project efforts every X weeks. It’s based on the idea that you do not really know how to plan the whole project up front, so you start and build empirical data, and then re-plan and iterate from there. Scrum uses sequential sprints for development. Sprints are like small project phases (ideally two to four weeks). The idea is to take one day to plan for what can be done now, then develop what was planned for, and demonstrate it at the end of the sprint. Scrum uses a short daily meeting of the develop- ment team to check what was done yesterday, what is planned for the next day, and what if anything is impeding the team members from accomplishing what they have committed to. At the end of the sprint, what has been demonstrated can then be test",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 50
+          },
+          {
+            "id": "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a",
+            "text": "rint require participation by the product owner, the Scrum Master, and the development team. In the planning meeting, they set the goals for the upcoming sprint and select a subset of the product backlog (proposed stories) to work on. The development team decomposes stories to tasks and estimates them. The development team and product owner do final negotiations to deter- mine the backlog for the following sprint. The Scrum methodology uses metrics to help with future planning and tracking of progress; for exam- ple, “burn down” – the number of hours remaining in the sprint versus the time in days; “velocity” – essentially, the amount of effort the team expends. (After approximately three sprints with the same team, one can get a feel for what the team can do going forward.) Some caveats about using Scrum methodology: 1) You need committed, mature developers; 2) You still need to do major requirements definition, some analysis, architecture definition, and definition of roles and terms",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 51
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+          "text": "which are created in the sprint planning session. Typically, the way a product is developed is that there is a “front burner” (which has stories/tasks for the current sprint), a “back burner” (which has stories for the next sprint), and a “fridge” (which has stories for later, as well as process changes). One can look at a product as having been broken down like this: product -> features -> stories -> tasks. Often effort estimations are done using “story points” (tiny = 1 SP, small = 2 SP, medium = 4 SP, large = 8 SP, big = 16+ SP, unknown = ? SP) Stories can be of various types. User stories are very common and are descriptions of what the user can do and what happens as a result of different actions from a given starting point. Other types of stories are from these areas: analysis, development, QA, documenta- tion, installation, localization, and training. Planning meetings for each sprint require participation by the product owner, the Scrum Master, and the development team. In the ",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 51,
+          "rank": 1,
+          "score": 0.30462371053447246,
+          "strategy": "lexical"
+        },
+        {
+          "id": "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+          "text": "Scrum Development Overview\n\n“Scrum” is another formal project management/product development methodology and part of agile pro- ject management. Scrum is a term from rugby (scrimmage) that means a way of restarting a game. It’s like restarting the project efforts every X weeks. It’s based on the idea that you do not really know how to plan the whole project up front, so you start and build empirical data, and then re-plan and iterate from there. Scrum uses sequential sprints for development. Sprints are like small project phases (ideally two to four weeks). The idea is to take one day to plan for what can be done now, then develop what was planned for, and demonstrate it at the end of the sprint. Scrum uses a short daily meeting of the develop- ment team to check what was done yesterday, what is planned for the next day, and what if anything is impeding the team members from accomplishing what they have committed to. At the end of the sprint, what has been demonstrated can then be test",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50,
+          "rank": 2,
+          "score": 0.24925137411316248,
+          "strategy": "lexical"
+        },
+        {
+          "id": "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a",
+          "text": "rint require participation by the product owner, the Scrum Master, and the development team. In the planning meeting, they set the goals for the upcoming sprint and select a subset of the product backlog (proposed stories) to work on. The development team decomposes stories to tasks and estimates them. The development team and product owner do final negotiations to deter- mine the backlog for the following sprint. The Scrum methodology uses metrics to help with future planning and tracking of progress; for exam- ple, “burn down” – the number of hours remaining in the sprint versus the time in days; “velocity” – essentially, the amount of effort the team expends. (After approximately three sprints with the same team, one can get a feel for what the team can do going forward.) Some caveats about using Scrum methodology: 1) You need committed, mature developers; 2) You still need to do major requirements definition, some analysis, architecture definition, and definition of roles and terms",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 51,
+          "rank": 3,
+          "score": 0.24133298108896606,
+          "strategy": "lexical"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+        "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+        "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a"
+      ],
+      "filters": {},
+      "output_chars": 3596,
+      "elapsed_ms": 1.1488750000125947
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 143,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1632,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_296f6d2bda5143608bf546d870a96810",
+      "usage": {
+        "input_tokens": 388,
+        "output_tokens": 30,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1887.4225420000812,
+      "response_id": "resp_0e95c89a04fd6557016afb0e7e7c2087d28d25d90118c19f3f",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 4154,
+      "context_ids": [
+        "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+        "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+        "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a"
+      ],
+      "context_chars_unique": 3596,
+      "context_chunks": [
+        {
+          "id": "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+          "text": "which are created in the sprint planning session. Typically, the way a product is developed is that there is a “front burner” (which has stories/tasks for the current sprint), a “back burner” (which has stories for the next sprint), and a “fridge” (which has stories for later, as well as process changes). One can look at a product as having been broken down like this: product -> features -> stories -> tasks. Often effort estimations are done using “story points” (tiny = 1 SP, small = 2 SP, medium = 4 SP, large = 8 SP, big = 16+ SP, unknown = ? SP) Stories can be of various types. User stories are very common and are descriptions of what the user can do and what happens as a result of different actions from a given starting point. Other types of stories are from these areas: analysis, development, QA, documenta- tion, installation, localization, and training. Planning meetings for each sprint require participation by the product owner, the Scrum Master, and the development team. In the ",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 51
+        },
+        {
+          "id": "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+          "text": "Scrum Development Overview\n\n“Scrum” is another formal project management/product development methodology and part of agile pro- ject management. Scrum is a term from rugby (scrimmage) that means a way of restarting a game. It’s like restarting the project efforts every X weeks. It’s based on the idea that you do not really know how to plan the whole project up front, so you start and build empirical data, and then re-plan and iterate from there. Scrum uses sequential sprints for development. Sprints are like small project phases (ideally two to four weeks). The idea is to take one day to plan for what can be done now, then develop what was planned for, and demonstrate it at the end of the sprint. Scrum uses a short daily meeting of the develop- ment team to check what was done yesterday, what is planned for the next day, and what if anything is impeding the team members from accomplishing what they have committed to. At the end of the sprint, what has been demonstrated can then be test",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50
+        },
+        {
+          "id": "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a",
+          "text": "rint require participation by the product owner, the Scrum Master, and the development team. In the planning meeting, they set the goals for the upcoming sprint and select a subset of the product backlog (proposed stories) to work on. The development team decomposes stories to tasks and estimates them. The development team and product owner do final negotiations to deter- mine the backlog for the following sprint. The Scrum methodology uses metrics to help with future planning and tracking of progress; for exam- ple, “burn down” – the number of hours remaining in the sprint versus the time in days; “velocity” – essentially, the amount of effort the team expends. (After approximately three sprints with the same team, one can get a feel for what the team can do going forward.) Some caveats about using Scrum methodology: 1) You need committed, mature developers; 2) You still need to do major requirements definition, some analysis, architecture definition, and definition of roles and terms",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 51
+        }
+      ],
+      "request_chars": 5643,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_62c92b7b47184d7b8439c96c028e709a",
+      "usage": {
+        "input_tokens": 1286,
+        "output_tokens": 124,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2540.9388340000305,
+      "response_id": "resp_0e95c89a04fd6557016afb0e8053c087d2bfa1f461699899fd",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+    "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+    "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a"
+  ],
+  "context_ids_prepared": [
+    "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+    "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+    "ed43604d5d9edf3f2a8a6d01906581afb7511e6f232cbf866b9753526b59cb5a"
+  ],
+  "context_chars_sent_unique": 3596,
+  "context_chars_prepared": 3596,
+  "usage": {
+    "input_tokens": 1674,
+    "output_tokens": 154,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4430.725542000005,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q10",
+  "question": "In the Scrum kitchen analogy, where do stories for the next sprint go, and where do stories for later sprints go?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-lexical-v1",
+  "config_sha256": "1caebec0a8ac9b5cfa377d198b5aea839257b4967224194e5b0785d4ad2525a3",
+  "created_at_utc": "2026-11-16T14:09:06.608105+00:00",
+  "attempt": 1
+}

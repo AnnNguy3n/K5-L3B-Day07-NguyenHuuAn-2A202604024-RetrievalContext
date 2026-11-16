@@ -98,3 +98,53 @@ split. Citation 0/0 có rate=null, tức không áp dụng. Có n/N và tỷ l�
 usage theo provider; tổng usage null nếu bất kỳ call chưa đo, cost null có lý do.
 Unit tests xác minh OR/source/page, context chưa gửi, mẫu số và lỗi; nhãn chất
 lượng phải đọc thực tế, không được thay bằng unit test.
+
+## 10 — Dev và lựa chọn
+
+Tôi đã công bố [protocol](../artifacts/evaluation/dev-protocol.json) trước lượt
+API đầu (commit `37e44c7`). Baseline dense dùng limits bước05; lexical chỉ đổi
+retriever; hybrid-context đổi retriever sang RRF20/60, top3→5, tool6000→12000,
+context16000→24000, history60000→80000 và refresh_on_full. Model/prompt, corpus,
+benchmark, trần call/search/token/timeout giữ nguyên. Giả thuyết và thứ tự tiêu
+chí nằm trong protocol; không suy ra tác động riêng khi nhiều yếu tố đổi cùng.
+
+| Cấu hình / run | Hit@1 gốc | Evidence Hit@3 gốc | CER | Grounded /2 | Citation hỗ trợ | Abstain đúng | Input/output token | Tổng giây |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| dense / dev-baseline-v1 | 17/20 (85%) | 18/20 (90%) | 20/20 (100%) | 2,00 | 20/20 (100%) | 2/2 (100%) | 33000/3225 | 116,197 |
+| lexical / dev-lexical-v1 | 18/20 (90%) | 19/20 (95%) | 20/20 (100%) | 2,00 | 20/20 (100%) | 2/2 (100%) | 33393/3189 | 108,321 |
+| hybrid-context / dev-hybrid-context-v1 | 19/20 (95%) | 19/20 (95%) | 20/20 (100%) | 2,00 | 20/20 (100%) | 2/2 (100%) | 42152/3189 | 117,703 |
+
+Cả ba có context/grounded grade0/1/2 = 0/0/20; answered có citation20/20,
+tool-use22/22, từ chối nhầm0/20, lỗi0/22. Dense search1×20,2×2 (46 model calls);
+lexical và hybrid search1×21,2×1 (45 calls). USD null vì chưa đối soát; cached
+và reasoning token được giữ riêng trong metrics. Hit gốc tái dùng trace04
+đúng điều kiện/hash; không trình bày ranking này như query tool đã biến đổi.
+
+Tôi chọn **baseline-dense** theo quy tắc thứ tự đã công bố: chất lượng hòa,
+baseline dùng tổng36225 token < lexical36582 < hybrid45341. Lexical nhanh hơn
+trong một lượt local nhưng timing đứng sau token. Hybrid tăng input, chưa tăng
+answer/CER ở bộ này; refresh không được kích hoạt trong các trace thật này.
+Không coi số điểm cao của bộ nhỏ là bảo đảm tổng quát. Tôi không tối ưu tiếp.
+
+Hai lỗi dev thực tế (retrieval, không phải lỗi answer):
+
+- **q16**: dense query gốc lấy đoạn execution/closure/life-cycle, thiếu acceptance
+  plan trong top3. Giả thuyết từ khóa có thể giúp; lexical và hybrid top3 vẫn
+  thiếu evidence q16. Query do model tự tạo thêm “acceptance” đã lấy đúng chunk
+  `4d155c…` PDF35 ở cả ba run; CER đạt và grounded=2 sau agent cho cả ba. Không đưa
+  đáp án/gold vào input và không tuyên bố RRF đã sửa lỗi top3 này.
+- **q19**: dense query gốc xếp stakeholder register/manager/definition thay vì
+  đoạn financial return. Lexical/hybrid top3 có đúng PDF62 (0→1 evidence hit);
+  query agent dense tự thêm financial return/costs/benefits cũng lấy được
+  `629f04…`. Sau agent cả ba đủ CER, grounded=2, nên cải thiện retrieval gốc
+  không làm answer tăng trong lượt này.
+
+[Quyết định và bảng máy đọc](../artifacts/evaluation/dev-selection.json).
+Mỗi thư mục `artifacts/evaluation/dev-*-v1/` có run/completion, 22 trace riêng,
+reviews từng câu/citation có quote/lý do và metrics; không sao chép trace smoke
+hoặc trace04 sang các run. Đọc source PDF text và chunk có AI hỗ trợ, chưa có
+người chấm độc lập. Test mới chưa chạy và chưa được đọc để chọn cấu hình.
+
+Thời gian là tổng elapsed từng query (gồm API và retrieval), không gồm setup, I/O
+và chấm nhãn. Ba run có thời gian thực thi chồng nhau; so sánh latency mang tính
+mô tả một lượt, chưa phải thí nghiệm latency được kiểm soát hoặc kiểm định thống kê.

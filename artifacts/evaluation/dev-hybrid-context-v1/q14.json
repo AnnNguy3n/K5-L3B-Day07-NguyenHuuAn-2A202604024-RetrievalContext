@@ -1,0 +1,314 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Corporate culture encompasses the beliefs, attitudes, and values shared by an organization’s members, along with the behaviours those beliefs and values give rise to. [e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557]",
+  "citations": [
+    "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557"
+  ],
+  "citation_sources": [
+    {
+      "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 65
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 5,
+    "tool_chars": 12000,
+    "context_chars": 24000,
+    "history_chars": 80000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "refresh_on_full"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_ilD273LNdFIYdoZ8aqRZAf99",
+      "arguments": {
+        "query": "\"Culture and Project Management\" \"corporate culture\" encompasses"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+            "text": "6. Culture and Project Management\n\nWhat Is Organizational Culture? When working with internal and external customers on a project, it is essential to pay close attention to relationships, context, history, and the corporate culture. Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to). Corporate culture sets one organization apart from another, and dictates how members of the organization will see you, interact with you, and sometimes judge you. Often, projects too have a specific culture, work norms, and social conventions. Some aspects of corporate culture are easily observed; others are more difficult to discern. You can easily observe the office environment and how people dress and speak. In one company, individuals work separately in closed offices; in another, teams may work in a shared environment. The more subtle components of corporate culture, such as the values a",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 65
+          },
+          {
+            "id": "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+            "text": " work in a shared environment. The more subtle components of corporate culture, such as the values and overarching business philosophy, may not be readily apparent, but they are reflected in member behaviours, symbols, and conventions used.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 65
+          },
+          {
+            "id": "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+            "text": "Project Manager’s Checklist\n\nOnce the corporate culture has been identified, members should try to adapt to the frequency, formality, and type of communication customary in that culture. This adaptation will strongly affect project mem- bers’ productivity and satisfaction internally, as well as with the client organization. • Which stakeholders will make the decision in this organization on this issue? Will your pro- ject decisions and documentation have to go up through several layers to get approval? If so, what are the criteria and values that may affect acceptance there? For example, is being on schedule the most important consideration? Cost? Quality? • What type of communication among and between stakeholders is preferred? Do they want lengthy documents? Is “short and sweet” the typical standard? • What medium of communication is preferred? What kind of medium is usually chosen for this type of situation? Check the files to see what others have done. Ask others in the organi- zat",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 65
+          },
+          {
+            "id": "a306948838564cc879cd384c9520b99062b98b6872b18fd16056ae901ba9944d",
+            "text": "place in the universe. Worldview is a fundamental core set of assumptions explaining cultural forces, the nature of humankind, the nature of good and evil, luck, fate, spirits, the power of significant others, the role of time, and the nature of our physical and natural resources” (Shebib, 2003, p. 296). If, for example, a Canadian manager is sent to India to manage an R&D team or a joint venture, they are likely to have to “[cope] with eco-shock or the physiological, psychological, and social reaction to a new assignment ecology.” Hanging a shingle in a fluid and culturally diverse organization, project team, and work culture, a project manager may find new working relationships and hidden challenges have significant implications for performance and knowledge exchange – for the manager and colleagues at home and in the host country. In most situations, there is simply no substitute for having a well-placed person from the host culture to guide the new person through the cultural nuanc",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 66
+          },
+          {
+            "id": "7ae828288373038f316a0f817368a12a91183931c5dc5e1abc595882cbd61014",
+            "text": "having a well-placed person from the host culture to guide the new person through the cultural nuances of getting things done. In fact, if this “intervention” isn’t present, it is likely to affect the person’s motivation or desire to continue trying to break through the cultural (and other) barriers. Indeed, optimal effectiveness in such situations requires learning of cul- tures in developing countries or international micro-cultures and sharing perceptions among the cultur- ally diverse task participants on how to get things done. Project leaders require sensitivity and awareness of multicultural preferences. The following broad areas should be considered: • Individual identity and role within the project versus family of origin and community • Verbal and emotional expressiveness • Relationship expectations • Style of communication • Language • Personal priorities, values, and beliefs • Time orientation There are many interpersonal dynamics and intra-project challenges faced by a glo",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 66
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+          "text": "6. Culture and Project Management\n\nWhat Is Organizational Culture? When working with internal and external customers on a project, it is essential to pay close attention to relationships, context, history, and the corporate culture. Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to). Corporate culture sets one organization apart from another, and dictates how members of the organization will see you, interact with you, and sometimes judge you. Often, projects too have a specific culture, work norms, and social conventions. Some aspects of corporate culture are easily observed; others are more difficult to discern. You can easily observe the office environment and how people dress and speak. In one company, individuals work separately in closed offices; in another, teams may work in a shared environment. The more subtle components of corporate culture, such as the values a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65,
+          "rank": 1,
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "lexical": 1
+          },
+          "component_scores": {
+            "dense": 0.8346027131309403,
+            "lexical": 0.5893294032080905
+          }
+        },
+        {
+          "id": "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+          "text": " work in a shared environment. The more subtle components of corporate culture, such as the values and overarching business philosophy, may not be readily apparent, but they are reflected in member behaviours, symbols, and conventions used.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65,
+          "rank": 2,
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "lexical": 2
+          },
+          "component_scores": {
+            "dense": 0.7928424273288597,
+            "lexical": 0.2302983669899201
+          }
+        },
+        {
+          "id": "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+          "text": "Project Manager’s Checklist\n\nOnce the corporate culture has been identified, members should try to adapt to the frequency, formality, and type of communication customary in that culture. This adaptation will strongly affect project mem- bers’ productivity and satisfaction internally, as well as with the client organization. • Which stakeholders will make the decision in this organization on this issue? Will your pro- ject decisions and documentation have to go up through several layers to get approval? If so, what are the criteria and values that may affect acceptance there? For example, is being on schedule the most important consideration? Cost? Quality? • What type of communication among and between stakeholders is preferred? Do they want lengthy documents? Is “short and sweet” the typical standard? • What medium of communication is preferred? What kind of medium is usually chosen for this type of situation? Check the files to see what others have done. Ask others in the organi- zat",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65,
+          "rank": 3,
+          "score": 0.031746031746031744,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "lexical": 3
+          },
+          "component_scores": {
+            "dense": 0.770811419937987,
+            "lexical": 0.17122389648633013
+          }
+        },
+        {
+          "id": "a306948838564cc879cd384c9520b99062b98b6872b18fd16056ae901ba9944d",
+          "text": "place in the universe. Worldview is a fundamental core set of assumptions explaining cultural forces, the nature of humankind, the nature of good and evil, luck, fate, spirits, the power of significant others, the role of time, and the nature of our physical and natural resources” (Shebib, 2003, p. 296). If, for example, a Canadian manager is sent to India to manage an R&D team or a joint venture, they are likely to have to “[cope] with eco-shock or the physiological, psychological, and social reaction to a new assignment ecology.” Hanging a shingle in a fluid and culturally diverse organization, project team, and work culture, a project manager may find new working relationships and hidden challenges have significant implications for performance and knowledge exchange – for the manager and colleagues at home and in the host country. In most situations, there is simply no substitute for having a well-placed person from the host culture to guide the new person through the cultural nuanc",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 66,
+          "rank": 4,
+          "score": 0.03125,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "lexical": 4
+          },
+          "component_scores": {
+            "dense": 0.7580012741683422,
+            "lexical": 0.13365737228706032
+          }
+        },
+        {
+          "id": "7ae828288373038f316a0f817368a12a91183931c5dc5e1abc595882cbd61014",
+          "text": "having a well-placed person from the host culture to guide the new person through the cultural nuances of getting things done. In fact, if this “intervention” isn’t present, it is likely to affect the person’s motivation or desire to continue trying to break through the cultural (and other) barriers. Indeed, optimal effectiveness in such situations requires learning of cul- tures in developing countries or international micro-cultures and sharing perceptions among the cultur- ally diverse task participants on how to get things done. Project leaders require sensitivity and awareness of multicultural preferences. The following broad areas should be considered: • Individual identity and role within the project versus family of origin and community • Verbal and emotional expressiveness • Relationship expectations • Style of communication • Language • Personal priorities, values, and beliefs • Time orientation There are many interpersonal dynamics and intra-project challenges faced by a glo",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 66,
+          "rank": 5,
+          "score": 0.030536130536130537,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "lexical": 6
+          },
+          "component_scores": {
+            "dense": 0.7355866747395658,
+            "lexical": 0.08618406499423309
+          }
+        }
+      ],
+      "filter_source": "runtime_query_filter",
+      "context_ids": [
+        "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+        "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+        "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+        "a306948838564cc879cd384c9520b99062b98b6872b18fd16056ae901ba9944d",
+        "7ae828288373038f316a0f817368a12a91183931c5dc5e1abc595882cbd61014"
+      ],
+      "filters": {
+        "section": "6. Culture and Project Management"
+      },
+      "output_chars": 5200,
+      "elapsed_ms": 81.85374999993655
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 115,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1604,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_a3308f2ca5b14a8195213fac2783b549",
+      "usage": {
+        "input_tokens": 377,
+        "output_tokens": 30,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1365.5603750000864,
+      "response_id": "resp_087bd4742019d7d0016afb0e9a2d0887d281c8ffa64d21644b",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 5780,
+      "context_ids": [
+        "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+        "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+        "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+        "a306948838564cc879cd384c9520b99062b98b6872b18fd16056ae901ba9944d",
+        "7ae828288373038f316a0f817368a12a91183931c5dc5e1abc595882cbd61014"
+      ],
+      "context_chars_unique": 5200,
+      "context_chunks": [
+        {
+          "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+          "text": "6. Culture and Project Management\n\nWhat Is Organizational Culture? When working with internal and external customers on a project, it is essential to pay close attention to relationships, context, history, and the corporate culture. Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to). Corporate culture sets one organization apart from another, and dictates how members of the organization will see you, interact with you, and sometimes judge you. Often, projects too have a specific culture, work norms, and social conventions. Some aspects of corporate culture are easily observed; others are more difficult to discern. You can easily observe the office environment and how people dress and speak. In one company, individuals work separately in closed offices; in another, teams may work in a shared environment. The more subtle components of corporate culture, such as the values a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65
+        },
+        {
+          "id": "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+          "text": " work in a shared environment. The more subtle components of corporate culture, such as the values and overarching business philosophy, may not be readily apparent, but they are reflected in member behaviours, symbols, and conventions used.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65
+        },
+        {
+          "id": "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+          "text": "Project Manager’s Checklist\n\nOnce the corporate culture has been identified, members should try to adapt to the frequency, formality, and type of communication customary in that culture. This adaptation will strongly affect project mem- bers’ productivity and satisfaction internally, as well as with the client organization. • Which stakeholders will make the decision in this organization on this issue? Will your pro- ject decisions and documentation have to go up through several layers to get approval? If so, what are the criteria and values that may affect acceptance there? For example, is being on schedule the most important consideration? Cost? Quality? • What type of communication among and between stakeholders is preferred? Do they want lengthy documents? Is “short and sweet” the typical standard? • What medium of communication is preferred? What kind of medium is usually chosen for this type of situation? Check the files to see what others have done. Ask others in the organi- zat",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65
+        },
+        {
+          "id": "a306948838564cc879cd384c9520b99062b98b6872b18fd16056ae901ba9944d",
+          "text": "place in the universe. Worldview is a fundamental core set of assumptions explaining cultural forces, the nature of humankind, the nature of good and evil, luck, fate, spirits, the power of significant others, the role of time, and the nature of our physical and natural resources” (Shebib, 2003, p. 296). If, for example, a Canadian manager is sent to India to manage an R&D team or a joint venture, they are likely to have to “[cope] with eco-shock or the physiological, psychological, and social reaction to a new assignment ecology.” Hanging a shingle in a fluid and culturally diverse organization, project team, and work culture, a project manager may find new working relationships and hidden challenges have significant implications for performance and knowledge exchange – for the manager and colleagues at home and in the host country. In most situations, there is simply no substitute for having a well-placed person from the host culture to guide the new person through the cultural nuanc",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 66
+        },
+        {
+          "id": "7ae828288373038f316a0f817368a12a91183931c5dc5e1abc595882cbd61014",
+          "text": "having a well-placed person from the host culture to guide the new person through the cultural nuances of getting things done. In fact, if this “intervention” isn’t present, it is likely to affect the person’s motivation or desire to continue trying to break through the cultural (and other) barriers. Indeed, optimal effectiveness in such situations requires learning of cul- tures in developing countries or international micro-cultures and sharing perceptions among the cultur- ally diverse task participants on how to get things done. Project leaders require sensitivity and awareness of multicultural preferences. The following broad areas should be considered: • Individual identity and role within the project versus family of origin and community • Verbal and emotional expressiveness • Relationship expectations • Style of communication • Language • Personal priorities, values, and beliefs • Time orientation There are many interpersonal dynamics and intra-project challenges faced by a glo",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 66
+        }
+      ],
+      "request_chars": 7269,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_5c00ff2cb9c5490a8d8a1d99d6425bf8",
+      "usage": {
+        "input_tokens": 1549,
+        "output_tokens": 125,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2786.7808749999767,
+      "response_id": "resp_087bd4742019d7d0016afb0e9ba50487d29c867afc709cfadc",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+    "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+    "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+    "a306948838564cc879cd384c9520b99062b98b6872b18fd16056ae901ba9944d",
+    "7ae828288373038f316a0f817368a12a91183931c5dc5e1abc595882cbd61014"
+  ],
+  "context_ids_prepared": [
+    "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+    "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+    "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+    "a306948838564cc879cd384c9520b99062b98b6872b18fd16056ae901ba9944d",
+    "7ae828288373038f316a0f817368a12a91183931c5dc5e1abc595882cbd61014"
+  ],
+  "context_chars_sent_unique": 5200,
+  "context_chars_prepared": 5200,
+  "usage": {
+    "input_tokens": 1926,
+    "output_tokens": 155,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4234.873791999917,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q14",
+  "question": "In the Culture and Project Management chapter, what does corporate culture encompass?",
+  "filters": {
+    "section": "6. Culture and Project Management"
+  },
+  "filter_source": "inherited_user_query_filter",
+  "split": "dev",
+  "run_id": "dev-hybrid-context-v1",
+  "config_sha256": "e87ab438b2436b86952d182b202c309cdeb256f5c37c63dbfb5dbd5a4c1266d7",
+  "created_at_utc": "2026-11-16T14:09:34.201045+00:00",
+  "attempt": 1
+}

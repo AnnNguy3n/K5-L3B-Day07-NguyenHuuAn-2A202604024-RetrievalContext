@@ -1,0 +1,408 @@
+{
+  "reviewer": "AI hỗ trợ học viên; chưa có người chấm độc lập",
+  "created_at_utc": "2026-11-16T14:11:24.609541+00:00",
+  "method": "Đọc từng question/answer, context cuối thực gửi, full citation chunk và đoạn PDF gốc; so khớp nội dung/điều kiện, không chỉ ID. Gold chỉ ở bước offline. 0/1/2 theo BENCHMARK.md; absence theo audit nguồn đã đóng băng.",
+  "source_pdf_sha256": "8cef479b81c9b0837c3c09ce095d621be28b1ec874110c76f0b311484a7c667d",
+  "reviews": [
+    {
+      "query_id": "q01",
+      "trace_sha256": "e71a5008e62cb77a4fdfcb3d1975db6a3e3cde1f01f63449616d0dd74cc4891b",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+          "supports_answer": true,
+          "source_quote": "A standard project typically has the following four major phases (each with its own agenda of tasks and issues): initiation, planning, implementation, and closure.",
+          "reason": "Đủ bốn giai đoạn, đúng thứ tự initiation/planning/implementation/closure.",
+          "pdf_page": 35,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ bốn giai đoạn, đúng thứ tự initiation/planning/implementation/closure.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 35; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q02",
+      "trace_sha256": "24a31d600bc7badf15d09475763724c7f17a89746c53ae44e6caeef4569d3704",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "148c17f5cc2d0097c4a8f6972131bc534454d313fd448f69860668ab1e91eb01",
+          "supports_answer": true,
+          "source_quote": "The project team set up three offices. One was in Chile, where large mining construction project infrastructure existed.",
+          "reason": "Nêu đúng hạ tầng xây dựng mỏ lớn sẵn có ở Chile; đối chiếu câu trước xác nhận Argentina chưa có.",
+          "pdf_page": 36,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu đúng hạ tầng xây dựng mỏ lớn sẵn có ở Chile; đối chiếu câu trước xác nhận Argentina chưa có.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 36; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q03",
+      "trace_sha256": "cb97ace958c6ca88e9aaabc631798f76498bb531bcb149862a33712c57c92147",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "eadfb46ef912317cd809deb1485a8c1bee731283d0581d4fcd233a29cde5f29b",
+          "supports_answer": true,
+          "source_quote": "The closeout phase included turning over the newly constructed plant to the operations team of the client.",
+          "reason": "Đúng operations team của client, không đổi thành nhà thầu hoặc project team.",
+          "pdf_page": 37,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng operations team của client, không đổi thành nhà thầu hoặc project team.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 37; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q04",
+      "trace_sha256": "b650dab89e581d2925d8aac4a5e191c9ff19a3aafb937f7234195298e4702bdd",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "8da9a3e3e30572cd3f5af57a996b8446b68d5f205510726e2928a957a3d70e24",
+          "supports_answer": true,
+          "source_quote": "The project manager will conduct one or more kickoff meetings or alignment sessions to bring the various parties of the project together and begin the project team building required to operate efficiently during the project.",
+          "reason": "Giữ đúng kickoff meetings hoặc alignment sessions và mục đích khởi đầu xây team.",
+          "pdf_page": 41,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Giữ đúng kickoff meetings hoặc alignment sessions và mục đích khởi đầu xây team.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 41; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q05",
+      "trace_sha256": "6e2d61d09e3e6da1c615f61fc5f3182933f219c80cef3d7044569fa0824d7e96",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+          "supports_answer": true,
+          "source_quote": "One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan.",
+          "reason": "Nêu scope creep cần nguồn lực ngoài kế hoạch; phần giải thích budget/schedule và confusion có trong cùng chunk.",
+          "pdf_page": 42,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Nêu scope creep cần nguồn lực ngoài kế hoạch; phần giải thích budget/schedule và confusion có trong cùng chunk.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 42; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q06",
+      "trace_sha256": "6f8d7042efd3affeb4cceb1f23248bc00b3c39fcf999d20f8a80dc02c8dcd0c0",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+          "supports_answer": true,
+          "source_quote": "For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended.",
+          "reason": "Đúng 846 giờ thực tế so với 800 dự toán; chênh 46 là phép trừ trực tiếp được nguồn hỗ trợ.",
+          "pdf_page": 44,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng 846 giờ thực tế so với 800 dự toán; chênh 46 là phép trừ trực tiếp được nguồn hỗ trợ.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 44; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q07",
+      "trace_sha256": "51be6c7091d1284a586899284f868a6777a114d993528e481e5fc90a996e0cd3",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "8d338560ff95a2819a9e936147fdd002f9e0123c07d7d259e0fd26de91f7b1e3",
+          "supports_answer": true,
+          "source_quote": "Another opportunity for applying process improvement tools is on projects that have repetitive processes. A housing contractor that is building several identical houses may benefit from evaluating work processes in the first few houses to explore the opportunities available to improve the work processes.",
+          "reason": "Đúng cải thiện quy trình lặp để có lợi cho các nhà sau; nếu nêu ví dụ $1000/$200 và hơn 5 nhà thì cùng chunk có đủ số/điều kiện.",
+          "pdf_page": 45,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng cải thiện quy trình lặp để có lợi cho các nhà sau; nếu nêu ví dụ $1000/$200 và hơn 5 nhà thì cùng chunk có đủ số/điều kiện.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 45; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q08",
+      "trace_sha256": "ad11976dd32eff1cca013009137664619f63aaa3e6497360258403850fa9bc16",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+          "supports_answer": true,
+          "source_quote": "When risks are less identifiable to specific activities, contingency is identified in a separate line item.",
+          "reason": "Đúng separate line item khi rủi ro không gắn rõ hoạt động, giữ điều kiện áp dụng.",
+          "pdf_page": 47,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng separate line item khi rủi ro không gắn rõ hoạt động, giữ điều kiện áp dụng.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 47; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q09",
+      "trace_sha256": "ae5cd3c1525d6808b6a2686237b1fe40ff199e0e184cfb23e01e84ea2fdd49f0",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "1f4a69538d4f3b38a211d8bd1ea65714a5897f13bc184452001f617ea6df076d",
+          "supports_answer": true,
+          "source_quote": "A stakeholder register is used to identify and track the interactions between the project and each stakeholder. This register must be updated on a regular basis, as new stakeholders can arise at any time, and the needs and interest levels of a particular stakeholder may change through the course of the project.",
+          "reason": "Giữ cả stakeholder mới và needs/interest thay đổi; nguồn còn nêu tracking interactions/communication needs.",
+          "pdf_page": 48,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Giữ cả stakeholder mới và needs/interest thay đổi; nguồn còn nêu tracking interactions/communication needs.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 48; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q10",
+      "trace_sha256": "22cb522ba9c212fe67695a8aa6e5ba174ee287b939f4961f55fd3966d723910a",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "a1af403aa01f47c53b7958aa61cac24eb5cbb5fcb45b380d36ef4739be58f79b",
+          "supports_answer": true,
+          "source_quote": "Typically, the way a product is developed is that there is a “front burner” (which has stories/tasks for the current sprint), a “back burner” (which has stories for the next sprint), and a “fridge” (which has stories for later, as well as process changes).",
+          "reason": "Đúng back burner cho sprint tiếp và fridge cho sprint sau, không đảo current sprint.",
+          "pdf_page": 51,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng back burner cho sprint tiếp và fridge cho sprint sau, không đảo current sprint.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 51; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q11",
+      "trace_sha256": "9ba2aa3571f870501d48a2e535b58d60335d24e868b6536d9a2c6a3fb5ac62b3",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "902c2449c4226350f9689c904f8728df8fd195cab7ed9035371733791f7a2501",
+          "supports_answer": true,
+          "source_quote": "External stakeholders may include external customers, government, contractors and subcontractors, and suppliers.",
+          "reason": "Nguồn liệt kê cả government lẫn suppliers là external stakeholders.",
+          "pdf_page": 54,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Nguồn liệt kê cả government lẫn suppliers là external stakeholders.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 54; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q12",
+      "trace_sha256": "aeda97efda81e408c21cbb8e409c1250e1d59fcc1e860e8c644b90ce0034692c",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+          "supports_answer": true,
+          "source_quote": "Peers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have.",
+          "reason": "Đủ cùng cấp, có thể không cùng team và khác leadership/accountability về thành bại dự án.",
+          "pdf_page": 56,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ cùng cấp, có thể không cùng team và khác leadership/accountability về thành bại dự án.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 56; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q13",
+      "trace_sha256": "eacf0c87ee0dcd0e10250826d91a46956a2503e8f00bf9a9b94fdc54824cf2eb",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "0851d1a9596c48cf7d751ffd97c94f01d7d2c0aefa0d66166d411256086915c9",
+          "supports_answer": true,
+          "source_quote": "Depending on the project, managing contractor and supplier relationships can consume more than half of the project manager’s time.",
+          "reason": "Đúng more than half; câu hỏi đặt điều kiện on some projects nên trả lời ngắn không đổi phạm vi.",
+          "pdf_page": 58,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng more than half; câu hỏi đặt điều kiện on some projects nên trả lời ngắn không đổi phạm vi.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 58; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q14",
+      "trace_sha256": "58d7c7cd85c4d1e8910113760a396f389fba2cad8a9efd2fcbe2636c9c635e57",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+          "supports_answer": true,
+          "source_quote": "Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to).",
+          "reason": "Đủ beliefs/attitudes/values được chia sẻ và hành vi phát sinh từ đó.",
+          "pdf_page": 65,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ beliefs/attitudes/values được chia sẻ và hành vi phát sinh từ đó.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 65; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q15",
+      "trace_sha256": "8d563f54411f3441a6f529837c6f0c2c002263a0a0cc996ef65d42ac11406b63",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "0a8f584bf9a094af0d471107514259e2646c4d88b4db755543bb80ffd70a5256",
+          "supports_answer": true,
+          "source_quote": "Conflict that springs from diversity can actually assist the team in completing complex problem solving. However, if not nav- igated successfully, it can create relationship strain and derail achievement due to increased difficulties in communication and coordination.",
+          "reason": "Đủ lợi ích giải quyết vấn đề phức tạp và tác hại relationship/achievement qua communication/coordination.",
+          "pdf_page": 67,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đủ lợi ích giải quyết vấn đề phức tạp và tác hại relationship/achievement qua communication/coordination.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 67; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q16",
+      "trace_sha256": "dee1b5373e698790a3f66f56698ef21affcfa6fcdf0c90762f791aaa06ec0047",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+          "supports_answer": true,
+          "source_quote": "Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance.",
+          "reason": "Đúng acceptance plan, không nhầm quality plan; đoạn gửi giữ đủ câu về tiêu chí customer acceptance.",
+          "pdf_page": 35,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng acceptance plan, không nhầm quality plan; đoạn gửi giữ đủ câu về tiêu chí customer acceptance.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 35; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q17",
+      "trace_sha256": "9db72f10aedf5884aae4f0caf834c8a3a641b8ba52cbf7726a747c53384d3d06",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+          "supports_answer": true,
+          "source_quote": "It has been shown that the ideal size for a development team is 7 +/- 2.",
+          "reason": "Đúng 7 +/-2; diễn giải 5–9 là phép tính trực tiếp, không thêm cỡ team khác.",
+          "pdf_page": 50,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng 7 +/-2; diễn giải 5–9 là phép tính trực tiếp, không thêm cỡ team khác.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 50; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q18",
+      "trace_sha256": "e21d0ea031b8e0dacda54247fe38ebd51c0bf4f1c0bda213c978748bbd07244e",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "506f976bfccaaea9239c1457e14bb931449c990a9ce2e6a9240827e954e7bf92",
+          "supports_answer": true,
+          "source_quote": "Without a mitigating strategy, the project would miss a critical window in the weather between monsoon seasons.",
+          "reason": "Đúng cửa sổ thời tiết giữa các mùa monsoon, không khẳng định tên/thời hạn chưa có.",
+          "pdf_page": 59,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng cửa sổ thời tiết giữa các mùa monsoon, không khẳng định tên/thời hạn chưa có.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 59; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q19",
+      "trace_sha256": "45411f92fec43f4f22fcbd0f84c2154b931eef5e4fcef2c000f8099ec4d8bab0",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "629f043e0699a6d1cd3c05591be5425bc0975d5eee2369d8543b3c83774971c7",
+          "supports_answer": true,
+          "source_quote": "Stakeholders with financial concerns will need to know the potential return of the project’s outcomes.",
+          "reason": "Đúng potential return của outcomes, không thay bằng budget hoặc sunk cost.",
+          "pdf_page": 62,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng potential return của outcomes, không thay bằng budget hoặc sunk cost.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 62; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "q20",
+      "trace_sha256": "a918de6e071cb3beea0c09055d9c4b79eb05ccb66718073d023dd0e332aa5631",
+      "context_grade": 2,
+      "grounded_grade": 2,
+      "citation_reviews": [
+        {
+          "id": "66959875b16b76136a146dc820dba6a3bd60faf076eaf80ec828af6a2ef671e4",
+          "supports_answer": true,
+          "source_quote": "team members from high-context cultures, it is essential to meet face-to-face, discover member’s individual identities and cultural preferences, share professional knowledge and personal stories, and observe critical verbal and non-verbal cues (that may not easily be observed online, or on the telephone).",
+          "reason": "Đúng verbal và non-verbal cues; giữ so sánh online/telephone, không thêm cue cụ thể ngoài nguồn.",
+          "pdf_page": 66,
+          "pdf_text_alignment": true
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Đúng verbal và non-verbal cues; giữ so sánh online/telephone, không thêm cue cụ thể ngoài nguồn.",
+      "source_check": "Đọc full citation chunk và đối chiếu text PDF gốc trang 66; quote và các điều kiện trong answer đều được hỗ trợ."
+    },
+    {
+      "query_id": "d07-d21",
+      "trace_sha256": "406e5f0823e2f41ea440c0d71458f0e4c590053f5fffd1119216e9f66d4ec074",
+      "context_grade": null,
+      "grounded_grade": null,
+      "citation_reviews": [],
+      "abstention_correct": true,
+      "reason": "Từ chối đúng tổng approved USD; không lấy $1000/$200 của ví dụ nhà làm ngân sách mỏ. Đối chiếu absence audit toàn 131 chunk/32 trang và PDF36–37.",
+      "source_check": "Từ chối đúng tổng approved USD; không lấy $1000/$200 của ví dụ nhà làm ngân sách mỏ. Đối chiếu absence audit toàn 131 chunk/32 trang và PDF36–37."
+    },
+    {
+      "query_id": "d07-d22",
+      "trace_sha256": "c75e3e254a0ed29caa1d706e75923eb17ced1c8ac41b2ac095b2e441f7a7e796",
+      "context_grade": null,
+      "grounded_grade": null,
+      "citation_reviews": [],
+      "abstention_correct": true,
+      "reason": "Từ chối đúng full personal name; PDF59 chỉ nêu a project management consultant from the United States, không nêu tên. Đối chiếu absence audit toàn corpus.",
+      "source_check": "Từ chối đúng full personal name; PDF59 chỉ nêu a project management consultant from the United States, không nêu tên. Đối chiếu absence audit toàn corpus."
+    }
+  ]
+}

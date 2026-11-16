@@ -1,0 +1,314 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "The **acceptance plan** lists the criteria to be met to gain customer acceptance. [4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1]",
+  "citations": [
+    "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1"
+  ],
+  "citation_sources": [
+    {
+      "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 35
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 5,
+    "tool_chars": 12000,
+    "context_chars": 24000,
+    "history_chars": 80000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "refresh_on_full"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_sz9bXw1KNsbjgD1qUzAJlbdx",
+      "arguments": {
+        "query": "\"Project Life Cycle\" plan records criteria team must meet customer sign-off acceptance"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+            "text": "ourse (i.e., to return it to the original plan). If that cannot happen, the team should record variations from the original plan and record and publish modifications to the plan. Throughout this step, project sponsors and other key stakeholders should be kept informed of the project’s status according to the agreed-on frequency and format of communication. The plan should be updated and published on a regular basis. Status reports should always emphasize the anticipated end point in terms of cost, schedule, and qual- ity of deliverables. Each project deliverable produced should be reviewed for quality and measured against the acceptance criteria. Once all of the deliverables have been produced and the customer has accepted the final solution, the project is ready for closure.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 36
+          },
+          {
+            "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+            "text": "mplete. This is an excellent time to identify and try to deal with anything that might pose a threat to the successful completion of the project. This is called risk management. In risk management, “high-threat” potential problems are identified along with the action that is to be taken on each high-threat potential problem, either to reduce the probability that the problem will occur or to reduce the impact on the project if it does occur. This is also a good time to identify all project stakeholders and establish a communication plan describing the information needed and the delivery method to be used to keep the stakeholders informed. Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance. At this point, the project would have been planned in detail and is ready to be executed.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 35
+          },
+          {
+            "id": "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+            "text": "3. The Project Life Cycle (Phases)\n\nThe project manager and project team have one shared goal: to carry out the work of the project for the purpose of meeting the project’s objectives. Every project has a beginning, a middle period during which activities move the project toward completion, and an ending (either successful or unsuccessful). A standard project typically has the following four major phases (each with its own agenda of tasks and issues): initiation, planning, implementation, and closure. Taken together, these phases represent the path a project takes from the beginning to its end and are generally referred to as the project “life cycle.”",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 35
+          },
+          {
+            "id": "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+            "text": "Closing Phase\n\nDuring the final closure, or completion phase, the emphasis is on releasing the final deliverables to the customer, handing over project documentation to the business, terminating supplier contracts, releasing project resources, and communicating the closure of the project to all stakeholders. The last remaining step is to conduct lessons-learned studies to examine what went well and what didn’t. Through this type of analysis, the wisdom of experience is transferred back to the project organization, which will help future project teams.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 36
+          },
+          {
+            "id": "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+            "text": "expenses. The project design team built on the conceptual design and developed detailed drawings for use by the procurement team. The procurement team used the drawings to begin ordering equipment and materials for the construction team; develop labour projections; refine the construction schedule; and set up the construction site. Although planning is a never-ending process on a project, the planning phase focused on developing sufficient details to allow various parts of the project team to coordinate their work and allow the project management team to make priority decisions. The implementation phase represents the work done to meet the requirements of the scope of work and fulfill the charter. During the implementation phase, the project team accomplished the work defined in the plan and made adjustments when the project factors changed. Equipment and materials were deliv- ered to the work site, labour was hired and trained, a construction site was built, and all the construction a",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 37
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+          "text": "ourse (i.e., to return it to the original plan). If that cannot happen, the team should record variations from the original plan and record and publish modifications to the plan. Throughout this step, project sponsors and other key stakeholders should be kept informed of the project’s status according to the agreed-on frequency and format of communication. The plan should be updated and published on a regular basis. Status reports should always emphasize the anticipated end point in terms of cost, schedule, and qual- ity of deliverables. Each project deliverable produced should be reviewed for quality and measured against the acceptance criteria. Once all of the deliverables have been produced and the customer has accepted the final solution, the project is ready for closure.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 36,
+          "rank": 1,
+          "score": 0.032266458495966696,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "lexical": 3
+          },
+          "component_scores": {
+            "dense": 0.7668340156726574,
+            "lexical": 0.13151544962778483
+          }
+        },
+        {
+          "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+          "text": "mplete. This is an excellent time to identify and try to deal with anything that might pose a threat to the successful completion of the project. This is called risk management. In risk management, “high-threat” potential problems are identified along with the action that is to be taken on each high-threat potential problem, either to reduce the probability that the problem will occur or to reduce the impact on the project if it does occur. This is also a good time to identify all project stakeholders and establish a communication plan describing the information needed and the delivery method to be used to keep the stakeholders informed. Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance. At this point, the project would have been planned in detail and is ready to be executed.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 35,
+          "rank": 2,
+          "score": 0.03225806451612903,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "lexical": 2
+          },
+          "component_scores": {
+            "dense": 0.7250891425167411,
+            "lexical": 0.13778221417597897
+          }
+        },
+        {
+          "id": "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+          "text": "3. The Project Life Cycle (Phases)\n\nThe project manager and project team have one shared goal: to carry out the work of the project for the purpose of meeting the project’s objectives. Every project has a beginning, a middle period during which activities move the project toward completion, and an ending (either successful or unsuccessful). A standard project typically has the following four major phases (each with its own agenda of tasks and issues): initiation, planning, implementation, and closure. Taken together, these phases represent the path a project takes from the beginning to its end and are generally referred to as the project “life cycle.”",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 35,
+          "rank": 3,
+          "score": 0.032018442622950824,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "lexical": 1
+          },
+          "component_scores": {
+            "dense": 0.7000497430638467,
+            "lexical": 0.15964234120140586
+          }
+        },
+        {
+          "id": "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+          "text": "Closing Phase\n\nDuring the final closure, or completion phase, the emphasis is on releasing the final deliverables to the customer, handing over project documentation to the business, terminating supplier contracts, releasing project resources, and communicating the closure of the project to all stakeholders. The last remaining step is to conduct lessons-learned studies to examine what went well and what didn’t. Through this type of analysis, the wisdom of experience is transferred back to the project organization, which will help future project teams.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 36,
+          "rank": 4,
+          "score": 0.03057889822595705,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "lexical": 8
+          },
+          "component_scores": {
+            "dense": 0.7090090106468331,
+            "lexical": 0.04071891210245417
+          }
+        },
+        {
+          "id": "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+          "text": "expenses. The project design team built on the conceptual design and developed detailed drawings for use by the procurement team. The procurement team used the drawings to begin ordering equipment and materials for the construction team; develop labour projections; refine the construction schedule; and set up the construction site. Although planning is a never-ending process on a project, the planning phase focused on developing sufficient details to allow various parts of the project team to coordinate their work and allow the project management team to make priority decisions. The implementation phase represents the work done to meet the requirements of the scope of work and fulfill the charter. During the implementation phase, the project team accomplished the work defined in the plan and made adjustments when the project factors changed. Equipment and materials were deliv- ered to the work site, labour was hired and trained, a construction site was built, and all the construction a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 37,
+          "rank": 5,
+          "score": 0.03055037313432836,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 7,
+            "lexical": 4
+          },
+          "component_scores": {
+            "dense": 0.6630256567934942,
+            "lexical": 0.06080184700611865
+          }
+        }
+      ],
+      "filter_source": "runtime_query_filter",
+      "context_ids": [
+        "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+        "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+        "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+        "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+        "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9"
+      ],
+      "filters": {
+        "section": "3. The Project Life Cycle (Phases)"
+      },
+      "output_chars": 4899,
+      "elapsed_ms": 103.43979199990372
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 138,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1627,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_a2b43654f93d48968184b15d330e00b4",
+      "usage": {
+        "input_tokens": 384,
+        "output_tokens": 33,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1671.901417000072,
+      "response_id": "resp_0176120944e0f107016afb0ea5ec4c87d283a6f0f204e92d63",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 5518,
+      "context_ids": [
+        "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+        "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+        "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+        "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+        "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9"
+      ],
+      "context_chars_unique": 4899,
+      "context_chunks": [
+        {
+          "id": "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+          "text": "ourse (i.e., to return it to the original plan). If that cannot happen, the team should record variations from the original plan and record and publish modifications to the plan. Throughout this step, project sponsors and other key stakeholders should be kept informed of the project’s status according to the agreed-on frequency and format of communication. The plan should be updated and published on a regular basis. Status reports should always emphasize the anticipated end point in terms of cost, schedule, and qual- ity of deliverables. Each project deliverable produced should be reviewed for quality and measured against the acceptance criteria. Once all of the deliverables have been produced and the customer has accepted the final solution, the project is ready for closure.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 36
+        },
+        {
+          "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+          "text": "mplete. This is an excellent time to identify and try to deal with anything that might pose a threat to the successful completion of the project. This is called risk management. In risk management, “high-threat” potential problems are identified along with the action that is to be taken on each high-threat potential problem, either to reduce the probability that the problem will occur or to reduce the impact on the project if it does occur. This is also a good time to identify all project stakeholders and establish a communication plan describing the information needed and the delivery method to be used to keep the stakeholders informed. Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance. At this point, the project would have been planned in detail and is ready to be executed.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 35
+        },
+        {
+          "id": "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+          "text": "3. The Project Life Cycle (Phases)\n\nThe project manager and project team have one shared goal: to carry out the work of the project for the purpose of meeting the project’s objectives. Every project has a beginning, a middle period during which activities move the project toward completion, and an ending (either successful or unsuccessful). A standard project typically has the following four major phases (each with its own agenda of tasks and issues): initiation, planning, implementation, and closure. Taken together, these phases represent the path a project takes from the beginning to its end and are generally referred to as the project “life cycle.”",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 35
+        },
+        {
+          "id": "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+          "text": "Closing Phase\n\nDuring the final closure, or completion phase, the emphasis is on releasing the final deliverables to the customer, handing over project documentation to the business, terminating supplier contracts, releasing project resources, and communicating the closure of the project to all stakeholders. The last remaining step is to conduct lessons-learned studies to examine what went well and what didn’t. Through this type of analysis, the wisdom of experience is transferred back to the project organization, which will help future project teams.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 36
+        },
+        {
+          "id": "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+          "text": "expenses. The project design team built on the conceptual design and developed detailed drawings for use by the procurement team. The procurement team used the drawings to begin ordering equipment and materials for the construction team; develop labour projections; refine the construction schedule; and set up the construction site. Although planning is a never-ending process on a project, the planning phase focused on developing sufficient details to allow various parts of the project team to coordinate their work and allow the project management team to make priority decisions. The implementation phase represents the work done to meet the requirements of the scope of work and fulfill the charter. During the implementation phase, the project team accomplished the work defined in the plan and made adjustments when the project factors changed. Equipment and materials were deliv- ered to the work site, labour was hired and trained, a construction site was built, and all the construction a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 37
+        }
+      ],
+      "request_chars": 7007,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_7e04ccea8fab466f87b7a9fa4a9ac696",
+      "usage": {
+        "input_tokens": 1489,
+        "output_tokens": 109,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2655.4870829999118,
+      "response_id": "resp_0176120944e0f107016afb0ea7b3b487d2b3e935e317cf1225",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+    "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+    "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+    "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+    "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9"
+  ],
+  "context_ids_prepared": [
+    "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+    "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+    "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+    "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+    "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9"
+  ],
+  "context_chars_sent_unique": 4899,
+  "context_chars_prepared": 4899,
+  "usage": {
+    "input_tokens": 1873,
+    "output_tokens": 142,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4431.758790999993,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q16",
+  "question": "In the Project Life Cycle chapter, which plan records the criteria the team must meet for customer sign-off?",
+  "filters": {
+    "section": "3. The Project Life Cycle (Phases)"
+  },
+  "filter_source": "inherited_user_query_filter",
+  "split": "dev",
+  "run_id": "dev-hybrid-context-v1",
+  "config_sha256": "e87ab438b2436b86952d182b202c309cdeb256f5c37c63dbfb5dbd5a4c1266d7",
+  "created_at_utc": "2026-11-16T14:09:46.137920+00:00",
+  "attempt": 1
+}

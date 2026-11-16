@@ -1,0 +1,310 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Small additions can create **scope creep** when they go unrecognized or unmanaged. They require resources not included in the original plan, potentially straining the budget and schedule. Undocumented changes can also create confusion about expectations. [184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654]",
+  "citations": [
+    "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654"
+  ],
+  "citation_sources": [
+    {
+      "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 42
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 5,
+    "tool_chars": 12000,
+    "context_chars": 24000,
+    "history_chars": 80000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "refresh_on_full"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_1QWBAbaPFTeyPwDx0nf5leAR",
+      "arguments": {
+        "query": "small incremental additions project scope threaten success scope creep cumulative impacts budget schedule"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+            "text": "• Project constraints • Project assumptions The scope document is the basis for agreement by all parties. A clear project scope document is also crit- ical to managing change on a project. Since the project scope reflects what work will be accomplished on the project, any change in expectations that is not captured and documented creates the opportunity for confusion. One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan. Increasing the scope of the project is a common occurrence, and adjustments are made to the project budget and schedule to account for these changes. Scope creep occurs when these changes are not recognized or not managed. The ability of a project manager to identify potential changes is often related to the quality of the scope documents. Events do occur t",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 42
+          },
+          {
+            "id": "20aff9a0435dc7833774bdead093b8380aef436a78ed932ccab2756ca6454d0a",
+            "text": "scope is related to the complexity profile of the project. A more complex project often requires a more detailed and comprehensive scope document. According to the PMI, the scope statement should include the following: • Description of the scope • Product acceptance criteria • Project deliverables • Project exclusions",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 41
+          },
+          {
+            "id": "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+            "text": "identify potential changes is often related to the quality of the scope documents. Events do occur that require the scope of the project to change. Changes in the marketplace may require change in a product design or the timing of the product delivery. Changes in the client’s manage- ment team or the financial health of the client may also result in changes in the project scope. Changes in the project schedule, budget, or product quality will have an effect on the project plan. Generally, the later in the project the change occurs, the greater the increase to the project costs. Establishing a change management system for the project that captures changes to the project scope and assures that these changes are authorized by the appropriate level of management in the client’s organization is the responsibility of the project manager. The project manager also analyzes the cost and schedule impact of these changes and adjusts the project plan to reflect the changes authorized by the client",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 42
+          },
+          {
+            "id": "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+            "text": "Project Costs\n\nThe definition of project success often includes completing the project within budget. Developing and controlling a project budget that will accomplish the project objectives is a critical project management skill. Although clients expect the project to be executed efficiently, cost pressures vary on projects. On some projects, the project completion or end date is the largest contributor to the project complexity. The development of a new drug to address a critical health issue, the production of a new product that will generate critical cash flow for a company, and the competitive advantage for a company to be first in the marketplace with a new technology are examples of projects with schedule pressures that override project costs. The accuracy of the project budget is related to the amount of information known by the project team. In the early stages of the project, the amount of information needed to develop a detailed budget is often missing. To address the lack of",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          },
+          {
+            "id": "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+            "text": "• Keep them informed of project risks and potential impacts at all times.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 55
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+          "text": "• Project constraints • Project assumptions The scope document is the basis for agreement by all parties. A clear project scope document is also crit- ical to managing change on a project. Since the project scope reflects what work will be accomplished on the project, any change in expectations that is not captured and documented creates the opportunity for confusion. One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan. Increasing the scope of the project is a common occurrence, and adjustments are made to the project budget and schedule to account for these changes. Scope creep occurs when these changes are not recognized or not managed. The ability of a project manager to identify potential changes is often related to the quality of the scope documents. Events do occur t",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42,
+          "rank": 1,
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "lexical": 1
+          },
+          "component_scores": {
+            "dense": 0.7954815165467511,
+            "lexical": 0.47993875992600893
+          }
+        },
+        {
+          "id": "20aff9a0435dc7833774bdead093b8380aef436a78ed932ccab2756ca6454d0a",
+          "text": "scope is related to the complexity profile of the project. A more complex project often requires a more detailed and comprehensive scope document. According to the PMI, the scope statement should include the following: • Description of the scope • Product acceptance criteria • Project deliverables • Project exclusions",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 41,
+          "rank": 2,
+          "score": 0.0315136476426799,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 5,
+            "lexical": 2
+          },
+          "component_scores": {
+            "dense": 0.7128320165176414,
+            "lexical": 0.2688991387560034
+          }
+        },
+        {
+          "id": "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+          "text": "identify potential changes is often related to the quality of the scope documents. Events do occur that require the scope of the project to change. Changes in the marketplace may require change in a product design or the timing of the product delivery. Changes in the client’s manage- ment team or the financial health of the client may also result in changes in the project scope. Changes in the project schedule, budget, or product quality will have an effect on the project plan. Generally, the later in the project the change occurs, the greater the increase to the project costs. Establishing a change management system for the project that captures changes to the project scope and assures that these changes are authorized by the appropriate level of management in the client’s organization is the responsibility of the project manager. The project manager also analyzes the cost and schedule impact of these changes and adjusts the project plan to reflect the changes authorized by the client",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42,
+          "rank": 3,
+          "score": 0.030776515151515152,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "lexical": 6
+          },
+          "component_scores": {
+            "dense": 0.7191319037001306,
+            "lexical": 0.13808427666412837
+          }
+        },
+        {
+          "id": "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+          "text": "Project Costs\n\nThe definition of project success often includes completing the project within budget. Developing and controlling a project budget that will accomplish the project objectives is a critical project management skill. Although clients expect the project to be executed efficiently, cost pressures vary on projects. On some projects, the project completion or end date is the largest contributor to the project complexity. The development of a new drug to address a critical health issue, the production of a new product that will generate critical cash flow for a company, and the competitive advantage for a company to be first in the marketplace with a new technology are examples of projects with schedule pressures that override project costs. The accuracy of the project budget is related to the amount of information known by the project team. In the early stages of the project, the amount of information needed to develop a detailed budget is often missing. To address the lack of",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 4,
+          "score": 0.03036576949620428,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "lexical": 9
+          },
+          "component_scores": {
+            "dense": 0.7248838379909909,
+            "lexical": 0.11409953827837695
+          }
+        },
+        {
+          "id": "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+          "text": "• Keep them informed of project risks and potential impacts at all times.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 55,
+          "rank": 5,
+          "score": 0.030090497737556562,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 8,
+            "lexical": 5
+          },
+          "component_scores": {
+            "dense": 0.6990462182815335,
+            "lexical": 0.1767806365837329
+          }
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+        "20aff9a0435dc7833774bdead093b8380aef436a78ed932ccab2756ca6454d0a",
+        "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+        "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+        "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7"
+      ],
+      "filters": {},
+      "output_chars": 4350,
+      "elapsed_ms": 105.1844590000428
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 101,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1590,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_5cd48c4513014f94afc8428d81766d49",
+      "usage": {
+        "input_tokens": 375,
+        "output_tokens": 31,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1986.1119580000377,
+      "response_id": "resp_0c56d429009d5352016afb0e6898f487d2b107ca146edb425e",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 4943,
+      "context_ids": [
+        "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+        "20aff9a0435dc7833774bdead093b8380aef436a78ed932ccab2756ca6454d0a",
+        "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+        "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+        "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7"
+      ],
+      "context_chars_unique": 4350,
+      "context_chunks": [
+        {
+          "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+          "text": "• Project constraints • Project assumptions The scope document is the basis for agreement by all parties. A clear project scope document is also crit- ical to managing change on a project. Since the project scope reflects what work will be accomplished on the project, any change in expectations that is not captured and documented creates the opportunity for confusion. One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan. Increasing the scope of the project is a common occurrence, and adjustments are made to the project budget and schedule to account for these changes. Scope creep occurs when these changes are not recognized or not managed. The ability of a project manager to identify potential changes is often related to the quality of the scope documents. Events do occur t",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42
+        },
+        {
+          "id": "20aff9a0435dc7833774bdead093b8380aef436a78ed932ccab2756ca6454d0a",
+          "text": "scope is related to the complexity profile of the project. A more complex project often requires a more detailed and comprehensive scope document. According to the PMI, the scope statement should include the following: • Description of the scope • Product acceptance criteria • Project deliverables • Project exclusions",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 41
+        },
+        {
+          "id": "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+          "text": "identify potential changes is often related to the quality of the scope documents. Events do occur that require the scope of the project to change. Changes in the marketplace may require change in a product design or the timing of the product delivery. Changes in the client’s manage- ment team or the financial health of the client may also result in changes in the project scope. Changes in the project schedule, budget, or product quality will have an effect on the project plan. Generally, the later in the project the change occurs, the greater the increase to the project costs. Establishing a change management system for the project that captures changes to the project scope and assures that these changes are authorized by the appropriate level of management in the client’s organization is the responsibility of the project manager. The project manager also analyzes the cost and schedule impact of these changes and adjusts the project plan to reflect the changes authorized by the client",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42
+        },
+        {
+          "id": "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+          "text": "Project Costs\n\nThe definition of project success often includes completing the project within budget. Developing and controlling a project budget that will accomplish the project objectives is a critical project management skill. Although clients expect the project to be executed efficiently, cost pressures vary on projects. On some projects, the project completion or end date is the largest contributor to the project complexity. The development of a new drug to address a critical health issue, the production of a new product that will generate critical cash flow for a company, and the competitive advantage for a company to be first in the marketplace with a new technology are examples of projects with schedule pressures that override project costs. The accuracy of the project budget is related to the amount of information known by the project team. In the early stages of the project, the amount of information needed to develop a detailed budget is often missing. To address the lack of",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        },
+        {
+          "id": "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+          "text": "• Keep them informed of project risks and potential impacts at all times.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 55
+        }
+      ],
+      "request_chars": 6432,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_ec6f7d9a9fd749358affae62aad9d8f6",
+      "usage": {
+        "input_tokens": 1365,
+        "output_tokens": 138,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 4382.507999999916,
+      "response_id": "resp_0c56d429009d5352016afb0e6abc2487d297a72b436459957e",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+    "20aff9a0435dc7833774bdead093b8380aef436a78ed932ccab2756ca6454d0a",
+    "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+    "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+    "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7"
+  ],
+  "context_ids_prepared": [
+    "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+    "20aff9a0435dc7833774bdead093b8380aef436a78ed932ccab2756ca6454d0a",
+    "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+    "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+    "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7"
+  ],
+  "context_chars_sent_unique": 4350,
+  "context_chars_prepared": 4350,
+  "usage": {
+    "input_tokens": 1740,
+    "output_tokens": 169,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 6474.646374999907,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q05",
+  "question": "Why can small, incremental additions to project scope threaten success?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-hybrid-context-v1",
+  "config_sha256": "e87ab438b2436b86952d182b202c309cdeb256f5c37c63dbfb5dbd5a4c1266d7",
+  "created_at_utc": "2026-11-16T14:08:46.847718+00:00",
+  "attempt": 1
+}

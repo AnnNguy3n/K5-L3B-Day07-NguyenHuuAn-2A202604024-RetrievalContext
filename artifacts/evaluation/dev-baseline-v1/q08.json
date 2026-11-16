@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Show contingency as a separate budget line item when risks cannot readily be tied to specific activities. [ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061]",
+  "citations": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061"
+  ],
+  "citation_sources": [
+    {
+      "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 47
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_ylXZy662QHiFaOx4djxzLk2A",
+      "arguments": {
+        "query": "contingency budget risks cannot be tied to individual activities separate line item"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+            "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 47
+          },
+          {
+            "id": "6d5ef6137093a1b63bda92b6665247c4f037e3f95892f91ed6eb4a3187d80d4b",
+            "text": " risk management plan is integrated into the project execution plan, and mitigation activities are assigned to the appropriate project team member. The likelihood that all the potential events identified in the risk analysis would occur is extremely rare. The likelihood that one or more events will happen is high. The project risk plan reflects the risk profile of the project and balances the investment of the mitiga-",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 46
+          },
+          {
+            "id": "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f",
+            "text": "8. Managing risk: Projects are a discovery-driven process, often uncovering new customer\n\nneeds and identifying critical issues not previously disclosed. Projects also encounter unex- pected events, such as project team members resigning, budgeted resources suddenly chang- ing, the organization becoming unstable, and newer technologies being introduced. There is a real need to properly identify various risks and manage these risks. Managing risk is about risk planning and identification, risk analysis (qualitative and quantitative), risk response (action) planning, and risk monitoring and control.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 39
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+          "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 47,
+          "rank": 1,
+          "score": 0.8068206310272275,
+          "strategy": "dense"
+        },
+        {
+          "id": "6d5ef6137093a1b63bda92b6665247c4f037e3f95892f91ed6eb4a3187d80d4b",
+          "text": " risk management plan is integrated into the project execution plan, and mitigation activities are assigned to the appropriate project team member. The likelihood that all the potential events identified in the risk analysis would occur is extremely rare. The likelihood that one or more events will happen is high. The project risk plan reflects the risk profile of the project and balances the investment of the mitiga-",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "rank": 2,
+          "score": 0.721097064672233,
+          "strategy": "dense"
+        },
+        {
+          "id": "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f",
+          "text": "8. Managing risk: Projects are a discovery-driven process, often uncovering new customer\n\nneeds and identifying critical issues not previously disclosed. Projects also encounter unex- pected events, such as project team members resigning, budgeted resources suddenly chang- ing, the organization becoming unstable, and newer technologies being introduced. There is a real need to properly identify various risks and manage these risks. Managing risk is about risk planning and identification, risk analysis (qualitative and quantitative), risk response (action) planning, and risk monitoring and control.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 39,
+          "rank": 3,
+          "score": 0.7198034786943768,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+        "6d5ef6137093a1b63bda92b6665247c4f037e3f95892f91ed6eb4a3187d80d4b",
+        "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f"
+      ],
+      "filters": {},
+      "output_chars": 2341,
+      "elapsed_ms": 96.80645900004947
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 133,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1622,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_66534a146ccf46a3b19e3ac3147ceafe",
+      "usage": {
+        "input_tokens": 380,
+        "output_tokens": 32,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2141.650082999945,
+      "response_id": "resp_06b58f566b56055e016afb0e5c5e8087d29a0d7eeff465e253",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 2908,
+      "context_ids": [
+        "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+        "6d5ef6137093a1b63bda92b6665247c4f037e3f95892f91ed6eb4a3187d80d4b",
+        "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f"
+      ],
+      "context_chars_unique": 2341,
+      "context_chunks": [
+        {
+          "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+          "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 47
+        },
+        {
+          "id": "6d5ef6137093a1b63bda92b6665247c4f037e3f95892f91ed6eb4a3187d80d4b",
+          "text": " risk management plan is integrated into the project execution plan, and mitigation activities are assigned to the appropriate project team member. The likelihood that all the potential events identified in the risk analysis would occur is extremely rare. The likelihood that one or more events will happen is high. The project risk plan reflects the risk profile of the project and balances the investment of the mitiga-",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46
+        },
+        {
+          "id": "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f",
+          "text": "8. Managing risk: Projects are a discovery-driven process, often uncovering new customer\n\nneeds and identifying critical issues not previously disclosed. Projects also encounter unex- pected events, such as project team members resigning, budgeted resources suddenly chang- ing, the organization becoming unstable, and newer technologies being introduced. There is a real need to properly identify various risks and manage these risks. Managing risk is about risk planning and identification, risk analysis (qualitative and quantitative), risk response (action) planning, and risk monitoring and control.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 39
+        }
+      ],
+      "request_chars": 4397,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_4a4501c27f384d07a7f51b05fe4bdebb",
+      "usage": {
+        "input_tokens": 953,
+        "output_tokens": 118,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2873.701290999975,
+      "response_id": "resp_06b58f566b56055e016afb0e5e952887d28b69f93dfbfac87a",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+    "6d5ef6137093a1b63bda92b6665247c4f037e3f95892f91ed6eb4a3187d80d4b",
+    "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f"
+  ],
+  "context_ids_prepared": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+    "6d5ef6137093a1b63bda92b6665247c4f037e3f95892f91ed6eb4a3187d80d4b",
+    "165f154ae7354927a9daf8405f3671e80dabe1bf20239dcacd15894651936a6f"
+  ],
+  "context_chars_sent_unique": 2341,
+  "context_chars_prepared": 2341,
+  "usage": {
+    "input_tokens": 1333,
+    "output_tokens": 150,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 5112.975166999945,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q08",
+  "question": "How should contingency appear in the budget when risks cannot readily be tied to individual activities?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-baseline-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:08:33.242466+00:00",
+  "attempt": 1
+}

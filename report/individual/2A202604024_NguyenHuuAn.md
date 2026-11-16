@@ -106,3 +106,12 @@ Tôi đã hoàn thiện bộ chấm offline, schema review từng câu/citation 
 mẫu số/lỗi. Gold OR/source/page được kiểm tra độc lập với nhãn ngữ nghĩa; CER
 lấy context đã gửi cuối. 32 test liên quan đạt, 1 live bỏ qua. Nhãn toàn dev/test
 được lưu theo run ở bước10–11, không suy từ hai smoke. [Quy tắc](../../docs/EVALUATION.md).
+
+## Công việc 10 — ba cấu hình dev
+
+Tôi đã chạy agent OpenAI thật đủ22 dev cho baseline dense, lexical và hybrid
+context; mỗi run có trace, review từng câu/citation và metrics. Cả ba CER20/20,
+grounded2,00/2, citation20/20, abstain2/2, lỗi0/22. Tôi chọn baseline-dense vì
+hòa chất lượng nhưng tổng token thấp nhất36225; lexical36582, hybrid45341.
+Hai lỗi retrieval dev q16/q19 và kết quả trước/sau được phân tích tại
+[bảng dev](../../docs/EVALUATION.md#10--dev-và-lựa-chọn). Test chưa chạy.

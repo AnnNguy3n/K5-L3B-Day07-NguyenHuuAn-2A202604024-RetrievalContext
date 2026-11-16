@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Small additions can accumulate into **scope creep**: extra work that requires resources not included in the original plan. If the changes go unrecognized or unmanaged, the budget and schedule may not be adjusted to account for them, threatening project success. [184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654]",
+  "citations": [
+    "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654"
+  ],
+  "citation_sources": [
+    {
+      "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 42
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_JBc3L7qD8ECjz0tD4vBaRwGM",
+      "arguments": {
+        "query": "small incremental additions project scope threaten success scope creep cumulative changes budget schedule"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+            "text": "• Project constraints • Project assumptions The scope document is the basis for agreement by all parties. A clear project scope document is also crit- ical to managing change on a project. Since the project scope reflects what work will be accomplished on the project, any change in expectations that is not captured and documented creates the opportunity for confusion. One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan. Increasing the scope of the project is a common occurrence, and adjustments are made to the project budget and schedule to account for these changes. Scope creep occurs when these changes are not recognized or not managed. The ability of a project manager to identify potential changes is often related to the quality of the scope documents. Events do occur t",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 42
+          },
+          {
+            "id": "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+            "text": "impact of these changes and adjusts the project plan to reflect the changes authorized by the client. Changes to the scope can cause costs to increase or decrease.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 42
+          },
+          {
+            "id": "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+            "text": "identify potential changes is often related to the quality of the scope documents. Events do occur that require the scope of the project to change. Changes in the marketplace may require change in a product design or the timing of the product delivery. Changes in the client’s manage- ment team or the financial health of the client may also result in changes in the project scope. Changes in the project schedule, budget, or product quality will have an effect on the project plan. Generally, the later in the project the change occurs, the greater the increase to the project costs. Establishing a change management system for the project that captures changes to the project scope and assures that these changes are authorized by the appropriate level of management in the client’s organization is the responsibility of the project manager. The project manager also analyzes the cost and schedule impact of these changes and adjusts the project plan to reflect the changes authorized by the client",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 42
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+          "text": "• Project constraints • Project assumptions The scope document is the basis for agreement by all parties. A clear project scope document is also crit- ical to managing change on a project. Since the project scope reflects what work will be accomplished on the project, any change in expectations that is not captured and documented creates the opportunity for confusion. One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan. Increasing the scope of the project is a common occurrence, and adjustments are made to the project budget and schedule to account for these changes. Scope creep occurs when these changes are not recognized or not managed. The ability of a project manager to identify potential changes is often related to the quality of the scope documents. Events do occur t",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42,
+          "rank": 1,
+          "score": 0.8045418598452797,
+          "strategy": "dense"
+        },
+        {
+          "id": "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+          "text": "impact of these changes and adjusts the project plan to reflect the changes authorized by the client. Changes to the scope can cause costs to increase or decrease.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42,
+          "rank": 2,
+          "score": 0.7985237349884087,
+          "strategy": "dense"
+        },
+        {
+          "id": "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+          "text": "identify potential changes is often related to the quality of the scope documents. Events do occur that require the scope of the project to change. Changes in the marketplace may require change in a product design or the timing of the product delivery. Changes in the client’s manage- ment team or the financial health of the client may also result in changes in the project scope. Changes in the project schedule, budget, or product quality will have an effect on the project plan. Generally, the later in the project the change occurs, the greater the increase to the project costs. Establishing a change management system for the project that captures changes to the project scope and assures that these changes are authorized by the appropriate level of management in the client’s organization is the responsibility of the project manager. The project manager also analyzes the cost and schedule impact of these changes and adjusts the project plan to reflect the changes authorized by the client",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42,
+          "rank": 3,
+          "score": 0.7316135051941577,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+        "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+        "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07"
+      ],
+      "filters": {},
+      "output_chars": 2757,
+      "elapsed_ms": 107.14808399995945
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 101,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1590,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_c3b9b8dce28d4aa3a93bffb573fe43e7",
+      "usage": {
+        "input_tokens": 375,
+        "output_tokens": 31,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1590.9109169999738,
+      "response_id": "resp_0f8eddeba7f5cf08016afb0e4c65a887d29b7cf4784a0288ed",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3312,
+      "context_ids": [
+        "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+        "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+        "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07"
+      ],
+      "context_chars_unique": 2757,
+      "context_chunks": [
+        {
+          "id": "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+          "text": "• Project constraints • Project assumptions The scope document is the basis for agreement by all parties. A clear project scope document is also crit- ical to managing change on a project. Since the project scope reflects what work will be accomplished on the project, any change in expectations that is not captured and documented creates the opportunity for confusion. One of the most common trends on projects is the incremental expansion in the project scope. This trend is labeled “scope creep.” Scope creep threatens the success of a project because the small increases in scope require additional resources that were not in the plan. Increasing the scope of the project is a common occurrence, and adjustments are made to the project budget and schedule to account for these changes. Scope creep occurs when these changes are not recognized or not managed. The ability of a project manager to identify potential changes is often related to the quality of the scope documents. Events do occur t",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42
+        },
+        {
+          "id": "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+          "text": "impact of these changes and adjusts the project plan to reflect the changes authorized by the client. Changes to the scope can cause costs to increase or decrease.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42
+        },
+        {
+          "id": "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07",
+          "text": "identify potential changes is often related to the quality of the scope documents. Events do occur that require the scope of the project to change. Changes in the marketplace may require change in a product design or the timing of the product delivery. Changes in the client’s manage- ment team or the financial health of the client may also result in changes in the project scope. Changes in the project schedule, budget, or product quality will have an effect on the project plan. Generally, the later in the project the change occurs, the greater the increase to the project costs. Establishing a change management system for the project that captures changes to the project scope and assures that these changes are authorized by the appropriate level of management in the client’s organization is the responsibility of the project manager. The project manager also analyzes the cost and schedule impact of these changes and adjusts the project plan to reflect the changes authorized by the client",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 42
+        }
+      ],
+      "request_chars": 4801,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_74e6cc045a37461c928cc1a1850c3182",
+      "usage": {
+        "input_tokens": 1021,
+        "output_tokens": 142,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 4378.014417000031,
+      "response_id": "resp_0f8eddeba7f5cf08016afb0e4e173087d2b4abd4e744919673",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+    "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+    "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07"
+  ],
+  "context_ids_prepared": [
+    "184996655bb4781bb1c4bf62fbd9573a8ed56ae0f3dcce58fc797130c38c8654",
+    "eb3b21d1c3deee798602533886b152d75ca1ef92cccaed7bc0ce79feaa910949",
+    "349ca5f099639e8eb15f117437dae56945e86f0d3e281e8dc696c6f2ec3bfa07"
+  ],
+  "context_chars_sent_unique": 2757,
+  "context_chars_prepared": 2757,
+  "usage": {
+    "input_tokens": 1396,
+    "output_tokens": 173,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 6076.9240410000975,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q05",
+  "question": "Why can small, incremental additions to project scope threaten success?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-baseline-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:08:18.262064+00:00",
+  "attempt": 1
+}

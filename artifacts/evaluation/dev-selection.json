@@ -1,0 +1,696 @@
+{
+  "selected_at_utc": "2026-11-16T14:12:34.778286+00:00",
+  "protocol_sha256": "6c6af1874e82062df668bd1613b42961ec0c09ef0bebdea43d762c9f9147755b",
+  "selected_config": "baseline-dense",
+  "selection_reason": "Quality/CER/citation/abstention/errors tied; baseline has lowest total input+output tokens (36225 < 36582 < 45341). Timing not used because token tie already broken.",
+  "test_executed": false,
+  "comparison": [
+    {
+      "run": "dev-baseline-v1",
+      "config_id": "baseline-dense",
+      "metrics": {
+        "queries": 22,
+        "errors": 0,
+        "status_counts": {
+          "answered": 20,
+          "abstain": 2
+        },
+        "context_evidence_rate": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 0,
+          "1": 0,
+          "2": 20
+        },
+        "grounded_grades": {
+          "0": 0,
+          "1": 0,
+          "2": 20
+        },
+        "grounded_mean_out_of_2": 2.0,
+        "citation_validity": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "answered_with_citation": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "correct_abstention": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 20,
+          "rate": 0.0
+        },
+        "tool_use_successful": {
+          "n": 22,
+          "N": 22,
+          "rate": 1.0
+        },
+        "search_distribution_all_queries": {
+          "1": 20,
+          "2": 2
+        },
+        "model_calls": 46,
+        "timing_ms": {
+          "total": 116197.21983200009,
+          "mean": 5281.691810545459,
+          "median": 4967.173145499999,
+          "max": 8606.446249999975
+        },
+        "usage": {
+          "input_tokens": 33000,
+          "output_tokens": 3225,
+          "cached_tokens": 0,
+          "reasoning_tokens": 8
+        },
+        "estimated_cost_usd": null,
+        "cost_note": "No billing reconciliation/price estimate; local compute and review costs unmeasured.",
+        "error_policy": "All assigned queries retained. Error/answerable abstention grounded=0; CER uses last confirmed request even on error; retrieval errors hit=0. Tool-use denominator successful only. Citation 0/0 has null rate (N/A).",
+        "original_query_retrieval": {
+          "hit_at_1": {
+            "n": 17,
+            "N": 20,
+            "rate": 0.85
+          },
+          "evidence_hit_at_3": {
+            "n": 18,
+            "N": 20,
+            "rate": 0.9
+          },
+          "source": "artifacts/retrieval/hybrid/verified-dev/trace.jsonl",
+          "sha256": "31071aca6d39ad1e4b4a60d90018a06884565bb4a5771805ac87fae075c7e91e",
+          "note": "Reused task04 original-query top-3: same corpus, retrieval code/config, query/filter; agent tool queries scored separately through context."
+        },
+        "run_id": "dev-baseline-v1",
+        "split": "dev",
+        "fingerprint_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+        "reviews_sha256": "639ae253098d379ae381c467df3ea49432a47f6bda22171eea896983a198bdea",
+        "review_method": "Đọc từng question/answer, context cuối thực gửi, full citation chunk và đoạn PDF gốc; so khớp nội dung/điều kiện, không chỉ ID. Gold chỉ ở bước offline. 0/1/2 theo BENCHMARK.md; absence theo audit nguồn đã đóng băng.",
+        "per_query": [
+          {
+            "query_id": "q01",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q02",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q03",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q04",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q05",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q06",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q07",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q08",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q09",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q10",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q11",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q12",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q13",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q14",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q15",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q16",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q17",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q18",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q19",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q20",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "d07-d21",
+            "context_hit": null,
+            "context_grade": null,
+            "grounded_grade": null
+          },
+          {
+            "query_id": "d07-d22",
+            "context_hit": null,
+            "context_grade": null,
+            "grounded_grade": null
+          }
+        ]
+      },
+      "run_sha256": "6e6f633dd20e0178612f96fbc74b4c39c6976bf2299a8f4c874acb123519deaf",
+      "metrics_sha256": "a8a8b7b42db5968b95f4ace6bc54741a1e2af33532a48c596cc0ca313bf486aa"
+    },
+    {
+      "run": "dev-lexical-v1",
+      "config_id": "lexical",
+      "metrics": {
+        "queries": 22,
+        "errors": 0,
+        "status_counts": {
+          "answered": 20,
+          "abstain": 2
+        },
+        "context_evidence_rate": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 0,
+          "1": 0,
+          "2": 20
+        },
+        "grounded_grades": {
+          "0": 0,
+          "1": 0,
+          "2": 20
+        },
+        "grounded_mean_out_of_2": 2.0,
+        "citation_validity": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "answered_with_citation": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "correct_abstention": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 20,
+          "rate": 0.0
+        },
+        "tool_use_successful": {
+          "n": 22,
+          "N": 22,
+          "rate": 1.0
+        },
+        "search_distribution_all_queries": {
+          "1": 21,
+          "2": 1
+        },
+        "model_calls": 45,
+        "timing_ms": {
+          "total": 108320.52424999994,
+          "mean": 4923.660193181816,
+          "median": 4608.455978999984,
+          "max": 6556.549791999942
+        },
+        "usage": {
+          "input_tokens": 33393,
+          "output_tokens": 3189,
+          "cached_tokens": 1155,
+          "reasoning_tokens": 0
+        },
+        "estimated_cost_usd": null,
+        "cost_note": "No billing reconciliation/price estimate; local compute and review costs unmeasured.",
+        "error_policy": "All assigned queries retained. Error/answerable abstention grounded=0; CER uses last confirmed request even on error; retrieval errors hit=0. Tool-use denominator successful only. Citation 0/0 has null rate (N/A).",
+        "original_query_retrieval": {
+          "hit_at_1": {
+            "n": 18,
+            "N": 20,
+            "rate": 0.9
+          },
+          "evidence_hit_at_3": {
+            "n": 19,
+            "N": 20,
+            "rate": 0.95
+          },
+          "source": "artifacts/retrieval/hybrid/verified-dev/trace.jsonl",
+          "sha256": "31071aca6d39ad1e4b4a60d90018a06884565bb4a5771805ac87fae075c7e91e",
+          "note": "Reused task04 original-query top-3: same corpus, retrieval code/config, query/filter; agent tool queries scored separately through context."
+        },
+        "run_id": "dev-lexical-v1",
+        "split": "dev",
+        "fingerprint_sha256": "1caebec0a8ac9b5cfa377d198b5aea839257b4967224194e5b0785d4ad2525a3",
+        "reviews_sha256": "b0a1a1037366772337ba3aafce5d2441ce0035a88dafdc49c1c2686f0f23a8e0",
+        "review_method": "Đọc từng question/answer, context cuối thực gửi, full citation chunk và đoạn PDF gốc; so khớp nội dung/điều kiện, không chỉ ID. Gold chỉ ở bước offline. 0/1/2 theo BENCHMARK.md; absence theo audit nguồn đã đóng băng.",
+        "per_query": [
+          {
+            "query_id": "q01",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q02",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q03",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q04",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q05",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q06",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q07",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q08",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q09",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q10",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q11",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q12",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q13",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q14",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q15",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q16",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q17",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q18",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q19",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q20",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "d07-d21",
+            "context_hit": null,
+            "context_grade": null,
+            "grounded_grade": null
+          },
+          {
+            "query_id": "d07-d22",
+            "context_hit": null,
+            "context_grade": null,
+            "grounded_grade": null
+          }
+        ]
+      },
+      "run_sha256": "90c3d156975f0f778a4f79131ce4e052af394a1c69b49c519ce39d1ab13d750a",
+      "metrics_sha256": "dc8b78a5487f74570ec5c873cdf6b2f6b3093e6ae175ccfa333406481b4281fa"
+    },
+    {
+      "run": "dev-hybrid-context-v1",
+      "config_id": "hybrid-context",
+      "metrics": {
+        "queries": 22,
+        "errors": 0,
+        "status_counts": {
+          "answered": 20,
+          "abstain": 2
+        },
+        "context_evidence_rate": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "context_grades": {
+          "0": 0,
+          "1": 0,
+          "2": 20
+        },
+        "grounded_grades": {
+          "0": 0,
+          "1": 0,
+          "2": 20
+        },
+        "grounded_mean_out_of_2": 2.0,
+        "citation_validity": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "answered_with_citation": {
+          "n": 20,
+          "N": 20,
+          "rate": 1.0
+        },
+        "correct_abstention": {
+          "n": 2,
+          "N": 2,
+          "rate": 1.0
+        },
+        "false_abstention": {
+          "n": 0,
+          "N": 20,
+          "rate": 0.0
+        },
+        "tool_use_successful": {
+          "n": 22,
+          "N": 22,
+          "rate": 1.0
+        },
+        "search_distribution_all_queries": {
+          "1": 21,
+          "2": 1
+        },
+        "model_calls": 45,
+        "timing_ms": {
+          "total": 117702.50974799968,
+          "mean": 5350.114079454531,
+          "median": 4949.098500000047,
+          "max": 7494.636874999969
+        },
+        "usage": {
+          "input_tokens": 42152,
+          "output_tokens": 3189,
+          "cached_tokens": 1471,
+          "reasoning_tokens": 0
+        },
+        "estimated_cost_usd": null,
+        "cost_note": "No billing reconciliation/price estimate; local compute and review costs unmeasured.",
+        "error_policy": "All assigned queries retained. Error/answerable abstention grounded=0; CER uses last confirmed request even on error; retrieval errors hit=0. Tool-use denominator successful only. Citation 0/0 has null rate (N/A).",
+        "original_query_retrieval": {
+          "hit_at_1": {
+            "n": 19,
+            "N": 20,
+            "rate": 0.95
+          },
+          "evidence_hit_at_3": {
+            "n": 19,
+            "N": 20,
+            "rate": 0.95
+          },
+          "source": "artifacts/retrieval/hybrid/verified-dev/trace.jsonl",
+          "sha256": "31071aca6d39ad1e4b4a60d90018a06884565bb4a5771805ac87fae075c7e91e",
+          "note": "Reused task04 original-query top-3: same corpus, retrieval code/config, query/filter; agent tool queries scored separately through context."
+        },
+        "run_id": "dev-hybrid-context-v1",
+        "split": "dev",
+        "fingerprint_sha256": "e87ab438b2436b86952d182b202c309cdeb256f5c37c63dbfb5dbd5a4c1266d7",
+        "reviews_sha256": "f51781c735f0455695e1b7eb0245f33d1aaad3a1a38f3d87ed1143714cc109ef",
+        "review_method": "Đọc từng question/answer, context cuối thực gửi, full citation chunk và đoạn PDF gốc; so khớp nội dung/điều kiện, không chỉ ID. Gold chỉ ở bước offline. 0/1/2 theo BENCHMARK.md; absence theo audit nguồn đã đóng băng.",
+        "per_query": [
+          {
+            "query_id": "q01",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q02",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q03",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q04",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q05",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q06",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q07",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q08",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q09",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q10",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q11",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q12",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q13",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q14",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q15",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q16",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q17",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q18",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q19",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "q20",
+            "context_hit": true,
+            "context_grade": 2,
+            "grounded_grade": 2
+          },
+          {
+            "query_id": "d07-d21",
+            "context_hit": null,
+            "context_grade": null,
+            "grounded_grade": null
+          },
+          {
+            "query_id": "d07-d22",
+            "context_hit": null,
+            "context_grade": null,
+            "grounded_grade": null
+          }
+        ]
+      },
+      "run_sha256": "2cb5d57a6c56d895e92517a34a5543864da8229d7b43c64fa01431d2aeb2c1ce",
+      "metrics_sha256": "c5a72741439d482518d8536da7435eb27113bc5c9019edbaf7da75975a1c2f9b"
+    }
+  ]
+}

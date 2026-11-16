@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "The ideal development team size is 7 people, plus or minus 2 (5–9 people). [c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e]",
+  "citations": [
+    "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e"
+  ],
+  "citation_sources": [
+    {
+      "id": "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 50
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_VStvNt9hSjMca0mHu0hBhNRj",
+      "arguments": {
+        "query": "Scrum overview ideal development team size"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+            "text": "ily standup meetings, track progress, and ensure the health of the team. • Development team: self-organizing (light-touch leadership), empowered group; they partici- pate in planning and estimating for each sprint, do the development, and demonstrate the results at the end of the sprint. It has been shown that the ideal size for a development team is 7 +/- 2. The development team can be broken into “teamlets” that “swarm” on user stories,",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 50
+          },
+          {
+            "id": "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+            "text": "Scrum Development Overview\n\n“Scrum” is another formal project management/product development methodology and part of agile pro- ject management. Scrum is a term from rugby (scrimmage) that means a way of restarting a game. It’s like restarting the project efforts every X weeks. It’s based on the idea that you do not really know how to plan the whole project up front, so you start and build empirical data, and then re-plan and iterate from there. Scrum uses sequential sprints for development. Sprints are like small project phases (ideally two to four weeks). The idea is to take one day to plan for what can be done now, then develop what was planned for, and demonstrate it at the end of the sprint. Scrum uses a short daily meeting of the develop- ment team to check what was done yesterday, what is planned for the next day, and what if anything is impeding the team members from accomplishing what they have committed to. At the end of the sprint, what has been demonstrated can then be test",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 50
+          },
+          {
+            "id": "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af",
+            "text": "g what they have committed to. At the end of the sprint, what has been demonstrated can then be tested, and the next sprint cycle starts. Scrum methodology defines several major roles. They are: • Product owners: essentially the business owner of the project who knows the industry, the market, the customers, and the business goals of the project. The product owner must be inti- mately involved with the Scrum process, especially the planning and the demonstration parts of the sprint. • Scrum Master: somewhat like a project manager, but not exactly. The Scrum Master’s duties are essentially to remove barriers that impede the progress of the development team, teach the product owner how to maximize return on investment (ROI) in terms of development effort, facilitate creativity and empowerment of the team, improve the productivity of the team, improve engineering practices and tools, run daily standup meetings, track progress, and ensure the health of the team. • Development team: self-or",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 50
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+          "text": "ily standup meetings, track progress, and ensure the health of the team. • Development team: self-organizing (light-touch leadership), empowered group; they partici- pate in planning and estimating for each sprint, do the development, and demonstrate the results at the end of the sprint. It has been shown that the ideal size for a development team is 7 +/- 2. The development team can be broken into “teamlets” that “swarm” on user stories,",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50,
+          "rank": 1,
+          "score": 0.3097564131222869,
+          "strategy": "lexical"
+        },
+        {
+          "id": "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+          "text": "Scrum Development Overview\n\n“Scrum” is another formal project management/product development methodology and part of agile pro- ject management. Scrum is a term from rugby (scrimmage) that means a way of restarting a game. It’s like restarting the project efforts every X weeks. It’s based on the idea that you do not really know how to plan the whole project up front, so you start and build empirical data, and then re-plan and iterate from there. Scrum uses sequential sprints for development. Sprints are like small project phases (ideally two to four weeks). The idea is to take one day to plan for what can be done now, then develop what was planned for, and demonstrate it at the end of the sprint. Scrum uses a short daily meeting of the develop- ment team to check what was done yesterday, what is planned for the next day, and what if anything is impeding the team members from accomplishing what they have committed to. At the end of the sprint, what has been demonstrated can then be test",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50,
+          "rank": 2,
+          "score": 0.23240289780324724,
+          "strategy": "lexical"
+        },
+        {
+          "id": "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af",
+          "text": "g what they have committed to. At the end of the sprint, what has been demonstrated can then be tested, and the next sprint cycle starts. Scrum methodology defines several major roles. They are: • Product owners: essentially the business owner of the project who knows the industry, the market, the customers, and the business goals of the project. The product owner must be inti- mately involved with the Scrum process, especially the planning and the demonstration parts of the sprint. • Scrum Master: somewhat like a project manager, but not exactly. The Scrum Master’s duties are essentially to remove barriers that impede the progress of the development team, teach the product owner how to maximize return on investment (ROI) in terms of development effort, facilitate creativity and empowerment of the team, improve the productivity of the team, improve engineering practices and tools, run daily standup meetings, track progress, and ensure the health of the team. • Development team: self-or",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50,
+          "rank": 3,
+          "score": 0.19733221510186877,
+          "strategy": "lexical"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+        "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+        "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af"
+      ],
+      "filters": {},
+      "output_chars": 3038,
+      "elapsed_ms": 1.0286660000247139
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 103,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1592,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_d0a5ce3fd13544e197de13f81fd9e37d",
+      "usage": {
+        "input_tokens": 376,
+        "output_tokens": 25,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2224.696042000005,
+      "response_id": "resp_0e0300f7300147a8016afb0e9da6e087d2a818f85003417aa1",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3534,
+      "context_ids": [
+        "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+        "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+        "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af"
+      ],
+      "context_chars_unique": 3038,
+      "context_chunks": [
+        {
+          "id": "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+          "text": "ily standup meetings, track progress, and ensure the health of the team. • Development team: self-organizing (light-touch leadership), empowered group; they partici- pate in planning and estimating for each sprint, do the development, and demonstrate the results at the end of the sprint. It has been shown that the ideal size for a development team is 7 +/- 2. The development team can be broken into “teamlets” that “swarm” on user stories,",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50
+        },
+        {
+          "id": "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+          "text": "Scrum Development Overview\n\n“Scrum” is another formal project management/product development methodology and part of agile pro- ject management. Scrum is a term from rugby (scrimmage) that means a way of restarting a game. It’s like restarting the project efforts every X weeks. It’s based on the idea that you do not really know how to plan the whole project up front, so you start and build empirical data, and then re-plan and iterate from there. Scrum uses sequential sprints for development. Sprints are like small project phases (ideally two to four weeks). The idea is to take one day to plan for what can be done now, then develop what was planned for, and demonstrate it at the end of the sprint. Scrum uses a short daily meeting of the develop- ment team to check what was done yesterday, what is planned for the next day, and what if anything is impeding the team members from accomplishing what they have committed to. At the end of the sprint, what has been demonstrated can then be test",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50
+        },
+        {
+          "id": "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af",
+          "text": "g what they have committed to. At the end of the sprint, what has been demonstrated can then be tested, and the next sprint cycle starts. Scrum methodology defines several major roles. They are: • Product owners: essentially the business owner of the project who knows the industry, the market, the customers, and the business goals of the project. The product owner must be inti- mately involved with the Scrum process, especially the planning and the demonstration parts of the sprint. • Scrum Master: somewhat like a project manager, but not exactly. The Scrum Master’s duties are essentially to remove barriers that impede the progress of the development team, teach the product owner how to maximize return on investment (ROI) in terms of development effort, facilitate creativity and empowerment of the team, improve the productivity of the team, improve engineering practices and tools, run daily standup meetings, track progress, and ensure the health of the team. • Development team: self-or",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 50
+        }
+      ],
+      "request_chars": 5023,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_2e46a816e82e4e4cbff61f557d91f596",
+      "usage": {
+        "input_tokens": 1128,
+        "output_tokens": 117,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2763.965917000064,
+      "response_id": "resp_0e0300f7300147a8016afb0e9fe7b887d2845a2661597118e6",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+    "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+    "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af"
+  ],
+  "context_ids_prepared": [
+    "c04356db57146b71991a257403be25367e3d4862959df3b2d94468cfa5a1b33e",
+    "4e1249ffd3b55f5fa856f99db60117ccd12598708fe9b599f4327bd9e6258711",
+    "7abc7fb2019897e8384f2d073718ea18663467fdd052e09d4b8bc58c177295af"
+  ],
+  "context_chars_sent_unique": 3038,
+  "context_chars_prepared": 3038,
+  "usage": {
+    "input_tokens": 1504,
+    "output_tokens": 142,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4990.68454199994,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q17",
+  "question": "What team size does the Scrum overview describe as ideal for development?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-lexical-v1",
+  "config_sha256": "1caebec0a8ac9b5cfa377d198b5aea839257b4967224194e5b0785d4ad2525a3",
+  "created_at_utc": "2026-11-16T14:09:38.371444+00:00",
+  "attempt": 1
+}

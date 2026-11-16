@@ -1,0 +1,218 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Corporate culture encompasses the beliefs, attitudes, and values shared by an organization’s members, along with the behaviours those beliefs, attitudes, and values give rise to. [e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557]",
+  "citations": [
+    "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557"
+  ],
+  "citation_sources": [
+    {
+      "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 65
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_HrdnWFNtyLtOANSiZhd6c1Xs",
+      "arguments": {
+        "query": "\"Culture and Project Management\" \"corporate culture\" encompass"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+            "text": "6. Culture and Project Management\n\nWhat Is Organizational Culture? When working with internal and external customers on a project, it is essential to pay close attention to relationships, context, history, and the corporate culture. Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to). Corporate culture sets one organization apart from another, and dictates how members of the organization will see you, interact with you, and sometimes judge you. Often, projects too have a specific culture, work norms, and social conventions. Some aspects of corporate culture are easily observed; others are more difficult to discern. You can easily observe the office environment and how people dress and speak. In one company, individuals work separately in closed offices; in another, teams may work in a shared environment. The more subtle components of corporate culture, such as the values a",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 65
+          },
+          {
+            "id": "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+            "text": " work in a shared environment. The more subtle components of corporate culture, such as the values and overarching business philosophy, may not be readily apparent, but they are reflected in member behaviours, symbols, and conventions used.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 65
+          },
+          {
+            "id": "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+            "text": "Project Manager’s Checklist\n\nOnce the corporate culture has been identified, members should try to adapt to the frequency, formality, and type of communication customary in that culture. This adaptation will strongly affect project mem- bers’ productivity and satisfaction internally, as well as with the client organization. • Which stakeholders will make the decision in this organization on this issue? Will your pro- ject decisions and documentation have to go up through several layers to get approval? If so, what are the criteria and values that may affect acceptance there? For example, is being on schedule the most important consideration? Cost? Quality? • What type of communication among and between stakeholders is preferred? Do they want lengthy documents? Is “short and sweet” the typical standard? • What medium of communication is preferred? What kind of medium is usually chosen for this type of situation? Check the files to see what others have done. Ask others in the organi- zat",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 65
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+          "text": "6. Culture and Project Management\n\nWhat Is Organizational Culture? When working with internal and external customers on a project, it is essential to pay close attention to relationships, context, history, and the corporate culture. Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to). Corporate culture sets one organization apart from another, and dictates how members of the organization will see you, interact with you, and sometimes judge you. Often, projects too have a specific culture, work norms, and social conventions. Some aspects of corporate culture are easily observed; others are more difficult to discern. You can easily observe the office environment and how people dress and speak. In one company, individuals work separately in closed offices; in another, teams may work in a shared environment. The more subtle components of corporate culture, such as the values a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65,
+          "rank": 1,
+          "score": 0.8295097554314487,
+          "strategy": "dense"
+        },
+        {
+          "id": "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+          "text": " work in a shared environment. The more subtle components of corporate culture, such as the values and overarching business philosophy, may not be readily apparent, but they are reflected in member behaviours, symbols, and conventions used.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65,
+          "rank": 2,
+          "score": 0.7911721369810003,
+          "strategy": "dense"
+        },
+        {
+          "id": "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+          "text": "Project Manager’s Checklist\n\nOnce the corporate culture has been identified, members should try to adapt to the frequency, formality, and type of communication customary in that culture. This adaptation will strongly affect project mem- bers’ productivity and satisfaction internally, as well as with the client organization. • Which stakeholders will make the decision in this organization on this issue? Will your pro- ject decisions and documentation have to go up through several layers to get approval? If so, what are the criteria and values that may affect acceptance there? For example, is being on schedule the most important consideration? Cost? Quality? • What type of communication among and between stakeholders is preferred? Do they want lengthy documents? Is “short and sweet” the typical standard? • What medium of communication is preferred? What kind of medium is usually chosen for this type of situation? Check the files to see what others have done. Ask others in the organi- zat",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65,
+          "rank": 3,
+          "score": 0.7682518820912781,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "runtime_query_filter",
+      "context_ids": [
+        "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+        "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+        "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f"
+      ],
+      "filters": {
+        "section": "6. Culture and Project Management"
+      },
+      "output_chars": 2838,
+      "elapsed_ms": 97.76625000006334
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 115,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1604,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_8d0033aa45b844ee9cc038896a7c4ff5",
+      "usage": {
+        "input_tokens": 377,
+        "output_tokens": 30,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1594.1298749999078,
+      "response_id": "resp_0b5161f529e1565d016afb0e7a7a7087d2868e5815a01fe1ca",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3380,
+      "context_ids": [
+        "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+        "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+        "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f"
+      ],
+      "context_chars_unique": 2838,
+      "context_chunks": [
+        {
+          "id": "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+          "text": "6. Culture and Project Management\n\nWhat Is Organizational Culture? When working with internal and external customers on a project, it is essential to pay close attention to relationships, context, history, and the corporate culture. Corporate culture refers to the beliefs, attitudes, and values that the organization’s members share and the behaviours consistent with them (which they give rise to). Corporate culture sets one organization apart from another, and dictates how members of the organization will see you, interact with you, and sometimes judge you. Often, projects too have a specific culture, work norms, and social conventions. Some aspects of corporate culture are easily observed; others are more difficult to discern. You can easily observe the office environment and how people dress and speak. In one company, individuals work separately in closed offices; in another, teams may work in a shared environment. The more subtle components of corporate culture, such as the values a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65
+        },
+        {
+          "id": "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+          "text": " work in a shared environment. The more subtle components of corporate culture, such as the values and overarching business philosophy, may not be readily apparent, but they are reflected in member behaviours, symbols, and conventions used.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65
+        },
+        {
+          "id": "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f",
+          "text": "Project Manager’s Checklist\n\nOnce the corporate culture has been identified, members should try to adapt to the frequency, formality, and type of communication customary in that culture. This adaptation will strongly affect project mem- bers’ productivity and satisfaction internally, as well as with the client organization. • Which stakeholders will make the decision in this organization on this issue? Will your pro- ject decisions and documentation have to go up through several layers to get approval? If so, what are the criteria and values that may affect acceptance there? For example, is being on schedule the most important consideration? Cost? Quality? • What type of communication among and between stakeholders is preferred? Do they want lengthy documents? Is “short and sweet” the typical standard? • What medium of communication is preferred? What kind of medium is usually chosen for this type of situation? Check the files to see what others have done. Ask others in the organi- zat",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 65
+        }
+      ],
+      "request_chars": 4869,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_9608e443ed1142f787a4443c37f43a03",
+      "usage": {
+        "input_tokens": 1045,
+        "output_tokens": 128,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2795.1841660000127,
+      "response_id": "resp_0b5161f529e1565d016afb0e7c399887d2bafeba7ca394af5a",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+    "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+    "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f"
+  ],
+  "context_ids_prepared": [
+    "e45e2581627579d95ca2719019853837e1de054f7690b1b06c3993cd0c4a5557",
+    "efa2a88f0b44672544cea9e2a25941a8402016286d0f839a4f6921190ef59514",
+    "c1769adb8aa0528200a43d30eedfb69112f7e4083c56429f290200431871973f"
+  ],
+  "context_chars_sent_unique": 2838,
+  "context_chars_prepared": 2838,
+  "usage": {
+    "input_tokens": 1422,
+    "output_tokens": 158,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4488.264707999974,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q14",
+  "question": "In the Culture and Project Management chapter, what does corporate culture encompass?",
+  "filters": {
+    "section": "6. Culture and Project Management"
+  },
+  "filter_source": "inherited_user_query_filter",
+  "split": "dev",
+  "run_id": "dev-baseline-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:09:02.742560+00:00",
+  "attempt": 1
+}

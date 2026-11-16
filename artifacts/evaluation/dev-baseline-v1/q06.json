@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "The team spent 846 labour hours, compared with an estimate of 800 hours—46 hours over the estimate. [635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8]",
+  "citations": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8"
+  ],
+  "citation_sources": [
+    {
+      "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 44
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_k5ndAeIefqhDc8xx13ltbSNt",
+      "arguments": {
+        "query": "bridge design example actual labour hours spent compared estimate team"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+            "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 44
+          },
+          {
+            "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+            "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          },
+          {
+            "id": "a855af5ffa811c24e1ac9d138d64ce4ca1b2c8deb65ac91a991f3e2349f6bdcf",
+            "text": "the construction. The project leadership invested significant time and resources in developing alignment among the various political stakeholders on the project approach and schedule.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 61
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+          "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44,
+          "rank": 1,
+          "score": 0.7603594660759458,
+          "strategy": "dense"
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 2,
+          "score": 0.6802393007421379,
+          "strategy": "dense"
+        },
+        {
+          "id": "a855af5ffa811c24e1ac9d138d64ce4ca1b2c8deb65ac91a991f3e2349f6bdcf",
+          "text": "the construction. The project leadership invested significant time and resources in developing alignment among the various political stakeholders on the project approach and schedule.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 61,
+          "rank": 3,
+          "score": 0.6800333285391431,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "a855af5ffa811c24e1ac9d138d64ce4ca1b2c8deb65ac91a991f3e2349f6bdcf"
+      ],
+      "filters": {},
+      "output_chars": 2208,
+      "elapsed_ms": 104.02399999998124
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 137,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1626,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_21264e3758464360a0371438fc7a12a9",
+      "usage": {
+        "input_tokens": 383,
+        "output_tokens": 28,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1619.8114590000614,
+      "response_id": "resp_0925646e1438b79f016afb0e527eb087d2a3ebdff54a703611",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 2764,
+      "context_ids": [
+        "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "a855af5ffa811c24e1ac9d138d64ce4ca1b2c8deb65ac91a991f3e2349f6bdcf"
+      ],
+      "context_chars_unique": 2208,
+      "context_chunks": [
+        {
+          "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+          "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        },
+        {
+          "id": "a855af5ffa811c24e1ac9d138d64ce4ca1b2c8deb65ac91a991f3e2349f6bdcf",
+          "text": "the construction. The project leadership invested significant time and resources in developing alignment among the various political stakeholders on the project approach and schedule.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 61
+        }
+      ],
+      "request_chars": 4253,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_3f64cf0df5e149d78234c637a51d76f5",
+      "usage": {
+        "input_tokens": 942,
+        "output_tokens": 121,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 3015.4457910000474,
+      "response_id": "resp_0925646e1438b79f016afb0e544da487d290e824d0264fd169",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+    "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+    "a855af5ffa811c24e1ac9d138d64ce4ca1b2c8deb65ac91a991f3e2349f6bdcf"
+  ],
+  "context_ids_prepared": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+    "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+    "a855af5ffa811c24e1ac9d138d64ce4ca1b2c8deb65ac91a991f3e2349f6bdcf"
+  ],
+  "context_chars_sent_unique": 2208,
+  "context_chars_prepared": 2208,
+  "usage": {
+    "input_tokens": 1325,
+    "output_tokens": 149,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4740.520457999992,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q06",
+  "question": "In the bridge design example, how many labour hours did the team actually spend compared with its estimate?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-baseline-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:08:23.006403+00:00",
+  "attempt": 1
+}

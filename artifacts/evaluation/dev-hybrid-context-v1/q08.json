@@ -1,0 +1,310 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "Identify contingency as a separate line item in the budget when risks cannot readily be tied to specific activities. [ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061]",
+  "citations": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061"
+  ],
+  "citation_sources": [
+    {
+      "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 47
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 5,
+    "tool_chars": 12000,
+    "context_chars": 24000,
+    "history_chars": 80000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "refresh_on_full"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_YbvajS99jviwLsX3FHmIePbn",
+      "arguments": {
+        "query": "contingency budget risks cannot be allocated or tied to individual activities separate line item"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+            "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 47
+          },
+          {
+            "id": "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+            "text": "• Keep them informed of project risks and potential impacts at all times.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 55
+          },
+          {
+            "id": "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+            "text": "y industries or companies have risk checklists developed from past experience. The Construction Industry Institute published a 100-item risk checklist that provides examples and areas of project risks. No risk checklist will include all potential risks. The value of a checklist is the stimulation of discussion and thought about the potential risks on a project. The project team analyzes the identified risks and estimates the likelihood of the risks occurring. The team then estimates the potential impact on project goals if the event does occur. The outcome from this process is a prioritized list of estimated project risks with a value that represents the likelihood of occur- rence and the potential impact on the project. The project team then develops a risk mitigation plan that reduces the likelihood of an event occurring or reduces the impact on the project if the event does occur. The risk management plan is integrated into the project execution plan, and mitigation activities are a",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 46
+          },
+          {
+            "id": "170f7b0621029aacdd3d0ff04e36eefea55809fdd1f526bdfb56a33c564f598e",
+            "text": "Project Risk\n\nRisk exists on all projects. The role of the project management team is to understand the kinds and levels of risks on the project and then to develop and implement plans to mitigate these risks. Risk rep- resents the likelihood that an event will happen during the life of the project that will negatively affect the achievement of project goals. The type and amount of risk varies by industry type, complexity, and phase of the project. The project risk plan will also reflect the risk profile of the project manager and key stakeholders. People have different comfort levels with risk, and some members of the project team will be more risk averse than others. The first step in developing a risk management plan involves identifying potential project risks. Some risks are easy to identify, such as the potential for a damaging storm in the Caribbean, and some are less obvious. Many industries or companies have risk checklists developed from past experience. The Construction Indu",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 46
+          },
+          {
+            "id": "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+            "text": "Project Costs\n\nThe definition of project success often includes completing the project within budget. Developing and controlling a project budget that will accomplish the project objectives is a critical project management skill. Although clients expect the project to be executed efficiently, cost pressures vary on projects. On some projects, the project completion or end date is the largest contributor to the project complexity. The development of a new drug to address a critical health issue, the production of a new product that will generate critical cash flow for a company, and the competitive advantage for a company to be first in the marketplace with a new technology are examples of projects with schedule pressures that override project costs. The accuracy of the project budget is related to the amount of information known by the project team. In the early stages of the project, the amount of information needed to develop a detailed budget is often missing. To address the lack of",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+          "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 47,
+          "rank": 1,
+          "score": 0.03278688524590164,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "lexical": 1
+          },
+          "component_scores": {
+            "dense": 0.8057739974789112,
+            "lexical": 0.4014023033036443
+          }
+        },
+        {
+          "id": "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+          "text": "• Keep them informed of project risks and potential impacts at all times.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 55,
+          "rank": 2,
+          "score": 0.031754032258064516,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 2,
+            "lexical": 4
+          },
+          "component_scores": {
+            "dense": 0.712228523526866,
+            "lexical": 0.09844784996638305
+          }
+        },
+        {
+          "id": "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+          "text": "y industries or companies have risk checklists developed from past experience. The Construction Industry Institute published a 100-item risk checklist that provides examples and areas of project risks. No risk checklist will include all potential risks. The value of a checklist is the stimulation of discussion and thought about the potential risks on a project. The project team analyzes the identified risks and estimates the likelihood of the risks occurring. The team then estimates the potential impact on project goals if the event does occur. The outcome from this process is a prioritized list of estimated project risks with a value that represents the likelihood of occur- rence and the potential impact on the project. The project team then develops a risk mitigation plan that reduces the likelihood of an event occurring or reduces the impact on the project if the event does occur. The risk management plan is integrated into the project execution plan, and mitigation activities are a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "rank": 3,
+          "score": 0.030834914611005692,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 8,
+            "lexical": 2
+          },
+          "component_scores": {
+            "dense": 0.6702662912566676,
+            "lexical": 0.1398035570489215
+          }
+        },
+        {
+          "id": "170f7b0621029aacdd3d0ff04e36eefea55809fdd1f526bdfb56a33c564f598e",
+          "text": "Project Risk\n\nRisk exists on all projects. The role of the project management team is to understand the kinds and levels of risks on the project and then to develop and implement plans to mitigate these risks. Risk rep- resents the likelihood that an event will happen during the life of the project that will negatively affect the achievement of project goals. The type and amount of risk varies by industry type, complexity, and phase of the project. The project risk plan will also reflect the risk profile of the project manager and key stakeholders. People have different comfort levels with risk, and some members of the project team will be more risk averse than others. The first step in developing a risk management plan involves identifying potential project risks. Some risks are easy to identify, such as the potential for a damaging storm in the Caribbean, and some are less obvious. Many industries or companies have risk checklists developed from past experience. The Construction Indu",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46,
+          "rank": 4,
+          "score": 0.030309988518943745,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 7,
+            "lexical": 5
+          },
+          "component_scores": {
+            "dense": 0.6817098652807067,
+            "lexical": 0.0842799859124202
+          }
+        },
+        {
+          "id": "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+          "text": "Project Costs\n\nThe definition of project success often includes completing the project within budget. Developing and controlling a project budget that will accomplish the project objectives is a critical project management skill. Although clients expect the project to be executed efficiently, cost pressures vary on projects. On some projects, the project completion or end date is the largest contributor to the project complexity. The development of a new drug to address a critical health issue, the production of a new product that will generate critical cash flow for a company, and the competitive advantage for a company to be first in the marketplace with a new technology are examples of projects with schedule pressures that override project costs. The accuracy of the project budget is related to the amount of information known by the project team. In the early stages of the project, the amount of information needed to develop a detailed budget is often missing. To address the lack of",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 5,
+          "score": 0.02964426877470356,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 9,
+            "lexical": 6
+          },
+          "component_scores": {
+            "dense": 0.668246090553354,
+            "lexical": 0.07924338082698024
+          }
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+        "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+        "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+        "170f7b0621029aacdd3d0ff04e36eefea55809fdd1f526bdfb56a33c564f598e",
+        "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3"
+      ],
+      "filters": {},
+      "output_chars": 4753,
+      "elapsed_ms": 113.54212499998084
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 133,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1622,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_fbe1bf593b174e1987fe0d4c410d388a",
+      "usage": {
+        "input_tokens": 380,
+        "output_tokens": 34,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1836.633667000001,
+      "response_id": "resp_07137392c424d97a016afb0e79ffb887d2a5a524271a06cc0f",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 5371,
+      "context_ids": [
+        "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+        "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+        "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+        "170f7b0621029aacdd3d0ff04e36eefea55809fdd1f526bdfb56a33c564f598e",
+        "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3"
+      ],
+      "context_chars_unique": 4753,
+      "context_chunks": [
+        {
+          "id": "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+          "text": "tion against the benefit for the project. One of the more common risk mitigation approaches is the use of contingency. Contingency is funds set aside by the project team to address unforeseen events. Projects with a high-risk profile will typically have a large contingency budget. If the team knows which activi- ties have the highest risk, contingency can be allocated to activities with the highest risk. When risks are less identifiable to specific activities, contingency is identified in a separate line item. The plan includes periodic risk-plan reviews during the life of the project. The risk review evaluates the effectiveness of the current plan and explores possible risks not identified in earlier sessions.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 47
+        },
+        {
+          "id": "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+          "text": "• Keep them informed of project risks and potential impacts at all times.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 55
+        },
+        {
+          "id": "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+          "text": "y industries or companies have risk checklists developed from past experience. The Construction Industry Institute published a 100-item risk checklist that provides examples and areas of project risks. No risk checklist will include all potential risks. The value of a checklist is the stimulation of discussion and thought about the potential risks on a project. The project team analyzes the identified risks and estimates the likelihood of the risks occurring. The team then estimates the potential impact on project goals if the event does occur. The outcome from this process is a prioritized list of estimated project risks with a value that represents the likelihood of occur- rence and the potential impact on the project. The project team then develops a risk mitigation plan that reduces the likelihood of an event occurring or reduces the impact on the project if the event does occur. The risk management plan is integrated into the project execution plan, and mitigation activities are a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46
+        },
+        {
+          "id": "170f7b0621029aacdd3d0ff04e36eefea55809fdd1f526bdfb56a33c564f598e",
+          "text": "Project Risk\n\nRisk exists on all projects. The role of the project management team is to understand the kinds and levels of risks on the project and then to develop and implement plans to mitigate these risks. Risk rep- resents the likelihood that an event will happen during the life of the project that will negatively affect the achievement of project goals. The type and amount of risk varies by industry type, complexity, and phase of the project. The project risk plan will also reflect the risk profile of the project manager and key stakeholders. People have different comfort levels with risk, and some members of the project team will be more risk averse than others. The first step in developing a risk management plan involves identifying potential project risks. Some risks are easy to identify, such as the potential for a damaging storm in the Caribbean, and some are less obvious. Many industries or companies have risk checklists developed from past experience. The Construction Indu",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 46
+        },
+        {
+          "id": "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3",
+          "text": "Project Costs\n\nThe definition of project success often includes completing the project within budget. Developing and controlling a project budget that will accomplish the project objectives is a critical project management skill. Although clients expect the project to be executed efficiently, cost pressures vary on projects. On some projects, the project completion or end date is the largest contributor to the project complexity. The development of a new drug to address a critical health issue, the production of a new product that will generate critical cash flow for a company, and the competitive advantage for a company to be first in the marketplace with a new technology are examples of projects with schedule pressures that override project costs. The accuracy of the project budget is related to the amount of information known by the project team. In the early stages of the project, the amount of information needed to develop a detailed budget is often missing. To address the lack of",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        }
+      ],
+      "request_chars": 6860,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_64909846d8b941a3bc4860dc234adf32",
+      "usage": {
+        "input_tokens": 1450,
+        "output_tokens": 120,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2720.9730839999793,
+      "response_id": "resp_07137392c424d97a016afb0e7bf11087d29fb6432d6069ce2f",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+    "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+    "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+    "170f7b0621029aacdd3d0ff04e36eefea55809fdd1f526bdfb56a33c564f598e",
+    "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3"
+  ],
+  "context_ids_prepared": [
+    "ae23c99def4c237f6268842a9eac618dbf1925e0d0e4264c04392e65c34b9061",
+    "26e783d81218e75c22538835fa905a84428e293c466dd50d586a525fbc9d0ef7",
+    "cb049d81343fb8f37c50e792b868e8dbda290b81075061aaff2e9471407dd429",
+    "170f7b0621029aacdd3d0ff04e36eefea55809fdd1f526bdfb56a33c564f598e",
+    "da515c7336e74477d78c3e30ee4d1442f26960b1aa7f4228716587920719fef3"
+  ],
+  "context_chars_sent_unique": 4753,
+  "context_chars_prepared": 4753,
+  "usage": {
+    "input_tokens": 1830,
+    "output_tokens": 154,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4671.928666999975,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q08",
+  "question": "How should contingency appear in the budget when risks cannot readily be tied to individual activities?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-hybrid-context-v1",
+  "config_sha256": "e87ab438b2436b86952d182b202c309cdeb256f5c37c63dbfb5dbd5a4c1266d7",
+  "created_at_utc": "2026-11-16T14:09:02.394209+00:00",
+  "attempt": 1
+}

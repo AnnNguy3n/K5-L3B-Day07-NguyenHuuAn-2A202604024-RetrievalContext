@@ -1,0 +1,310 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "The team spent **846 labour hours**, compared with an estimate of **800 hours**—46 hours more than estimated. [635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8]",
+  "citations": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8"
+  ],
+  "citation_sources": [
+    {
+      "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 44
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 5,
+    "tool_chars": 12000,
+    "context_chars": 24000,
+    "history_chars": 80000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "refresh_on_full"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_nOCqwAGIPPW7vKkEiy0MeoFv",
+      "arguments": {
+        "query": "bridge design example labour hours actually spent compared with estimate"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+            "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 44
+          },
+          {
+            "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+            "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          },
+          {
+            "id": "25269da703bee19f3b867b4f8291038c93bed054eb65260eee168f56afb98969",
+            "text": "Example: Stakeholders and a Bridge Project\n\nThe Department of Highways chartered a project to upgrade a number of bridges that crossed the inter- state in one of the larger cities in South Carolina. The closing of these bridges severely impacted traf- fic congestion, including a large shopping mall. The contract included provisions for minimizing the impact on the traffic and communities near the construction areas. This provision allowed businesses or interested parties to review the project schedule and make suggestions that would lessen the impact of",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 60
+          },
+          {
+            "id": "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+            "text": "expenses. The project design team built on the conceptual design and developed detailed drawings for use by the procurement team. The procurement team used the drawings to begin ordering equipment and materials for the construction team; develop labour projections; refine the construction schedule; and set up the construction site. Although planning is a never-ending process on a project, the planning phase focused on developing sufficient details to allow various parts of the project team to coordinate their work and allow the project management team to make priority decisions. The implementation phase represents the work done to meet the requirements of the scope of work and fulfill the charter. During the implementation phase, the project team accomplished the work defined in the plan and made adjustments when the project factors changed. Equipment and materials were deliv- ered to the work site, labour was hired and trained, a construction site was built, and all the construction a",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 37
+          },
+          {
+            "id": "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+            "text": "e amount of information needed to develop a detailed budget is often missing. To address the lack of information, the project team develops different levels of project budget estimates. The conceptual estimate (or “ballpark estimate”) is developed with the least amount of knowl- edge. The major input into the conceptual estimate is expert knowledge or past experience. A project manager who has executed a similar project in the past can use those costs to estimate the costs of the current project. When more information is known, the project team can develop a rough order of magnitude (ROM) estimate. Additional information such as the approximate square feet of a building, the production capac- ity of a plant, and the approximate number of hours needed to develop a software program can provide a basis for providing a ROM estimate. After a project design is more complete, a project detailed estimate can be developed. For example, when the project team knows the number of rooms, the type o",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 43
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+          "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44,
+          "rank": 1,
+          "score": 0.03252247488101534,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 1,
+            "lexical": 2
+          },
+          "component_scores": {
+            "dense": 0.7527187460139457,
+            "lexical": 0.19634235429500238
+          }
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 2,
+          "score": 0.032018442622950824,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 4,
+            "lexical": 1
+          },
+          "component_scores": {
+            "dense": 0.6773377041808908,
+            "lexical": 0.2334195604601947
+          }
+        },
+        {
+          "id": "25269da703bee19f3b867b4f8291038c93bed054eb65260eee168f56afb98969",
+          "text": "Example: Stakeholders and a Bridge Project\n\nThe Department of Highways chartered a project to upgrade a number of bridges that crossed the inter- state in one of the larger cities in South Carolina. The closing of these bridges severely impacted traf- fic congestion, including a large shopping mall. The contract included provisions for minimizing the impact on the traffic and communities near the construction areas. This provision allowed businesses or interested parties to review the project schedule and make suggestions that would lessen the impact of",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 60,
+          "rank": 3,
+          "score": 0.03125763125763126,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 3,
+            "lexical": 5
+          },
+          "component_scores": {
+            "dense": 0.6780374666519704,
+            "lexical": 0.06480249666161692
+          }
+        },
+        {
+          "id": "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+          "text": "expenses. The project design team built on the conceptual design and developed detailed drawings for use by the procurement team. The procurement team used the drawings to begin ordering equipment and materials for the construction team; develop labour projections; refine the construction schedule; and set up the construction site. Although planning is a never-ending process on a project, the planning phase focused on developing sufficient details to allow various parts of the project team to coordinate their work and allow the project management team to make priority decisions. The implementation phase represents the work done to meet the requirements of the scope of work and fulfill the charter. During the implementation phase, the project team accomplished the work defined in the plan and made adjustments when the project factors changed. Equipment and materials were deliv- ered to the work site, labour was hired and trained, a construction site was built, and all the construction a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 37,
+          "rank": 4,
+          "score": 0.030776515151515152,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 6,
+            "lexical": 4
+          },
+          "component_scores": {
+            "dense": 0.6666525999747025,
+            "lexical": 0.07380624576281651
+          }
+        },
+        {
+          "id": "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+          "text": "e amount of information needed to develop a detailed budget is often missing. To address the lack of information, the project team develops different levels of project budget estimates. The conceptual estimate (or “ballpark estimate”) is developed with the least amount of knowl- edge. The major input into the conceptual estimate is expert knowledge or past experience. A project manager who has executed a similar project in the past can use those costs to estimate the costs of the current project. When more information is known, the project team can develop a rough order of magnitude (ROM) estimate. Additional information such as the approximate square feet of a building, the production capac- ity of a plant, and the approximate number of hours needed to develop a software program can provide a basis for providing a ROM estimate. After a project design is more complete, a project detailed estimate can be developed. For example, when the project team knows the number of rooms, the type o",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43,
+          "rank": 5,
+          "score": 0.03057889822595705,
+          "strategy": "hybrid",
+          "component_ranks": {
+            "dense": 8,
+            "lexical": 3
+          },
+          "component_scores": {
+            "dense": 0.6504534928639358,
+            "lexical": 0.19097234444296768
+          }
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "25269da703bee19f3b867b4f8291038c93bed054eb65260eee168f56afb98969",
+        "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+        "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015"
+      ],
+      "filters": {},
+      "output_chars": 4948,
+      "elapsed_ms": 105.03012499998476
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 137,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1626,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_4d23edc269f844d5950c02e7dab254a7",
+      "usage": {
+        "input_tokens": 383,
+        "output_tokens": 28,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1677.0352499999035,
+      "response_id": "resp_0c415016e77a8ba6016afb0e6f21d487d294d15fdf67cb2ced",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 5544,
+      "context_ids": [
+        "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+        "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+        "25269da703bee19f3b867b4f8291038c93bed054eb65260eee168f56afb98969",
+        "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+        "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015"
+      ],
+      "context_chars_unique": 4948,
+      "context_chunks": [
+        {
+          "id": "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+          "text": "budgeted for that work. If the cost is significantly higher or lower, the project team explores reasons for the difference between expected costs and actual costs. Project costs may deviate from the budget because the prices in the marketplace were different from what was expected. For example, the estimated costs for lumber on a housing project may be higher than budgeted or the hourly cost for labour may be lower than budgeted. Project costs may also deviate based on project performance. For example, a project team estimated that the steel design for a bridge over a river would take 800 labour hours, but 846 hours were actually expended. The project team captures the deviation between costs budgeted for work and the actual cost for work, revises the estimate as needed, and takes corrective action if the deviation appears to reflect a trend. The project manager is responsible for assuring that the project team develops cost estimates based on the best information available and revises",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 44
+        },
+        {
+          "id": "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+          "text": " estimate can be developed. For example, when the project team knows the number of rooms, the type of materi- als, and the building location of a home, they can provide a detailed estimate. A detailed estimate is not a bid. The cost of the project is tracked relative to the progress of the work and the estimate for accomplish- ing that work. Based on the cost estimate, the cost of the work performed is compared against the cost",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        },
+        {
+          "id": "25269da703bee19f3b867b4f8291038c93bed054eb65260eee168f56afb98969",
+          "text": "Example: Stakeholders and a Bridge Project\n\nThe Department of Highways chartered a project to upgrade a number of bridges that crossed the inter- state in one of the larger cities in South Carolina. The closing of these bridges severely impacted traf- fic congestion, including a large shopping mall. The contract included provisions for minimizing the impact on the traffic and communities near the construction areas. This provision allowed businesses or interested parties to review the project schedule and make suggestions that would lessen the impact of",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 60
+        },
+        {
+          "id": "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+          "text": "expenses. The project design team built on the conceptual design and developed detailed drawings for use by the procurement team. The procurement team used the drawings to begin ordering equipment and materials for the construction team; develop labour projections; refine the construction schedule; and set up the construction site. Although planning is a never-ending process on a project, the planning phase focused on developing sufficient details to allow various parts of the project team to coordinate their work and allow the project management team to make priority decisions. The implementation phase represents the work done to meet the requirements of the scope of work and fulfill the charter. During the implementation phase, the project team accomplished the work defined in the plan and made adjustments when the project factors changed. Equipment and materials were deliv- ered to the work site, labour was hired and trained, a construction site was built, and all the construction a",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 37
+        },
+        {
+          "id": "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015",
+          "text": "e amount of information needed to develop a detailed budget is often missing. To address the lack of information, the project team develops different levels of project budget estimates. The conceptual estimate (or “ballpark estimate”) is developed with the least amount of knowl- edge. The major input into the conceptual estimate is expert knowledge or past experience. A project manager who has executed a similar project in the past can use those costs to estimate the costs of the current project. When more information is known, the project team can develop a rough order of magnitude (ROM) estimate. Additional information such as the approximate square feet of a building, the production capac- ity of a plant, and the approximate number of hours needed to develop a software program can provide a basis for providing a ROM estimate. After a project design is more complete, a project detailed estimate can be developed. For example, when the project team knows the number of rooms, the type o",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 43
+        }
+      ],
+      "request_chars": 7033,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_7ed58235d9bd4719879ecd36d1fc042d",
+      "usage": {
+        "input_tokens": 1497,
+        "output_tokens": 122,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2736.0956250000754,
+      "response_id": "resp_0c415016e77a8ba6016afb0e70e62087d2803fedf9e7575f98",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+    "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+    "25269da703bee19f3b867b4f8291038c93bed054eb65260eee168f56afb98969",
+    "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+    "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015"
+  ],
+  "context_ids_prepared": [
+    "635c5b65c3ffbe8435dc931a58e8b3a2392eabef81609012989d090d4ae95aa8",
+    "d40fe24fee879a4135cafdc48a87d3262e02c607864637ab68b124fdd2ce2420",
+    "25269da703bee19f3b867b4f8291038c93bed054eb65260eee168f56afb98969",
+    "93bb18a7246716521296ad49bbbcdc4d60e3a51f844eb7d87c1daf304936dcf9",
+    "e754c69227176dd6e0daa28019f0e606a5baa5930cd89904ac3b69ab430d1015"
+  ],
+  "context_chars_sent_unique": 4948,
+  "context_chars_prepared": 4948,
+  "usage": {
+    "input_tokens": 1880,
+    "output_tokens": 150,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4519.069333000061,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q06",
+  "question": "In the bridge design example, how many labour hours did the team actually spend compared with its estimate?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-hybrid-context-v1",
+  "config_sha256": "e87ab438b2436b86952d182b202c309cdeb256f5c37c63dbfb5dbd5a4c1266d7",
+  "created_at_utc": "2026-11-16T14:08:51.371797+00:00",
+  "attempt": 1
+}

@@ -1,0 +1,218 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "The **acceptance plan** lists the criteria that must be met to gain customer acceptance. [4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1]",
+  "citations": [
+    "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1"
+  ],
+  "citation_sources": [
+    {
+      "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 35
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_N39Xc6cKDljj5epCr1SGI4ZH",
+      "arguments": {
+        "query": "\"Project Life Cycle\" plan criteria team must meet customer sign-off acceptance"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+            "text": "ourse (i.e., to return it to the original plan). If that cannot happen, the team should record variations from the original plan and record and publish modifications to the plan. Throughout this step, project sponsors and other key stakeholders should be kept informed of the project’s status according to the agreed-on frequency and format of communication. The plan should be updated and published on a regular basis. Status reports should always emphasize the anticipated end point in terms of cost, schedule, and qual- ity of deliverables. Each project deliverable produced should be reviewed for quality and measured against the acceptance criteria. Once all of the deliverables have been produced and the customer has accepted the final solution, the project is ready for closure.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 36
+          },
+          {
+            "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+            "text": "mplete. This is an excellent time to identify and try to deal with anything that might pose a threat to the successful completion of the project. This is called risk management. In risk management, “high-threat” potential problems are identified along with the action that is to be taken on each high-threat potential problem, either to reduce the probability that the problem will occur or to reduce the impact on the project if it does occur. This is also a good time to identify all project stakeholders and establish a communication plan describing the information needed and the delivery method to be used to keep the stakeholders informed. Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance. At this point, the project would have been planned in detail and is ready to be executed.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 35
+          },
+          {
+            "id": "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+            "text": "Closing Phase\n\nDuring the final closure, or completion phase, the emphasis is on releasing the final deliverables to the customer, handing over project documentation to the business, terminating supplier contracts, releasing project resources, and communicating the closure of the project to all stakeholders. The last remaining step is to conduct lessons-learned studies to examine what went well and what didn’t. Through this type of analysis, the wisdom of experience is transferred back to the project organization, which will help future project teams.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 36
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+          "text": "ourse (i.e., to return it to the original plan). If that cannot happen, the team should record variations from the original plan and record and publish modifications to the plan. Throughout this step, project sponsors and other key stakeholders should be kept informed of the project’s status according to the agreed-on frequency and format of communication. The plan should be updated and published on a regular basis. Status reports should always emphasize the anticipated end point in terms of cost, schedule, and qual- ity of deliverables. Each project deliverable produced should be reviewed for quality and measured against the acceptance criteria. Once all of the deliverables have been produced and the customer has accepted the final solution, the project is ready for closure.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 36,
+          "rank": 1,
+          "score": 0.7651800093378298,
+          "strategy": "dense"
+        },
+        {
+          "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+          "text": "mplete. This is an excellent time to identify and try to deal with anything that might pose a threat to the successful completion of the project. This is called risk management. In risk management, “high-threat” potential problems are identified along with the action that is to be taken on each high-threat potential problem, either to reduce the probability that the problem will occur or to reduce the impact on the project if it does occur. This is also a good time to identify all project stakeholders and establish a communication plan describing the information needed and the delivery method to be used to keep the stakeholders informed. Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance. At this point, the project would have been planned in detail and is ready to be executed.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 35,
+          "rank": 2,
+          "score": 0.7302657110924687,
+          "strategy": "dense"
+        },
+        {
+          "id": "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+          "text": "Closing Phase\n\nDuring the final closure, or completion phase, the emphasis is on releasing the final deliverables to the customer, handing over project documentation to the business, terminating supplier contracts, releasing project resources, and communicating the closure of the project to all stakeholders. The last remaining step is to conduct lessons-learned studies to examine what went well and what didn’t. Through this type of analysis, the wisdom of experience is transferred back to the project organization, which will help future project teams.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 36,
+          "rank": 3,
+          "score": 0.7208590368552845,
+          "strategy": "dense"
+        }
+      ],
+      "filter_source": "runtime_query_filter",
+      "context_ids": [
+        "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+        "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+        "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c"
+      ],
+      "filters": {
+        "section": "3. The Project Life Cycle (Phases)"
+      },
+      "output_chars": 2876,
+      "elapsed_ms": 98.91212499996982
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 138,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1627,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_49c6a9661ae749baadbe7d0370a8f891",
+      "usage": {
+        "input_tokens": 384,
+        "output_tokens": 32,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 1737.5519160000295,
+      "response_id": "resp_056cecae3379fd21016afb0e83e97087d28c2828e4eeb6f340",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3449,
+      "context_ids": [
+        "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+        "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+        "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c"
+      ],
+      "context_chars_unique": 2876,
+      "context_chunks": [
+        {
+          "id": "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+          "text": "ourse (i.e., to return it to the original plan). If that cannot happen, the team should record variations from the original plan and record and publish modifications to the plan. Throughout this step, project sponsors and other key stakeholders should be kept informed of the project’s status according to the agreed-on frequency and format of communication. The plan should be updated and published on a regular basis. Status reports should always emphasize the anticipated end point in terms of cost, schedule, and qual- ity of deliverables. Each project deliverable produced should be reviewed for quality and measured against the acceptance criteria. Once all of the deliverables have been produced and the customer has accepted the final solution, the project is ready for closure.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 36
+        },
+        {
+          "id": "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+          "text": "mplete. This is an excellent time to identify and try to deal with anything that might pose a threat to the successful completion of the project. This is called risk management. In risk management, “high-threat” potential problems are identified along with the action that is to be taken on each high-threat potential problem, either to reduce the probability that the problem will occur or to reduce the impact on the project if it does occur. This is also a good time to identify all project stakeholders and establish a communication plan describing the information needed and the delivery method to be used to keep the stakeholders informed. Finally, you will want to document a quality plan, providing quality targets, assurance, and control measures, along with an acceptance plan, listing the criteria to be met to gain customer acceptance. At this point, the project would have been planned in detail and is ready to be executed.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 35
+        },
+        {
+          "id": "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c",
+          "text": "Closing Phase\n\nDuring the final closure, or completion phase, the emphasis is on releasing the final deliverables to the customer, handing over project documentation to the business, terminating supplier contracts, releasing project resources, and communicating the closure of the project to all stakeholders. The last remaining step is to conduct lessons-learned studies to examine what went well and what didn’t. Through this type of analysis, the wisdom of experience is transferred back to the project organization, which will help future project teams.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 36
+        }
+      ],
+      "request_chars": 4938,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_d3bd62821e7d4abf9fe8a5186b91bf9a",
+      "usage": {
+        "input_tokens": 1057,
+        "output_tokens": 110,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2843.4905830000616,
+      "response_id": "resp_056cecae3379fd21016afb0e85b44087d29a97f240fe2b934f",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+    "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+    "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c"
+  ],
+  "context_ids_prepared": [
+    "28b0977069d07cd9835caaa60bf0eee98cb2bdb926674e516bd00d6659919eab",
+    "4d155cef23c22dc7d26181fa4509f025227cb7b5423ef1718192c1ad398adcb1",
+    "ff3ac4e712b833b9e754526a0954d91d575e0d31142812ad093bee6d7e363a7c"
+  ],
+  "context_chars_sent_unique": 2876,
+  "context_chars_prepared": 2876,
+  "usage": {
+    "input_tokens": 1441,
+    "output_tokens": 142,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4680.882082999915,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q16",
+  "question": "In the Project Life Cycle chapter, which plan records the criteria the team must meet for customer sign-off?",
+  "filters": {
+    "section": "3. The Project Life Cycle (Phases)"
+  },
+  "filter_source": "inherited_user_query_filter",
+  "split": "dev",
+  "run_id": "dev-baseline-v1",
+  "config_sha256": "b2b1aa3eb475667ec5354a46b554a0f4f1ca0ea0ade6b23bc940e0804b4efd6f",
+  "created_at_utc": "2026-11-16T14:09:12.333242+00:00",
+  "attempt": 1
+}

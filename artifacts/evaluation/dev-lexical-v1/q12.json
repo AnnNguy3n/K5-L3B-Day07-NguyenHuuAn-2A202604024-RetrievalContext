@@ -1,0 +1,214 @@
+{
+  "status": "answered",
+  "stop_reason": "model_answered",
+  "answer": "A peer is at the same organizational level as the project manager and may or may not be on the project team. Unlike the project manager, a peer does not have leadership responsibility or accountability for the project’s success or failure. [725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22]",
+  "citations": [
+    "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22"
+  ],
+  "citation_sources": [
+    {
+      "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+      "source_id": "project-management-2019-v1.03",
+      "source": "data/raw/project-management.pdf",
+      "page": 56
+    }
+  ],
+  "model_requested": "gpt-6.1-terra",
+  "models_actual": [
+    "gpt-6.1-terra"
+  ],
+  "prompt_version": "day07-responses-v1",
+  "parameters": {
+    "model": "gpt-6.1-terra",
+    "max_model_calls": 4,
+    "max_searches": 3,
+    "max_output_tokens": 2048,
+    "top_k": 3,
+    "tool_chars": 6000,
+    "context_chars": 16000,
+    "history_chars": 60000,
+    "timeout_seconds": 45,
+    "max_retries": 0,
+    "reasoning_effort": "low",
+    "context_policy": "append"
+  },
+  "events": [
+    {
+      "event": "tool",
+      "name": "search_corpus",
+      "call_id": "call_hKEZOUYgU73uOnXnFxLujmc5",
+      "arguments": {
+        "query": "peer project manager rank accountability peer same level accountable project management"
+      },
+      "status": "ok",
+      "results": {
+        "chunks": [
+          {
+            "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+            "text": "Peers\n\nPeers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have. Your relationship with peers can be impeded by: • Inadequate control over peers • Political maneuvering or sabotage • Personality conflicts or technical conflicts • Envy because your peer may have wanted to lead the project • Conflicting instructions from your manager and your peer’s manager Peer support is essential. Because most of us serve our self-interest first, use some investigating, selling, influencing, and politicking skills here. To ensure you have cooperation and support from your peers: • Get the support of your project sponsor or top management to empower you as the project manager with as much authority as possible. It’s important that the sponsor m",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 56
+          },
+          {
+            "id": "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+            "text": "wer you as the project manager with as much authority as possible. It’s important that the sponsor makes it clear to the other team members that their cooperation on project activities is expected. • Confront your peer if you notice a behaviour that seems dysfunctional, such as bad-mouthing the project. • Be explicit in asking for full support from your peers. Arrange for frequent review meetings. • Establish goals and standards of performance for all team members.",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 56
+          },
+          {
+            "id": "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede",
+            "text": "4. Framework for Project Management\n\nMany different professions contribute to the theory and practice of project management. Engineers and architects have been managing major projects since pre-history. Since approximately the 1960s, there have been efforts to professionalize the practice of project management as a specialization of its own. There are many active debates around this: Should project management be a profession in the same way as engineering, accounting, and medicine? These have professional associations that certify who is legally allowed to use the job title, and who can legally practice the profession. They also provide a level of assurance of quality and discipline members who behave inappropriately. Another ongoing debate is: How much industry knowledge is required of a seasoned project manager? How easily can a project manager from one industry, say, IT, transition to another industry such as hospitality? There are two major organizations with worldwide impact on th",
+            "source_id": "project-management-2019-v1.03",
+            "source": "data/raw/project-management.pdf",
+            "page": 38
+          }
+        ],
+        "omitted_ids": [],
+        "already_sent_ids": []
+      },
+      "ranking": [
+        {
+          "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+          "text": "Peers\n\nPeers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have. Your relationship with peers can be impeded by: • Inadequate control over peers • Political maneuvering or sabotage • Personality conflicts or technical conflicts • Envy because your peer may have wanted to lead the project • Conflicting instructions from your manager and your peer’s manager Peer support is essential. Because most of us serve our self-interest first, use some investigating, selling, influencing, and politicking skills here. To ensure you have cooperation and support from your peers: • Get the support of your project sponsor or top management to empower you as the project manager with as much authority as possible. It’s important that the sponsor m",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 56,
+          "rank": 1,
+          "score": 0.30786536663375186,
+          "strategy": "lexical"
+        },
+        {
+          "id": "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+          "text": "wer you as the project manager with as much authority as possible. It’s important that the sponsor makes it clear to the other team members that their cooperation on project activities is expected. • Confront your peer if you notice a behaviour that seems dysfunctional, such as bad-mouthing the project. • Be explicit in asking for full support from your peers. Arrange for frequent review meetings. • Establish goals and standards of performance for all team members.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 56,
+          "rank": 2,
+          "score": 0.1484091837907822,
+          "strategy": "lexical"
+        },
+        {
+          "id": "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede",
+          "text": "4. Framework for Project Management\n\nMany different professions contribute to the theory and practice of project management. Engineers and architects have been managing major projects since pre-history. Since approximately the 1960s, there have been efforts to professionalize the practice of project management as a specialization of its own. There are many active debates around this: Should project management be a profession in the same way as engineering, accounting, and medicine? These have professional associations that certify who is legally allowed to use the job title, and who can legally practice the profession. They also provide a level of assurance of quality and discipline members who behave inappropriately. Another ongoing debate is: How much industry knowledge is required of a seasoned project manager? How easily can a project manager from one industry, say, IT, transition to another industry such as hospitality? There are two major organizations with worldwide impact on th",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38,
+          "rank": 3,
+          "score": 0.10375764474675374,
+          "strategy": "lexical"
+        }
+      ],
+      "filter_source": "none",
+      "context_ids": [
+        "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+        "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+        "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede"
+      ],
+      "filters": {},
+      "output_chars": 3067,
+      "elapsed_ms": 1.3812500000085493
+    }
+  ],
+  "model_calls": [
+    {
+      "number": 1,
+      "history_chars": 117,
+      "context_ids": [],
+      "context_chars_unique": 0,
+      "context_chunks": [],
+      "request_chars": 1606,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_bd59a12ab1ea48209b1dd8054cf1802e",
+      "usage": {
+        "input_tokens": 378,
+        "output_tokens": 29,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2336.702999999943,
+      "response_id": "resp_0329e236f78d313e016afb0e86effc87d2ace62585c35d09dc",
+      "response_status": "completed"
+    },
+    {
+      "number": 2,
+      "history_chars": 3624,
+      "context_ids": [
+        "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+        "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+        "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede"
+      ],
+      "context_chars_unique": 3067,
+      "context_chunks": [
+        {
+          "id": "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+          "text": "Peers\n\nPeers are people who are at the same level in the organization as you and may or may not be on the project team. These people will also have a vested interest in the product. However, they will have nei- ther the leadership responsibilities nor the accountability for the success or failure of the project that you have. Your relationship with peers can be impeded by: • Inadequate control over peers • Political maneuvering or sabotage • Personality conflicts or technical conflicts • Envy because your peer may have wanted to lead the project • Conflicting instructions from your manager and your peer’s manager Peer support is essential. Because most of us serve our self-interest first, use some investigating, selling, influencing, and politicking skills here. To ensure you have cooperation and support from your peers: • Get the support of your project sponsor or top management to empower you as the project manager with as much authority as possible. It’s important that the sponsor m",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 56
+        },
+        {
+          "id": "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+          "text": "wer you as the project manager with as much authority as possible. It’s important that the sponsor makes it clear to the other team members that their cooperation on project activities is expected. • Confront your peer if you notice a behaviour that seems dysfunctional, such as bad-mouthing the project. • Be explicit in asking for full support from your peers. Arrange for frequent review meetings. • Establish goals and standards of performance for all team members.",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 56
+        },
+        {
+          "id": "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede",
+          "text": "4. Framework for Project Management\n\nMany different professions contribute to the theory and practice of project management. Engineers and architects have been managing major projects since pre-history. Since approximately the 1960s, there have been efforts to professionalize the practice of project management as a specialization of its own. There are many active debates around this: Should project management be a profession in the same way as engineering, accounting, and medicine? These have professional associations that certify who is legally allowed to use the job title, and who can legally practice the profession. They also provide a level of assurance of quality and discipline members who behave inappropriately. Another ongoing debate is: How much industry knowledge is required of a seasoned project manager? How easily can a project manager from one industry, say, IT, transition to another industry such as hospitality? There are two major organizations with worldwide impact on th",
+          "source_id": "project-management-2019-v1.03",
+          "source": "data/raw/project-management.pdf",
+          "page": 38
+        }
+      ],
+      "request_chars": 5113,
+      "delivery_confirmed": true,
+      "model_actual": "gpt-6.1-terra",
+      "request_id": "req_22078236f8414e1b9fc49b6ca311c2ec",
+      "usage": {
+        "input_tokens": 1080,
+        "output_tokens": 129,
+        "cached_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "elapsed_ms": 2574.660541999947,
+      "response_id": "resp_0329e236f78d313e016afb0e8953f487d28c0ccebbebbcd20d",
+      "response_status": "completed"
+    }
+  ],
+  "model_call_count": 2,
+  "search_count": 1,
+  "context_ids": [
+    "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+    "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+    "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede"
+  ],
+  "context_ids_prepared": [
+    "725acd366d687028a52397b902992850b205055a19f416ffa9bb6b202be1ca22",
+    "e8c3c968405ece26e08e95ab97dbfcb592d97afce3cb035cac3313915adaa75d",
+    "6072d0413a3cd1007546bc0751fe09ec389c748acd67d6e367233a512ca1aede"
+  ],
+  "context_chars_sent_unique": 3067,
+  "context_chars_prepared": 3067,
+  "usage": {
+    "input_tokens": 1458,
+    "output_tokens": 158,
+    "cached_tokens": 0,
+    "reasoning_tokens": 0
+  },
+  "elapsed_ms": 4913.492165999969,
+  "estimated_cost_usd": null,
+  "cost_note": "No billing measurement or price estimate; usage is reported separately.",
+  "query_id": "q12",
+  "question": "What distinguishes a peer from the project manager in terms of rank and accountability?",
+  "filters": {},
+  "filter_source": "none",
+  "split": "dev",
+  "run_id": "dev-lexical-v1",
+  "config_sha256": "1caebec0a8ac9b5cfa377d198b5aea839257b4967224194e5b0785d4ad2525a3",
+  "created_at_utc": "2026-11-16T14:09:15.633854+00:00",
+  "attempt": 1
+}
