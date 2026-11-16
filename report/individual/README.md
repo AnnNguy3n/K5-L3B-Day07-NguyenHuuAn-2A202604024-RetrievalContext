@@ -1,5 +1,6 @@
 # Báo cáo cá nhân
 
-- [Nguyễn Hữu An · 2A202604024](2A202604024_NguyenHuuAn.md): đã hoàn thành công việc 01–05.
+- [Nguyễn Hữu An · 2A202604024 · L3B](2A202604024_NguyenHuuAn.md): bản cuối phần cơ bản, công việc01–12.
+- [Đối chiếu rubric và checklist](../../docs/SUBMISSION_AUDIT.md).
 
-Sao chép [MSSV_HoTen.md](MSSV_HoTen.md), đổi tên theo MSSV và họ tên, ví dụ `20241234_NguyenVanAn.md`. Ghi đường dẫn kết quả và lệnh chạy; không nộp dữ liệu mật.
+Mẫu gốc `MSSV_HoTen.md` được giữ để tham khảo; bản nộp là báo cáo có MSSV ở trên.

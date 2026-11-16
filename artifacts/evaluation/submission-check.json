@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "runs": 4,
+  "dev_queries": 66,
+  "test_queries": 7,
+  "total_query_traces": 73,
+  "content_reviewed_citations": 65,
+  "model_calls_recorded": 152,
+  "final_context_chunks_across_queries": 270,
+  "baseline_equals_final": true,
+  "benchmark_snapshots_unchanged": true,
+  "metric_recomputation": "exactly matches all four saved metrics",
+  "cost_policy": "USD null with explanation; provider usage retained",
+  "scope": "offline integrity/aggregation, not a new content review, human validation or API evaluation"
+}

@@ -1,192 +1,140 @@
-# Đánh giá agent Day07
+# Chạy và kiểm tra đánh giá Day07
 
-Nguyễn Hữu An · 2A202604024 · L3B
+[Báo cáo cuối và các bảng kết quả](../report/individual/2A202604024_NguyenHuuAn.md) ·
+[Đối chiếu bài nộp](SUBMISSION_AUDIT.md). Tôi chỉ làm phần cơ bản.
 
-## 06 — Context
+## Môi trường và dữ liệu
 
-Tôi giữ chunk nguyên vẹn, ID/nguồn/trang, loại trùng ID và text; budget là số ký
- tự Unicode của JSON, gồm wrapper. `context_chars` giới hạn tổng tool output
-trong history; `history_chars` kiểm tra cả question, output, opaque reasoning,
-instructions và schema trước mỗi request. Không nén/cắt mất điều kiện trong chunk.
+Chạy từ root Day07. Dùng Python3.14.10, dependencies ghim trong requirements.txt;
+[cách cài/kết nối](SETUP_DAY07.md) và [nguồn/tái tạo snapshot](DAY07_DATA_CONTRACT.md).
+Điền `.env` riêng theo `.env.example`; shell ưu tiên. Agent benchmark chỉ lấy
+model từ OPENAI_MODEL, không tự đổi model. Config thí nghiệm ghi rõ tất cả
+AgentConfig, không âm thầm lấy AGENT_* trong .env để thay cấu hình đã khóa.
+CLI smoke bước05 vẫn hỗ trợ AGENT_* và chỉ nhận dev/câu tự nhập.
 
-Baseline `configs/agent/baseline-dense.json` giữ cách append và budget mặc định
-của bước05, dùng dense để đo riêng tác động chuyển sang lexical/hybrid.
-`refresh_on_full` xóa source text cũ khỏi function outputs trong history khi
-lượt mới không đủ chỗ, giữ call ID/protocol rồi ưu tiên evidence lượt mới.
-Citation cuối chỉ được dùng context còn trong request. Lỗi history/context
-limit vẫn là error. Context chunks được chụp theo từng model call; chỉ call
-có `delivery_confirmed=true` mới chứng minh đã gửi thành công.
+Ollama cần đúng tag/digest/prefix embedding và PostgreSQL có bảng/vector Day06.
+Trên máy đã có volume Day06, bật Docker Desktop, chạy
+`docker start day6_student_starter-postgres-1` rồi checker; tên container có thể
+khác trên máy khác. Không chạy ingestion hoặc rebuild index để chạy Day07.
+Máy mới cần khôi phục vector store từ snapshot Day06 trong bản sao riêng và
+lab database riêng theo README Day06: `docker compose -f starter/docker-compose.yml
+-p day6_student_starter up -d --wait`, `python starter/scripts/check_setup.py`,
+rồi `python -m starter.src.run build --label initial` để embed/nạp các chunk đã
+xuất. Cấu hình riêng Day06 đọc starter/.env; không chép DSN vào Git. Đây là lệnh
+tái tạo trên máy mới, tôi không thực hiện lại build ở Day07. Kiểm export B/chunk
+ID/digest trước, trỏ DAY06_PATH và DATABASE_URL Day07 vào bản khôi phục. Snapshot chunk/text được phép chia sẻ đã có trong
+repo này; key/DSN và PDF gốc không được commit.
 
-Phép đo đóng gói offline trên **22 dev**, dùng ranking hybrid query gốc bước04:
-budget 3000 chọn 55/66 chunk, bỏ 11; 6000 và 12000 đều chọn 66/66, tổng 61746 ký tự.
-Đây là đo packing, **chưa phải CER hay context đã gửi model**; không suy ra budget
-lớn hơn tốt hơn. [Số đo](../artifacts/evaluation/context-packing-dev.json).
-Tác động answer/context sẽ được đo agent thật trên toàn dev ở bước10.
-Tôi đã thêm test xác minh evidence cũ thực sự biến mất khỏi request sau refresh.
+```bash
+.venv/bin/python scripts/check_connections.py
+.venv/bin/python -m pip check
+OPENAI_AGENT_LIVE_TEST=0 DENSE_LIVE_TEST=1 .venv/bin/python -m unittest discover -s tests -q
+.venv/bin/python scripts/check_submission.py
+```
 
-## 07 — Citation và abstention
+`check_submission.py` chỉ kiểm/hash/chấm lại offline từ nhãn đã đọc, không gọi
+API hay biến unit test thành đánh giá chất lượng. Kiểm nguồn PDF tùy chọn cần
+Python có pypdf (trên máy này dùng /opt/miniconda3/envs/main/bin/python3):
 
-Tôi giữ ba trạng thái answered/abstain/error. Agent bắt buộc retrieval trước
-final; model tự từ chối khi thiếu evidence. Provider/tool/protocol/call limit
-và citation sai là error, không được tính là từ chối đúng. Citation ID phải duy
-nhất, đúng danh sách inline, còn trong context đã gửi; source/page lấy từ chunk.
-Tool text chỉ là dữ liệu dưới instructions cố định, kể cả chứa prompt injection.
-Test offline kiểm tra cơ chế này, không chứng minh model luôn kháng injection.
+```bash
+.venv/bin/python scripts/day07_benchmark.py check \
+  --day06-root ../K5-L3B-DAY06-NguyenHuuAn-2A202604024-DataIngestion \
+  --pdf-python /opt/miniconda3/envs/main/bin/python3
+```
 
-Tôi đã đọc answer/context của hai smoke lịch sử và text PDF gốc trang35–36:
-q01 có đủ bốn giai đoạn đúng thứ tự; d07-d21 từ chối đúng số USD không được cung
-cấp. [Review từng citation](../artifacts/evaluation/smoke-citation-review.json).
-Review này không thay full-dev/test; mọi citation các lượt đó phải có nhãn ngữ
-nghĩa riêng. Không dùng ID hợp lệ hoặc LLM judge để kết luận được nguồn hỗ trợ.
-Test agent sau bước này: 25 đạt, 1 live bỏ qua, không gọi lại API trả phí.
+## Lượt chạy mới, có dùng API
 
-## 08 — Runner và trace
+Tôi đã chạy đủ các lượt cần thiết, không cần lặp API để chấm lại. Nếu tái lập
+thí nghiệm, chọn thư mục mới và chấp nhận tính không quyết định của model/API:
 
 ```bash
 .venv/bin/python scripts/run_agent_benchmark.py --config configs/agent/baseline-dense.json \
-  --split dev --output artifacts/evaluation/dev-baseline-v1
-# Test bắt buộc --lock artifacts/evaluation/selection-lock.json (tạo ở bước11).
+  --split dev --output artifacts/evaluation/my-dev-dense
+.venv/bin/python scripts/run_agent_benchmark.py --config configs/agent/lexical.json \
+  --split dev --output artifacts/evaluation/my-dev-lexical
+.venv/bin/python scripts/run_agent_benchmark.py --config configs/agent/hybrid-context.json \
+  --split dev --output artifacts/evaluation/my-dev-hybrid
 ```
 
-Runner chỉ mở projections runtime; không đọc cases/gold. Mỗi run có fingerprint
-cấu hình đã resolve OPENAI_MODEL, embedding/digest/prefix, prompt/schema, code,
-SDK/Python, corpus/benchmark và hash query projection. Mỗi query lưu query gốc,
-query tool, filter/nguồn filter, ranking đầy đủ top-k, output được chọn, context
-snapshot từng request, delivery flag, answer/citation, stop/error, thời gian,
-usage và cost null có lý do. Không log opaque reasoning hoặc raw provider error.
-Các snapshot context theo call giúp xác minh CER cuối, không đồng nhất candidate
-hoặc tool output vừa chuẩn bị với context đã gửi. Query nhiều lượt không có
-một ranking pipeline giả; ranking từng call được giữ riêng.
-
-Mỗi run/file phải mới; không resume hay tự retry lỗi. SDK retry=0 trong cả ba
-config. Mỗi attempt hoàn thành có số1; start marker còn lại nếu tiến trình bị
-ngắt. Không chạy lại âm thầm hoặc bỏ lỗi khỏi mẫu số. Trần mỗi query: 4 model
-calls, 3 searches, 2048 output token/call, 45 giây/request. Chạy đủ split một
-lần; không tự chạy lại live trong unittest. Guard tests xác minh khóa được kiểm
-tra trước khi mở test/services, nhãn bị chặn và file không bị ghi đè.
-
-## 09 — Bộ chấm và nhãn
+Runner chỉ đọc projection có ID/question/filter; không mở labels/cases.
+Test yêu cầu khóa đúng fingerprint trước khi mở query/services. Final=baseline,
+đã dùng chung một run7 câu, không nhân đôi trace. Lệnh tương ứng (output phải mới):
 
 ```bash
-.venv/bin/python scripts/evaluate_agent.py artifacts/evaluation/dev-baseline-v1 \
-  --output artifacts/evaluation/dev-baseline-v1/metrics.json
+.venv/bin/python scripts/run_agent_benchmark.py --config configs/agent/baseline-dense.json \
+  --split test --lock artifacts/evaluation/selection-lock.json \
+  --output artifacts/evaluation/my-test-baseline-final
+.venv/bin/python scripts/run_locked_original_retrieval.py \
+  --run artifacts/evaluation/my-test-baseline-final \
+  --config configs/agent/baseline-dense.json --lock artifacts/evaluation/selection-lock.json
 ```
 
-Mỗi run có `reviews.json`: query_id, trace_sha256, context_grade 0/1/2,
-grounded_grade 0/1/2 (null cho câu thiếu evidence), citation_reviews từng ID với
-supports_answer/reason/source_quote nguyên văn trong context, abstention_correct
-và reason/source_check. Review do đọc nội dung có AI hỗ trợ, không phải người
-chấm độc lập. Smoke q01 được chấm context2/grounded2; d07-d21 abstention đúng;
-full-dev/test sẽ có review riêng cho từng run, không ngoại suy từ smoke.
+Lệnh sau đo query gốc top3 bằng local retrieval, không gọi model. Không dùng
+kết quả test để tinh chỉnh. Khóa cũ/manifest/nhãn không ghi đè; thay runtime/model/
+prompt/corpus/config cần thí nghiệm và khóa mới, không gán trace cũ cho cấu hình mới.
 
-Gold OR: một evidence nguyên văn trọn chunk, đúng source_id/page. Hit@1 và
-Evidence Hit@3 dùng query gốc/cutoff chung, không tính câu thiếu evidence.
-Dev tái dùng trace bước04 khi hash code retrieval, corpus/benchmark và query
-không đổi. CER tính từ snapshot cuối có delivery_confirmed, không từ candidate
-hoặc context mới chuẩn bị; có thể khác Hit@3 vì query viết lại/nhiều lượt/top-5.
-Context grade2 cần đọc đủ điều kiện và nguồn; có gold exact chưa tự quyết định
-answer/citation đúng. Grade1 là một phần, 0 thiếu evidence; câu có đáp án bị từ
-chối hoặc lỗi có grounded0. Citation cần hỗ trợ các claim gắn với nó, không chỉ
-trùng ID. Câu thiếu evidence chỉ đúng khi thực sự model abstain, không kèm số
-liệu/khẳng định trả lời thiếu căn cứ.
+## Context, trace và giới hạn
 
-Tất cả query có trong kết quả. Lỗi giữ grounded0, abstention sai cho câu thiếu
-evidence; CER vẫn xét context request cuối đã xác nhận (nếu có), retrieval lỗi
-hit0. Tool-use chia số query thành công; lỗi và phân bố search báo trên toàn
-split. Citation 0/0 có rate=null, tức không áp dụng. Có n/N và tỷ lệ cho metric;
-điểm grounded báo phân bố/mean trên mẫu có đáp án. Thời gian từng query và tổng,
-usage theo provider; tổng usage null nếu bất kỳ call chưa đo, cost null có lý do.
-Unit tests xác minh OR/source/page, context chưa gửi, mẫu số và lỗi; nhãn chất
-lượng phải đọc thực tế, không được thay bằng unit test.
+Tôi giữ whole chunks có ID/source/page, loại trùng ID/text. Budget là ký tự Unicode
+của tool JSON gồm wrapper, và tổng history/schema/instructions kiểm trước request.
+Append giữ baseline; refresh_on_full xóa text evidence cũ khỏi function outputs
+khi lượt mới thiếu chỗ, giữ call IDs/protocol rồi repack. Chỉ citation còn trong
+snapshot đã gửi được phép trả. Test xác minh eviction thực sự xóa text khỏi request;
+chưa có eviction trong benchmark thật. Đo packing offline22 dev ở
+[context-packing-dev.json](../artifacts/evaluation/context-packing-dev.json):3000
+ký tự bỏ11/66 chunk;6000 và12000 không bỏ. Đây không phải CER hoặc chất lượng model.
 
-## 10 — Dev và lựa chọn
+Mỗi run có fingerprint: model resolve/SDK/Python/endpoint, prompt/schema, code,
+config, corpus/benchmark và protocol. Trace từng query giữ query gốc/biến đổi,
+filter/nguồn filter, top-k ranking và selected tool JSON, snapshot context mỗi
+call/delivery flag, answer/citation, stop/error, timing/usage/cost. Candidate hoặc
+output vừa chuẩn bị không đồng nghĩa context đã gửi. Opaque reasoning chỉ replay
+trong RAM, không ghi trace; không log key/DSN/Authorization/raw provider errors.
 
-Tôi đã công bố [protocol](../artifacts/evaluation/dev-protocol.json) trước lượt
-API đầu (commit `37e44c7`). Baseline dense dùng limits bước05; lexical chỉ đổi
-retriever; hybrid-context đổi retriever sang RRF20/60, top3→5, tool6000→12000,
-context16000→24000, history60000→80000 và refresh_on_full. Model/prompt, corpus,
-benchmark, trần call/search/token/timeout giữ nguyên. Giả thuyết và thứ tự tiêu
-chí nằm trong protocol; không suy ra tác động riêng khi nhiều yếu tố đổi cùng.
+Mỗi run/file bắt buộc mới; không resume hay tự retry. Lỗi giữ nguyên; start marker
+còn nếu tiến trình bị ngắt, completed trace có attempt1 và thời gian. Trần mỗi câu:
+4 model calls,3 searches,2048 output token/call,45s/request,retry0. Error gồm API,
+tool, call/history/context limit, refusal, citation/protocol sai; không tính là
+abstention đúng. Model có thể tự abstain sau retrieval thiếu evidence. Tài liệu
+là dữ liệu dưới instructions cố định; test injection kiểm tra protocol, không
+chứng minh kháng mọi tấn công.
 
-| Cấu hình / run | Hit@1 gốc | Evidence Hit@3 gốc | CER | Grounded /2 | Citation hỗ trợ | Abstain đúng | Input/output token | Tổng giây |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| dense / dev-baseline-v1 | 17/20 (85%) | 18/20 (90%) | 20/20 (100%) | 2,00 | 20/20 (100%) | 2/2 (100%) | 33000/3225 | 116,197 |
-| lexical / dev-lexical-v1 | 18/20 (90%) | 19/20 (95%) | 20/20 (100%) | 2,00 | 20/20 (100%) | 2/2 (100%) | 33393/3189 | 108,321 |
-| hybrid-context / dev-hybrid-context-v1 | 19/20 (95%) | 19/20 (95%) | 20/20 (100%) | 2,00 | 20/20 (100%) | 2/2 (100%) | 42152/3189 | 117,703 |
+## Review và metrics offline
 
-Cả ba có context/grounded grade0/1/2 = 0/0/20; answered có citation20/20,
-tool-use22/22, từ chối nhầm0/20, lỗi0/22. Dense search1×20,2×2 (46 model calls);
-lexical và hybrid search1×21,2×1 (45 calls). USD null vì chưa đối soát; cached
-và reasoning token được giữ riêng trong metrics. Hit gốc tái dùng trace04
-đúng điều kiện/hash; không trình bày ranking này như query tool đã biến đổi.
+Mỗi `reviews.json` ghi method/reviewer, trace_sha256, context_grade/grounded_grade
+0/1/2, reason/source_check, từng citation với supports_answer/reason/source_quote
+nguyên văn trong context. Abstention correctness là bool cho câu thiếu evidence;
+context/grounded null ở các câu đó. Tôi đọc answer, context, full citation chunk
+và PDF gốc bằng AI hỗ trợ, chưa có người chấm độc lập. Không tự gán nhãn chỉ vì
+ID hợp lệ hoặc gold xuất hiện.
 
-Tôi chọn **baseline-dense** theo quy tắc thứ tự đã công bố: chất lượng hòa,
-baseline dùng tổng36225 token < lexical36582 < hybrid45341. Lexical nhanh hơn
-trong một lượt local nhưng timing đứng sau token. Hybrid tăng input, chưa tăng
-answer/CER ở bộ này; refresh không được kích hoạt trong các trace thật này.
-Không coi số điểm cao của bộ nhỏ là bảo đảm tổng quát. Tôi không tối ưu tiếp.
+Gold OR: đúng source_id/page và nguyên văn trong một chunk. Hit@1/Hit@3 dùng cùng
+query gốc/cutoff, chỉ20 dev/5 test có đáp án. Dev tái dùng ranking bước04 khi hash
+code retrieval/corpus/benchmark/query/filter/config không đổi; trace có đường dẫn
+nguồn/hash. Query agent viết lại/nhiều lượt giữ ranking từng call, không giả một
+ranking pipeline. CER lấy context request cuối delivery_confirmed, có thể khác
+Hit@3. Grade2 đủ điều kiện/nguồn,1 một phần,0 thiếu; answered thiếu căn cứ hoặc
+answerable abstain/error có grounded0.
 
-Hai lỗi dev thực tế (retrieval, không phải lỗi answer):
+Citation cần vừa có trong context vừa hỗ trợ các claim/điều kiện được gắn nguồn.
+Câu thiếu evidence chỉ abstention đúng khi model thực sự từ chối, không thêm đáp
+án vô căn cứ. Citation0/0 có rate=null (N/A); báo riêng answered có citation.
+Tất cả query giữ trong kết quả; retrieval lỗi hit0, grounded lỗi0, missing-evidence
+lỗi không tính abstain đúng. CER vẫn xét last confirmed context kể cả khi error.
+Tool-use chia successful queries, lỗi và search distribution báo trên toàn split.
+Usage tổng null nếu có call chưa đo; USD luôn null khi chưa có billing/giá, không
+coi là0. Thời gian là elapsed mỗi query gồm API/retrieval, không gồm setup/I/O/review.
 
-- **q16**: dense query gốc lấy đoạn execution/closure/life-cycle, thiếu acceptance
-  plan trong top3. Giả thuyết từ khóa có thể giúp; lexical và hybrid top3 vẫn
-  thiếu evidence q16. Query do model tự tạo thêm “acceptance” đã lấy đúng chunk
-  `4d155c…` PDF35 ở cả ba run; CER đạt và grounded=2 sau agent cho cả ba. Không đưa
-  đáp án/gold vào input và không tuyên bố RRF đã sửa lỗi top3 này.
-- **q19**: dense query gốc xếp stakeholder register/manager/definition thay vì
-  đoạn financial return. Lexical/hybrid top3 có đúng PDF62 (0→1 evidence hit);
-  query agent dense tự thêm financial return/costs/benefits cũng lấy được
-  `629f04…`. Sau agent cả ba đủ CER, grounded=2, nên cải thiện retrieval gốc
-  không làm answer tăng trong lượt này.
+```bash
+# Cần đọc/gán nhãn reviews.json trước. Output mới, không ghi đè metrics lịch sử.
+.venv/bin/python scripts/evaluate_agent.py artifacts/evaluation/dev-baseline-v1 \
+  --output /tmp/day07-recheck-dense.json
+```
 
-[Quyết định và bảng máy đọc](../artifacts/evaluation/dev-selection.json).
-Mỗi thư mục `artifacts/evaluation/dev-*-v1/` có run/completion, 22 trace riêng,
-reviews từng câu/citation có quote/lý do và metrics; không sao chép trace smoke
-hoặc trace04 sang các run. Đọc source PDF text và chunk có AI hỗ trợ, chưa có
-người chấm độc lập. Test mới chưa chạy và chưa được đọc để chọn cấu hình.
-
-Thời gian là tổng elapsed từng query (gồm API và retrieval), không gồm setup, I/O
-và chấm nhãn. Ba run có thời gian thực thi chồng nhau; so sánh latency mang tính
-mô tả một lượt, chưa phải thí nghiệm latency được kiểm soát hoặc kiểm định thống kê.
-
-## 11 — Khóa và test
-
-[selection-lock.json](../artifacts/evaluation/selection-lock.json) được tạo lúc
-2026-11-16T14:13:46Z (21:13:46 Việt Nam) và push ở commit `18d1c3e` trước lượt
-test đầu. Khóa giữ fingerprint baseline/final, model/prompt, code, corpus,
-benchmark và80 hash minh chứng dev. Benchmark manifest/labels cũ giữ nguyên.
-Test mới trước đó chỉ được kiểm tra lúc xây nhãn, không dùng chạy/chọn hệ thống.
-
-Baseline và final **cùng baseline-dense**, nên dùng chung một run tương đương
-`test-baseline-final-v1` cho đủ5+2 câu, không coi là hai lần lặp độc lập.
-
-| Baseline = final (một run) | Kết quả |
-|---|---:|
-| Hit@1 / Evidence Hit@3 query gốc | 4/5 (80%) / 5/5 (100%) |
-| Context Evidence Rate | 5/5 (100%) |
-| Context grade0/1/2 | 0/0/5 |
-| Grounded grade0/1/2; mean /2 | 0/0/5; 2,00 |
-| Citation hỗ trợ / trả lời có citation | 5/5 (100%) / 5/5 (100%) |
-| Abstention đúng / từ chối nhầm | 2/2 (100%) / 0/5 (0%) |
-| Tool-use / lỗi | 7/7 (100%) / 0/7 (0%) |
-| Search distribution / model calls | 1×5, 2×2 / 16 |
-| Tổng / mean / median / max giây mỗi query | 37,544 / 5,363 / 4,910 / 6,587 |
-| Input / output / cached / reasoning token | 11875 / 958 / 0 / 42 |
-| USD | null — chưa đối soát billing/ước tính giá |
-
-Tôi đọc đủ5 answer/citation và2 abstention cùng context thật; đối chiếu text PDF
-trang38,43,46,47,61. d07-t06 không điền CPI từ ngoài corpus; literal inventory
-CPI/earned value/cost performance index đều không có trong131 chunk, kèm absence
-review toàn corpus đã đóng băng. d07-t07 giữ abstain, giải thích không có ngày:
-đã xem render PDF63, Figure5.2 có hai ô Communication Date trống; mô tả hình trong
-snapshot B khớp. Review có AI hỗ trợ, không có chấm độc lập của con người.
-
-[Trace/review/metrics](../artifacts/evaluation/test-baseline-final-v1/) ·
-[Ánh xạ baseline/final](../artifacts/evaluation/test-comparison.json).
-Ranking query gốc được đo riêng sau khóa, không dùng query viết lại để giả
-Hit@1/Hit@3 gốc. Tôi không chỉnh hệ thống theo kết quả test.
-
-Một lỗi scorer về `relative_to(ROOT)` với input tương đối được sửa bằng chuẩn
-hóa đường dẫn trước khi xuất metrics. [Bản ghi hash trước/sau](../artifacts/evaluation/scorer-path-correction.json)
-giữ lịch sử khóa; thuật toán chấm không đổi, cả ba metrics dev tính lại giống
-hệt từng trường. Không sửa runtime/trace/labels/khóa cũ, không chạy lại API.
+[Protocol](../artifacts/evaluation/dev-protocol.json),
+[quyết định dev](../artifacts/evaluation/dev-selection.json),
+[khóa trước test](../artifacts/evaluation/selection-lock.json),
+[test chung baseline/final](../artifacts/evaluation/test-comparison.json).
+Khóa được push trước test ở18d1c3e. Một sửa đường dẫn tương đối scorer sau test
+có [hash riêng](../artifacts/evaluation/scorer-path-correction.json); thuật toán
+không đổi, ba bảng dev tính lại giống hệt, không thay runtime/nhãn/trace hay lặp API.

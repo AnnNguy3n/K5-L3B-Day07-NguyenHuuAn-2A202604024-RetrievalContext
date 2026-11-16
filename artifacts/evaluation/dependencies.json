@@ -1,0 +1,12 @@
+{
+  "python": "3.14.10",
+  "packages": {
+    "openai": "3.51.0",
+    "psycopg": "3.3.8",
+    "psycopg-binary": "3.3.8",
+    "python-dotenv": "1.2.4",
+    "typing_extensions": "4.15.0"
+  },
+  "pip_check": "No broken requirements found.",
+  "source_audit_python": "/opt/miniconda3/envs/main/bin/python3 (pypdf6.21.4); not needed for runner/offline scoring."
+}

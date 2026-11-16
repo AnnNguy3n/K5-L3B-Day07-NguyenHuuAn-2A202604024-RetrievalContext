@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-11-16T14:24:41.086928+00:00",
+  "method": "Unauthenticated HTTPS GET GitHub REST repository endpoint; no credentials sent, no access settings changed.",
+  "endpoint": "https://api.github.com/repos/AnnNguy3n/K5-L3B-Day07-NguyenHuuAn-2A202604024-RetrievalContext",
+  "observed_http_status": 200,
+  "private": false,
+  "visibility": "public",
+  "html_url": "https://github.com/AnnNguy3n/K5-L3B-Day07-NguyenHuuAn-2A202604024-RetrievalContext",
+  "scope": "Public repository readable at check time; no claim about LMS submission."
+}

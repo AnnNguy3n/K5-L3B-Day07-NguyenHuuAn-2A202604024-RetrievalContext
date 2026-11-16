@@ -4,12 +4,18 @@
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
-**Tiến độ 16/11/2026:** Tôi đã hoàn thành công việc 01–05: kết nối Day06,
-so sánh ba phương pháp retrieval và chạy hai smoke OpenAI thật bằng `gpt-6.1-terra`.
-Tổng 134 test: 133 đạt, 1 live OpenAI unittest bỏ qua; chưa đánh giá agent toàn
-bộ dev/test hoặc tối ưu context. [Agent và minh chứng](docs/OPENAI_AGENT.md) ·
-[Retrieval](docs/RETRIEVAL_HYBRID.md) · [Benchmark](benchmark/day07/README.md) ·
-[Báo cáo cá nhân](report/individual/2A202604024_NguyenHuuAn.md).
+**Bản nộp cuối · 16/11/2026:** Tôi đã hoàn thành phần cơ bản công việc01–12,
+chạy đủ ba cấu hình agent thật trên22 dev và khóa trước7 test mới. Final giữ
+baseline dense: test Hit@1=4/5, Hit@3/CER=5/5, grounded2,00/2, citation5/5,
+abstain2/2, lỗi0/7; baseline/final dùng chung một run tương đương. Chi phí USD
+chưa đối soát (null). Phần nâng cao: **Không thực hiện**.
+
+[Báo cáo cuối](report/individual/2A202604024_NguyenHuuAn.md) ·
+[Cách chạy/chấm offline](docs/EVALUATION.md) ·
+[Đối chiếu rubric/checklist](docs/SUBMISSION_AUDIT.md) ·
+[Config/lock/trace/review/metrics](artifacts/evaluation/).
+Hồi quy144 test:143 đạt,1 live OpenAI bỏ qua; không cần gọi lại API để kiểm bài.
+Các hướng dẫn bài gốc bên dưới được giữ để tham khảo.
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
 

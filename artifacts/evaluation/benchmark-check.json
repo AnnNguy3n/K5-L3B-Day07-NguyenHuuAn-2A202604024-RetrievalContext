@@ -1,0 +1,14 @@
+{
+  "action": "check",
+  "result": "passed",
+  "dev": {
+    "answerable": 20,
+    "unanswerable": 2
+  },
+  "test": {
+    "answerable": 5,
+    "unanswerable": 2
+  },
+  "evidence_alternatives_pdf_aligned": 26,
+  "note": "Label/source audit only; no new model calls or test evaluation. Original benchmark/snapshot files unchanged from handoff."
+}
