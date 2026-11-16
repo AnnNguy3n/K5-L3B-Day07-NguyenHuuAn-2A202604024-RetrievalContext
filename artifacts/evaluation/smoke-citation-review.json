@@ -1,0 +1,30 @@
+{
+  "review_method": "Đọc answer, context và text PDF gốc trang 35–36 bằng pypdf; AI hỗ trợ, chưa có người chấm độc lập. Review smoke lịch sử, không dùng thay full-dev.",
+  "reviews": [
+    {
+      "query_id": "q01",
+      "trace": "artifacts/agent/smoke-v1/q01.json",
+      "trace_sha256": "cb723213d379a12f000f37fc955831d6f0ce6a5fa5c10eaba1afe9bf05fe62be",
+      "status": "answered",
+      "citation_reviews": [
+        {
+          "id": "04c1e07511dea4ae841879e9402ac2393948000f59cb2acd0702b6a5e276c5f8",
+          "in_sent_context": true,
+          "supports_answer": true,
+          "reason": "PDF35 liệt kê đúng thứ tự initiation, planning, implementation, closure; câu trả lời giữ đủ bốn giai đoạn, không thêm điều kiện."
+        }
+      ],
+      "abstention_correct": null,
+      "reason": "Trả lời đủ bốn giai đoạn, nguồn/trang đúng."
+    },
+    {
+      "query_id": "d07-d21",
+      "trace": "artifacts/agent/smoke-v1/d07-d21.json",
+      "trace_sha256": "1c63f25bad88c8d71fc34774491539c2cb97234fe8d0b3188e09cbeab32914be",
+      "status": "abstain",
+      "citation_reviews": [],
+      "abstention_correct": true,
+      "reason": "PDF36 nêu có detailed budget, không cho tổng USD; trace từ chối đúng số tiền được hỏi. Đối chiếu kiểm tra absence toàn corpus đã đóng băng tại benchmark/day07/audit.json."
+    }
+  ]
+}

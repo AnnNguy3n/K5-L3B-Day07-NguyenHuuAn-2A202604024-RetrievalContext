@@ -85,3 +85,10 @@ Tôi đã giữ baseline append, thêm refresh khi context cũ chiếm budget, s
 context thật theo call và cấu hình tái chạy. Đo packing 22 dev cho thấy 6000 và
 12000 ký tự cùng giữ đủ 66 chunk top-3; chưa phải đo chất lượng agent.
 [Thiết kế và số đo](../../docs/EVALUATION.md). Test agent: 23 đạt, 1 live bỏ qua.
+
+## Công việc 07 — citation và abstention
+
+Tôi đã kiểm tra citation bị eviction phải thành error, giữ tài liệu là dữ liệu,
+và đọc đối chiếu hai smoke với PDF gốc. Nhãn hỗ trợ citation và lý do ở
+[review smoke](../../artifacts/evaluation/smoke-citation-review.json); đây chưa
+phải đánh giá toàn dev/test. Test agent: 25 đạt, 1 live bỏ qua.
